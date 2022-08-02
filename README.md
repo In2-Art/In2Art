@@ -3,4 +3,4 @@ repositori oficial on es dessa la part publica del projecte
 
 
 
-https://alfa.in2.art/
+http://alpha.in2.art/
