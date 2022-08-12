@@ -3,4 +3,4 @@ repositori oficial on es dessa la part publica del projecte
 
 
 
-http://alpha.in2.art/
+https://in2-art.github.io/In2ArtDev/
