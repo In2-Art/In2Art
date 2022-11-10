@@ -115,6 +115,7 @@ class HomeComponent {
                 this.main.router.navigate(['/auth/login']);
                 return;
             }
+            this.publicacions = yield this.main.provider.getRandomPosts(5);
             // this.publicacions = await this.main.provider.getXPosts(1, 5);
             // Carregar posts per primer cop //
             yield this.carregarMes();
@@ -155,9 +156,7 @@ class HomeComponent {
             //     if (novesPublicacions?.length) return novesPublicacions;
             //     else this.encaraQueda.otherContent = false;
             // }
-            // if(this.comptador >= 4){
-            //     novesPublicacions = await this.main.provider.getRandomPosts(5);
-            // }
+            novesPublicacions = yield this.main.provider.getRandomPosts(5);
             return novesPublicacions;
         });
     }
@@ -212,7 +211,7 @@ HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_4__["
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngForOf", ctx.publicacions);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", false);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", !ctx.scroll && !ctx.carregant);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);

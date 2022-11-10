@@ -276,9 +276,14 @@
 
                     case 3:
                       _context.next = 5;
-                      return this.carregarMes();
+                      return this.main.provider.getRandomPosts(5);
 
                     case 5:
+                      this.publicacions = _context.sent;
+                      _context.next = 8;
+                      return this.carregarMes();
+
+                    case 8:
                     case "end":
                       return _context.stop();
                   }
@@ -352,18 +357,20 @@
                       //     if (novesPublicacions?.length) return novesPublicacions;
                       //     else this.encaraQueda.otherContent = false;
                       // }
-                      // if(this.comptador >= 4){
-                      //     novesPublicacions = await this.main.provider.getRandomPosts(5);
-                      // }
 
+                      _context3.next = 3;
+                      return this.main.provider.getRandomPosts(5);
+
+                    case 3:
+                      novesPublicacions = _context3.sent;
                       return _context3.abrupt("return", novesPublicacions);
 
-                    case 2:
+                    case 5:
                     case "end":
                       return _context3.stop();
                   }
                 }
-              }, _callee3);
+              }, _callee3, this);
             }));
           } // Scroll //
 
@@ -468,7 +475,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", true);
+            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", false);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
 
