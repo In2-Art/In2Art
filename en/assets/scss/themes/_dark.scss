@@ -1455,42 +1455,42 @@ body {
 			}
 		}
 		// form wizard
-		aw-wizard-navigation-bar {
-			&.horizontal {
-				&.small,
-				&.large-filled-symbols {
-					ul {
-						&.steps-indicator {
-							li:not(:last-child):after {
-								background-color: $light-all-font-color;
-							}
-						}
-					}
-				}
-				ul {
-					&.steps-indicator {
-						&.steps-3 {
-							li {
-								p {
-									color: $dark-all-font-color;
-								}
-							}
-						}
-					}
-				}
-			}
-			&.vertical {
-				&.small {
-					ul {
-						&.steps-indicator {
-							li:not(:last-child):after {
-								background-color: $light-all-font-color;
-							}
-						}
-					}
-				}
-			}
-		}
+		// aw-wizard-navigation-bar {
+		// 	&.horizontal {
+		// 		&.small,
+		// 		&.large-filled-symbols {
+		// 			ul {
+		// 				&.steps-indicator {
+		// 					li:not(:last-child):after {
+		// 						background-color: $light-all-font-color;
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 		ul {
+		// 			&.steps-indicator {
+		// 				&.steps-3 {
+		// 					li {
+		// 						p {
+		// 							color: $dark-all-font-color;
+		// 						}
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// 	&.vertical {
+		// 		&.small {
+		// 			ul {
+		// 				&.steps-indicator {
+		// 					li:not(:last-child):after {
+		// 						background-color: $light-all-font-color;
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
 		// accordion
 		.accordion {
 			> .card {

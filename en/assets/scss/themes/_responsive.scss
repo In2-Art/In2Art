@@ -4068,22 +4068,22 @@
 
   // from wizard angular
   .wizard-4 {
-    aw-wizard {
-      &.vertical {
-        flex-direction: unset;
-        display: block;
-        .wizard-steps {
-          width: 100%;
-          display: block;
-          margin-top: 15px;
-        }
-      }
-    }
-    aw-wizard-navigation-bar {
-      &.vertical {
-        width: 100% !important;
-      }
-    }
+    // aw-wizard {
+    //   &.vertical {
+    //     flex-direction: unset;
+    //     display: block;
+    //     .wizard-steps {
+    //       width: 100%;
+    //       display: block;
+    //       margin-top: 15px;
+    //     }
+    //   }
+    // }
+    // aw-wizard-navigation-bar {
+    //   &.vertical {
+    //     width: 100% !important;
+    //   }
+    // }
   }
 
   // icons
