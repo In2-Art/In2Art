@@ -213,6 +213,9 @@ MIT
 @ngrx/store
 MIT
 
+@ngrx/store-devtools
+MIT
+
 @ngx-loading-bar/core
 MIT
 
