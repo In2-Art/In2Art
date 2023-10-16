@@ -1,4 +1,5 @@
 {
+    
     "Account still not validated": "El compte encara no s'ha validat",
     "Artwork created successfully": "Obra d'art creada amb èxit",
     "Copy profile URL": "Copia l'URL del perfil",
@@ -10,6 +11,7 @@
     "Not available in beta version": "No disponible en la versió beta",
     "Post created successfully": "Publicació creada correctament",
     "Profile modified successfully": "Perfil modificat correctament",
+    "Profile": "Perfil",
     "Report": "Denuncia",
     "Save": "Guarda",
     "Share": "Comparteix",
@@ -29,7 +31,5 @@
     "No s'ha pogut afegir el registre.": "No s'ha pogut afegir el registre",
     "Incorrect email or password": "Correu electrònic o contrasenya incorrectes",
     "User validated": "Usuari verificat amb èxit",
-    "User already activated": "Usuari ja activat",
-    
-    "": ""
+    "User already activated": "Usuari ja activat"
 }
