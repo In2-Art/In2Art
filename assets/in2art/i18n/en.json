@@ -85,5 +85,29 @@
     "About": "About",
     "Log out": "Log out",
     "Configuration": "Configuration",
-    "Select a Language": "Select a Language"
+    "Select a Language": "Select a Language",
+    "This is only for finished artworks": "This is only for finished artworks that will be rated. Please don't upload other type of content.",
+    "Drag to order": "Drag to order",
+    "You can upload": "You can upload: photos (.JPG, .PNG, .GIF) and videos (.MP4, .AVI)",
+    "Title": "Title",
+    "Author": "Author",
+    "Myself": "Myself",
+    "Unknown Author": "Unknown Author",
+    "Title is required": "Title is required",
+    "Author is required": "Author is required",
+    "Date is required": "Date is required",
+    "Date": "Date",
+    "Dimensions": "Dimensions (width, height, depth)",
+    "Description": "Description",
+    "Cancel": "Cancel",
+    "Choose Your Image": "Choose Your Image",
+    "Rotation": "Rotation",
+    "Rotate left": "Rotate left",
+    "Rotate right": "Rotate right",
+    "Flip horizontal": "Flip horizontal",
+    "Flip vertical": "Flip vertical",
+    "Zoom": "Zoom"
+
+    
+
 }
