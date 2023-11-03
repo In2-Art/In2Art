@@ -109,7 +109,27 @@
     "Zoom": "Zoom",
     "welcome-text1" : "Your account with this email" ,
     "welcome-text2" : "already activated",
-    "welcome-text3" : "We are still actively working on the app, so there might be frequent updates. Stay tuned!" 
-    
+    "welcome-text3" : "We are still actively working on the app, so there might be frequent updates. Stay tuned!",
+    "Day": "Day",
+    "Month": "Month",
+    "Year": "Year",
+    "Century": "Century",
+    "Unknown": "Uknown",
+    "EmailSent": "We send you an email to reset your password",
+    "Send": "Send",
+    "Sending email...": "Sending email...",
+    "We have sent you an email": "We have sent you an email",
+    "to reset your password": "to reset your password",
+    "Recover Password": "Recover Password",
+    "Passwords dont match!": "Passwords don't match!",
+    "Password changed successfully": "Password changed successfully",
+    "Password change failed": "Password change failed",
+    "Actual Password": "Actual Password",
+    "New Password": "New Password",
+    "ConfirmPassword": "Confirm Password",
+    "Change Password": "Change Password",
+    "Changing password...": "Changing password...",
+    "Password has been changed": "Password has been changed",
+    "Password is incorrect": "Password is incorrect"
 
 }

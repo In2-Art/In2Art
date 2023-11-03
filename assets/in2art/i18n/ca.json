@@ -85,6 +85,27 @@
     "Zoom": "Zoom",
     "welcome-text1" : "El teu compte amb aquest correu electrònic" ,
     "welcome-text2" : "ja ha estat activat",
-    "welcome-text3" : "Encara estem treballant activament en l'aplicació, així que pot haver-hi actualitzacions freqüents. Estigues atent!"     
+    "welcome-text3" : "Encara estem treballant activament en l'aplicació, així que pot haver-hi actualitzacions freqüents. Estigues atent!",
+    "Day": "Dia",
+    "Month": "Mes",
+    "Year": "Any",
+    "Century": "Segle",
+    "Unknown": "Desconegut",
+    "EmailSent": "Li hem enviat un correu electrònic per restablir la seva contrasenya",
+    "Send": "Enviar",
+    "Sending email...": "Enviant correu electrònic...",
+    "We have sent you an email": "Li hem enviat un correu electrònic",
+    "to reset your password": "per restablir la seva contrasenya",
+    "Recover Password": "Recuperar contrasenya",
+    "Passwords dont match!": "Les contrasenyes no coincideixen!",
+    "Password changed successfully": "Contrasenya canviada amb èxit",
+    "Password change failed": "Canvi de contrasenya fallit",
+    "Actual Password": "Contrasenya actual",
+    "New Password": "Nova contrasenya",
+    "ConfirmPassword": "Confirmar contrasenya",
+    "Change Password": "Canviar contrasenya",
+    "Changing password...": "Canviant contrasenya...",
+    "Password has been changed": "La contrasenya ha estat canviada",
+    "Password is incorrect": "Contrasenya incorrecta"
       
 }
