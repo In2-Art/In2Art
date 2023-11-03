@@ -105,5 +105,7 @@
     "New Password": "Nueva contraseña",
     "ConfirmPassword": "Confirmar contraseña",
     "Changing password...": "Cambiando contraseña...",
-    "Password has been changed": "La contraseña ha sido cambiada"
+    "Password has been changed": "La contraseña ha sido cambiada",
+    "Insert new password": "Introducir nueva contraseña",
+    "Enter the email to recover": "Introduce el correo electrónico asociado a la cuenta que deseas recuperar."
 }

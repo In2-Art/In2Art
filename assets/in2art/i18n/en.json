@@ -130,6 +130,8 @@
     "Change Password": "Change Password",
     "Changing password...": "Changing password...",
     "Password has been changed": "Password has been changed",
-    "Password is incorrect": "Password is incorrect"
+    "Password is incorrect": "Password is incorrect",
+    "Insert new password": "Insert new password",
+    "Enter the email to recover": "Enter the email associated with the account you wish to recover."
 
 }

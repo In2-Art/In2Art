@@ -106,6 +106,8 @@
     "Change Password": "Canviar contrasenya",
     "Changing password...": "Canviant contrasenya...",
     "Password has been changed": "La contrasenya ha estat canviada",
-    "Password is incorrect": "Contrasenya incorrecta"
+    "Password is incorrect": "Contrasenya incorrecta",
+    "Insert new password": "Introduïu la nova contrasenya",
+    "Enter the email to recover": "Introduïu el correu electrònic associat al compte que voleu recuperar."
       
 }

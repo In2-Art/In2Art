@@ -216,6 +216,9 @@ THE SOFTWARE.
 @ng-select/ng-select
 MIT
 
+@ngrx/effects
+MIT
+
 @ngrx/store
 MIT
 
