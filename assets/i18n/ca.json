@@ -1,0 +1,91 @@
+{
+  "ROUTES": {
+    "login": "login"
+  },
+  "BTN": {
+    "FINISH": "Acabar",
+    "ACCEPT": "Acceptar",
+    "SKIP": "Omet",
+    "BACK_HOMEPAGE": "Torna a la pàgina d'inici",
+    "LOGIN": "Iniciar Sessió",
+    "PROFILE": "Perfil",
+    "LOGOUT": "Tancar sessió",
+    "SIGN_UP": "Registra't",
+    "RESEND_EMAIL": "Reenvia l'email"
+  },
+  "LABEL": {
+    "PASSWORD": "Contrasenya",
+    "CONFIRM_PASSWORD": "Confirma la contrassenya",
+    "EMAIL": "Correu electrònic",
+    "MORE_INFO": "Més info",
+    "LESS_INFO": "Menys info",
+    "REMEMBER_ME": "Recorda'm",
+    "NAME": "Nom",
+    "SURNAME": "Cognom",
+    "USERNAME": "Nom d'usuari",
+    "BIRTH_DATE": "Data de naixement",
+    "ALL_FIELDS": "* Si us plau, ompli tots els camps obligatoris",
+    "AGREE_TO": "D'acord amb"
+  },
+  "TITLE": {
+    "PUNCTUATION": "Puntuació",
+    "HISTORY": "Història"
+  },
+  "ERROR": {
+    "TITLE": "Error",
+    "PASSWORD_IS_REQUIRED": "Cal contrasenya",
+    "EMAIL__NOT_FOUND_OR_PASSWORD_IS_WRONG": "La contrasenya és incorrecta",
+    "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME": "Correu electrònic obligatori",
+    "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Cal contrasenya i correu electrònic",
+    "EMAIL_IS_NOT_VALID": "El correu electrònic no és vàlid",
+    "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "El correu electrònic no és vàlid i cal la contrasenya",
+    "EMAIL_NOT_FOUND": "No s'ha trobat el correu electrònic $email",
+    "REQUIRED_NAME": "El nom és obligatori!",
+    "REQUIRED_EMAIL": "El correu electrònic és obligatori!",
+    "REQUIRED_USERNAME": "El nom d'usuari és obligatori!",
+    "REQUIRED_PASSWORD": "Es requereix contrasenya!",
+    "REQUIRED_BIRTHDATE": "La data de naixement és obligatòria!",
+    "REQUIRED_CONFIRM_PASSWORD": "Cal confirmar la contrasenya!",
+    "REQUIRED_AGREE_PRIVACY": "Heu d'acceptar la política de privadesa",
+    "INVALID_EMAIL": "El correu electrònic no és vàlid!",
+    "MIN_LENGTH_PASSWORD": "La contrasenya ha de tenir almenys 8 caràcters!",
+    "NO_MATCH_PASSWORD": "La contrasenya no coincideix!"
+  },
+  "SUCCESS": {
+    "TITLE": "Èxit",
+    "LOGIN": "Ara heu iniciat sessió",
+    "LOGOUT": "Heu tancat la sessió"
+  },
+  "LOADING": "Carregant...",
+  "404": {
+    "CONTENT_1": "La pàgina a la qual intenteu accedir no està disponible actualment.",
+    "CONTENT_2": "Això pot ser perquè la pàgina no existeix o s'ha mogut."
+  },
+  "HISTORY": {
+    "NO_RECORDS": "No hi ha registres històrics!"
+  },
+  "LOGIN_PAGE": {
+    "NO_ACCOUNT": "No tens un compte?",
+    "CREATE": "Crea avui!",
+    "FORGOT": "Has oblidat la contrasenya?"
+  },
+  "SIGN_UP_PAGE": {
+    "PRIVACY": "Política de Privacitat",
+    "HAVE_ACCOUNT": "Ja tens un compte?",
+    "LOGIN": "Iniciar Sessió",
+    "VERIFICATION_TITLE": "Verificació del correu electrònic",
+    "VERIFICATION_INFO_1": "Us acabem d'enviar un correu electrònic per confirmar el vostre compte.",
+    "VERIFICATION_INFO_2": "Si encara no l'heu rebut, feu clic al botó següent per tornar a enviar el correu electrònic de confirmació.",
+    "RESEND_INFO_1": "Si us plau, espereu",
+    "RESEND_INFO_2": "segons fins que es pugui enviar un altre correu electrònic"
+  },
+  "PLACEHOLDER": {
+    "NAME": "Introdueixi el seu nom",
+    "SURNAME": "Introduïu el vostre cognom",
+    "USERNAME": "Introduïu el nom d'usuari",
+    "PASSWORD": "Introduir la contrasenya",
+    "CONFIRM_PASSWORD": "Confirma la contrassenya",
+    "EMAIL": "Introdueix el teu correu electrònic",
+    "BIRTH_DATE": "Dia / Mes / Any"
+  }
+}
