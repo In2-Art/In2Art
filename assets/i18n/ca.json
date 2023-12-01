@@ -79,6 +79,13 @@
     "RESEND_INFO_1": "Si us plau, espereu",
     "RESEND_INFO_2": "segons fins que es pugui enviar un altre correu electrònic"
   },
+  "ACTIVATE_PAGE": {
+    "HOME": "Vés a la pàgina d'inici",
+    "LOGIN": "Iniciar Sessió",
+    "VERIFIED_ALREADY": "El vostre compte ja s'ha verificat.",
+    "VERIFIED_NO": "El teu compte encara no s'ha verificat.",
+    "VERIFIED_YES": "El vostre compte s'ha verificat correctament. Ara podeu iniciar sessió."
+  },
   "PLACEHOLDER": {
     "NAME": "Introdueixi el seu nom",
     "SURNAME": "Introduïu el vostre cognom",

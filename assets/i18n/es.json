@@ -79,6 +79,13 @@
     "RESEND_INFO_1": "Espere por favor",
     "RESEND_INFO_2": "segundos hasta que se pueda enviar otro correo electrónico"
   },
+  "ACTIVATE_PAGE": {
+    "HOME": "Ir a la página de inicio",
+    "LOGIN": "Acceso",
+    "VERIFIED_ALREADY": "Tu cuenta ya ha sido verificada.",
+    "VERIFIED_NO": "Su cuenta aún no ha sido verificada.",
+    "VERIFIED_YES": "Su cuenta ha sido verificada exitosamente. Ahora puedes iniciar sesión."
+  },
   "PLACEHOLDER": {
     "NAME": "Introduzca su nombre",
     "SURNAME": "Introduce tu apellido",
