@@ -11,7 +11,9 @@
     "PROFILE": "Perfil",
     "LOGOUT": "Tancar sessió",
     "SIGN_UP": "Registra't",
-    "RESEND_EMAIL": "Reenvia l'email"
+    "RESEND_EMAIL": "Reenvia l'email",
+    "RESET_PASSWORD": "Restablir la contrasenya",
+    "RECOVER_PASSWORD": "Canvia la contrasenya"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -81,10 +83,19 @@
   },
   "ACTIVATE_PAGE": {
     "HOME": "Vés a la pàgina d'inici",
-    "LOGIN": "Iniciar Sessió",
+    "LOGIN": "Torna a la pàgina d'inici de sessió",
     "VERIFIED_ALREADY": "El vostre compte ja s'ha verificat.",
     "VERIFIED_NO": "El teu compte encara no s'ha verificat.",
     "VERIFIED_YES": "El vostre compte s'ha verificat correctament. Ara podeu iniciar sessió."
+  },
+  "RESET_PASSWORD_PAGE": {
+    "TITLE": "Introduïu el vostre correu electrònic per restablir la contrasenya.",
+    "RETURN": "Torna a la pàgina d'inici de sessió",
+    "RESET_INFO_1": "Si us plau, espereu",
+    "RESET_INFO_2": "segons abans de tornar a intentar restablir la contrasenya. Gràcies per la teva paciència."
+  },
+  "RECOVER_PASSWORD_PAGE": {
+    "TITLE": "Introduïu la vostra nova contrasenya i confirmeu-la a continuació"
   },
   "PLACEHOLDER": {
     "NAME": "Introdueixi el seu nom",

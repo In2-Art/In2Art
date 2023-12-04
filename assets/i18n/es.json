@@ -11,7 +11,9 @@
     "PROFILE": "Perfil",
     "LOGOUT": "Cerrar sesión",
     "SIGN_UP": "Inscribirse",
-    "RESEND_EMAIL": "Reenviar email"
+    "RESEND_EMAIL": "Reenviar email",
+    "RESET_PASSWORD": "Restablecer la contraseña",
+    "RECOVER_PASSWORD": "Cambiar la contraseña"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -81,10 +83,19 @@
   },
   "ACTIVATE_PAGE": {
     "HOME": "Ir a la página de inicio",
-    "LOGIN": "Acceso",
+    "LOGIN": "Volver a la página de inicio de sesión",
     "VERIFIED_ALREADY": "Tu cuenta ya ha sido verificada.",
     "VERIFIED_NO": "Su cuenta aún no ha sido verificada.",
     "VERIFIED_YES": "Su cuenta ha sido verificada exitosamente. Ahora puedes iniciar sesión."
+  },
+  "RESET_PASSWORD_PAGE": {
+    "TITLE": "Por favor ingrese su correo electrónico para restablecer su contraseña.",
+    "RETURN": "Volver a la página de inicio de sesión",
+    "RESET_INFO_1": "Por favor espera",
+    "RESET_INFO_2": "segundos antes de intentar restablecer la contraseña nuevamente. Gracias por su paciencia."
+  },
+  "RECOVER_PASSWORD_PAGE": {
+    "TITLE": "Por favor ingresa tu nueva contraseña y confírmala a continuación"
   },
   "PLACEHOLDER": {
     "NAME": "Introduzca su nombre",
