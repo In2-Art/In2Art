@@ -86,7 +86,7 @@
     "LOGIN": "Volver a la página de inicio de sesión",
     "VERIFIED_ALREADY": "Tu cuenta ya ha sido verificada.",
     "VERIFIED_NO": "Su cuenta aún no ha sido verificada.",
-    "VERIFIED_YES": "Su cuenta ha sido verificada exitosamente. Ahora puedes iniciar sesión."
+    "VERIFIED_YES": "Su cuenta ha sido verificada exitosamente!"
   },
   "RESET_PASSWORD_PAGE": {
     "TITLE": "Por favor ingrese su correo electrónico para restablecer su contraseña.",

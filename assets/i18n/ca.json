@@ -86,7 +86,7 @@
     "LOGIN": "Torna a la pàgina d'inici de sessió",
     "VERIFIED_ALREADY": "El vostre compte ja s'ha verificat.",
     "VERIFIED_NO": "El teu compte encara no s'ha verificat.",
-    "VERIFIED_YES": "El vostre compte s'ha verificat correctament. Ara podeu iniciar sessió."
+    "VERIFIED_YES": "El vostre compte s'ha verificat correctament!"
   },
   "RESET_PASSWORD_PAGE": {
     "TITLE": "Introduïu el vostre correu electrònic per restablir la contrasenya.",

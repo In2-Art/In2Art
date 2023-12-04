@@ -86,7 +86,7 @@
     "LOGIN": "Return to the login page",
     "VERIFIED_ALREADY": "Your account has already been verified.",
     "VERIFIED_NO": "Your account has not been verified yet.",
-    "VERIFIED_YES": "Your account has been successfully verified. You can now log in."
+    "VERIFIED_YES": "Your account has been successfully verified!"
   },
   "RESET_PASSWORD_PAGE": {
     "TITLE": "Please enter your email to reset your password.",
