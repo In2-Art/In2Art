@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   UserProfileComponent: () => (/* binding */ UserProfileComponent)
 /* harmony export */ });
 /* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @store/auth/auth.selectors */ 4590);
-/* harmony import */ var _store_user_user_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @store/user/user.actions */ 6680);
+/* harmony import */ var _store_profile_profile_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @store/profile/profile.actions */ 7188);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 1699);
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngrx/store */ 6270);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 7947);
@@ -44,7 +44,7 @@ let UserProfileComponent = /*#__PURE__*/(() => {
       });
     }
     fetchUserProfile() {
-      this.store.dispatch((0,_store_user_user_actions__WEBPACK_IMPORTED_MODULE_1__.getUserProfileAction)({
+      this.store.dispatch((0,_store_profile_profile_actions__WEBPACK_IMPORTED_MODULE_1__.getProfileAction)({
         slug: this.userSlug
       }));
     }
