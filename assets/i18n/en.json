@@ -13,7 +13,12 @@
     "SIGN_UP": "Sign Up",
     "RESEND_EMAIL": "Resend email",
     "RESET_PASSWORD": "Reset password",
-    "RECOVER_PASSWORD": "Change password"
+    "RECOVER_PASSWORD": "Change password",
+    "EDIT_PROFILE": "Edit profile",
+    "INSIGHTS": "Insights",
+    "MESSAGE": "Message",
+    "FOLLOW": "Follow",
+    "SUBSCRIBE": "Subscribe"
   },
   "LABEL": {
     "PASSWORD": "Password",

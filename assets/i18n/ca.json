@@ -13,7 +13,12 @@
     "SIGN_UP": "Registra't",
     "RESEND_EMAIL": "Reenvia l'email",
     "RESET_PASSWORD": "Restablir la contrasenya",
-    "RECOVER_PASSWORD": "Canvia la contrasenya"
+    "RECOVER_PASSWORD": "Canvia la contrasenya",
+    "EDIT_PROFILE": "Edita el perfil",
+    "INSIGHTS": "Insights",
+    "MESSAGE": "Missatge",
+    "FOLLOW": "Seguiu",
+    "SUBSCRIBE": "Subscriu-te"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",

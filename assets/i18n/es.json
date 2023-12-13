@@ -13,7 +13,12 @@
     "SIGN_UP": "Inscribirse",
     "RESEND_EMAIL": "Reenviar email",
     "RESET_PASSWORD": "Restablecer la contraseña",
-    "RECOVER_PASSWORD": "Cambiar la contraseña"
+    "RECOVER_PASSWORD": "Cambiar la contraseña",
+    "EDIT_PROFILE": "Editar perfil",
+    "INSIGHTS": "Perspectivas",
+    "MESSAGE": "Mensaje",
+    "FOLLOW": "Seguir",
+    "SUBSCRIBE": "Suscribir"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
