@@ -6,19 +6,20 @@
     "FINISH": "Finalizar",
     "ACCEPT": "Aceptar",
     "SKIP": "Saltar",
-    "BACK_HOMEPAGE": "Volver a la página de inicio",
-    "LOGIN": "Acceso",
+    "BACK_HOMEPAGE": "Vuelve a la página de inicio",
+    "LOGIN": "Iniciar Sesión",
     "PROFILE": "Perfil",
     "LOGOUT": "Cerrar sesión",
-    "SIGN_UP": "Inscribirse",
-    "RESEND_EMAIL": "Reenviar email",
+    "SIGN_UP": "Regístrate",
+    "RESEND_EMAIL": "Reenviar correo electrónico",
     "RESET_PASSWORD": "Restablecer la contraseña",
-    "RECOVER_PASSWORD": "Cambiar la contraseña",
-    "EDIT_PROFILE": "Editar perfil",
-    "INSIGHTS": "Perspectivas",
+    "RECOVER_PASSWORD": "Cambia la contraseña",
+    "EDIT_PROFILE": "Edita perfil",
+    "INSIGHTS": "Insights",
     "MESSAGE": "Mensaje",
     "FOLLOW": "Seguir",
     "SUBSCRIBE": "Suscribir"
+	
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -42,73 +43,79 @@
     "TITLE": "Error",
     "PASSWORD_IS_REQUIRED": "Se requiere contraseña",
     "EMAIL__NOT_FOUND_OR_PASSWORD_IS_WRONG": "La contraseña es incorrecta",
-    "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME": "Correo electronico requerido",
+    "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME": "Correo electrónico obligatorio",
     "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Se requiere contraseña y correo electrónico",
-    "EMAIL_IS_NOT_VALID": "El correo electrónico es invalido",
+    "EMAIL_IS_NOT_VALID": "El correo electrónico no es válido",
     "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "El correo electrónico no es válido y se requiere contraseña",
-    "EMAIL_NOT_FOUND": "Correo electrónico $email no encontrado",
-    "REQUIRED_NAME": "¡Se requiere el nombre!",
-    "REQUIRED_EMAIL": "¡Correo electronico es requerido!",
-    "REQUIRED_USERNAME": "¡Se requiere nombre de usuario!",
-    "REQUIRED_PASSWORD": "¡Se requiere contraseña!",
-    "REQUIRED_BIRTHDATE": "¡Se requiere fecha de nacimiento!",
+    "EMAIL_NOT_FOUND": "No se ha encontrado el correo electrónico $email",
+    "REQUIRED_NAME": "¡El nombre es obligatorio!",
+    "REQUIRED_EMAIL": "¡Correo electrónico es obligatorio!",
+    "REQUIRED_USERNAME": "¡El nombre de usuario es obligatorio!",
+    "REQUIRED_PASSWORD": "¡La contraseña es obligatoria!",
+    "REQUIRED_BIRTHDATE": "¡La fecha de nacimiento es obligatoria!",
     "REQUIRED_CONFIRM_PASSWORD": "¡Se requiere confirmación de contraseña!",
     "REQUIRED_AGREE_PRIVACY": "Debes aceptar la Política de Privacidad",
     "INVALID_EMAIL": "¡El correo electrónico es invalido!",
     "MIN_LENGTH_PASSWORD": "¡La contraseña debe tener al menos 8 caracteres!",
-    "NO_MATCH_PASSWORD": "¡La contraseña no coincide!"
+    "NO_MATCH_PASSWORD": "¡La contraseña no coincide!",
+    "SOMETHING_WRONG":"¡Algo ha ido mal!"
   },
   "SUCCESS": {
     "TITLE": "Éxito",
-    "LOGIN": "Ahora está conectado",
-    "LOGOUT": "Has sido desconectado"
+    "LOGIN": "Ahora habéis iniciado sesión",
+    "LOGOUT": "Habéis cerrado la sesión",
+    "RESET_PASSWORD":"Se han enviado instrucciones para reiniciar la contraseña a vuestro correo electrónico!",
+    "CHANGED_PASSWORD":"¡La contraseña se ha cambiado correctamente!",
+    "SIGN_IN":"Inicia la sesión",
+    "ACCOUNT_ACTIVED":"Vuestra cuenta está activada!",
+    "VERIFICATION_EMAIL":"Os reenviamos el correo electrónico de verificación"
   },
   "LOADING": "Cargando...",
   "404": {
-    "CONTENT_1": "La página a la que intenta acceder no está disponible actualmente.",
-    "CONTENT_2": "Esto puede deberse a que la página no existe o ha sido movida."
+    "CONTENT_1": "La página a la que está intentando acceder no está disponible actualmente.",
+    "CONTENT_2": "Esto puede deberse a que la página no existe o se ha movido."
   },
   "HISTORY": {
     "NO_RECORDS": "¡No hay registros históricos!"
   },
   "LOGIN_PAGE": {
-    "NO_ACCOUNT": "¿No tienes una cuenta?",
+    "NO_ACCOUNT": "¿No tiene una cuenta?",
     "CREATE": "¡Crea hoy!",
-    "FORGOT": "¿Has olvidado tu contraseña?"
+    "FORGOT": "¿Olvidó su contraseña?"
   },
   "SIGN_UP_PAGE": {
-    "PRIVACY": "Política de Privacidad",
-    "HAVE_ACCOUNT": "¿Ya tienes una cuenta?",
-    "LOGIN": "Acceso",
-    "VERIFICATION_TITLE": "Verificacion de email",
-    "VERIFICATION_INFO_1": "Acabamos de enviarle un correo electrónico para confirmar su cuenta.",
-    "VERIFICATION_INFO_2": "Si aún no lo ha recibido, haga clic en el botón a continuación para reenviar el correo electrónico de confirmación.",
-    "RESEND_INFO_1": "Espere por favor",
+    "PRIVACY": "Política de privacidad",
+    "HAVE_ACCOUNT": "¿Ya tiene una cuenta?",
+    "LOGIN": "Inicia la sesión",
+    "VERIFICATION_TITLE": "Verificación del correo electrónico",
+    "VERIFICATION_INFO_1": "Acabamos de enviarte un correo electrónico para confirmar su cuenta.",
+    "VERIFICATION_INFO_2": "Si todavía no lo ha recibido, haga clic en el botón de abajo para volver a enviar el correo electrónico de confirmación.",
+    "RESEND_INFO_1": "Por favor, espere",
     "RESEND_INFO_2": "segundos hasta que se pueda enviar otro correo electrónico"
   },
   "ACTIVATE_PAGE": {
     "HOME": "Ir a la página de inicio",
-    "LOGIN": "Volver a la página de inicio de sesión",
-    "VERIFIED_ALREADY": "Tu cuenta ya ha sido verificada.",
-    "VERIFIED_NO": "Su cuenta aún no ha sido verificada.",
-    "VERIFIED_YES": "Su cuenta ha sido verificada exitosamente!"
+    "LOGIN": "Vuelve a la página de inicio de sesión",
+    "VERIFIED_ALREADY": "Su cuenta ya ha sido verificada.",
+    "VERIFIED_NO": "Su cuenta todavía no se ha verificado.",
+    "VERIFIED_YES": "Su cuenta se ha verificado correctamente!"
   },
   "RESET_PASSWORD_PAGE": {
-    "TITLE": "Por favor ingrese su correo electrónico para restablecer su contraseña.",
-    "RETURN": "Volver a la página de inicio de sesión",
-    "RESET_INFO_1": "Por favor espera",
-    "RESET_INFO_2": "segundos antes de intentar restablecer la contraseña nuevamente. Gracias por su paciencia."
+    "TITLE": "Introduzca su correo electrónico para restablecer la contraseña",
+    "RETURN": "Vuelve a la página de inicio de sesión",
+    "RESET_INFO_1": "Por favor, espere",
+    "RESET_INFO_2": "segundos antes de intentar volver a restablecer su contraseña. Gracias por su paciencia"
   },
   "RECOVER_PASSWORD_PAGE": {
-    "TITLE": "Por favor ingresa tu nueva contraseña y confírmala a continuación"
+    "TITLE": "Introduzca la contraseña nueva y confírmela a continuación"
   },
   "PLACEHOLDER": {
     "NAME": "Introduzca su nombre",
-    "SURNAME": "Introduce tu apellido",
+    "SURNAME": "Introduzca su apellido",
     "USERNAME": "Introduzca su nombre de usuario",
-    "PASSWORD": "Introducir la contraseña",
-    "CONFIRM_PASSWORD": "Confirmar Contraseña",
-    "EMAIL": "Introduce tu correo electrónico",
+    "PASSWORD": "Introduzca la contraseña",
+    "CONFIRM_PASSWORD": "Confirma la contraseña",
+    "EMAIL": "Introduzca su correo electrónico",
     "BIRTH_DATE": "Día / Mes / Año"
   }
 }

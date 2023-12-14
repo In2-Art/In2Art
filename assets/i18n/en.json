@@ -56,12 +56,18 @@
     "REQUIRED_AGREE_PRIVACY": "You should agree to Privacy Policy",
     "INVALID_EMAIL": "Email is invalid!",
     "MIN_LENGTH_PASSWORD": "Password must be at least 8 character long!",
-    "NO_MATCH_PASSWORD": "Password do not match!"
+    "NO_MATCH_PASSWORD": "Password do not match!",
+    "SOMETHING_WRONG":"Something went wrong!"
   },
   "SUCCESS": {
     "TITLE": "Success",
     "LOGIN": "You are now logged in",
-    "LOGOUT": "You have been logged out"
+    "LOGOUT": "You have been logged out",
+    "RESET_PASSWORD":"Instructions how to reset your password have been sent to your email!",
+    "CHANGED_PASSWORD":"Your password has been successfully changed!",
+    "SIGN_IN":"You Sign In",
+    "ACCOUNT_ACTIVED":"Your account is now activated!",
+    "VERIFICATION_EMAIL":"We resend you verification email"
   },
   "LOADING": "Loading...",
   "404": {

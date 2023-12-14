@@ -11,7 +11,7 @@
     "PROFILE": "Perfil",
     "LOGOUT": "Tancar sessió",
     "SIGN_UP": "Registra't",
-    "RESEND_EMAIL": "Reenvia l'email",
+    "RESEND_EMAIL": "Reenvia el correu electrònic",
     "RESET_PASSWORD": "Restablir la contrasenya",
     "RECOVER_PASSWORD": "Canvia la contrasenya",
     "EDIT_PROFILE": "Edita el perfil",
@@ -22,10 +22,10 @@
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
-    "CONFIRM_PASSWORD": "Confirma la contrassenya",
+    "CONFIRM_PASSWORD": "Confirma la contrasenya",
     "EMAIL": "Correu electrònic",
-    "MORE_INFO": "Més info",
-    "LESS_INFO": "Menys info",
+    "MORE_INFO": "Més informació",
+    "LESS_INFO": "Menys informació",
     "REMEMBER_ME": "Recorda'm",
     "NAME": "Nom",
     "SURNAME": "Cognom",
@@ -50,65 +50,71 @@
     "REQUIRED_NAME": "El nom és obligatori!",
     "REQUIRED_EMAIL": "El correu electrònic és obligatori!",
     "REQUIRED_USERNAME": "El nom d'usuari és obligatori!",
-    "REQUIRED_PASSWORD": "Es requereix contrasenya!",
+    "REQUIRED_PASSWORD": "La contrasenya és obligatòria!",
     "REQUIRED_BIRTHDATE": "La data de naixement és obligatòria!",
     "REQUIRED_CONFIRM_PASSWORD": "Cal confirmar la contrasenya!",
     "REQUIRED_AGREE_PRIVACY": "Heu d'acceptar la política de privadesa",
     "INVALID_EMAIL": "El correu electrònic no és vàlid!",
     "MIN_LENGTH_PASSWORD": "La contrasenya ha de tenir almenys 8 caràcters!",
-    "NO_MATCH_PASSWORD": "La contrasenya no coincideix!"
+    "NO_MATCH_PASSWORD": "La contrasenya no coincideix!",
+    "SOMETHING_WRONG": "Alguna cosa ha anat malament!"
   },
   "SUCCESS": {
     "TITLE": "Èxit",
     "LOGIN": "Ara heu iniciat sessió",
-    "LOGOUT": "Heu tancat la sessió"
+    "LOGOUT": "Heu tancat la sessió",
+    "RESET_PASSWORD": "S'han enviat instruccions per reiniciar la contrasenya al vostre correu electrònic!",
+    "CHANGED_PASSWORD":"La contrasenya s'ha canviat correctament!",
+    "SIGN_IN":"Inicia la sessió",
+    "ACCOUNT_ACTIVED":"El vostre compte està activat!",
+    "VERIFICATION_EMAIL":"Us reenviem el correu electrònic de verificació" 
   },
   "LOADING": "Carregant...",
   "404": {
-    "CONTENT_1": "La pàgina a la qual intenteu accedir no està disponible actualment.",
+    "CONTENT_1": "La pàgina a la qual esteu intentant accedir no està disponible actualment.",
     "CONTENT_2": "Això pot ser perquè la pàgina no existeix o s'ha mogut."
   },
   "HISTORY": {
     "NO_RECORDS": "No hi ha registres històrics!"
   },
   "LOGIN_PAGE": {
-    "NO_ACCOUNT": "No tens un compte?",
+    "NO_ACCOUNT": "No teniu un compte?",
     "CREATE": "Crea avui!",
-    "FORGOT": "Has oblidat la contrasenya?"
+    "FORGOT": "Heu oblidat la contrasenya?"
   },
   "SIGN_UP_PAGE": {
-    "PRIVACY": "Política de Privacitat",
-    "HAVE_ACCOUNT": "Ja tens un compte?",
-    "LOGIN": "Iniciar Sessió",
+    "PRIVACY": "Política de privacitat",
+    "HAVE_ACCOUNT": "Ja teniu un compte?",
+    "LOGIN": "Inicia la sessió",
     "VERIFICATION_TITLE": "Verificació del correu electrònic",
-    "VERIFICATION_INFO_1": "Us acabem d'enviar un correu electrònic per confirmar el vostre compte.",
-    "VERIFICATION_INFO_2": "Si encara no l'heu rebut, feu clic al botó següent per tornar a enviar el correu electrònic de confirmació.",
+    "VERIFICATION_INFO_1": "Acabem d'enviar-te un correu electrònic per confirmar el vostre compte.",
+    "VERIFICATION_INFO_2": "Si encara no l'heu rebut, feu clic al botó de sota per tornar a enviar el correu electrònic de confirmació.",
     "RESEND_INFO_1": "Si us plau, espereu",
     "RESEND_INFO_2": "segons fins que es pugui enviar un altre correu electrònic"
   },
   "ACTIVATE_PAGE": {
-    "HOME": "Vés a la pàgina d'inici",
+    "HOME": "Ves a la pàgina d'inici",
     "LOGIN": "Torna a la pàgina d'inici de sessió",
-    "VERIFIED_ALREADY": "El vostre compte ja s'ha verificat.",
-    "VERIFIED_NO": "El teu compte encara no s'ha verificat.",
+    "VERIFIED_ALREADY": "El vostre compte ja ha estat verificat.",
+    "VERIFIED_NO": "El vostre compte encara no s'ha verificat.",
     "VERIFIED_YES": "El vostre compte s'ha verificat correctament!"
   },
   "RESET_PASSWORD_PAGE": {
-    "TITLE": "Introduïu el vostre correu electrònic per restablir la contrasenya.",
+    "TITLE": "Introduïu el vostre correu electrònic per restablir la contrasenya",
     "RETURN": "Torna a la pàgina d'inici de sessió",
     "RESET_INFO_1": "Si us plau, espereu",
-    "RESET_INFO_2": "segons abans de tornar a intentar restablir la contrasenya. Gràcies per la teva paciència."
+    "RESET_INFO_2": "segons abans d'intentar tornar a restablir la contrasenya. Gràcies per la vostra paciència"
   },
   "RECOVER_PASSWORD_PAGE": {
-    "TITLE": "Introduïu la vostra nova contrasenya i confirmeu-la a continuació"
+    "TITLE": "Introduïu la contrasenya nova i confirmeu-la a continuació"
   },
   "PLACEHOLDER": {
-    "NAME": "Introdueixi el seu nom",
+    "NAME": "Introduïu el vostre nom",
     "SURNAME": "Introduïu el vostre cognom",
     "USERNAME": "Introduïu el nom d'usuari",
-    "PASSWORD": "Introduir la contrasenya",
-    "CONFIRM_PASSWORD": "Confirma la contrassenya",
-    "EMAIL": "Introdueix el teu correu electrònic",
+    "PASSWORD": "Introduïu la contrasenya",
+    "CONFIRM_PASSWORD": "Confirma la contrasenya",
+    "EMAIL": "Introduïu el vostre correu electrònic",
     "BIRTH_DATE": "Dia / Mes / Any"
   }
 }
