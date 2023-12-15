@@ -18,7 +18,8 @@
     "INSIGHTS": "Insights",
     "MESSAGE": "Missatge",
     "FOLLOW": "Seguiu",
-    "SUBSCRIBE": "Subscriu-te"
+    "SUBSCRIBE": "Subscriu-te",
+    "UPDATE_SETTINGS": "Actualitza la configuració"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -32,7 +33,8 @@
     "USERNAME": "Nom d'usuari",
     "BIRTH_DATE": "Data de naixement",
     "ALL_FIELDS": "* Si us plau, ompli tots els camps obligatoris",
-    "AGREE_TO": "D'acord amb"
+    "AGREE_TO": "D'acord amb",
+    "WEBSITE": "Lloc web"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuació",
@@ -57,6 +59,7 @@
     "INVALID_EMAIL": "El correu electrònic no és vàlid!",
     "MIN_LENGTH_PASSWORD": "La contrasenya ha de tenir almenys 8 caràcters!",
     "NO_MATCH_PASSWORD": "La contrasenya no coincideix!",
+    "NAME_LONG": "El nom d'usuari no pot superar els 20 caràcters. Actualment a"
     "SOMETHING_WRONG": "Alguna cosa ha anat malament!"
   },
   "SUCCESS": {
@@ -108,13 +111,18 @@
   "RECOVER_PASSWORD_PAGE": {
     "TITLE": "Introduïu la contrasenya nova i confirmeu-la a continuació"
   },
+  "PROFILE_PAGE": {
+    "NO_POSTS": "Aquest usuari encara no ha fet cap publicació"
+  },
   "PLACEHOLDER": {
     "NAME": "Introduïu el vostre nom",
     "SURNAME": "Introduïu el vostre cognom",
     "USERNAME": "Introduïu el nom d'usuari",
-    "PASSWORD": "Introduïu la contrasenya",
-    "CONFIRM_PASSWORD": "Confirma la contrasenya",
-    "EMAIL": "Introduïu el vostre correu electrònic",
-    "BIRTH_DATE": "Dia / Mes / Any"
+    "PASSWORD": "Introduir la contrasenya",
+    "CONFIRM_PASSWORD": "Confirma la contrassenya",
+    "EMAIL": "Introdueix el teu correu electrònic",
+    "BIRTH_DATE": "Dia / Mes / Any",
+    "WEBSITE": "Introduïu l'adreça del vostre lloc web",
+    "BIO": "Introdueix la teva biografia..."
   }
 }

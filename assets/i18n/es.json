@@ -18,8 +18,9 @@
     "INSIGHTS": "Insights",
     "MESSAGE": "Mensaje",
     "FOLLOW": "Seguir",
-    "SUBSCRIBE": "Suscribir"
-	
+    "SUBSCRIBE": "Suscribir",
+    "UPDATE_SETTINGS": "Ajustes de actualización",
+    "SUBSCRIBE": "Suscribir",
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -33,7 +34,8 @@
     "USERNAME": "Nombre de usuario",
     "BIRTH_DATE": "Fecha de nacimiento",
     "ALL_FIELDS": "* Por favor, rellene todos los campos obligatorios",
-    "AGREE_TO": "De acuerdo con"
+    "AGREE_TO": "De acuerdo con",
+    "WEBSITE": "Sitio web"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuación",
@@ -58,6 +60,7 @@
     "INVALID_EMAIL": "¡El correo electrónico es invalido!",
     "MIN_LENGTH_PASSWORD": "¡La contraseña debe tener al menos 8 caracteres!",
     "NO_MATCH_PASSWORD": "¡La contraseña no coincide!",
+    "NAME_LONG": "El nombre de usuario no puede exceder los 20 caracteres. Actualmente en",
     "SOMETHING_WRONG":"¡Algo ha ido mal!"
   },
   "SUCCESS": {
@@ -109,13 +112,18 @@
   "RECOVER_PASSWORD_PAGE": {
     "TITLE": "Introduzca la contraseña nueva y confírmela a continuación"
   },
+  "PROFILE_PAGE": {
+    "NO_POSTS": "Este usuario aún no ha realizado ninguna publicación."
+  },
   "PLACEHOLDER": {
     "NAME": "Introduzca su nombre",
     "SURNAME": "Introduzca su apellido",
     "USERNAME": "Introduzca su nombre de usuario",
-    "PASSWORD": "Introduzca la contraseña",
-    "CONFIRM_PASSWORD": "Confirma la contraseña",
-    "EMAIL": "Introduzca su correo electrónico",
-    "BIRTH_DATE": "Día / Mes / Año"
+    "PASSWORD": "Introducir la contraseña",
+    "CONFIRM_PASSWORD": "Confirmar Contraseña",
+    "EMAIL": "Introduce tu correo electrónico",
+    "BIRTH_DATE": "Día / Mes / Año",
+    "WEBSITE": "Introduzca la dirección de su sitio web",
+    "BIO": "Introduce tu biografía..."
   }
 }

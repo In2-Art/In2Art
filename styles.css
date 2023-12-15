@@ -1321,7 +1321,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1rem;
     color: #e6e6e6;
-    background: #1d1e27;
+    /*background: #1d1e27;*/
     padding: .75rem .75rem;
     border: 1px solid #292828;
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
