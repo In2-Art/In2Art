@@ -19,8 +19,8 @@
     "MESSAGE": "Mensaje",
     "FOLLOW": "Seguir",
     "SUBSCRIBE": "Suscribir",
-    "UPDATE_SETTINGS": "Ajustes de actualización",
-    "SUBSCRIBE": "Suscribir",
+    "UPDATE_SETTINGS": "Ajustes de actualización"
+    
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
