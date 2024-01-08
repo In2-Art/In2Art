@@ -7999,6 +7999,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     }
 
     .p-tooltip-arrow {
+        scale: 2;
         position: absolute;
         width: 0;
         height: 0;

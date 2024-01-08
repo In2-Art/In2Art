@@ -24,7 +24,7 @@
   "LABEL": {
     "PASSWORD": "Password",
     "CONFIRM_PASSWORD": "Confirm password",
-    "EMAIL": "E-mail",
+    "EMAIL": "Email",
     "MORE_INFO": "More info",
     "LESS_INFO": "Less info",
     "REMEMBER_ME": "Remember me",
@@ -34,7 +34,11 @@
     "BIRTH_DATE": "Birth date",
     "ALL_FIELDS": "* Please fill in all required fields",
     "AGREE_TO": "Agree to",
-    "WEBSITE": "Website"
+    "WEBSITE": "Website",
+    "NICKNAME": "Nickname",
+    "USER_NAME": "Username",
+    "FIRST_NAME": "First name",
+    "LAST_NAME": "Last name"
   },
   "TITLE": {
     "PUNCTUATION": "Punctuation",
@@ -59,7 +63,9 @@
     "INVALID_EMAIL": "Email is invalid!",
     "MIN_LENGTH_PASSWORD": "Password must be at least 8 character long!",
     "NO_MATCH_PASSWORD": "Password do not match!",
-    "NAME_LONG": "Username cannot exceed 20 characters. Currently at ",
+    "USERNAME_LONG": "Username cannot exceed 20 characters. Currently at ",
+    "FIRST_NAME_LONG": "First name cannot exceed 20 characters. Currently at ",
+    "LAST_NAME_LONG": "Last name cannot exceed 20 characters. Currently at ",
     "SOMETHING_WRONG":"Something went wrong!"
   },
   "SUCCESS": {

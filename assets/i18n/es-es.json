@@ -20,7 +20,6 @@
     "FOLLOW": "Seguir",
     "SUBSCRIBE": "Suscribir",
     "UPDATE_SETTINGS": "Ajustes de actualización"
-    
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -35,7 +34,11 @@
     "BIRTH_DATE": "Fecha de nacimiento",
     "ALL_FIELDS": "* Por favor, rellene todos los campos obligatorios",
     "AGREE_TO": "De acuerdo con",
-    "WEBSITE": "Sitio web"
+    "WEBSITE": "Sitio web",
+    "NICKNAME": "Apodo",
+    "USER_NAME": "Nombre de usuario",
+    "FIRST_NAME": "Nombre",
+    "LAST_NAME": "Apellido"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuación",
@@ -60,7 +63,9 @@
     "INVALID_EMAIL": "¡El correo electrónico es invalido!",
     "MIN_LENGTH_PASSWORD": "¡La contraseña debe tener al menos 8 caracteres!",
     "NO_MATCH_PASSWORD": "¡La contraseña no coincide!",
-    "NAME_LONG": "El nombre de usuario no puede exceder los 20 caracteres. Actualmente en",
+    "USERNAME_LONG": "El nombre de usuario no puede exceder los 20 caracteres. Actualmente en",
+    "FIRST_NAME_LONG": "El nombre no puede exceder los 20 caracteres. Actualmente en",
+    "LAST_NAME_LONG": "El apellido no puede exceder los 20 caracteres. Actualmente en",
     "SOMETHING_WRONG":"¡Algo ha ido mal!"
   },
   "SUCCESS": {

@@ -34,7 +34,11 @@
     "BIRTH_DATE": "Data de naixement",
     "ALL_FIELDS": "* Si us plau, ompli tots els camps obligatoris",
     "AGREE_TO": "D'acord amb",
-    "WEBSITE": "Lloc web"
+    "WEBSITE": "Lloc web",
+    "NICKNAME": "Àlies",
+    "USER_NAME": "Nom d'usuari",
+    "FIRST_NAME": "Nom",
+    "LAST_NAME": "Cognom"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuació",
@@ -59,7 +63,9 @@
     "INVALID_EMAIL": "El correu electrònic no és vàlid!",
     "MIN_LENGTH_PASSWORD": "La contrasenya ha de tenir almenys 8 caràcters!",
     "NO_MATCH_PASSWORD": "La contrasenya no coincideix!",
-    "NAME_LONG": "El nom d'usuari no pot superar els 20 caràcters. Actualment a",
+    "USERNAME_LONG": "El nom d'usuari no pot superar els 20 caràcters. Actualment a",
+    "FIRST_NAME_LONG": "El nom no pot superar els 20 caràcters. Actualment a",
+    "LAST_NAME_LONG": "El cognom no pot superar els 20 caràcters. Actualment a",
     "SOMETHING_WRONG": "Alguna cosa ha anat malament!"
   },
   "SUCCESS": {
