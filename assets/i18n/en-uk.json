@@ -19,7 +19,10 @@
     "MESSAGE": "Message",
     "FOLLOW": "Follow",
     "SUBSCRIBE": "Subscribe",
-    "UPDATE_SETTINGS": "Update settings"
+    "UPDATE_SETTINGS": "Update settings",
+    "CONFIRM": "Confirm",
+    "CANCEL": "Cancel",
+    "UPLOAD": "Upload"
   },
   "LABEL": {
     "PASSWORD": "Password",
@@ -66,7 +69,8 @@
     "USERNAME_LONG": "Username cannot exceed 20 characters. Currently at ",
     "FIRST_NAME_LONG": "First name cannot exceed 20 characters. Currently at ",
     "LAST_NAME_LONG": "Last name cannot exceed 20 characters. Currently at ",
-    "SOMETHING_WRONG":"Something went wrong!"
+    "SOMETHING_WRONG":"Something went wrong!",
+    "WRONG_TYPE": "Invalid file type. Please select an image."
   },
   "SUCCESS": {
     "TITLE": "Success",
@@ -130,5 +134,9 @@
     "BIRTH_DATE": "Day / Month / Year",
     "WEBSITE": "Enter your website address",
     "BIO": "Enter your biography..."
+  },
+  "WELCOME_PHOTO_PAGE": {
+    "TITLE": "To begin, please choose an image for your",
+    "CONTENT": "You will be able to change your avatar later in your profile."
   }
 }

@@ -1,313 +1,6 @@
 "use strict";
 (self["webpackChunkweb_app_versions"] = self["webpackChunkweb_app_versions"] || []).push([[571],{
 
-/***/ 8029:
-/*!**********************************************************************!*\
-  !*** ./src/app/ApiClient.Backend/components/has-token-ok.service.ts ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   HasTokenOkService: () => (/* binding */ HasTokenOkService)
-/* harmony export */ });
-/* harmony import */ var _home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ 8071);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ 2513);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 3379);
-/* harmony import */ var _services_api__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/api */ 5880);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 274);
-/* harmony import */ var _backend_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../backend/api */ 1202);
-/* harmony import */ var _helpers_api__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/api */ 9686);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 1699);
-
-
-
- // Importa el operador takeUntil
-
-
-
-let HasTokenOkService = /*#__PURE__*/(() => {
-  class HasTokenOkService {
-    constructor() {
-      this.tokenSubject = new rxjs__WEBPACK_IMPORTED_MODULE_4__.BehaviorSubject(false);
-      this.destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_5__.Subject(); // Observable para la terminación
-      this.checkTokenPeriodically();
-    }
-    getToken() {
-      return this.tokenSubject.asObservable();
-    }
-    checkTokenPeriodically() {
-      const obj = this;
-      (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.interval)(1000) // Verificar cada segundo
-      .pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(obj.destroy$) // Detiene el intervalo cuando destroy$ emite un valor
-      ).subscribe(() => {
-        _services_api__WEBPACK_IMPORTED_MODULE_1__["default"].checkTokenApi().subscribe({
-          next: function () {
-            var _ref = (0,_home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (isOk) {
-              let token;
-              if (isOk) {
-                try {
-                  token = yield (0,_helpers_api__WEBPACK_IMPORTED_MODULE_3__.getMediaApiToken)();
-                } catch {
-                  token = yield _backend_api__WEBPACK_IMPORTED_MODULE_2__.Api.putMediaToken();
-                }
-                if (token) {
-                  obj.stopInterval();
-                  obj.tokenSubject.next(isOk);
-                }
-              }
-            });
-            return function next(_x) {
-              return _ref.apply(this, arguments);
-            };
-          }()
-        });
-      });
-    }
-    stopInterval() {
-      this.destroy$.next();
-      this.destroy$.complete();
-    }
-    static #_ = this.ɵfac = function HasTokenOkService_Factory(t) {
-      return new (t || HasTokenOkService)();
-    };
-    static #_2 = this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineInjectable"]({
-      token: HasTokenOkService,
-      factory: HasTokenOkService.ɵfac,
-      providedIn: 'root'
-    });
-  }
-  return HasTokenOkService;
-})();
-
-/***/ }),
-
-/***/ 4072:
-/*!***********************************************************************!*\
-  !*** ./src/app/ApiClient.Backend/components/image/image.component.ts ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ImageComponent: () => (/* binding */ ImageComponent)
-/* harmony export */ });
-/* harmony import */ var _home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var src_app_ApiClient_Backend_backend_Media_mediaApi__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/ApiClient.Backend/backend/Media/mediaApi */ 6351);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ 8071);
-/* harmony import */ var _has_token_ok_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../has-token-ok.service */ 8029);
-/* harmony import */ var _backend_Common_uuid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../backend/Common/uuid */ 4969);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
-
-
-
-
-
-
-
-
-
-let ImageComponent = /*#__PURE__*/(() => {
-  class ImageComponent {
-    constructor(hasTokenService) {
-      this.hasTokenService = hasTokenService;
-      /**
-       * It is a good idea to always include width and height attributes.
-       * If height and width are not set,
-       * the page might flicker while the video loads.
-       */
-      this.width = 50;
-      this.height = 50;
-      this.isThumbnail = true;
-      this.canLoad = true;
-      /**
-       * while isSetted is false the picture doesn't load into video component
-       */
-      this.isSetted = true;
-      this.isLoading = false;
-      this.imgSourceSubject = new rxjs__WEBPACK_IMPORTED_MODULE_4__.BehaviorSubject(undefined);
-      this.imgSource$ = this.imgSourceSubject.asObservable();
-      this.hasMediaToken = false;
-    }
-    // Data Base64 Source
-    set dataBase64Src(value) {
-      this._dataBase64Src = value;
-      this.load();
-    }
-    get dataBase64Src() {
-      return this._dataBase64Src;
-    }
-    // URL
-    set url(value) {
-      this._url = value;
-      this.load();
-    }
-    get url() {
-      return this._url;
-    }
-    // ID Picture
-    set idPicture(value) {
-      this._idPicture = value;
-      this.load();
-    }
-    get idPicture() {
-      return this._idPicture;
-    }
-    // User ID
-    set userId(value) {
-      this._userId = value;
-      this.load();
-    }
-    get userId() {
-      return this._userId;
-    }
-    get srcImg() {
-      return !this.isSetted ? undefined : this.dataBase64Src ?? this.url;
-    }
-    get isLoaded() {
-      return this.dataBase64Src != undefined || this.url != undefined;
-    }
-    ngOnInit() {
-      var _this = this;
-      return (0,_home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-        const obj = _this;
-        if (!_this.dataBase64Src || !_this.url || !_this.isThumbnail || !_this.userId || !_this.folder) {
-          //sense aixó necessito el token
-          obj.hasTokenService.getToken().subscribe({
-            next: function () {
-              var _ref = (0,_home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (isOk) {
-                obj.hasMediaToken = isOk;
-                if (obj.canLoad && obj.hasMediaToken) {
-                  yield obj.load();
-                }
-              });
-              return function next(_x) {
-                return _ref.apply(this, arguments);
-              };
-            }()
-          });
-        } else {
-          yield obj.load();
-        }
-      })();
-    }
-    /**
-     * if resolution change or isThumbnail
-     */
-    reset() {
-      this.dataBase64Src = undefined;
-      this.url = undefined;
-    }
-    load() {
-      var _this2 = this;
-      return (0,_home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-        if (!_this2.isLoaded) {
-          if (!_this2.idPicture || _this2.idPicture == _backend_Common_uuid__WEBPACK_IMPORTED_MODULE_3__.Uuid.defaultValue) {
-            _this2.url = _this2.defaultImageUrl;
-          } else {
-            if (_this2.isThumbnail && !_this2.resolution) {
-              if (_this2.userId && _this2.folder) {
-                _this2.url = ImageComponent.getThumbnailUrl({
-                  idPicture: _this2.idPicture,
-                  userId: _this2.userId,
-                  type: _this2.folder
-                });
-              } else {
-                _this2.dataBase64Src = yield ImageComponent.getThumbnailSrc(_this2.idPicture);
-              }
-            } else if (_this2.hasMediaToken) {
-              _this2.dataBase64Src = yield ImageComponent.getSrc(_this2.idPicture, _this2.resolution ?? 'R8K');
-            }
-          }
-          _this2.imgSourceSubject.next(_this2.srcImg ?? undefined);
-        } else {
-          _this2.imgSourceSubject.next(_this2.srcImg ?? undefined);
-        }
-      })();
-    }
-    static getSrc(idPicture, resolution = 'R8K') {
-      return (0,_home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-        return src_app_ApiClient_Backend_backend_Media_mediaApi__WEBPACK_IMPORTED_MODULE_1__.MediaApi.getPicture({
-          id: idPicture,
-          resolution
-        }).then(p => p.data?.Src);
-      })();
-    }
-    static getThumbnailSrc(idPicture) {
-      return (0,_home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-        return src_app_ApiClient_Backend_backend_Media_mediaApi__WEBPACK_IMPORTED_MODULE_1__.MediaApi.getFileThumbnail(idPicture).then(p => p.data?.Src);
-      })();
-    }
-    static getThumbnailUrl({
-      idPicture,
-      userId,
-      type
-    }) {
-      return src_app_ApiClient_Backend_backend_Media_mediaApi__WEBPACK_IMPORTED_MODULE_1__.MediaApi.getThumbnailUrl(idPicture, userId, type);
-    }
-    static #_ = this.ɵfac = function ImageComponent_Factory(t) {
-      return new (t || ImageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_has_token_ok_service__WEBPACK_IMPORTED_MODULE_2__.HasTokenOkService));
-    };
-    static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
-      type: ImageComponent,
-      selectors: [["app-image"]],
-      inputs: {
-        width: "width",
-        height: "height",
-        defaultImageUrl: "defaultImageUrl",
-        dataBase64Src: "dataBase64Src",
-        url: "url",
-        idPicture: "idPicture",
-        userId: "userId",
-        folder: "folder",
-        resolution: "resolution",
-        isThumbnail: "isThumbnail",
-        canLoad: "canLoad",
-        isSetted: "isSetted"
-      },
-      standalone: true,
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵStandaloneFeature"]],
-      decls: 2,
-      vars: 5,
-      consts: [[1, "image", 3, "src", "width", "height"]],
-      template: function ImageComponent_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "video", 0);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](1, "async");
-        }
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("src", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](1, 3, ctx.imgSource$), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"])("width", ctx.width)("height", ctx.height);
-        }
-      },
-      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule, _angular_common__WEBPACK_IMPORTED_MODULE_6__.AsyncPipe],
-      styles: ["[_nghost-%COMP%] {\n  width: 100%;\n  height: 100%;\n}\n\n.image[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvQXBpQ2xpZW50LkJhY2tlbmQvY29tcG9uZW50cy9pbWFnZS9pbWFnZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0FBQ0Y7O0FBRUE7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5pbWFnZSB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
-    });
-  }
-  return ImageComponent;
-})();
-
-/***/ }),
-
-/***/ 5880:
-/*!***************************************************!*\
-  !*** ./src/app/ApiClient.Backend/services/api.ts ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _backend_api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../backend/api */ 1202);
-/* harmony import */ var _helpers_observables__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/observables */ 2594);
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_helpers_observables__WEBPACK_IMPORTED_MODULE_1__.ToService)(_backend_api__WEBPACK_IMPORTED_MODULE_0__.Api));
-
-/***/ }),
-
 /***/ 9613:
 /*!***************************************************************!*\
   !*** ./src/app/pages/profile/components/profile.component.ts ***!
@@ -387,7 +80,7 @@ function ProfileComponent_ng_container_6_Template(rf, ctx) {
   }
   if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("label", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](2, 3, "BTN.EDIT_PROFILE"))("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction2"](9, _c0, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](3, 5, ctx_r1.locale$), ctx_r1.URLS.SETTINGS));
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("label", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](5, 7, "BTN.INSIGHTS"));
@@ -403,7 +96,7 @@ function ProfileComponent_ng_container_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("label", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](2, 2, "BTN.FOLLOW"));
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("label", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](4, 4, "BTN.SUBSCRIBE"));
@@ -426,7 +119,7 @@ function ProfileComponent_div_12_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](2, 1, "PROFILE_PAGE.NO_POSTS"), " ");
   }
 }
@@ -493,13 +186,13 @@ let ProfileComponent = /*#__PURE__*/(() => {
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](4, 10, ctx.userLoginInfo$));
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.isCurrentUserProfile);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", !ctx.isCurrentUserProfile);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("label", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](9, 12, "BTN.MESSAGE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.isCurrentUserProfile);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ((tmp_7_0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](13, 14, ctx.userPosts$)) == null ? null : tmp_7_0.length) === 0 && !ctx.isCurrentUserProfile);
         }
       },
@@ -614,28 +307,6 @@ let ProfileModule = /*#__PURE__*/(() => {
     imports: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.CommonModule, _profile_routing_module__WEBPACK_IMPORTED_MODULE_0__.ProfileRoutingModule, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, primeng_button__WEBPACK_IMPORTED_MODULE_6__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_7__.RippleModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__.TranslateModule, _ApiClient_components_image_image_component__WEBPACK_IMPORTED_MODULE_3__.ImageComponent, primeng_progressspinner__WEBPACK_IMPORTED_MODULE_9__.ProgressSpinnerModule]
   });
 })();
-
-/***/ }),
-
-/***/ 5295:
-/*!****************************************************!*\
-  !*** ./src/app/store/profile/profile.selectors.ts ***!
-  \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   profileFeatureSelector: () => (/* binding */ profileFeatureSelector),
-/* harmony export */   selectIsLoadingProfile: () => (/* binding */ selectIsLoadingProfile),
-/* harmony export */   selectUserLoginInfo: () => (/* binding */ selectUserLoginInfo),
-/* harmony export */   selectUserPosts: () => (/* binding */ selectUserPosts)
-/* harmony export */ });
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ngrx/store */ 6270);
-
-const profileFeatureSelector = state => state.profile;
-const selectIsLoadingProfile = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(profileFeatureSelector, state => state.isLoading);
-const selectUserLoginInfo = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(profileFeatureSelector, state => state.loginInfo);
-const selectUserPosts = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(profileFeatureSelector, state => state.posts);
 
 /***/ }),
 

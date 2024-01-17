@@ -19,7 +19,10 @@
     "MESSAGE": "Missatge",
     "FOLLOW": "Seguiu",
     "SUBSCRIBE": "Subscriu-te",
-    "UPDATE_SETTINGS": "Actualitza la configuració"
+    "UPDATE_SETTINGS": "Actualitza la configuració",
+    "CONFIRM": "Confirmeu",
+    "CANCEL": "Cancel",
+    "UPLOAD": "Carrega"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -66,7 +69,8 @@
     "USERNAME_LONG": "El nom d'usuari no pot superar els 20 caràcters. Actualment a",
     "FIRST_NAME_LONG": "El nom no pot superar els 20 caràcters. Actualment a",
     "LAST_NAME_LONG": "El cognom no pot superar els 20 caràcters. Actualment a",
-    "SOMETHING_WRONG": "Alguna cosa ha anat malament!"
+    "SOMETHING_WRONG": "Alguna cosa ha anat malament!",
+    "WRONG_TYPE": "Tipus de fitxer no vàlid. Seleccioneu una imatge."
   },
   "SUCCESS": {
     "TITLE": "Èxit",
@@ -130,5 +134,9 @@
     "BIRTH_DATE": "Dia / Mes / Any",
     "WEBSITE": "Introduïu l'adreça del vostre lloc web",
     "BIO": "Introdueix la teva biografia..."
+  },
+  "WELCOME_PHOTO_PAGE": {
+    "TITLE": "Per començar, trieu una imatge per a la vostra",
+    "CONTENT": "Podràs canviar el teu avatar més tard al teu perfil."
   }
 }

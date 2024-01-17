@@ -19,7 +19,10 @@
     "MESSAGE": "Mensaje",
     "FOLLOW": "Seguir",
     "SUBSCRIBE": "Suscribir",
-    "UPDATE_SETTINGS": "Ajustes de actualización"
+    "UPDATE_SETTINGS": "Ajustes de actualización",
+    "CONFIRM": "Confirmar",
+    "CANCEL": "Cancelar",
+    "UPLOAD": "Subir"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -66,7 +69,8 @@
     "USERNAME_LONG": "El nombre de usuario no puede exceder los 20 caracteres. Actualmente en",
     "FIRST_NAME_LONG": "El nombre no puede exceder los 20 caracteres. Actualmente en",
     "LAST_NAME_LONG": "El apellido no puede exceder los 20 caracteres. Actualmente en",
-    "SOMETHING_WRONG":"¡Algo ha ido mal!"
+    "SOMETHING_WRONG":"¡Algo ha ido mal!",
+    "WRONG_TYPE": "Tipo de archivo invalido. Por favor seleccione una imagen."
   },
   "SUCCESS": {
     "TITLE": "Éxito",
@@ -130,5 +134,9 @@
     "BIRTH_DATE": "Día / Mes / Año",
     "WEBSITE": "Introduzca la dirección de su sitio web",
     "BIO": "Introduce tu biografía..."
+  },
+  "WELCOME_PHOTO_PAGE": {
+    "TITLE": "Para comenzar, elija una imagen para su",
+    "CONTENT": "Podrás cambiar tu avatar más adelante en tu perfil."
   }
 }
