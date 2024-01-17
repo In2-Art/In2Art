@@ -8050,8 +8050,8 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 @font-face {
     font-family: 'primeicons';
     font-display: block;
-    src: url('primeicons.eot');
-    src: url('primeicons.eot?#iefix') format('embedded-opentype'), url('primeicons.woff2') format('woff2'), url('primeicons.woff') format('woff'), url('primeicons.ttf') format('truetype'), url('primeicons.svg?#primeicons') format('svg');
+    src: url('fonts-primeicons.eot');
+    src: url('fonts-primeicons.eot?#iefix') format('embedded-opentype'), url('fonts-primeicons.woff2') format('woff2'), url('fonts-primeicons.woff') format('woff'), url('fonts-primeicons.ttf') format('truetype'), url('fonts-primeicons.svg?#primeicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -29335,6 +29335,14 @@ input {
   border-radius: 0;
 }
 
+@font-face {
+  font-family: "primeicons";
+  font-display: block;
+  src: url('primeicons.eot');
+  src: url('primeicons.eot?#iefix') format("embedded-opentype"), url('primeicons.woff2') format("woff2"), url('primeicons.woff') format("woff"), url('primeicons.ttf') format("truetype"), url('primeicons.svg?#primeicons') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --bgPrimary: #000000;
   --bgSecondary: #292828;
