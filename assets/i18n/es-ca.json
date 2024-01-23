@@ -22,7 +22,9 @@
     "UPDATE_SETTINGS": "Actualitza la configuració",
     "CONFIRM": "Confirmeu",
     "CANCEL": "Cancel",
-    "UPLOAD": "Carrega"
+    "UPLOAD": "Carrega",
+    "CHANGE_PASSWORD": "Canvia la contrasenya",
+    "TO_SETTINGS": "Torna a la configuració"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -55,7 +57,7 @@
     "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Cal contrasenya i correu electrònic",
     "EMAIL_IS_NOT_VALID": "El correu electrònic no és vàlid",
     "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "El correu electrònic no és vàlid i cal la contrasenya",
-    "EMAIL_NOT_FOUND": "No s'ha trobat el correu electrònic $email",
+    "EMAIL_NOT_FOUND": "No s'ha trobat el correu electrònic",
     "REQUIRED_NAME": "El nom és obligatori!",
     "REQUIRED_EMAIL": "El correu electrònic és obligatori!",
     "REQUIRED_USERNAME": "El nom d'usuari és obligatori!",
@@ -81,7 +83,8 @@
     "SIGN_IN":"Inicia la sessió",
     "ACCOUNT_ACTIVED":"El vostre compte està activat!",
     "VERIFICATION_EMAIL":"Us reenviem el correu electrònic de verificació",
-    "AVATAR": "Avatar seleccionat correctament! Benvingut a la pàgina d'inici!"
+    "AVATAR": "Avatar seleccionat correctament! Benvingut a la pàgina d'inici!",
+    "UPDATE_USER": "La teva configuració s'ha actualitzat!"
   },
   "LOADING": "Carregant...",
   "404": {
@@ -134,10 +137,19 @@
     "EMAIL": "Introdueix el teu correu electrònic",
     "BIRTH_DATE": "Dia / Mes / Any",
     "WEBSITE": "Introduïu l'adreça del vostre lloc web",
-    "BIO": "Introdueix la teva biografia..."
+    "BIO": "Introdueix la teva biografia...",
+    "OLD_PASSWORD": "Introduïu una contrasenya actual",
+    "NEW_PASSWORD": "Introduïu una contrasenya nova",
+    "CONFIRM_NEW_PASSWORD": "Torneu a introduir la vostra nova contrasenya"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Per començar, trieu una imatge per a la vostra",
     "CONTENT": "Podràs canviar el teu avatar més tard al teu perfil."
+  },
+  "SETTINGS_PAGE": {
+    "TITLE": "Configuració del compte d'usuari"
+  },
+  "CHANGE_PASSWORD_PAGE": {
+    "TITLE": "Canvia la teva contrasenya aquí"
   }
 }

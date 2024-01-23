@@ -22,7 +22,9 @@
     "UPDATE_SETTINGS": "Ajustes de actualización",
     "CONFIRM": "Confirmar",
     "CANCEL": "Cancelar",
-    "UPLOAD": "Subir"
+    "UPLOAD": "Subir",
+    "CHANGE_PASSWORD": "Cambiar la contraseña",
+    "TO_SETTINGS": "Volver a la configuración"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -55,7 +57,7 @@
     "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Se requiere contraseña y correo electrónico",
     "EMAIL_IS_NOT_VALID": "El correo electrónico no es válido",
     "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "El correo electrónico no es válido y se requiere contraseña",
-    "EMAIL_NOT_FOUND": "No se ha encontrado el correo electrónico $email",
+    "EMAIL_NOT_FOUND": "No se ha encontrado el correo electrónico",
     "REQUIRED_NAME": "¡El nombre es obligatorio!",
     "REQUIRED_EMAIL": "¡Correo electrónico es obligatorio!",
     "REQUIRED_USERNAME": "¡El nombre de usuario es obligatorio!",
@@ -81,7 +83,8 @@
     "SIGN_IN":"Inicia la sesión",
     "ACCOUNT_ACTIVED":"Vuestra cuenta está activada!",
     "VERIFICATION_EMAIL":"Os reenviamos el correo electrónico de verificación",
-    "AVATAR": "¡Avatar seleccionado exitosamente! ¡Bienvenido a la pagina principal!"
+    "AVATAR": "¡Avatar seleccionado exitosamente! ¡Bienvenido a la pagina principal!",
+    "UPDATE_USER": "¡Tu configuración actualizada!"
   },
   "LOADING": "Cargando...",
   "404": {
@@ -134,10 +137,19 @@
     "EMAIL": "Introduce tu correo electrónico",
     "BIRTH_DATE": "Día / Mes / Año",
     "WEBSITE": "Introduzca la dirección de su sitio web",
-    "BIO": "Introduce tu biografía..."
+    "BIO": "Introduce tu biografía...",
+    "OLD_PASSWORD": "Ingrese una contraseña actual",
+    "NEW_PASSWORD": "Introduzca una nueva contraseña",
+    "CONFIRM_NEW_PASSWORD": "Ingrese su nueva contraseña nuevamente"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Para comenzar, elija una imagen para su",
     "CONTENT": "Podrás cambiar tu avatar más adelante en tu perfil."
+  },
+  "SETTINGS_PAGE": {
+    "TITLE": "Configuración de cuenta de usuario"
+  },
+  "CHANGE_PASSWORD_PAGE": {
+    "TITLE": "Cambia tu contraseña aquí"
   }
 }

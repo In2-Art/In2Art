@@ -22,7 +22,9 @@
     "UPDATE_SETTINGS": "Update settings",
     "CONFIRM": "Confirm",
     "CANCEL": "Cancel",
-    "UPLOAD": "Upload"
+    "UPLOAD": "Upload",
+    "CHANGE_PASSWORD": "Change password",
+    "TO_SETTINGS": "Back to settings"
   },
   "LABEL": {
     "PASSWORD": "Password",
@@ -55,7 +57,7 @@
     "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Password and email required",
     "EMAIL_IS_NOT_VALID": "Email is invalid",
     "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "Email is invalid and password required",
-    "EMAIL_NOT_FOUND": "Email $email not found",
+    "EMAIL_NOT_FOUND": "Email not found",
     "REQUIRED_NAME": "Name is required!",
     "REQUIRED_EMAIL": "Email is required!",
     "REQUIRED_USERNAME": "Username is required!",
@@ -81,7 +83,8 @@
     "SIGN_IN":"You Sign In",
     "ACCOUNT_ACTIVED":"Your account is now activated!",
     "VERIFICATION_EMAIL":"We resend you verification email",
-    "AVATAR": "Avatar successfully selected! Welcome to the home page!"
+    "AVATAR": "Avatar successfully selected! Welcome to the home page!",
+    "UPDATE_USER": "Your settings updated!"
   },
   "LOADING": "Loading...",
   "404": {
@@ -134,10 +137,19 @@
     "EMAIL": "Enter your email",
     "BIRTH_DATE": "Day / Month / Year",
     "WEBSITE": "Enter your website address",
-    "BIO": "Enter your biography..."
+    "BIO": "Enter your biography...",
+    "OLD_PASSWORD": "Enter a current password",
+    "NEW_PASSWORD": "Enter a new password",
+    "CONFIRM_NEW_PASSWORD": "Enter your new password again"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "To begin, please choose an image for your",
     "CONTENT": "You will be able to change your avatar later in your profile."
+  },
+  "SETTINGS_PAGE": {
+    "TITLE": "User Account Settings"
+  },
+  "CHANGE_PASSWORD_PAGE": {
+    "TITLE": "Change your password here"
   }
 }
