@@ -80,7 +80,8 @@
     "CHANGED_PASSWORD":"La contrasenya s'ha canviat correctament!",
     "SIGN_IN":"Inicia la sessió",
     "ACCOUNT_ACTIVED":"El vostre compte està activat!",
-    "VERIFICATION_EMAIL":"Us reenviem el correu electrònic de verificació" 
+    "VERIFICATION_EMAIL":"Us reenviem el correu electrònic de verificació",
+    "AVATAR": "Avatar seleccionat correctament! Benvingut a la pàgina d'inici!"
   },
   "LOADING": "Carregant...",
   "404": {
@@ -106,7 +107,7 @@
     "RESEND_INFO_2": "segons fins que es pugui enviar un altre correu electrònic"
   },
   "ACTIVATE_PAGE": {
-    "HOME": "Ves a la pàgina d'inici",
+    "HOME": "Anar a la personalització de l'avatar",
     "LOGIN": "Torna a la pàgina d'inici de sessió",
     "VERIFIED_ALREADY": "El vostre compte ja ha estat verificat.",
     "VERIFIED_NO": "El vostre compte encara no s'ha verificat.",

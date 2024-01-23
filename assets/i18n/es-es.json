@@ -80,7 +80,8 @@
     "CHANGED_PASSWORD":"¡La contraseña se ha cambiado correctamente!",
     "SIGN_IN":"Inicia la sesión",
     "ACCOUNT_ACTIVED":"Vuestra cuenta está activada!",
-    "VERIFICATION_EMAIL":"Os reenviamos el correo electrónico de verificación"
+    "VERIFICATION_EMAIL":"Os reenviamos el correo electrónico de verificación",
+    "AVATAR": "¡Avatar seleccionado exitosamente! ¡Bienvenido a la pagina principal!"
   },
   "LOADING": "Cargando...",
   "404": {
@@ -106,7 +107,7 @@
     "RESEND_INFO_2": "segundos hasta que se pueda enviar otro correo electrónico"
   },
   "ACTIVATE_PAGE": {
-    "HOME": "Ir a la página de inicio",
+    "HOME": "Pasar a personalización de avatar",
     "LOGIN": "Vuelve a la página de inicio de sesión",
     "VERIFIED_ALREADY": "Su cuenta ya ha sido verificada.",
     "VERIFIED_NO": "Su cuenta todavía no se ha verificado.",

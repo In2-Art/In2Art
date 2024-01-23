@@ -909,7 +909,7 @@ let BadgeDirective = /*#__PURE__*/(() => {
       hostAttrs: [1, "p-element"],
       inputs: {
         iconPos: "iconPos",
-        disabled: ["badgeDisabled", "disabled"],
+        disabled: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInputFlags"].None, "badgeDisabled", "disabled"],
         size: "size",
         value: "value",
         severity: "severity"

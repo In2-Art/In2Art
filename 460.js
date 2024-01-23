@@ -481,7 +481,7 @@ let PhotoEditProfileComponent = /*#__PURE__*/(() => {
       this.currentUser$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_1__.selectCurrentUser);
       this.imageId = '';
       this.currentUser$.subscribe(user => {
-        this.imageId = user ? user.pictureId : undefined;
+        this.imageId = user ? user.pictureId : null;
       });
     }
     onRemovePhoto() {

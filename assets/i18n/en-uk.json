@@ -80,7 +80,8 @@
     "CHANGED_PASSWORD":"Your password has been successfully changed!",
     "SIGN_IN":"You Sign In",
     "ACCOUNT_ACTIVED":"Your account is now activated!",
-    "VERIFICATION_EMAIL":"We resend you verification email"
+    "VERIFICATION_EMAIL":"We resend you verification email",
+    "AVATAR": "Avatar successfully selected! Welcome to the home page!"
   },
   "LOADING": "Loading...",
   "404": {
@@ -106,7 +107,7 @@
     "RESEND_INFO_2": "seconds until another email can be send"
   },
   "ACTIVATE_PAGE": {
-    "HOME": "Go to home page",
+    "HOME": "Move to avatar customization",
     "LOGIN": "Return to the login page",
     "VERIFIED_ALREADY": "Your account has already been verified.",
     "VERIFIED_NO": "Your account has not been verified yet.",
