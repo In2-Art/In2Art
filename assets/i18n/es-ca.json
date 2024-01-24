@@ -41,7 +41,7 @@
     "AGREE_TO": "D'acord amb",
     "WEBSITE": "Lloc web",
     "NICKNAME": "Àlies",
-    "USER_NAME": "Nom d'usuari",
+    "PROFILE_NAME": "Nom de perfil",
     "FIRST_NAME": "Nom",
     "LAST_NAME": "Cognom"
   },
@@ -57,10 +57,10 @@
     "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Cal contrasenya i correu electrònic",
     "EMAIL_IS_NOT_VALID": "El correu electrònic no és vàlid",
     "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "El correu electrònic no és vàlid i cal la contrasenya",
-    "EMAIL_NOT_FOUND": "No s'ha trobat el correu electrònic",
-    "REQUIRED_NAME": "El nom és obligatori!",
+    "EMAIL_NOT_FOUND": "No s'ha trobat el correu electrònic o la contrasenya és incorrecta",
     "REQUIRED_EMAIL": "El correu electrònic és obligatori!",
-    "REQUIRED_USERNAME": "El nom d'usuari és obligatori!",
+    "REQUIRED_NICKNAME": "El sobrenom és obligatori!",
+    "REQUIRED_PROFILE_NAME": "El nom del perfil és obligatori!",
     "REQUIRED_PASSWORD": "La contrasenya és obligatòria!",
     "REQUIRED_BIRTHDATE": "La data de naixement és obligatòria!",
     "REQUIRED_CONFIRM_PASSWORD": "Cal confirmar la contrasenya!",
@@ -100,6 +100,7 @@
     "FORGOT": "Heu oblidat la contrasenya?"
   },
   "SIGN_UP_PAGE": {
+    "TITLE": "Crear un compte nou",
     "PRIVACY": "Política de privacitat",
     "HAVE_ACCOUNT": "Ja teniu un compte?",
     "LOGIN": "Inicia la sessió",
@@ -129,9 +130,11 @@
     "NO_POSTS": "Aquest usuari encara no ha fet cap publicació"
   },
   "PLACEHOLDER": {
-    "NAME": "Introduïu el vostre nom",
+    "NICKNAME": "Introduïu el vostre àlies",
     "SURNAME": "Introduïu el vostre cognom",
-    "USERNAME": "Introduïu el nom d'usuari",
+    "PROFILE_NAME": "Introduïu un nom de perfil nou",
+    "FIRST_NAME": "Introduïu el nou nom",
+    "LAST_NAME": "Introduïu el nou cognom",
     "PASSWORD": "Introduir la contrasenya",
     "CONFIRM_PASSWORD": "Confirma la contrassenya",
     "EMAIL": "Introdueix el teu correu electrònic",
@@ -151,5 +154,11 @@
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Canvia la teva contrasenya aquí"
+  },
+  "TOOLTIP": {
+    "NICKNAME": "El sobrenom s'utilitzarà a l'URL del perfil de l'usuari. Introduïu una sola paraula sense espais",
+    "PROFILE_NAME": "Aquest és el nom que serà visible per a altres usuaris de la plataforma. No dubteu a introduir el vostre nom real o triar el nom amb el qual us sentiu còmode",
+    "NICKNAME_SETTINGS": "L'àlies s'utilitza a l'URL del perfil d'usuari. No hi ha cap opció per canviar el vostre àlies en aquest moment.",
+    "PROFILE_NAME_SETTINGS": "Aquest nom és visible per a altres usuaris de la plataforma."
   }
 }

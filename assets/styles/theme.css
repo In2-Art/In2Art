@@ -5326,27 +5326,27 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tooltip .p-tooltip-text {
-    background: #292828;
-    color: #e6e6e6;
+    background: #e6e6e6;
+    color: #292828;
     padding: .75rem .75rem;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
     border-radius: 6px
 }
 
 .p-tooltip.p-tooltip-right .p-tooltip-arrow {
-    border-right-color: #292828
+    border-right-color: #e6e6e6
 }
 
 .p-tooltip.p-tooltip-left .p-tooltip-arrow {
-    border-left-color: #292828
+    border-left-color: #e6e6e6
 }
 
 .p-tooltip.p-tooltip-top .p-tooltip-arrow {
-    border-top-color: #292828
+    border-top-color: #e6e6e6
 }
 
 .p-tooltip.p-tooltip-bottom .p-tooltip-arrow {
-    border-bottom-color: #292828
+    border-bottom-color: #e6e6e6
 }
 
 .p-fileupload .p-fileupload-buttonbar {

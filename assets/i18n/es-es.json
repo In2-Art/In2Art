@@ -41,7 +41,7 @@
     "AGREE_TO": "De acuerdo con",
     "WEBSITE": "Sitio web",
     "NICKNAME": "Apodo",
-    "USER_NAME": "Nombre de usuario",
+    "PROFILE_NAME": "Nombre de perfil",
     "FIRST_NAME": "Nombre",
     "LAST_NAME": "Apellido"
   },
@@ -57,10 +57,10 @@
     "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Se requiere contraseña y correo electrónico",
     "EMAIL_IS_NOT_VALID": "El correo electrónico no es válido",
     "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "El correo electrónico no es válido y se requiere contraseña",
-    "EMAIL_NOT_FOUND": "No se ha encontrado el correo electrónico",
-    "REQUIRED_NAME": "¡El nombre es obligatorio!",
+    "EMAIL_NOT_FOUND": "Correo electrónico no encontrado o contraseña incorrecta",
     "REQUIRED_EMAIL": "¡Correo electrónico es obligatorio!",
-    "REQUIRED_USERNAME": "¡El nombre de usuario es obligatorio!",
+    "REQUIRED_NICKNAME": "¡Se requiere apodo!",
+    "REQUIRED_PROFILE_NAME": "¡El nombre del perfil es obligatorio!",
     "REQUIRED_PASSWORD": "¡La contraseña es obligatoria!",
     "REQUIRED_BIRTHDATE": "¡La fecha de nacimiento es obligatoria!",
     "REQUIRED_CONFIRM_PASSWORD": "¡Se requiere confirmación de contraseña!",
@@ -100,6 +100,7 @@
     "FORGOT": "¿Olvidó su contraseña?"
   },
   "SIGN_UP_PAGE": {
+    "TITLE": "Crea una cuenta nueva",
     "PRIVACY": "Política de privacidad",
     "HAVE_ACCOUNT": "¿Ya tiene una cuenta?",
     "LOGIN": "Inicia la sesión",
@@ -129,9 +130,11 @@
     "NO_POSTS": "Este usuario aún no ha realizado ninguna publicación."
   },
   "PLACEHOLDER": {
-    "NAME": "Introduzca su nombre",
+    "NICKNAME": "Ingresa tu alias",
     "SURNAME": "Introduzca su apellido",
-    "USERNAME": "Introduzca su nombre de usuario",
+    "PROFILE_NAME": "Ingrese el nuevo nombre del perfil",
+    "FIRST_NAME": "Introduce un nuevo nombre",
+    "LAST_NAME": "Ingrese nuevo apellido",
     "PASSWORD": "Introducir la contraseña",
     "CONFIRM_PASSWORD": "Confirmar Contraseña",
     "EMAIL": "Introduce tu correo electrónico",
@@ -151,5 +154,11 @@
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Cambia tu contraseña aquí"
+  },
+  "TOOLTIP": {
+    "NICKNAME": "El apodo se utilizará en la URL del perfil del usuario. Por favor ingrese una sola palabra sin espacios",
+    "PROFILE_NAME": "Este es el nombre que será visible para otros usuarios de la plataforma. Siéntete libre de ingresar tu nombre real o elegir un nombre con el que te sientas cómodo",
+    "NICKNAME_SETTINGS": "El apodo se utiliza en la URL del perfil de usuario. No hay ninguna opción para cambiar su apodo en este momento.",
+    "PROFILE_NAME_SETTINGS": "Este nombre es visible para otros usuarios de la plataforma."
   }
 }

@@ -41,7 +41,7 @@
     "AGREE_TO": "Agree to",
     "WEBSITE": "Website",
     "NICKNAME": "Nickname",
-    "USER_NAME": "Username",
+    "PROFILE_NAME": "Profile name",
     "FIRST_NAME": "First name",
     "LAST_NAME": "Last name"
   },
@@ -57,10 +57,10 @@
     "NICKNAME_IS_REQUIRED_OR_EMAIL_EMAIL_IS_REQUIRED_OR_NICKNAME_PASSWORD_IS_REQUIRED": "Password and email required",
     "EMAIL_IS_NOT_VALID": "Email is invalid",
     "EMAIL_IS_INVALID_PASSWORD_IS_REQUIRED": "Email is invalid and password required",
-    "EMAIL_NOT_FOUND": "Email not found",
-    "REQUIRED_NAME": "Name is required!",
+    "EMAIL_NOT_FOUND": "Email not found or password is wrong",
     "REQUIRED_EMAIL": "Email is required!",
-    "REQUIRED_USERNAME": "Username is required!",
+    "REQUIRED_NICKNAME": "Nickname is required!",
+    "REQUIRED_PROFILE_NAME": "Profile name is required!",
     "REQUIRED_PASSWORD": "Password is required!",
     "REQUIRED_BIRTHDATE": "Birth date is required!",
     "REQUIRED_CONFIRM_PASSWORD": "Password confirm is required!",
@@ -100,6 +100,7 @@
     "FORGOT": "Forgot password?"
   },
   "SIGN_UP_PAGE": {
+    "TITLE": "Create a new account",
     "PRIVACY": "Privacy Policy",
     "HAVE_ACCOUNT": "Already have an account?",
     "LOGIN": "Log In",
@@ -129,9 +130,10 @@
     "NO_POSTS": "This user hasn't made any posts yet"
   },
   "PLACEHOLDER": {
-    "NAME": "Enter your name",
-    "SURNAME": "Enter your surname",
-    "USERNAME": "Enter username",
+    "NICKNAME": "Enter your nickname",
+    "PROFILE_NAME": "Enter profile name",
+    "FIRST_NAME": "Enter first name",
+    "LAST_NAME": "Enter last name",
     "PASSWORD": "Enter password",
     "CONFIRM_PASSWORD": "Confirm password",
     "EMAIL": "Enter your email",
@@ -151,5 +153,11 @@
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Change your password here"
+  },
+  "TOOLTIP": {
+    "NICKNAME": "Nickname will be used in the user's profile URL. Please enter a single word without spaces",
+    "PROFILE_NAME": "This is the name that will be visible to other users on the platform. Feel free to enter your real name or choose name that you're comfortable with",
+    "NICKNAME_SETTINGS": "The nickname is used in the user profile URL. There is no option to change your nickname at this time.",
+    "PROFILE_NAME_SETTINGS": "This name is visible to other users on the platform."
   }
 }

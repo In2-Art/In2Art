@@ -237,6 +237,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var primeng_calendar__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/calendar */ 7411);
 /* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/inputtextarea */ 652);
 /* harmony import */ var _shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../shared/components/photo-edit-profile/photo-edit-profile.component */ 313);
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! primeng/tooltip */ 1251);
+
 
 
 
@@ -258,19 +260,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function SettingsComponent_small_13_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](2, 1, "ERROR.REQUIRED_USERNAME"), " ");
-  }
-}
-function SettingsComponent_small_20_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -280,9 +270,21 @@ function SettingsComponent_small_20_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](2, 1, "ERROR.INVALID_EMAIL"), " ");
   }
 }
-function SettingsComponent_small_27_Template(rf, ctx) {
+function SettingsComponent_small_22_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "translate");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](2, 1, "ERROR.REQUIRED_USERNAME"), " ");
+  }
+}
+function SettingsComponent_small_31_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -290,12 +292,12 @@ function SettingsComponent_small_27_Template(rf, ctx) {
   if (rf & 2) {
     const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](2, 2, "ERROR.USERNAME_LONG"), " ", ctx_r2.settingsForm.value.userName == null ? null : ctx_r2.settingsForm.value.userName.length, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](2, 2, "ERROR.PROFILE_LONG"), " ", ctx_r2.settingsForm.value.profileName == null ? null : ctx_r2.settingsForm.value.profileName.length, " ");
   }
 }
-function SettingsComponent_small_34_Template(rf, ctx) {
+function SettingsComponent_small_38_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -306,9 +308,9 @@ function SettingsComponent_small_34_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate2"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](2, 2, "ERROR.FIRST_NAME_LONG"), " ", ctx_r3.settingsForm.value.firstName == null ? null : ctx_r3.settingsForm.value.firstName.length, " ");
   }
 }
-function SettingsComponent_small_41_Template(rf, ctx) {
+function SettingsComponent_small_45_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "small", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](2, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
@@ -336,7 +338,7 @@ let SettingsComponent = /*#__PURE__*/(() => {
           value: '',
           disabled: true
         }, [_angular_forms__WEBPACK_IMPORTED_MODULE_6__.Validators.email]),
-        userName: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControl('', [_angular_forms__WEBPACK_IMPORTED_MODULE_6__.Validators.maxLength(20)]),
+        profileName: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControl('', [_angular_forms__WEBPACK_IMPORTED_MODULE_6__.Validators.maxLength(20)]),
         firstName: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControl('', [_angular_forms__WEBPACK_IMPORTED_MODULE_6__.Validators.maxLength(20)]),
         lastName: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControl('', [_angular_forms__WEBPACK_IMPORTED_MODULE_6__.Validators.maxLength(20)]),
         birthDate: new _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControl(),
@@ -353,7 +355,7 @@ let SettingsComponent = /*#__PURE__*/(() => {
           this.settingsForm.patchValue({
             nickname: user.nicknameUrl,
             email: user.email,
-            userName: user.userName,
+            profileName: user.profileName,
             firstName: user.firstName,
             lastName: user.lastName,
             birthDate: user.birthDate ? new Date(user.birthDate) : null
@@ -370,7 +372,7 @@ let SettingsComponent = /*#__PURE__*/(() => {
         return;
       }
       const userPublic = {
-        name: this.settingsForm.get('userName')?.value,
+        name: this.settingsForm.get('profileName')?.value,
         nickname: this.settingsForm.get('nickname')?.value,
         languages: [{
           website: this.settingsForm.get('website')?.value,
@@ -394,9 +396,9 @@ let SettingsComponent = /*#__PURE__*/(() => {
     static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
       type: SettingsComponent,
       selectors: [["app-settings"]],
-      decls: 64,
-      vars: 73,
-      consts: [[3, "width", "isLoading"], [1, "font-bold", "text-2xl", "mb-5", "w-full", "flex", "justify-content-center"], [1, "w-full", 3, "formGroup", "ngSubmit"], [1, "mb-3", "input-group"], ["for", "nickname", 1, "block", "font-normal"], ["id", "nickname", "type", "text", "pInputText", "", "formControlName", "nickname", 1, "w-full", 3, "placeholder"], ["class", "error-message text-sm text-red-400", 4, "ngIf"], ["for", "email", 1, "block", "font-normal"], ["id", "email", "type", "text", "pInputText", "", "formControlName", "email", 1, "w-full", 3, "placeholder"], ["for", "userName", 1, "block", "font-normal"], ["id", "userName", "type", "text", "pInputText", "", "formControlName", "userName", 1, "w-full", 3, "placeholder"], ["for", "firstName", 1, "block", "font-normal"], ["id", "firstName", "type", "text", "pInputText", "", "formControlName", "firstName", 1, "w-full", 3, "placeholder"], ["for", "lastName", 1, "block", "font-normal"], ["id", "lastName", "type", "text", "pInputText", "", "formControlName", "lastName", 1, "w-full", 3, "placeholder"], ["for", "birthDate", 1, "block", "font-normal"], ["formControlName", "birthDate", "id", "birthDate", "inputId", "birthDate", "styleClass", "w-full", "dateFormat", "dd/mm/yy", 3, "showIcon", "maxDate", "required", "dataType", "placeholder"], ["for", "website", 1, "block", "font-normal"], ["id", "website", "type", "text", "pInputText", "", "formControlName", "website", 1, "w-full", 3, "placeholder"], [1, "mb-3", "input-group", "bio-group"], ["for", "bio", 1, "block", "font-normal", "pt-3"], ["id", "bio", "rows", "3", "pInputTextarea", "", "formControlName", "bio", 1, "w-full", 3, "autoResize", "placeholder"], [1, "flex", "flex-column", "md:flex-row", "gap-3", "pt-2", "w-full"], ["type", "button", "pButton", "", "pRipple", "", "icon", "pi pi-key", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "routerLink", "label"], ["type", "submit", "pButton", "", "pRipple", "", "icon", "pi pi-check", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "disabled", "label"], [1, "error-message", "text-sm", "text-red-400"]],
+      decls: 68,
+      vars: 81,
+      consts: [[3, "width", "isLoading"], [1, "font-bold", "text-2xl", "mb-5", "w-full", "flex", "justify-content-center"], [1, "w-full", 3, "formGroup", "ngSubmit"], [1, "mb-3", "input-group"], ["for", "email", 1, "block", "font-normal"], ["id", "email", "type", "text", "pInputText", "", "formControlName", "email", 1, "w-full", 3, "placeholder"], ["class", "error-message text-sm text-red-400", 4, "ngIf"], ["for", "nickname", 1, "flex", "align-items-center", "gap-2", "font-normal"], ["tooltipPosition", "top", 1, "pi", "pi-question-circle", 3, "pTooltip", "positionTop"], ["id", "nickname", "type", "text", "pInputText", "", "formControlName", "nickname", 1, "w-full", 3, "placeholder"], ["for", "profileName", 1, "flex", "align-items-center", "gap-2", "font-normal"], ["id", "profileName", "type", "text", "pInputText", "", "formControlName", "profileName", 1, "w-full", 3, "placeholder"], ["for", "firstName", 1, "block", "font-normal"], ["id", "firstName", "type", "text", "pInputText", "", "formControlName", "firstName", 1, "w-full", 3, "placeholder"], ["for", "lastName", 1, "block", "font-normal"], ["id", "lastName", "type", "text", "pInputText", "", "formControlName", "lastName", 1, "w-full", 3, "placeholder"], ["for", "birthDate", 1, "block", "font-normal"], ["formControlName", "birthDate", "id", "birthDate", "inputId", "birthDate", "styleClass", "w-full", "dateFormat", "dd/mm/yy", 3, "showIcon", "maxDate", "required", "dataType", "placeholder"], ["for", "website", 1, "block", "font-normal"], ["id", "website", "type", "text", "pInputText", "", "formControlName", "website", 1, "w-full", 3, "placeholder"], [1, "mb-3", "input-group", "bio-group"], ["for", "bio", 1, "block", "font-normal", "pt-3"], ["id", "bio", "rows", "3", "pInputTextarea", "", "formControlName", "bio", 1, "w-full", 3, "autoResize", "placeholder"], [1, "flex", "flex-column", "md:flex-row", "gap-3", "pt-2", "w-full"], ["type", "button", "pButton", "", "pRipple", "", "icon", "pi pi-key", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "routerLink", "label"], ["type", "submit", "pButton", "", "pRipple", "", "icon", "pi pi-check", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "disabled", "label"], [1, "error-message", "text-sm", "text-red-400"]],
       template: function SettingsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "app-container", 0);
@@ -421,120 +423,128 @@ let SettingsComponent = /*#__PURE__*/(() => {
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "div", 3)(15, "label", 7);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](17, "translate");
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](18, "input", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](18, "i", 8);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](19, "translate");
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](20, SettingsComponent_small_20_Template, 3, 3, "small", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](21, "div", 3)(22, "label", 9);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](23);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](24, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](20, "input", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](21, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](22, SettingsComponent_small_22_Template, 3, 3, "small", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](25, "input", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](23, "div", 3)(24, "label", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](25);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](26, "translate");
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](27, SettingsComponent_small_27_Template, 3, 4, "small", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](27, "i", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](28, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](28, "div", 3)(29, "label", 11);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](30);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](31, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](29, "input", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](30, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](31, SettingsComponent_small_31_Template, 3, 4, "small", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](32, "input", 12);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](33, "translate");
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](34, SettingsComponent_small_34_Template, 3, 4, "small", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](32, "div", 3)(33, "label", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](34);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](35, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](35, "div", 3)(36, "label", 13);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](37);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](38, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](36, "input", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](37, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](38, SettingsComponent_small_38_Template, 3, 4, "small", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](39, "input", 14);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](40, "translate");
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](41, SettingsComponent_small_41_Template, 3, 4, "small", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](39, "div", 3)(40, "label", 14);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](41);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](42, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](42, "div", 3)(43, "label", 15);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](44);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](45, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](43, "input", 15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](44, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](45, SettingsComponent_small_45_Template, 3, 4, "small", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](46, "p-calendar", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](47, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](46, "div", 3)(47, "label", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](48);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](49, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](48, "div", 3)(49, "label", 17);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](50);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](50, "p-calendar", 17);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](51, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](52, "input", 18);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](53, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](52, "div", 3)(53, "label", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](54);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](55, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](54, "div", 19)(55, "label", 20);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](56, "Bio");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](56, "input", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](57, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](57, "textarea", 21);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](58, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](58, "div", 20)(59, "label", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](60, "Bio");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](59, "div", 22);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](60, "button", 23);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](61, "translate");
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](62, "button", 24);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](63, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](61, "textarea", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](62, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](63, "div", 23);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](64, "button", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](65, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](66, "button", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](67, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
         }
         if (rf & 2) {
           let tmp_6_0;
-          let tmp_9_0;
-          let tmp_12_0;
-          let tmp_15_0;
-          let tmp_18_0;
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("width", 600)("isLoading", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](1, 33, ctx.isLoading$));
+          let tmp_11_0;
+          let tmp_16_0;
+          let tmp_19_0;
+          let tmp_22_0;
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("width", 600)("isLoading", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](1, 37, ctx.isLoading$));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](4, 35, "SETTINGS_PAGE.TITLE"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](4, 39, "SETTINGS_PAGE.TITLE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("formGroup", ctx.settingsForm);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](10, 37, "LABEL.NICKNAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](10, 41, "LABEL.EMAIL"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](12, 39, "PLACEHOLDER.NICKNAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](12, 43, "PLACEHOLDER.EMAIL"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_6_0 = ctx.settingsForm.get("userName")) == null ? null : tmp_6_0.hasError("required")) && ((tmp_6_0 = ctx.settingsForm.get("userName")) == null ? null : tmp_6_0.touched));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", (tmp_6_0 = ctx.settingsForm.get("email")) == null ? null : tmp_6_0.hasError("email"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](17, 41, "LABEL.EMAIL"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](17, 45, "LABEL.NICKNAME"), " ");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](19, 43, "PLACEHOLDER.EMAIL"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("pTooltip", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](19, 47, "TOOLTIP.NICKNAME_SETTINGS"))("positionTop", -8);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", (tmp_9_0 = ctx.settingsForm.get("email")) == null ? null : tmp_9_0.hasError("email"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](21, 49, "PLACEHOLDER.NICKNAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_11_0 = ctx.settingsForm.get("userName")) == null ? null : tmp_11_0.hasError("required")) && ((tmp_11_0 = ctx.settingsForm.get("userName")) == null ? null : tmp_11_0.touched));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](24, 45, "LABEL.USER_NAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](26, 51, "LABEL.PROFILE_NAME"), " ");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](26, 47, "PLACEHOLDER.USER_NAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("pTooltip", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](28, 53, "TOOLTIP.PROFILE_NAME_SETTINGS"))("positionTop", -8);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_12_0 = ctx.settingsForm.get("userName")) == null ? null : tmp_12_0.hasError("maxlength")) && ((tmp_12_0 = ctx.settingsForm.get("userName")) == null ? null : tmp_12_0.touched));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](30, 55, "PLACEHOLDER.PROFILE_NAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_16_0 = ctx.settingsForm.get("profileName")) == null ? null : tmp_16_0.hasError("maxlength")) && ((tmp_16_0 = ctx.settingsForm.get("profileName")) == null ? null : tmp_16_0.touched));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](31, 49, "LABEL.FIRST_NAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](35, 57, "LABEL.FIRST_NAME"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](33, 51, "PLACEHOLDER.FIRST_NAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](37, 59, "PLACEHOLDER.FIRST_NAME"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_15_0 = ctx.settingsForm.get("firstName")) == null ? null : tmp_15_0.hasError("maxlength")) && ((tmp_15_0 = ctx.settingsForm.get("firstName")) == null ? null : tmp_15_0.touched));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_19_0 = ctx.settingsForm.get("firstName")) == null ? null : tmp_19_0.hasError("maxlength")) && ((tmp_19_0 = ctx.settingsForm.get("firstName")) == null ? null : tmp_19_0.touched));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](38, 53, "LABEL.LAST_NAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](42, 61, "LABEL.LAST_NAME"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](40, 55, "PLACEHOLDER.LAST_NAME"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](44, 63, "PLACEHOLDER.LAST_NAME"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_18_0 = ctx.settingsForm.get("lastName")) == null ? null : tmp_18_0.hasError("maxlength")) && ((tmp_18_0 = ctx.settingsForm.get("lastName")) == null ? null : tmp_18_0.touched));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ((tmp_22_0 = ctx.settingsForm.get("lastName")) == null ? null : tmp_22_0.hasError("maxlength")) && ((tmp_22_0 = ctx.settingsForm.get("lastName")) == null ? null : tmp_22_0.touched));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](45, 57, "LABEL.BIRTH_DATE"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](49, 65, "LABEL.BIRTH_DATE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("showIcon", true)("maxDate", ctx.maxDate)("required", true)("dataType", "Date")("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](47, 59, "PLACEHOLDER.BIRTH_DATE"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("showIcon", true)("maxDate", ctx.maxDate)("required", true)("dataType", "Date")("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](51, 67, "PLACEHOLDER.BIRTH_DATE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](51, 61, "LABEL.WEBSITE"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](55, 69, "LABEL.WEBSITE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](53, 63, "PLACEHOLDER.WEBSITE"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](57, 71, "PLACEHOLDER.WEBSITE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](5);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("autoResize", true)("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](58, 65, "PLACEHOLDER.BIO"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("autoResize", true)("placeholder", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](62, 73, "PLACEHOLDER.BIO"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](71, _c0, ctx.URLS.CHANGE_PASSWORD))("label", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](61, 67, "BTN.CHANGE_PASSWORD"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](79, _c0, ctx.URLS.CHANGE_PASSWORD))("label", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](65, 75, "BTN.CHANGE_PASSWORD"));
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("disabled", !ctx.settingsForm.valid && (ctx.settingsForm.dirty || ctx.settingsForm.touched))("label", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](63, 69, "BTN.UPDATE_SETTINGS"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("disabled", !ctx.settingsForm.valid && (ctx.settingsForm.dirty || ctx.settingsForm.touched))("label", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](67, 77, "BTN.UPDATE_SETTINGS"));
         }
       },
-      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_10__.RouterLink, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_3__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.RequiredValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControlName, primeng_inputtext__WEBPACK_IMPORTED_MODULE_11__.InputText, primeng_button__WEBPACK_IMPORTED_MODULE_12__.ButtonDirective, primeng_ripple__WEBPACK_IMPORTED_MODULE_13__.Ripple, primeng_calendar__WEBPACK_IMPORTED_MODULE_14__.Calendar, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_15__.InputTextarea, _shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_4__.PhotoEditProfileComponent, _angular_common__WEBPACK_IMPORTED_MODULE_9__.AsyncPipe, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__.TranslatePipe],
+      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_10__.RouterLink, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_3__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.RequiredValidator, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_6__.FormControlName, primeng_inputtext__WEBPACK_IMPORTED_MODULE_11__.InputText, primeng_button__WEBPACK_IMPORTED_MODULE_12__.ButtonDirective, primeng_ripple__WEBPACK_IMPORTED_MODULE_13__.Ripple, primeng_calendar__WEBPACK_IMPORTED_MODULE_14__.Calendar, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_15__.InputTextarea, _shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_4__.PhotoEditProfileComponent, primeng_tooltip__WEBPACK_IMPORTED_MODULE_16__.Tooltip, _angular_common__WEBPACK_IMPORTED_MODULE_9__.AsyncPipe, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__.TranslatePipe],
       styles: [".input-group[_ngcontent-%COMP%] {\n  display: grid;\n  align-items: center;\n  grid-template-columns: 2fr 3fr;\n  row-gap: 0.5rem;\n}\n@media (min-width: 768px) {\n  .input-group[_ngcontent-%COMP%] {\n    grid-template-columns: 180px 1fr;\n  }\n}\n\n.bio-group[_ngcontent-%COMP%] {\n  align-items: flex-start;\n}\n\n.error-message[_ngcontent-%COMP%] {\n  grid-column-start: 2;\n  padding-left: 0.5rem;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvc2V0dGluZ3MvY29tcG9uZW50cy9zZXR0aW5ncy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtFQUNBLDhCQUFBO0VBQ0EsZUFBQTtBQUNGO0FBQ0U7RUFORjtJQU9JLGdDQUFBO0VBRUY7QUFDRjs7QUFDQTtFQUNFLHVCQUFBO0FBRUY7O0FBQ0E7RUFDRSxvQkFBQTtFQUNBLG9CQUFBO0FBRUYiLCJzb3VyY2VzQ29udGVudCI6WyIuaW5wdXQtZ3JvdXAge1xuICBkaXNwbGF5OiBncmlkO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDJmciAzZnI7XG4gIHJvdy1nYXA6IDAuNXJlbTtcblxuICBAbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDE4MHB4IDFmcjtcbiAgfVxufVxuXG4uYmlvLWdyb3VwIHtcbiAgYWxpZ24taXRlbXM6IGZsZXgtc3RhcnQ7XG59XG5cbi5lcnJvci1tZXNzYWdlIHtcbiAgZ3JpZC1jb2x1bW4tc3RhcnQ6IDI7XG4gIHBhZGRpbmctbGVmdDogMC41cmVtO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
     });
   }
@@ -621,7 +631,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_app_shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/shared/components/photo-edit-profile/photo-edit-profile.component */ 313);
 /* harmony import */ var _components_change_password_change_password_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/change-password/change-password.component */ 5240);
 /* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/password */ 3219);
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/tooltip */ 1251);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
+
 
 
 
@@ -646,7 +658,7 @@ let SettingsModule = /*#__PURE__*/(() => {
       type: SettingsModule
     });
     static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjector"]({
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule, _settings_routing_module__WEBPACK_IMPORTED_MODULE_1__.SettingsRoutingModule, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_8__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_10__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_11__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_12__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_13__.InputTextareaModule, src_app_shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_3__.PhotoEditProfileComponent, primeng_password__WEBPACK_IMPORTED_MODULE_14__.PasswordModule]
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule, _settings_routing_module__WEBPACK_IMPORTED_MODULE_1__.SettingsRoutingModule, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_8__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_10__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_11__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_12__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_13__.InputTextareaModule, src_app_shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_3__.PhotoEditProfileComponent, primeng_password__WEBPACK_IMPORTED_MODULE_14__.PasswordModule, primeng_tooltip__WEBPACK_IMPORTED_MODULE_15__.TooltipModule]
     });
   }
   return SettingsModule;
@@ -654,7 +666,7 @@ let SettingsModule = /*#__PURE__*/(() => {
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsetNgModuleScope"](SettingsModule, {
     declarations: [_components_settings_component__WEBPACK_IMPORTED_MODULE_0__.SettingsComponent, _components_change_password_change_password_component__WEBPACK_IMPORTED_MODULE_4__.ChangePasswordComponent],
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule, _settings_routing_module__WEBPACK_IMPORTED_MODULE_1__.SettingsRoutingModule, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_8__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_10__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_11__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_12__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_13__.InputTextareaModule, src_app_shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_3__.PhotoEditProfileComponent, primeng_password__WEBPACK_IMPORTED_MODULE_14__.PasswordModule]
+    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule, _settings_routing_module__WEBPACK_IMPORTED_MODULE_1__.SettingsRoutingModule, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_8__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_9__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_10__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_11__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_12__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_13__.InputTextareaModule, src_app_shared_components_photo_edit_profile_photo_edit_profile_component__WEBPACK_IMPORTED_MODULE_3__.PhotoEditProfileComponent, primeng_password__WEBPACK_IMPORTED_MODULE_14__.PasswordModule, primeng_tooltip__WEBPACK_IMPORTED_MODULE_15__.TooltipModule]
   });
 })();
 
