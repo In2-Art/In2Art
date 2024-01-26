@@ -1,0 +1,28 @@
+.input-group {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 3fr;
+  row-gap: 0.5rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 180px 1fr;
+  }
+}
+
+.error-message {
+  grid-column-start: 2;
+  padding-left: 0.5rem;
+}
+
+.input-letter-count {
+  padding: 5px 2px;
+  background-color: #3b3b3b;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  &.error {
+    color: var(--red-400);
+    font-weight: bold;
+  }
+}

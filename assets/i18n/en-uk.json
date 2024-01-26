@@ -68,11 +68,12 @@
     "INVALID_EMAIL": "Email is invalid!",
     "MIN_LENGTH_PASSWORD": "Password must be at least 8 character long!",
     "NO_MATCH_PASSWORD": "Password do not match!",
-    "USERNAME_LONG": "Username cannot exceed 20 characters. Currently at ",
-    "FIRST_NAME_LONG": "First name cannot exceed 20 characters. Currently at ",
-    "LAST_NAME_LONG": "Last name cannot exceed 20 characters. Currently at ",
+    "USERNAME_LONG": "Username may only contain a maximum of 20 characters",
+    "FIRST_NAME_LONG": "First name may only contain a maximum of 20 characters",
+    "LAST_NAME_LONG": "Last name may only contain a maximum of 20 characters",
     "SOMETHING_WRONG":"Something went wrong!",
-    "WRONG_TYPE": "Invalid file type. Please select an image."
+    "WRONG_TYPE": "Invalid file type. Please select an image.",
+    "MAX_LIMIT": "You've exceeded the maximum character limit."
   },
   "SUCCESS": {
     "TITLE": "Success",

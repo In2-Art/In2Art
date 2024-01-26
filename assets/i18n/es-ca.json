@@ -68,9 +68,9 @@
     "INVALID_EMAIL": "El correu electrònic no és vàlid!",
     "MIN_LENGTH_PASSWORD": "La contrasenya ha de tenir almenys 8 caràcters!",
     "NO_MATCH_PASSWORD": "La contrasenya no coincideix!",
-    "USERNAME_LONG": "El nom d'usuari no pot superar els 20 caràcters. Actualment a",
-    "FIRST_NAME_LONG": "El nom no pot superar els 20 caràcters. Actualment a",
-    "LAST_NAME_LONG": "El cognom no pot superar els 20 caràcters. Actualment a",
+    "USERNAME_LONG": "El nom d'usuari només pot contenir un màxim de 20 caràcters",
+    "FIRST_NAME_LONG": "El nom només pot contenir un màxim de 20 caràcters",
+    "LAST_NAME_LONG": "El cognom només pot contenir un màxim de 20 caràcters",
     "SOMETHING_WRONG": "Alguna cosa ha anat malament!",
     "WRONG_TYPE": "Tipus de fitxer no vàlid. Seleccioneu una imatge."
   },
