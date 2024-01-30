@@ -68,11 +68,11 @@
     "INVALID_EMAIL": "¡El correo electrónico es invalido!",
     "MIN_LENGTH_PASSWORD": "¡La contraseña debe tener al menos 8 caracteres!",
     "NO_MATCH_PASSWORD": "¡La contraseña no coincide!",
-    "USERNAME_LONG": "El nombre de usuario sólo puede contener un máximo de 20 caracteres",
-    "FIRST_NAME_LONG": "El nombre sólo puede contener un máximo de 20 caracteres",
-    "LAST_NAME_LONG": "El apellido sólo puede contener un máximo de 20 caracteres",
     "SOMETHING_WRONG":"¡Algo ha ido mal!",
-    "WRONG_TYPE": "Tipo de archivo invalido. Por favor seleccione una imagen."
+    "WRONG_TYPE": "Tipo de archivo invalido. Por favor seleccione una imagen.",
+    "WEBSITE_FORMAT": "Introduzca una dirección de sitio web válida.",
+    "NICKNAME_EXIST": "El apodo ya existe. Seleccione un nombre de usuario diferente.",
+    "NICKNAME_SPACES": "Asegúrese de que la entrada contenga solo caracteres alfanuméricos, guiones bajos, guiones y ningún espacio."
   },
   "SUCCESS": {
     "TITLE": "Éxito",

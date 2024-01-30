@@ -68,12 +68,12 @@
     "INVALID_EMAIL": "Email is invalid!",
     "MIN_LENGTH_PASSWORD": "Password must be at least 8 character long!",
     "NO_MATCH_PASSWORD": "Password do not match!",
-    "USERNAME_LONG": "Username may only contain a maximum of 20 characters",
-    "FIRST_NAME_LONG": "First name may only contain a maximum of 20 characters",
-    "LAST_NAME_LONG": "Last name may only contain a maximum of 20 characters",
     "SOMETHING_WRONG":"Something went wrong!",
     "WRONG_TYPE": "Invalid file type. Please select an image.",
-    "MAX_LIMIT": "You've exceeded the maximum character limit."
+    "MAX_LIMIT": "You've exceeded the maximum character limit.",
+    "WEBSITE_FORMAT": "Please enter a valid website address.",
+    "NICKNAME_EXIST": "Nickname already exists. Please select a different username.",
+    "NICKNAME_SPACES": "Please ensure the input contains only alphanumeric characters, underscores, hyphens, and no spaces."
   },
   "SUCCESS": {
     "TITLE": "Success",
