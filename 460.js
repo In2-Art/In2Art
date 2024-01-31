@@ -615,6 +615,7 @@ let SettingsComponent = /*#__PURE__*/(() => {
         this.settingsForm.patchValue({
           lastName: identity.lastName
         });
+        console.log('init date', this.formatDate(identity.birthDate));
         this.settingsForm.patchValue({
           birthDate: this.formatDate(identity.birthDate)
         });
@@ -670,12 +671,10 @@ let SettingsComponent = /*#__PURE__*/(() => {
       }
     }
     formatDate(value) {
-      console.log('format date before', value);
       const date = new Date(value);
       const day = date.getDate().toString().padStart(2, '0');
       const month = (date.getMonth() + 1).toString().padStart(2, '0');
       const year = date.getFullYear();
-      console.log('format date after', `${day}/${month}/${year}`);
       return `${day}/${month}/${year}`;
     }
     convertStringToDate(value) {
