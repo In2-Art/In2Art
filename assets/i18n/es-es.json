@@ -60,6 +60,8 @@
     "EMAIL_NOT_FOUND": "Correo electrónico no encontrado o contraseña incorrecta",
     "REQUIRED_EMAIL": "¡Correo electrónico es obligatorio!",
     "REQUIRED_NICKNAME": "¡Se requiere apodo!",
+    "REQUIRED_FIRST_NAME": "¡Se requiere el primer nombre!",
+    "REQUIRED_LAST_NAME": "¡Se requiere apellido!",
     "REQUIRED_PROFILE_NAME": "¡El nombre del perfil es obligatorio!",
     "REQUIRED_PASSWORD": "¡La contraseña es obligatoria!",
     "REQUIRED_BIRTHDATE": "¡La fecha de nacimiento es obligatoria!",
@@ -71,8 +73,9 @@
     "SOMETHING_WRONG":"¡Algo ha ido mal!",
     "WRONG_TYPE": "Tipo de archivo invalido. Por favor seleccione una imagen.",
     "WEBSITE_FORMAT": "Introduzca una dirección de sitio web válida.",
-    "NICKNAME_EXIST": "El apodo ya existe. Seleccione un nombre de usuario diferente.",
-    "NICKNAME_SPACES": "Asegúrese de que la entrada contenga solo caracteres alfanuméricos, guiones bajos, guiones y ningún espacio."
+    "NICKNAME_EXIST": "El apodo ya existe",
+    "NICKNAME_SPACES": "Asegúrese de que la entrada contenga solo caracteres alfanuméricos, guiones bajos, guiones y ningún espacio.",
+    "NOTHING_TO_CHANGE": "No se puede enviar el formulario porque no se han realizado cambios."
   },
   "SUCCESS": {
     "TITLE": "Éxito",

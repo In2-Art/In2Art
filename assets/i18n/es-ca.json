@@ -60,6 +60,8 @@
     "EMAIL_NOT_FOUND": "No s'ha trobat el correu electrònic o la contrasenya és incorrecta",
     "REQUIRED_EMAIL": "El correu electrònic és obligatori!",
     "REQUIRED_NICKNAME": "El sobrenom és obligatori!",
+    "REQUIRED_FIRST_NAME": "El primer nom és obligatori!",
+    "REQUIRED_LAST_NAME": "El cognom és obligatori!",
     "REQUIRED_PROFILE_NAME": "El nom del perfil és obligatori!",
     "REQUIRED_PASSWORD": "La contrasenya és obligatòria!",
     "REQUIRED_BIRTHDATE": "La data de naixement és obligatòria!",
@@ -71,8 +73,9 @@
     "SOMETHING_WRONG": "Alguna cosa ha anat malament!",
     "WRONG_TYPE": "Tipus de fitxer no vàlid. Seleccioneu una imatge.",
     "WEBSITE_FORMAT": "Introduïu una adreça de lloc web vàlida.",
-    "NICKNAME_EXIST": "El sobrenom ja existeix. Seleccioneu un nom d'usuari diferent.",
-    "NICKNAME_SPACES": "Assegureu-vos que l'entrada només contingui caràcters alfanumèrics, guions baixos, guions i sense espais."
+    "NICKNAME_EXIST": "El sobrenom ja existeix",
+    "NICKNAME_SPACES": "Assegureu-vos que l'entrada només contingui caràcters alfanumèrics, guions baixos, guions i sense espais.",
+    "NOTHING_TO_CHANGE": "No es pot enviar el formulari perquè no s'han fet canvis."
   },
   "SUCCESS": {
     "TITLE": "Èxit",

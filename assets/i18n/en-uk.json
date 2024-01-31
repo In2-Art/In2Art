@@ -60,6 +60,8 @@
     "EMAIL_NOT_FOUND": "Email not found or password is wrong",
     "REQUIRED_EMAIL": "Email is required!",
     "REQUIRED_NICKNAME": "Nickname is required!",
+    "REQUIRED_FIRST_NAME": "First name is required!",
+    "REQUIRED_LAST_NAME": "Last name is required!",
     "REQUIRED_PROFILE_NAME": "Profile name is required!",
     "REQUIRED_PASSWORD": "Password is required!",
     "REQUIRED_BIRTHDATE": "Birth date is required!",
@@ -72,8 +74,9 @@
     "WRONG_TYPE": "Invalid file type. Please select an image.",
     "MAX_LIMIT": "You've exceeded the maximum character limit.",
     "WEBSITE_FORMAT": "Please enter a valid website address.",
-    "NICKNAME_EXIST": "Nickname already exists. Please select a different username.",
-    "NICKNAME_SPACES": "Please ensure the input contains only alphanumeric characters, underscores, hyphens, and no spaces."
+    "NICKNAME_EXIST": "Nickname already exists",
+    "NICKNAME_SPACES": "Please ensure the input contains only alphanumeric characters, underscores, hyphens, and no spaces.",
+    "NOTHING_TO_CHANGE": "Cannot submit the form as no changes have been made."
   },
   "SUCCESS": {
     "TITLE": "Success",
