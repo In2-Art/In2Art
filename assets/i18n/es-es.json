@@ -24,7 +24,8 @@
     "CANCEL": "Cancelar",
     "UPLOAD": "Subir",
     "CHANGE_PASSWORD": "Cambiar la contraseña",
-    "TO_SETTINGS": "Volver a la configuración"
+    "TO_SETTINGS": "Volver a la configuración",
+    "TO_PROFILE": "Volver al perfil"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -43,7 +44,19 @@
     "NICKNAME": "Apodo",
     "PROFILE_NAME": "Nombre de perfil",
     "FIRST_NAME": "Nombre",
-    "LAST_NAME": "Apellido"
+    "LAST_NAME": "Apellido",
+    "TITLE": "Título",
+    "DESCRIPTION": "Descripción",
+    "UPLOAD": "Subir ilustraciones",
+    "DATE": "Fecha de creación",
+    "DATE_FORMAT": "Formato de fecha",
+    "IS_ARTIST": "¿Es el usuario el autor?",
+    "TECHNIQUE": "Técnica",
+    "DIMENSIONS": "Dimensiones",
+    "MATERIAL": "Material",
+    "PRESERVATION": "Preservación",
+    "LOCATION": "Ubicación",
+    "OTHERS": "Otra información"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuación",
@@ -163,5 +176,15 @@
     "PROFILE_NAME": "Este es el nombre que será visible para otros usuarios de la plataforma. Siéntete libre de ingresar tu nombre real o elegir un nombre con el que te sientas cómodo",
     "NICKNAME_SETTINGS": "El apodo se utiliza en la URL del perfil de usuario. No hay ninguna opción para cambiar su apodo en este momento.",
     "PROFILE_NAME_SETTINGS": "Este nombre es visible para otros usuarios de la plataforma."
+  },
+  "NEW_PAGE": {
+    "ARTWORK": {
+      "TITLE": "Crear nueva obra de arte"
+    }
+  },
+  "SET_PHOTO_PAGE": {
+    "TITLE_1": "Configura tu",
+    "TITLE_2": "aquí",
+    "CONTENT": "Puedes elegir una de las imágenes propuestas o subir la tuya propia."
   }
 }

@@ -8514,6 +8514,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-fileupload-choose {
     min-height: 50px;
+    width: 100%;
 }
 /*!******************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/primeflex/primeflex.css ***!

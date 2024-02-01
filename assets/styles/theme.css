@@ -7405,4 +7405,5 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-fileupload-choose {
     min-height: 50px;
+    width: 100%;
 }

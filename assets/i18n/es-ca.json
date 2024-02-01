@@ -24,7 +24,8 @@
     "CANCEL": "Cancel",
     "UPLOAD": "Carrega",
     "CHANGE_PASSWORD": "Canvia la contrasenya",
-    "TO_SETTINGS": "Torna a la configuració"
+    "TO_SETTINGS": "Torna a la configuració",
+    "TO_PROFILE": "Tornar al perfil"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -43,7 +44,19 @@
     "NICKNAME": "Àlies",
     "PROFILE_NAME": "Nom de perfil",
     "FIRST_NAME": "Nom",
-    "LAST_NAME": "Cognom"
+    "LAST_NAME": "Cognom",
+    "TITLE": "Títol",
+    "DESCRIPTION": "Descripció",
+    "UPLOAD": "Carregueu obres d'art",
+    "DATE": "Data de creació",
+    "DATE_FORMAT": "Format de data",
+    "IS_ARTIST": "L'usuari és l'autor?",
+    "TECHNIQUE": "Tècnica",
+    "DIMENSIONS": "Dimensions",
+    "MATERIAL": "Material",
+    "PRESERVATION": "Conservació",
+    "LOCATION": "Ubicació",
+    "OTHERS": "Altra informació"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuació",
@@ -163,5 +176,15 @@
     "PROFILE_NAME": "Aquest és el nom que serà visible per a altres usuaris de la plataforma. No dubteu a introduir el vostre nom real o triar el nom amb el qual us sentiu còmode",
     "NICKNAME_SETTINGS": "L'àlies s'utilitza a l'URL del perfil d'usuari. No hi ha cap opció per canviar el vostre àlies en aquest moment.",
     "PROFILE_NAME_SETTINGS": "Aquest nom és visible per a altres usuaris de la plataforma."
+  },
+  "NEW_PAGE": {
+    "ARTWORK": {
+      "TITLE": "Crea una obra d'art nova"
+    }
+  },
+  "SET_PHOTO_PAGE": {
+    "TITLE_1": "Estableix el teu ",
+    "TITLE_2": "aquí",
+    "CONTENT": "Podeu triar una de les imatges proposades o pujar la vostra"
   }
 }
