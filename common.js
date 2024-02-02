@@ -1,6 +1,72 @@
 "use strict";
 (self["webpackChunkweb_app_versions"] = self["webpackChunkweb_app_versions"] || []).push([[592],{
 
+/***/ 371:
+/*!*****************************************************!*\
+  !*** ./src/app/shared/utils/generate-image-path.ts ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   generateImagePath: () => (/* binding */ generateImagePath)
+/* harmony export */ });
+function generateImagePath(count, filePath, fileExtension) {
+  const totalDigits = 48;
+  if (count > totalDigits) {
+    throw new Error('Count should be less than or equal to totalDigits');
+  }
+  const getRandomUniqueDigits = (totalDigits, count) => {
+    const allDigits = Array.from({
+      length: totalDigits
+    }, (_, i) => i + 1);
+    const shuffledDigits = allDigits.sort(() => Math.random() - 0.5);
+    return shuffledDigits.slice(0, count);
+  };
+  const selectedDigits = getRandomUniqueDigits(totalDigits, count);
+  return selectedDigits.map(digit => `${filePath}${digit}.${fileExtension}`);
+}
+
+/***/ }),
+
+/***/ 1236:
+/*!**************************************************************!*\
+  !*** ./node_modules/rxjs/dist/esm/internal/lastValueFrom.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   lastValueFrom: () => (/* binding */ lastValueFrom)
+/* harmony export */ });
+/* harmony import */ var _util_EmptyError__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/EmptyError */ 1967);
+
+function lastValueFrom(source, config) {
+  const hasConfig = typeof config === 'object';
+  return new Promise((resolve, reject) => {
+    let _hasValue = false;
+    let _value;
+    source.subscribe({
+      next: value => {
+        _value = value;
+        _hasValue = true;
+      },
+      error: reject,
+      complete: () => {
+        if (_hasValue) {
+          resolve(_value);
+        } else if (hasConfig) {
+          resolve(config.defaultValue);
+        } else {
+          reject(new _util_EmptyError__WEBPACK_IMPORTED_MODULE_0__.EmptyError());
+        }
+      }
+    });
+  });
+}
+
+/***/ }),
+
 /***/ 8859:
 /*!***************************************************************!*\
   !*** ./node_modules/primeng/fesm2022/primeng-icons-minus.mjs ***!

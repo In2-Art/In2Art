@@ -45,6 +45,7 @@
     "PROFILE_NAME": "Nombre de perfil",
     "FIRST_NAME": "Nombre",
     "LAST_NAME": "Apellido",
+    "SELECT_IMAGE": "Selecciona una imagen",
     "TITLE": "Título",
     "DESCRIPTION": "Descripción",
     "UPLOAD": "Subir ilustraciones",
@@ -89,6 +90,7 @@
     "NICKNAME_EXIST": "El apodo ya existe",
     "NICKNAME_SPACES": "Asegúrese de que la entrada contenga solo caracteres alfanuméricos, guiones bajos, guiones y ningún espacio.",
     "NOTHING_TO_CHANGE": "No se puede enviar el formulario porque no se han realizado cambios."
+    
   },
   "SUCCESS": {
     "TITLE": "Éxito",
@@ -176,6 +178,10 @@
     "PROFILE_NAME": "Este es el nombre que será visible para otros usuarios de la plataforma. Siéntete libre de ingresar tu nombre real o elegir un nombre con el que te sientas cómodo",
     "NICKNAME_SETTINGS": "El apodo se utiliza en la URL del perfil de usuario. No hay ninguna opción para cambiar su apodo en este momento.",
     "PROFILE_NAME_SETTINGS": "Este nombre es visible para otros usuarios de la plataforma."
+  },
+  "IMAGE_CROPPER": {
+    "PHOTO_INFO": "Recuerda guardar tus datos porque se cambie tu foto de perfil",
+    "WARNING_TITLE": "¡Atención!"
   },
   "NEW_PAGE": {
     "ARTWORK": {

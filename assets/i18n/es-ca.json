@@ -45,6 +45,7 @@
     "PROFILE_NAME": "Nom de perfil",
     "FIRST_NAME": "Nom",
     "LAST_NAME": "Cognom",
+    "SELECT_IMAGE": "Selecciona una imatge",
     "TITLE": "Títol",
     "DESCRIPTION": "Descripció",
     "UPLOAD": "Carregueu obres d'art",
@@ -88,7 +89,7 @@
     "WEBSITE_FORMAT": "Introduïu una adreça de lloc web vàlida.",
     "NICKNAME_EXIST": "El sobrenom ja existeix",
     "NICKNAME_SPACES": "Assegureu-vos que l'entrada només contingui caràcters alfanumèrics, guions baixos, guions i sense espais.",
-    "NOTHING_TO_CHANGE": "No es pot enviar el formulari perquè no s'han fet canvis."
+    "NOTHING_TO_CHANGE": "No es pot enviar el formulari perquè no s'han fet canvis."    
   },
   "SUCCESS": {
     "TITLE": "Èxit",
@@ -176,6 +177,10 @@
     "PROFILE_NAME": "Aquest és el nom que serà visible per a altres usuaris de la plataforma. No dubteu a introduir el vostre nom real o triar el nom amb el qual us sentiu còmode",
     "NICKNAME_SETTINGS": "L'àlies s'utilitza a l'URL del perfil d'usuari. No hi ha cap opció per canviar el vostre àlies en aquest moment.",
     "PROFILE_NAME_SETTINGS": "Aquest nom és visible per a altres usuaris de la plataforma."
+  },
+  "IMAGE_CROPPER": {
+    "PHOTO_INFO": "Recorda guardar les teves dades perquè es canviï la teva foto de perfil",
+    "WARNING_TITLE": "Atenció !"
   },
   "NEW_PAGE": {
     "ARTWORK": {
