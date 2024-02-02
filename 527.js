@@ -13,9 +13,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs */ 1236);
-/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @store/auth/auth.selectors */ 4590);
-/* harmony import */ var _utils_generate_image_path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @utils/generate-image-path */ 371);
-/* harmony import */ var _store_auth_auth_actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @store/auth/auth.actions */ 3978);
+/* harmony import */ var _utils_generate_image_path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @utils/generate-image-path */ 371);
+/* harmony import */ var _store_auth_auth_actions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @store/auth/auth.actions */ 3978);
+/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @store/auth/auth.selectors */ 4590);
 /* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @enums/urls */ 5500);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 1699);
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ngrx/store */ 6270);
@@ -173,24 +173,17 @@ const _c2 = a0 => ({
 const _c3 = (a0, a1, a2) => [a0, a1, a2];
 let SetPhotoComponent = /*#__PURE__*/(() => {
   class SetPhotoComponent {
-    refresh() {
-      this.isRefreshed = true;
-      setTimeout(() => {
-        this.isRefreshed = false;
-        this.imagePaths = (0,_utils_generate_image_path__WEBPACK_IMPORTED_MODULE_2__.generateImagePath)(8, 'assets/images/welcome-photo/photo-profile', 'webp');
-      }, 1000);
-    }
     constructor(store, http, toast, translate) {
       this.store = store;
       this.http = http;
       this.toast = toast;
       this.translate = translate;
       this.URLS = _enums_urls__WEBPACK_IMPORTED_MODULE_4__.URLS;
-      this.pictureId$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_1__.selectCurrentUserPictureId);
-      this.userId$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_1__.selectCurrentUserId);
-      this.userNickname$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_1__.selectCurrentUserNickname);
-      this.isLoading$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_1__.selectIsLoadingAuth);
-      this.imagePaths = (0,_utils_generate_image_path__WEBPACK_IMPORTED_MODULE_2__.generateImagePath)(8, 'assets/images/welcome-photo/photo-profile', 'webp');
+      this.pictureId$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_3__.selectCurrentUserPictureId);
+      this.userId$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_3__.selectCurrentUserId);
+      this.userNickname$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_3__.selectCurrentUserNickname);
+      this.isLoading$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_3__.selectIsLoadingAuth);
+      this.imagePaths = (0,_utils_generate_image_path__WEBPACK_IMPORTED_MODULE_1__.generateImagePath)(8, 'assets/images/welcome-photo/photo-profile', 'webp');
       this.selectedPath = null;
       this.selectedFile = null;
       this.isRefreshed = false;
@@ -207,14 +200,14 @@ let SetPhotoComponent = /*#__PURE__*/(() => {
               responseType: 'blob'
             }));
             const base64String = yield _this.readFileAsBase64(res);
-            _this.store.dispatch((0,_store_auth_auth_actions__WEBPACK_IMPORTED_MODULE_3__.updateUserImageAction)({
+            _this.store.dispatch((0,_store_auth_auth_actions__WEBPACK_IMPORTED_MODULE_2__.updateUserImageAction)({
               photo: {
                 dataBase64: base64String,
                 fileExt: 'webp'
               }
             }));
           } else if (!_this.selectedPath && _this.selectedFile) {
-            _this.store.dispatch((0,_store_auth_auth_actions__WEBPACK_IMPORTED_MODULE_3__.updateUserImageAction)({
+            _this.store.dispatch((0,_store_auth_auth_actions__WEBPACK_IMPORTED_MODULE_2__.updateUserImageAction)({
               photo: {
                 dataBase64: _this.selectedFile,
                 fileExt: 'png'
@@ -225,6 +218,14 @@ let SetPhotoComponent = /*#__PURE__*/(() => {
           console.error('Error during conformation', error);
         }
       })();
+    }
+    refresh() {
+      this.onCancelHandler();
+      this.isRefreshed = true;
+      setTimeout(() => {
+        this.isRefreshed = false;
+        this.imagePaths = (0,_utils_generate_image_path__WEBPACK_IMPORTED_MODULE_1__.generateImagePath)(8, 'assets/images/welcome-photo/photo-profile', 'webp');
+      }, 1000);
     }
     onCancelHandler() {
       this.fileUpload.clear();

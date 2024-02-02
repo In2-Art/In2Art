@@ -3775,9 +3775,11 @@ let TabView = /*#__PURE__*/(() => {
     }
     updateScrollBar(index) {
       let tabHeader = this.navbar.nativeElement.children[index];
-      tabHeader.scrollIntoView({
-        block: 'nearest'
-      });
+      if (tabHeader) {
+        tabHeader.scrollIntoView({
+          block: 'nearest'
+        });
+      }
     }
     updateButtonState() {
       const content = this.content.nativeElement;
