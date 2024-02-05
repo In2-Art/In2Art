@@ -24,8 +24,8 @@
     "CANCEL": "Cancelar",
     "UPLOAD": "Subir",
     "CHANGE_PASSWORD": "Cambiar la contraseña",
-    "TO_SETTINGS": "Volver a la configuración",
-    "TO_PROFILE": "Volver al perfil"
+    "TO_SETTINGS": "Volver",
+    "TO_PROFILE": "Volver"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",

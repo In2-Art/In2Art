@@ -24,8 +24,8 @@
     "CANCEL": "Cancel",
     "UPLOAD": "Upload",
     "CHANGE_PASSWORD": "Change password",
-    "TO_SETTINGS": "Back to settings",
-    "TO_PROFILE": "Back to profile"
+    "TO_SETTINGS": "Back",
+    "TO_PROFILE": "Back"
   },
   "LABEL": {
     "PASSWORD": "Password",

@@ -24,8 +24,8 @@
     "CANCEL": "Cancel",
     "UPLOAD": "Carrega",
     "CHANGE_PASSWORD": "Canvia la contrasenya",
-    "TO_SETTINGS": "Torna a la configuració",
-    "TO_PROFILE": "Tornar al perfil"
+    "TO_SETTINGS": "Torna",
+    "TO_PROFILE": "Tornar"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
