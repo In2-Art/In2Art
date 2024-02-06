@@ -101,6 +101,7 @@
     "SIGN_IN":"You Sign In",
     "ACCOUNT_ACTIVED":"Your account is now activated!",
     "VERIFICATION_EMAIL":"We resend you verification email",
+    "VOTE": "Votación realizada correctamente",
     "AVATAR": "Avatar successfully selected! Welcome to the home page!",
     "UPDATE_USER": "Your settings updated!"
   },

@@ -327,28 +327,6 @@ let ProfileModule = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 5295:
-/*!****************************************************!*\
-  !*** ./src/app/store/profile/profile.selectors.ts ***!
-  \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   profileFeatureSelector: () => (/* binding */ profileFeatureSelector),
-/* harmony export */   selectIsLoadingProfile: () => (/* binding */ selectIsLoadingProfile),
-/* harmony export */   selectUserLoginInfo: () => (/* binding */ selectUserLoginInfo),
-/* harmony export */   selectUserPosts: () => (/* binding */ selectUserPosts)
-/* harmony export */ });
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ngrx/store */ 6270);
-
-const profileFeatureSelector = state => state.profile;
-const selectIsLoadingProfile = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(profileFeatureSelector, state => state.isLoading);
-const selectUserLoginInfo = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(profileFeatureSelector, state => state.loginInfo);
-const selectUserPosts = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(profileFeatureSelector, state => state.posts);
-
-/***/ }),
-
 /***/ 445:
 /*!************************************************************************!*\
   !*** ./node_modules/rxjs/dist/esm/internal/operators/combineLatest.js ***!
