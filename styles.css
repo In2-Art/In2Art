@@ -29144,21 +29144,11 @@ select:-webkit-autofill:focus {
   font-weight: bold;
 }
 
-:root {
-  --bgPrimary: #1A1A1A;
-  --bgSecondary: #37393d;
-  --text: #FEFEFA;
-  --textSecondary: #c7d3d9;
-  --inputBg: #25272B;
+* {
   --inputInvalid: #C05139;
   --iconsInactive: #8A8B8B;
   --inputPlaceholder: #8A8B8B;
   --activeLink: #FFAA2B;
-  --inputText: var(--text);
-  --inputFocus: var(--text);
-  --inputHover: var(--text);
-  --border: var(--text);
-  --btnText: var(--text);
   --btnPrimary: #008197;
   --btnHover: #066575;
   --btnActive: #066575;
@@ -29166,6 +29156,52 @@ select:-webkit-autofill:focus {
   --cropper-outline-color: black;
   --headerHeightDesktop: 100px;
   --headerHeightMobile: 80px;
+  --bgPrimary-dark: #1A1A1A;
+  --bgSecondary-dark: #37393d;
+  --text-dark: #FEFEFA;
+  --inputBg-dark: #25272B;
+  --bgPrimary-light: #FEFEFA;
+  --bgSecondary-light: #c8c6c2;
+  --text-light: #1A1A1A;
+  --inputBg-light: #dad8d4;
+}
+
+:root {
+  color-scheme: dark;
+  --bgPrimary: var(--bgPrimary-dark);
+  --bgSecondary: var(--bgSecondary-dark);
+  --text: var(--text-dark);
+  --inputBg: var(--inputBg-dark);
+  --inputText: var(--text);
+  --inputFocus: var(--text);
+  --inputHover: var(--text);
+  --border: var(--text);
+  --btnText: var(--text);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --bgPrimary: var(--bgPrimary-light);
+    --bgSecondary: var(--bgSecondary-light);
+    --text: var(--text-light);
+    --inputBg: var(--inputBg-light);
+  }
+}
+[color-scheme=dark] {
+  color-scheme: dark;
+  --bgPrimary: var(--bgPrimary-dark);
+  --bgSecondary: var(--bgSecondary-dark);
+  --text: var(--text-dark);
+  --inputBg: var(--inputBg-dark);
+}
+
+[color-scheme=light] {
+  color-scheme: light;
+  --bgPrimary: var(--bgPrimary-light);
+  --bgSecondary: var(--bgSecondary-light);
+  --text: var(--text-light);
+  --inputBg: var(--inputBg-light);
 }
 
 html {
