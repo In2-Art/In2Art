@@ -64,7 +64,7 @@ let SetPhotoComponent = /*#__PURE__*/(() => {
         }
       },
       dependencies: [src_app_shared_components_set_user_image_set_user_image_component__WEBPACK_IMPORTED_MODULE_1__.SetUserImageComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__.TranslatePipe],
-      styles: [".last-word[_ngcontent-%COMP%] {\n  color: #FFAA2B;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvc2V0LXBob3RvL2NvbXBvbmVudHMvc2V0LXBob3RvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBQTtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLmxhc3Qtd29yZCB7XG4gIGNvbG9yOiAjRkZBQTJCO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
+      styles: [".last-word[_ngcontent-%COMP%] {\n  color: var(--activeLink);\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvc2V0LXBob3RvL2NvbXBvbmVudHMvc2V0LXBob3RvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usd0JBQUE7QUFDRiIsInNvdXJjZXNDb250ZW50IjpbIi5sYXN0LXdvcmQge1xuICBjb2xvcjogdmFyKC0tYWN0aXZlTGluayk7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */"]
     });
   }
   return SetPhotoComponent;
