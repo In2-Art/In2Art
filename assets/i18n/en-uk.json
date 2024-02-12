@@ -25,7 +25,8 @@
     "UPLOAD": "Upload",
     "CHANGE_PASSWORD": "Change password",
     "TO_SETTINGS": "Back",
-    "TO_PROFILE": "Back"
+    "TO_PROFILE": "Back",
+    "HOME": "Home"
   },
   "LABEL": {
     "PASSWORD": "Password",

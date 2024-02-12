@@ -25,7 +25,8 @@
     "UPLOAD": "Subir",
     "CHANGE_PASSWORD": "Cambiar la contraseña",
     "TO_SETTINGS": "Volver",
-    "TO_PROFILE": "Volver"
+    "TO_PROFILE": "Volver",
+    "HOME": "Inicio"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",

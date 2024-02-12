@@ -25,7 +25,8 @@
     "UPLOAD": "Carrega",
     "CHANGE_PASSWORD": "Canvia la contrasenya",
     "TO_SETTINGS": "Torna",
-    "TO_PROFILE": "Tornar"
+    "TO_PROFILE": "Tornar",
+    "HOME": "Inici"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
