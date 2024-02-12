@@ -1959,12 +1959,14 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-button {
     color: var(--btnText);
     background: var(--btnPrimary);
-    border: 1px solid var(--btnPrimary);
+    border: 2px solid var(--btnPrimary);
     font-weight: bold;
-    padding: .75rem 1.25rem;
-    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 8px 1.25rem;
+    font-size: 26px;
+    line-height: 30px;
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
-    border-radius: 6px
+    border-radius: 1rem;
 }
 
 .p-button:enabled:hover {
@@ -2142,25 +2144,25 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-button.p-button-secondary, .p-buttonset.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
-    color: #fff;
-    background: #1d1e27;
-    border: 1px solid #1d1e27
+    color: var(--text);
+    background: var(--bgPrimary);
+    border: 2px solid var(--btnPrimary);
 }
 
 .p-button.p-button-secondary:enabled:hover, .p-buttonset.p-button-secondary > .p-button:enabled:hover, .p-splitbutton.p-button-secondary > .p-button:enabled:hover {
-    background: #1a1b23;
-    color: #fff;
-    border-color: #1a1b23
+    background: var(--bgPrimary);
+    color: var(--text);
+    border-color: var(--btnHover);
 }
 
 .p-button.p-button-secondary:enabled:focus, .p-buttonset.p-button-secondary > .p-button:enabled:focus, .p-splitbutton.p-button-secondary > .p-button:enabled:focus {
-    box-shadow: 0 0 0 1px #565973
+    box-shadow: 0 0 0 1px var(--btnFocus);
 }
 
 .p-button.p-button-secondary:enabled:active, .p-buttonset.p-button-secondary > .p-button:enabled:active, .p-splitbutton.p-button-secondary > .p-button:enabled:active {
     background: #17181f;
-    color: #fff;
-    border-color: #17181f
+    color: var(--text);
+    border-color: var(--btnActive);
 }
 
 .p-button.p-button-secondary.p-button-outlined, .p-buttonset.p-button-secondary > .p-button.p-button-outlined, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined {

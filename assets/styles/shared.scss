@@ -58,3 +58,11 @@ select:-webkit-autofill:focus {
     font-weight: bold;
   }
 }
+
+.logo {
+  display: flex;
+  height: fit-content;
+  gap: 15px;
+  font-size: 70px;
+  align-items: center;
+}

@@ -188,8 +188,7 @@
     }
   },
   "SET_PHOTO_PAGE": {
-    "TITLE_1": "Estableix el teu ",
-    "TITLE_2": "aquí",
+    "TITLE": "Estableix la teva icona d'usuari",
     "CONTENT": "Podeu triar una de les imatges proposades o pujar la vostra"
   }
 }

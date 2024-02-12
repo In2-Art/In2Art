@@ -190,8 +190,7 @@
     }
   },
   "SET_PHOTO_PAGE": {
-    "TITLE_1": "Configura tu",
-    "TITLE_2": "aquí",
+    "TITLE": "Establece tu icono de usuario",
     "CONTENT": "Puedes elegir una de las imágenes propuestas o subir la tuya propia."
   }
 }

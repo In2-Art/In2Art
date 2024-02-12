@@ -189,9 +189,7 @@
     }
   },
   "SET_PHOTO_PAGE": {
-    "TITLE": "Set your avatar here",
-    "TITLE_1": "Set your",
-    "TITLE_2": "here",
-    "CONTENT": "You can choose one of the proposed images or upload your own"
+    "TITLE": "Set your user icon",
+    "CONTENT": " You can choose one of the proposed images or upload your own"
   }
 }

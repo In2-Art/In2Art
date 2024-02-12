@@ -34,37 +34,30 @@ let SetPhotoComponent = /*#__PURE__*/(() => {
     static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
       type: SetPhotoComponent,
       selectors: [["app-set-photo"]],
-      decls: 11,
-      vars: 10,
-      consts: [[3, "page"], [1, "text-3xl", "mb-3", "font-bold"], [1, "last-word"], [1, "text-xl", "font-bold"]],
+      decls: 7,
+      vars: 7,
+      consts: [[3, "page"], [1, "text-3xl", "mb-3", "title"], [1, "text-xl", "font-bold"]],
       template: function SetPhotoComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "app-set-user-image", 0)(1, "h2", 1);
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](3, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "span", 2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "avatar");
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6);
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](7, "translate");
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "span", 3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9);
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](10, "translate");
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipe"](6, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
         }
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("page", ctx.PAGE.SET_PHOTO);
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](3, 4, "SET_PHOTO_PAGE.TITLE_1"), " ");
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](7, 6, "SET_PHOTO_PAGE.TITLE_2"), ". ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](3, 3, "SET_PHOTO_PAGE.TITLE"), " ");
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](10, 8, "SET_PHOTO_PAGE.CONTENT"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](6, 5, "SET_PHOTO_PAGE.CONTENT"));
         }
       },
       dependencies: [src_app_shared_components_set_user_image_set_user_image_component__WEBPACK_IMPORTED_MODULE_1__.SetUserImageComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_3__.TranslatePipe],
-      styles: [".last-word[_ngcontent-%COMP%] {\n  color: var(--activeLink);\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvc2V0LXBob3RvL2NvbXBvbmVudHMvc2V0LXBob3RvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usd0JBQUE7QUFDRiIsInNvdXJjZXNDb250ZW50IjpbIi5sYXN0LXdvcmQge1xuICBjb2xvcjogdmFyKC0tYWN0aXZlTGluayk7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */"]
+      styles: [".title[_ngcontent-%COMP%] {\n  color: var(--textTitle);\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvc2V0LXBob3RvL2NvbXBvbmVudHMvc2V0LXBob3RvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsdUJBQUE7RUFDQSxpQkFBQTtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLnRpdGxlIHtcbiAgY29sb3I6IHZhcigtLXRleHRUaXRsZSk7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4iXSwic291cmNlUm9vdCI6IiJ9 */"]
     });
   }
   return SetPhotoComponent;
