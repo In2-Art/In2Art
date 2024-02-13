@@ -36,7 +36,7 @@ let SetPhotoComponent = /*#__PURE__*/(() => {
       selectors: [["app-set-photo"]],
       decls: 7,
       vars: 7,
-      consts: [[3, "page"], [1, "text-3xl", "mb-3", "title"], [1, "text-xl", "font-bold"]],
+      consts: [[3, "page"], [1, "text-4xl", "mb-3", "title"], [1, "text-2xl", "font-bold"]],
       template: function SetPhotoComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "app-set-user-image", 0)(1, "h2", 1);

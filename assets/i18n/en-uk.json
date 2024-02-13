@@ -22,11 +22,12 @@
     "UPDATE_SETTINGS": "Update settings",
     "CONFIRM": "Confirm",
     "CANCEL": "Cancel",
-    "UPLOAD": "Upload",
+    "UPLOAD": "Upload file",
     "CHANGE_PASSWORD": "Change password",
     "TO_SETTINGS": "Back",
     "TO_PROFILE": "Back",
-    "HOME": "Home"
+    "HOME": "Home",
+    "AVATAR": "Avatar library"
   },
   "LABEL": {
     "PASSWORD": "Password",
@@ -181,6 +182,7 @@
     "PROFILE_NAME_SETTINGS": "This name is visible to other users on the platform."
   },
   "IMAGE_CROPPER": {
+    "DRAG_DROP": "Click to browse or drag and drop your picture",
     "PHOTO_INFO": "Remember to save your data because your profile photo is changed",
     "WARNING_TITLE": "Attention!"
   },

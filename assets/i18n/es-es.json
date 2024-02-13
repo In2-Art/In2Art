@@ -22,11 +22,12 @@
     "UPDATE_SETTINGS": "Ajustes de actualización",
     "CONFIRM": "Confirmar",
     "CANCEL": "Cancelar",
-    "UPLOAD": "Subir",
+    "UPLOAD": "Subir archivo",
     "CHANGE_PASSWORD": "Cambiar la contraseña",
     "TO_SETTINGS": "Volver",
     "TO_PROFILE": "Volver",
-    "HOME": "Inicio"
+    "HOME": "Inicio",
+    "AVATAR": "Biblioteca de avatares"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -49,7 +50,7 @@
     "SELECT_IMAGE": "Selecciona una imagen",
     "TITLE": "Título",
     "DESCRIPTION": "Descripción",
-    "UPLOAD": "Subir ilustraciones",
+    "UPLOAD": "Subir archivo",
     "DATE": "Fecha de creación",
     "DATE_FORMAT": "Formato de fecha",
     "IS_ARTIST": "¿Es el usuario el autor?",
@@ -182,6 +183,7 @@
     "PROFILE_NAME_SETTINGS": "Este nombre es visible para otros usuarios de la plataforma."
   },
   "IMAGE_CROPPER": {
+    "DRAG_DROP": "Haga clic para explorar o arrastre y suelte su imagen",
     "PHOTO_INFO": "Recuerda guardar tus datos porque se cambie tu foto de perfil",
     "WARNING_TITLE": "¡Atención!"
   },

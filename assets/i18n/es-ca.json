@@ -22,11 +22,12 @@
     "UPDATE_SETTINGS": "Actualitza la configuració",
     "CONFIRM": "Confirmeu",
     "CANCEL": "Cancel",
-    "UPLOAD": "Carrega",
+    "UPLOAD": "Penja el document",
     "CHANGE_PASSWORD": "Canvia la contrasenya",
     "TO_SETTINGS": "Torna",
     "TO_PROFILE": "Tornar",
-    "HOME": "Inici"
+    "HOME": "Inici",
+    "AVATAR": "Biblioteca d'avatars"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -180,6 +181,7 @@
     "PROFILE_NAME_SETTINGS": "Aquest nom és visible per a altres usuaris de la plataforma."
   },
   "IMAGE_CROPPER": {
+    "DRAG_DROP": "Feu clic per navegar o arrossegueu i deixeu anar la vostra imatge",
     "PHOTO_INFO": "Recorda guardar les teves dades perquè es canviï la teva foto de perfil",
     "WARNING_TITLE": "Atenció !"
   },

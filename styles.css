@@ -1836,7 +1836,7 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 }
 
 .p-dropdown {
-    background: #1d1e27;
+    background: var(--bgPrimary);
     border: 1px solid var(--bgSecondary);
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
     border-radius: 6px
@@ -5677,7 +5677,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-card {
     background: var(--bgPrimary);
     color: var(--text);
-    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 1px -1px var(--text), 0 1px 1px 0 var(--text), 0 1px 3px 0 var(--text);
     border-radius: 6px
 }
 
@@ -29167,7 +29167,7 @@ select:-webkit-autofill:focus {
   --btnFocus: #04515E;
   --cropper-outline-color: black;
   --headerHeightDesktop: 100px;
-  --headerHeightMobile: 80px;
+  --headerHeightMobile: 70px;
   --bgPrimary-dark: #1A1A1A;
   --bgSecondary-dark: #37393d;
   --text-dark: #FEFEFA;
