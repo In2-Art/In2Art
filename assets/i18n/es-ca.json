@@ -50,7 +50,7 @@
     "SELECT_IMAGE": "Selecciona una imatge",
     "TITLE": "Títol",
     "DESCRIPTION": "Descripció",
-    "UPLOAD": "Carregueu obres d'art",
+    "UPLOAD": "Carrega",
     "DATE": "Data de creació",
     "DATE_FORMAT": "Format de data",
     "IS_ARTIST": "L'usuari és l'autor?",
@@ -59,7 +59,11 @@
     "MATERIAL": "Material",
     "PRESERVATION": "Conservació",
     "LOCATION": "Ubicació",
-    "OTHERS": "Altra informació"
+    "OTHERS": "Altra informació",
+    "ARTIST": "Artista",
+    "PRICE": "Preu",
+    "AGREE_TO_TERMS_ARTWORK_1": "En penjar la teva obra d'art, acceptes el nostre",
+    "AGREE_TO_TERMS_ARTWORK_2": "Termes i condicions."
   },
   "TITLE": {
     "PUNCTUATION": "Puntuació",
@@ -83,6 +87,9 @@
     "REQUIRED_BIRTHDATE": "La data de naixement és obligatòria!",
     "REQUIRED_CONFIRM_PASSWORD": "Cal confirmar la contrasenya!",
     "REQUIRED_AGREE_PRIVACY": "Heu d'acceptar la política de privadesa",
+    "REQUIRED_TITLE": "El títol és obligatori!",
+    "REQUIRED_ARTIST": "Es requereix artista!",
+    "REQUIRED_DESCRIPTION": "La descripció és necessària!",
     "INVALID_EMAIL": "El correu electrònic no és vàlid!",
     "MIN_LENGTH_PASSWORD": "La contrasenya ha de tenir almenys 8 caràcters!",
     "NO_MATCH_PASSWORD": "La contrasenya no coincideix!",
@@ -162,7 +169,8 @@
     "BIO": "Introdueix la teva biografia...",
     "OLD_PASSWORD": "Introduïu una contrasenya actual",
     "NEW_PASSWORD": "Introduïu una contrasenya nova",
-    "CONFIRM_NEW_PASSWORD": "Torneu a introduir la vostra nova contrasenya"
+    "CONFIRM_NEW_PASSWORD": "Torneu a introduir la vostra nova contrasenya",
+    "DESCRIPTION": "Introduïu la descripció de l'obra d'art..."
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Per començar, trieu una imatge per a la vostra",
@@ -187,7 +195,16 @@
   },
   "NEW_PAGE": {
     "ARTWORK": {
-      "TITLE": "Carregueu obres d'art"
+      "TITLE": "Carregueu obres d'art",
+      "I_AM_ARTIST": "Jo sóc l'artista",
+      "ADD_ARTIST": "Afegeix un artista",
+      "ADDITIONAL_INFO": "Informació adicional",
+      "TECHNIQUE": "Tècnica",
+      "DIMENSIONS": "Dimensions",
+      "MATERIAL": "Material",
+      "PRESERVATION": "Conservació",
+      "COUNTRY": "País i ubicació",
+      "ADD_COMMENT": "Comentari addicional"
     }
   },
   "SET_PHOTO_PAGE": {

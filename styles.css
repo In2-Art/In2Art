@@ -1702,28 +1702,30 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
 
 .p-checkbox .p-checkbox-box {
     border: 2px solid var(--btnText);
-    background: #1d1e27;
+    background: var(--bgPrimary);
     width: 22px;
     height: 22px;
-    color: blue;
+    color: var(--text);
     border-radius: 6px;
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s
 }
 
 .p-checkbox .p-checkbox-box .p-checkbox-icon {
     transition-duration: .2s;
-    color: var(--btnText);
-    font-size: 14px
+    color: var(--btnPrimary);
+    font-size: 14px;
+    stroke-width: 2px;
+    stroke: var(--btnPrimary);
 }
 
 .p-checkbox .p-checkbox-box .p-icon {
     width: 14px;
-    height: 14px
+    height: 14px;
 }
 
 .p-checkbox .p-checkbox-box.p-highlight {
     border-color: var(--btnPrimary);
-    background: var(--btnPrimary)
+    background: var(--bgPrimary)
 }
 
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
@@ -1739,7 +1741,7 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
 
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
     border-color: var(--btnActive);
-    background: var(--btnActive);
+    background: var(--bgPrimary);
     color: var(--btnText)}
 
 p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
@@ -2151,6 +2153,10 @@ p-inputmask.p-inputmask-clearable .p-inputtext {
 p-inputmask.p-inputmask-clearable .p-inputmask-clear-icon {
     color: var(--iconsInactive);
     right: .75rem
+}
+
+.p-inputnumber {
+    width: 100%;
 }
 
 p-inputnumber.ng-dirty.ng-invalid > .p-inputnumber > .p-inputtext {
@@ -29153,6 +29159,45 @@ select:-webkit-autofill:focus {
   gap: 15px;
   font-size: 70px;
   align-items: center;
+}
+
+.upload {
+  width: 100%;
+  border: 2px dashed var(--bgSecondary);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 1rem;
+  padding: 1.5rem 1.5rem;
+  gap: 1rem;
+  color: var(--iconsInactive);
+}
+@media (min-width: 768px) {
+  .upload {
+    border-radius: 1.5rem;
+    width: 470px;
+    padding: 2rem 3.5rem;
+  }
+}
+.upload svg {
+  stroke: var(--iconsInactive);
+}
+.upload:hover {
+  border-color: var(--text);
+  color: var(--text);
+}
+.upload:hover svg {
+  stroke: var(--text);
+}
+
+.isDragover {
+  border-color: var(--text);
+  color: var(--text);
+}
+.isDragover svg {
+  fill: var(--text);
 }
 
 * {

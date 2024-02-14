@@ -66,3 +66,45 @@ select:-webkit-autofill:focus {
   font-size: 70px;
   align-items: center;
 }
+
+.upload {
+  width: 100%;
+  border: 2px dashed var(--bgSecondary);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 1rem;
+  padding: 1.5rem 1.5rem;
+  gap: 1rem;
+  color: var(--iconsInactive);
+
+  @media (min-width: 768px) {
+    border-radius: 1.5rem;
+    width: 470px;
+    padding: 2rem 3.5rem;
+  }
+
+  & svg {
+    stroke: var(--iconsInactive);
+  }
+
+  &:hover {
+    border-color: var(--text);
+    color: var(--text);
+
+    svg {
+      stroke: var(--text);
+    }
+  }
+}
+
+.isDragover {
+  border-color: var(--text);
+  color: var(--text);
+
+  svg {
+    fill: var(--text);
+  }
+}

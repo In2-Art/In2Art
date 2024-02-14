@@ -1,6 +1,6 @@
 (self["webpackChunkweb_app_versions"] = self["webpackChunkweb_app_versions"] || []).push([[429],{
 
-/***/ 5321:
+/***/ 55321:
 /*!**************************!*\
   !*** ./src/polyfills.ts ***!
   \**************************/
@@ -8,11 +8,11 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var classlist_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classlist.js */ 5782);
+/* harmony import */ var classlist_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! classlist.js */ 90661);
 /* harmony import */ var classlist_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(classlist_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var web_animations_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! web-animations-js */ 6785);
+/* harmony import */ var web_animations_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! web-animations-js */ 46785);
 /* harmony import */ var web_animations_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(web_animations_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! zone.js */ 6657);
+/* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! zone.js */ 76657);
 /* harmony import */ var zone_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(zone_js__WEBPACK_IMPORTED_MODULE_2__);
 /** IE10 and IE11 requires the following for NgClass support on SVG elements */
  // Run `npm install --save classlist.js`.
@@ -55,7 +55,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 5782:
+/***/ 90661:
 /*!************************************************!*\
   !*** ./node_modules/classlist.js/classList.js ***!
   \************************************************/
@@ -261,7 +261,7 @@ if ("document" in self) {
 
 /***/ }),
 
-/***/ 6657:
+/***/ 76657:
 /*!***********************************************!*\
   !*** ./node_modules/zone.js/fesm2015/zone.js ***!
   \***********************************************/
@@ -275,6 +275,7 @@ if ("document" in self) {
  * (c) 2010-2022 Google LLC. https://angular.io/
  * License: MIT
  */
+// Initialize global `Zone` constant.
 (function (global) {
   const performance = global['performance'];
   function mark(name) {
@@ -2671,7 +2672,8 @@ function patchCustomElements(_global, api) {
   if (!isBrowser && !isMix || !_global['customElements'] || !('customElements' in _global)) {
     return;
   }
-  const callbacks = ['connectedCallback', 'disconnectedCallback', 'adoptedCallback', 'attributeChangedCallback'];
+  // https://html.spec.whatwg.org/multipage/custom-elements.html#concept-custom-element-definition-lifecycle-callbacks
+  const callbacks = ['connectedCallback', 'disconnectedCallback', 'adoptedCallback', 'attributeChangedCallback', 'formAssociatedCallback', 'formDisabledCallback', 'formResetCallback', 'formStateRestoreCallback'];
   api.patchCallbacks(api, _global.customElements, 'customElements', 'define', callbacks);
 }
 function eventTargetPatch(_global, api) {
@@ -2958,7 +2960,7 @@ Zone.__load_patch('queueMicrotask', (global, Zone, api) => {
 
 /***/ }),
 
-/***/ 6785:
+/***/ 46785:
 /*!**************************************************************!*\
   !*** ./node_modules/web-animations-js/web-animations.min.js ***!
   \**************************************************************/
@@ -2986,7 +2988,7 @@ Zone.__load_patch('queueMicrotask', (global, Zone, api) => {
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__(5321));
+/******/ var __webpack_exports__ = (__webpack_exec__(55321));
 /******/ }
 ]);
 //# sourceMappingURL=polyfills.js.map

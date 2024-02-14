@@ -1,7 +1,7 @@
 "use strict";
 (self["webpackChunkweb_app_versions"] = self["webpackChunkweb_app_versions"] || []).push([[460],{
 
-/***/ 5740:
+/***/ 25740:
 /*!********************************************************!*\
   !*** ./src/app/ApiClient.Backend/services/nickname.ts ***!
   \********************************************************/
@@ -12,14 +12,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _backend_Common_nickname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../backend/Common/nickname */ 8805);
-/* harmony import */ var _helpers_observables__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/observables */ 2594);
+/* harmony import */ var _helpers_observables__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/observables */ 12594);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,_helpers_observables__WEBPACK_IMPORTED_MODULE_1__.ToService)(_backend_Common_nickname__WEBPACK_IMPORTED_MODULE_0__.Nickname));
 
 /***/ }),
 
-/***/ 5240:
+/***/ 95240:
 /*!****************************************************************************************!*\
   !*** ./src/app/pages/settings/components/change-password/change-password.component.ts ***!
   \****************************************************************************************/
@@ -29,19 +29,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ChangePasswordComponent: () => (/* binding */ ChangePasswordComponent)
 /* harmony export */ });
-/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @store/auth/auth.selectors */ 4590);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ 8849);
-/* harmony import */ var _utils_signup_validators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @utils/signup-validators */ 1784);
-/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enums/urls */ 5500);
-/* harmony import */ var _store_settings_settings_actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @store/settings/settings.actions */ 2307);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngrx/store */ 6270);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @store/auth/auth.selectors */ 74590);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ 28849);
+/* harmony import */ var _utils_signup_validators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @utils/signup-validators */ 41784);
+/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enums/urls */ 15500);
+/* harmony import */ var _store_settings_settings_actions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @store/settings/settings.actions */ 92307);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 61699);
+/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngrx/store */ 36270);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 26575);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 27947);
 /* harmony import */ var _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../shared/components/container/container.component */ 2580);
-/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! primeng/button */ 2947);
-/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/ripple */ 5046);
-/* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! primeng/password */ 3219);
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! primeng/button */ 32947);
+/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/ripple */ 51339);
+/* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! primeng/password */ 73219);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ngx-translate/core */ 5939);
 
 
@@ -229,7 +229,7 @@ let ChangePasswordComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 9549:
+/***/ 59549:
 /*!*****************************************************************!*\
   !*** ./src/app/pages/settings/components/settings.component.ts ***!
   \*****************************************************************/
@@ -239,30 +239,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SettingsComponent: () => (/* binding */ SettingsComponent)
 /* harmony export */ });
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 2513);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs */ 274);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/forms */ 8849);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs/operators */ 9736);
-/* harmony import */ var _ApiClient_services_nickname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ApiClient/services/nickname */ 5740);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! rxjs */ 72513);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs */ 20274);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/forms */ 28849);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs/operators */ 79736);
+/* harmony import */ var _ApiClient_services_nickname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ApiClient/services/nickname */ 25740);
 /* harmony import */ var _ApiClient_backend_Common_nickname__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ApiClient/backend/Common/nickname */ 8805);
-/* harmony import */ var _ApiClient_backend_Register_register__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ApiClient/backend/Register/register */ 1802);
-/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @enums/urls */ 5500);
-/* harmony import */ var _store_settings_settings_selectors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @store/settings/settings.selectors */ 4921);
-/* harmony import */ var _store_settings_settings_actions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @store/settings/settings.actions */ 2307);
-/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @store/auth/auth.selectors */ 4590);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ngrx/store */ 6270);
+/* harmony import */ var _ApiClient_backend_Register_register__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ApiClient/backend/Register/register */ 51802);
+/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @enums/urls */ 15500);
+/* harmony import */ var _store_settings_settings_selectors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @store/settings/settings.selectors */ 84921);
+/* harmony import */ var _store_settings_settings_actions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @store/settings/settings.actions */ 92307);
+/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @store/auth/auth.selectors */ 74590);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 61699);
+/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ngrx/store */ 36270);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @ngx-translate/core */ 5939);
-/* harmony import */ var primeng_api__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/api */ 8026);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var primeng_api__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! primeng/api */ 98026);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common */ 26575);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/router */ 27947);
 /* harmony import */ var _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../shared/components/container/container.component */ 2580);
-/* harmony import */ var primeng_inputtext__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! primeng/inputtext */ 873);
-/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! primeng/button */ 2947);
-/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! primeng/ripple */ 5046);
-/* harmony import */ var primeng_calendar__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! primeng/calendar */ 7411);
-/* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! primeng/inputtextarea */ 652);
-/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! primeng/tooltip */ 1251);
+/* harmony import */ var primeng_inputtext__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! primeng/inputtext */ 10873);
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! primeng/button */ 32947);
+/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! primeng/ripple */ 51339);
+/* harmony import */ var primeng_calendar__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! primeng/calendar */ 57411);
+/* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! primeng/inputtextarea */ 30652);
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! primeng/tooltip */ 31251);
 
 
 
@@ -906,7 +906,7 @@ let SettingsComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 4884:
+/***/ 54884:
 /*!***********************************************************!*\
   !*** ./src/app/pages/settings/settings-routing.module.ts ***!
   \***********************************************************/
@@ -916,12 +916,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SettingsRoutingModule: () => (/* binding */ SettingsRoutingModule)
 /* harmony export */ });
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 27947);
 /* harmony import */ var _gilsdav_ngx_translate_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @gilsdav/ngx-translate-router */ 862);
-/* harmony import */ var _components_settings_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/settings.component */ 9549);
-/* harmony import */ var _components_change_password_change_password_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/change-password/change-password.component */ 5240);
-/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enums/urls */ 5500);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _components_settings_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/settings.component */ 59549);
+/* harmony import */ var _components_change_password_change_password_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/change-password/change-password.component */ 95240);
+/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enums/urls */ 15500);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 61699);
 
 
 
@@ -960,7 +960,7 @@ let SettingsRoutingModule = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 2460:
+/***/ 92460:
 /*!***************************************************!*\
   !*** ./src/app/pages/settings/settings.module.ts ***!
   \***************************************************/
@@ -970,21 +970,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SettingsModule: () => (/* binding */ SettingsModule)
 /* harmony export */ });
-/* harmony import */ var _components_settings_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/settings.component */ 9549);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _settings_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./settings-routing.module */ 4884);
+/* harmony import */ var _components_settings_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/settings.component */ 59549);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ 26575);
+/* harmony import */ var _settings_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./settings-routing.module */ 54884);
 /* harmony import */ var _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/container/container.component */ 2580);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ 8849);
-/* harmony import */ var primeng_inputtext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! primeng/inputtext */ 873);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/forms */ 28849);
+/* harmony import */ var primeng_inputtext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! primeng/inputtext */ 10873);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ngx-translate/core */ 5939);
-/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! primeng/button */ 2947);
-/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! primeng/ripple */ 5046);
-/* harmony import */ var primeng_calendar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/calendar */ 7411);
-/* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! primeng/inputtextarea */ 652);
-/* harmony import */ var _components_change_password_change_password_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/change-password/change-password.component */ 5240);
-/* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! primeng/password */ 3219);
-/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/tooltip */ 1251);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! primeng/button */ 32947);
+/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! primeng/ripple */ 51339);
+/* harmony import */ var primeng_calendar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/calendar */ 57411);
+/* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! primeng/inputtextarea */ 30652);
+/* harmony import */ var _components_change_password_change_password_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/change-password/change-password.component */ 95240);
+/* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! primeng/password */ 73219);
+/* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! primeng/tooltip */ 31251);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 61699);
 
 
 
@@ -1023,7 +1023,7 @@ let SettingsModule = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 4921:
+/***/ 84921:
 /*!******************************************************!*\
   !*** ./src/app/store/settings/settings.selectors.ts ***!
   \******************************************************/
@@ -1036,7 +1036,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   selectIsLoadingSettings: () => (/* binding */ selectIsLoadingSettings),
 /* harmony export */   settingsFeatureSelector: () => (/* binding */ settingsFeatureSelector)
 /* harmony export */ });
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ngrx/store */ 6270);
+/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ngrx/store */ 36270);
 
 const settingsFeatureSelector = state => state.settings;
 const selectIsLoadingSettings = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(settingsFeatureSelector, state => state.isLoading);
@@ -1050,161 +1050,6 @@ const selectIdentity = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelecto
     website: state.website
   };
 });
-
-/***/ }),
-
-/***/ 652:
-/*!*****************************************************************!*\
-  !*** ./node_modules/primeng/fesm2022/primeng-inputtextarea.mjs ***!
-  \*****************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   InputTextarea: () => (/* binding */ InputTextarea),
-/* harmony export */   InputTextareaModule: () => (/* binding */ InputTextareaModule)
-/* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ 8849);
-
-
-
-
-
-/**
- * InputTextarea adds styling and autoResize functionality to standard textarea element.
- * @group Components
- */
-let InputTextarea = /*#__PURE__*/(() => {
-  class InputTextarea {
-    el;
-    ngModel;
-    control;
-    cd;
-    /**
-     * When present, textarea size changes as being typed.
-     * @group Props
-     */
-    autoResize;
-    /**
-     * Callback to invoke on textarea resize.
-     * @param {(Event | {})} event - Custom resize event.
-     * @group Emits
-     */
-    onResize = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
-    filled;
-    cachedScrollHeight;
-    ngModelSubscription;
-    ngControlSubscription;
-    constructor(el, ngModel, control, cd) {
-      this.el = el;
-      this.ngModel = ngModel;
-      this.control = control;
-      this.cd = cd;
-    }
-    ngOnInit() {
-      if (this.ngModel) {
-        this.ngModelSubscription = this.ngModel.valueChanges.subscribe(() => {
-          this.updateState();
-        });
-      }
-      if (this.control) {
-        this.ngControlSubscription = this.control.valueChanges.subscribe(() => {
-          this.updateState();
-        });
-      }
-    }
-    ngAfterViewInit() {
-      if (this.autoResize) this.resize();
-      this.updateFilledState();
-      this.cd.detectChanges();
-    }
-    onInput(e) {
-      this.updateState();
-    }
-    updateFilledState() {
-      this.filled = this.el.nativeElement.value && this.el.nativeElement.value.length;
-    }
-    resize(event) {
-      this.el.nativeElement.style.height = 'auto';
-      this.el.nativeElement.style.height = this.el.nativeElement.scrollHeight + 'px';
-      if (parseFloat(this.el.nativeElement.style.height) >= parseFloat(this.el.nativeElement.style.maxHeight)) {
-        this.el.nativeElement.style.overflowY = 'scroll';
-        this.el.nativeElement.style.height = this.el.nativeElement.style.maxHeight;
-      } else {
-        this.el.nativeElement.style.overflow = 'hidden';
-      }
-      this.onResize.emit(event || {});
-    }
-    updateState() {
-      this.updateFilledState();
-      if (this.autoResize) {
-        this.resize();
-      }
-    }
-    ngOnDestroy() {
-      if (this.ngModelSubscription) {
-        this.ngModelSubscription.unsubscribe();
-      }
-      if (this.ngControlSubscription) {
-        this.ngControlSubscription.unsubscribe();
-      }
-    }
-    static ɵfac = function InputTextarea_Factory(t) {
-      return new (t || InputTextarea)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgModel, 8), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__.NgControl, 8), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectorRef));
-    };
-    static ɵdir = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: InputTextarea,
-      selectors: [["", "pInputTextarea", ""]],
-      hostAttrs: [1, "p-inputtextarea", "p-inputtext", "p-component", "p-element"],
-      hostVars: 4,
-      hostBindings: function InputTextarea_HostBindings(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("input", function InputTextarea_input_HostBindingHandler($event) {
-            return ctx.onInput($event);
-          });
-        }
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("p-filled", ctx.filled)("p-inputtextarea-resizable", ctx.autoResize);
-        }
-      },
-      inputs: {
-        autoResize: "autoResize"
-      },
-      outputs: {
-        onResize: "onResize"
-      }
-    });
-  }
-  return InputTextarea;
-})();
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && void 0;
-})();
-let InputTextareaModule = /*#__PURE__*/(() => {
-  class InputTextareaModule {
-    static ɵfac = function InputTextareaModule_Factory(t) {
-      return new (t || InputTextareaModule)();
-    };
-    static ɵmod = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
-      type: InputTextareaModule
-    });
-    static ɵinj = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.CommonModule]
-    });
-  }
-  return InputTextareaModule;
-})();
-(() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && void 0;
-})();
-
-/**
- * Generated bundle index. Do not edit.
- */
-
-
 
 /***/ })
 
