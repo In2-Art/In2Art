@@ -28894,6 +28894,10 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
         cursor: pointer;
     }
 
+    .p-password .p-icon {
+        cursor: pointer;
+    }
+
     .p-password-clearable.p-password-mask .p-password-clear-icon {
         margin-top: unset;
     }
