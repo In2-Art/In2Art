@@ -29214,7 +29214,7 @@ select:-webkit-autofill:focus {
   --btnHover: #066575;
   --btnActive: #066575;
   --btnFocus: #04515E;
-  --cropper-outline-color: black;
+  --cropper-outline-color: rgba(0,0,0,0.6);
   --headerHeightDesktop: 100px;
   --headerHeightMobile: 70px;
   --bgPrimary-dark: #1A1A1A;

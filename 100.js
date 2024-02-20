@@ -348,7 +348,7 @@ let EditProfileComponent = /*#__PURE__*/(() => {
       this.store = store;
       this.translate = translate;
       this.unsubscribe$ = new rxjs__WEBPACK_IMPORTED_MODULE_9__.Subject();
-      this.isLoading$ = this.store.select(_store_edit_profile_editPfofile_selectors__WEBPACK_IMPORTED_MODULE_4__.selectIsLoadingSettings);
+      this.isLoading$ = this.store.select(_store_edit_profile_editPfofile_selectors__WEBPACK_IMPORTED_MODULE_4__.selectIsLoadingEditProfile);
       this.userNickname$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_6__.selectCurrentUserNickname);
       this.initialFormValues = {};
       this.maxLengthName = _ApiClient_backend_Register_register__WEBPACK_IMPORTED_MODULE_2__.Register.MaxNameLength;
@@ -372,7 +372,7 @@ let EditProfileComponent = /*#__PURE__*/(() => {
       this.URLS = _enums_urls__WEBPACK_IMPORTED_MODULE_3__.URLS;
     }
     ngOnInit() {
-      this.store.dispatch((0,_store_edit_profile_editProfile_actions__WEBPACK_IMPORTED_MODULE_5__.getUserSettingsAction)());
+      this.store.dispatch((0,_store_edit_profile_editProfile_actions__WEBPACK_IMPORTED_MODULE_5__.getUserProfileAction)());
       this.maxDate = new Date();
       this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_6__.selectCurrentUserNickname).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_11__.takeUntil)(this.unsubscribe$)).subscribe(nickname => {
         this.settingsForm.patchValue({
@@ -427,7 +427,7 @@ let EditProfileComponent = /*#__PURE__*/(() => {
       const isFormChanged = Object.values(changedValues).some(value => value !== undefined);
       const isDateChanged = this.settingsForm.get('birthDate')?.value?.toString() !== this.initialFormValues.birthDate?.toString();
       if (isDateChanged || isFormChanged) {
-        this.store.dispatch((0,_store_edit_profile_editProfile_actions__WEBPACK_IMPORTED_MODULE_5__.updateUserSettings)({
+        this.store.dispatch((0,_store_edit_profile_editProfile_actions__WEBPACK_IMPORTED_MODULE_5__.updateUserProfile)({
           settings: {
             nicknameDisplayed: changedValues.nickname,
             nicknameUrl: changedValues.nickname,
@@ -587,7 +587,7 @@ let EditProfileComponent = /*#__PURE__*/(() => {
           let tmp_47_0;
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("width", 600)("isLoading", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](1, 52, ctx.isLoading$));
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](4, 54, "SETTINGS_PAGE.TITLE"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](4, 54, "EDIT_PROFILE_PAGE.TITLE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("formGroup", ctx.settingsForm);
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
@@ -669,7 +669,7 @@ let EditProfileComponent = /*#__PURE__*/(() => {
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpureFunction3"](96, _c0, ctx.URLS.BACK, ctx.URLS.PROFILE, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](82, 90, ctx.userNickname$)))("label", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](83, 92, "BTN.TO_PROFILE"));
           _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("disabled", !ctx.settingsForm.valid && (ctx.settingsForm.dirty || ctx.settingsForm.touched))("label", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](85, 94, "BTN.UPDATE_SETTINGS"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("disabled", !ctx.settingsForm.valid && (ctx.settingsForm.dirty || ctx.settingsForm.touched))("label", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](85, 94, "BTN.UPDATE_USER_ACCOUNT"));
         }
       },
       dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_15__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterLink, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_7__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_10__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.NgControlStatusGroup, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.FormControlDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.FormGroupDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_10__.FormControlName, primeng_inputtext__WEBPACK_IMPORTED_MODULE_17__.InputText, primeng_button__WEBPACK_IMPORTED_MODULE_18__.ButtonDirective, primeng_ripple__WEBPACK_IMPORTED_MODULE_19__.Ripple, primeng_calendar__WEBPACK_IMPORTED_MODULE_20__.Calendar, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_21__.InputTextarea, primeng_tooltip__WEBPACK_IMPORTED_MODULE_22__.Tooltip, _angular_common__WEBPACK_IMPORTED_MODULE_15__.AsyncPipe, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_14__.TranslatePipe],
@@ -797,17 +797,17 @@ let EditProfileModule = /*#__PURE__*/(() => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   editProfileFeatureSelector: () => (/* binding */ editProfileFeatureSelector),
 /* harmony export */   selectEmail: () => (/* binding */ selectEmail),
 /* harmony export */   selectIdentity: () => (/* binding */ selectIdentity),
-/* harmony export */   selectIsLoadingSettings: () => (/* binding */ selectIsLoadingSettings),
-/* harmony export */   settingsFeatureSelector: () => (/* binding */ settingsFeatureSelector)
+/* harmony export */   selectIsLoadingEditProfile: () => (/* binding */ selectIsLoadingEditProfile)
 /* harmony export */ });
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ngrx/store */ 66192);
 
-const settingsFeatureSelector = state => state.editProfile;
-const selectIsLoadingSettings = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(settingsFeatureSelector, state => state.isLoading);
-const selectEmail = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(settingsFeatureSelector, state => state.email);
-const selectIdentity = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(settingsFeatureSelector, state => {
+const editProfileFeatureSelector = state => state.editProfile;
+const selectIsLoadingEditProfile = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(editProfileFeatureSelector, state => state.isLoading);
+const selectEmail = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(editProfileFeatureSelector, state => state.email);
+const selectIdentity = (0,_ngrx_store__WEBPACK_IMPORTED_MODULE_0__.createSelector)(editProfileFeatureSelector, state => {
   return {
     firstName: state.firstName,
     lastName: state.lastName,

@@ -19,12 +19,12 @@
     "MESSAGE": "Missatge",
     "FOLLOW": "Seguiu",
     "SUBSCRIBE": "Subscriu-te",
-    "UPDATE_SETTINGS": "Actualitza la configuració",
+    "UPDATE_USER_ACCOUNT": "Actualitza el compte d'usuari",
     "CONFIRM": "Confirmeu",
     "CANCEL": "Cancel",
     "UPLOAD": "Penja el document",
     "CHANGE_PASSWORD": "Canvia la contrasenya",
-    "TO_SETTINGS": "Torna",
+    "TO_EDIT_PROFILE": "Torna",
     "TO_PROFILE": "Tornar",
     "HOME": "Inici",
     "AVATAR": "Biblioteca d'avatars",
@@ -177,8 +177,8 @@
     "TITLE": "Per començar, trieu una imatge per a la vostra",
     "CONTENT": "Podràs canviar el teu avatar més tard al teu perfil."
   },
-  "SETTINGS_PAGE": {
-    "TITLE": "Configuració del compte d'usuari"
+  "EDIT_PROFILE_PAGE": {
+    "TITLE": "Edita el compte d'usuari"
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Canvia la teva contrasenya aquí"
@@ -186,8 +186,8 @@
   "TOOLTIP": {
     "NICKNAME": "El sobrenom s'utilitzarà a l'URL del perfil de l'usuari. Introduïu una sola paraula sense espais",
     "PROFILE_NAME": "Aquest és el nom que serà visible per a altres usuaris de la plataforma. No dubteu a introduir el vostre nom real o triar el nom amb el qual us sentiu còmode",
-    "NICKNAME_SETTINGS": "L'àlies s'utilitza a l'URL del perfil d'usuari. No hi ha cap opció per canviar el vostre àlies en aquest moment.",
-    "PROFILE_NAME_SETTINGS": "Aquest nom és visible per a altres usuaris de la plataforma."
+    "NICKNAME_EDIT": "L'àlies s'utilitza a l'URL del perfil d'usuari. No hi ha cap opció per canviar el vostre àlies en aquest moment.",
+    "PROFILE_NAME_EDIT": "Aquest nom és visible per a altres usuaris de la plataforma."
   },
   "IMAGE_CROPPER": {
     "DRAG_DROP": "Feu clic per navegar o arrossegueu i deixeu anar la vostra imatge",

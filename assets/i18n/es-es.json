@@ -19,12 +19,12 @@
     "MESSAGE": "Mensaje",
     "FOLLOW": "Seguir",
     "SUBSCRIBE": "Suscribir",
-    "UPDATE_SETTINGS": "Ajustes de actualización",
+    "UPDATE_USER_ACCOUNT": "Actualizar cuenta de usuario",
     "CONFIRM": "Confirmar",
     "CANCEL": "Cancelar",
     "UPLOAD": "Subir",
     "CHANGE_PASSWORD": "Cambiar la contraseña",
-    "TO_SETTINGS": "Volver",
+    "TO_EDIT_PROFILE": "Volver",
     "TO_PROFILE": "Volver",
     "HOME": "Inicio",
     "AVATAR": "Biblioteca de avatares",
@@ -179,8 +179,8 @@
     "TITLE": "Para comenzar, elija una imagen para su",
     "CONTENT": "Podrás cambiar tu avatar más adelante en tu perfil."
   },
-  "SETTINGS_PAGE": {
-    "TITLE": "Configuración de cuenta de usuario"
+  "EDIT_PROFILE_PAGE": {
+    "TITLE": "Editar cuenta de usuario"
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Cambia tu contraseña aquí"
@@ -188,8 +188,8 @@
   "TOOLTIP": {
     "NICKNAME": "El apodo se utilizará en la URL del perfil del usuario. Por favor ingrese una sola palabra sin espacios",
     "PROFILE_NAME": "Este es el nombre que será visible para otros usuarios de la plataforma. Siéntete libre de ingresar tu nombre real o elegir un nombre con el que te sientas cómodo",
-    "NICKNAME_SETTINGS": "El apodo se utiliza en la URL del perfil de usuario. No hay ninguna opción para cambiar su apodo en este momento.",
-    "PROFILE_NAME_SETTINGS": "Este nombre es visible para otros usuarios de la plataforma."
+    "NICKNAME_EDIT": "El apodo se utiliza en la URL del perfil de usuario. No hay ninguna opción para cambiar su apodo en este momento.",
+    "PROFILE_NAME_EDIT": "Este nombre es visible para otros usuarios de la plataforma."
   },
   "IMAGE_CROPPER": {
     "DRAG_DROP": "Haga clic para explorar o arrastre y suelte su imagen",
