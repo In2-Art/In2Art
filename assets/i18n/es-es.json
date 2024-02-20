@@ -27,7 +27,8 @@
     "TO_SETTINGS": "Volver",
     "TO_PROFILE": "Volver",
     "HOME": "Inicio",
-    "AVATAR": "Biblioteca de avatares"
+    "AVATAR": "Biblioteca de avatares",
+    "SETTINGS": "Configuración"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",

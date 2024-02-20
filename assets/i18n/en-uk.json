@@ -27,7 +27,8 @@
     "TO_SETTINGS": "Back",
     "TO_PROFILE": "Back",
     "HOME": "Home",
-    "AVATAR": "Avatar library"
+    "AVATAR": "Avatar library",
+    "SETTINGS": "Settings"
   },
   "LABEL": {
     "PASSWORD": "Password",
