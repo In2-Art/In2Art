@@ -206,11 +206,24 @@
       "MATERIAL": "Material",
       "PRESERVATION": "Preservation",
       "COUNTRY": "Country and location",
-      "ADD_COMMENT": "Additional comment"
+      "ADD_COMMENT": "Additional comment",
+      "AFTER_CHRIST": "After Christ"
     }
   },
   "SET_PHOTO_PAGE": {
     "TITLE": "Set your user icon",
     "CONTENT": " You can choose one of the proposed images or upload your own"
+  },
+  "ASPECT_RATIO": {
+    "TITLE": "Aspect Ratio",
+    "ORIGINAL": "Original",
+    "MESSAGE_1": "You can choose the aspect of your ",
+    "MESSAGE_2": " by cropping it. The ",
+    "MESSAGE_3": " will remain intact and will be available on “full image” screen.",
+    "WARNING_1": "The image for the ",
+    "WARNING_2": " will be cropped, you can adjust its aspect. The ",
+    "WARNING_3": " of your artwork will remain intact and will be available on the “full image” screen.",
+    "UNDERLINE_1": "artwork cover",
+    "UNDERLINE_2": "full image"
   }
 }

@@ -205,11 +205,24 @@
       "MATERIAL": "Material",
       "PRESERVATION": "Conservació",
       "COUNTRY": "País i ubicació",
-      "ADD_COMMENT": "Comentari addicional"
+      "ADD_COMMENT": "Comentari addicional",
+      "AFTER_CHRIST": "Després de Crist"
     }
   },
   "SET_PHOTO_PAGE": {
     "TITLE": "Estableix la teva icona d'usuari",
     "CONTENT": "Podeu triar una de les imatges proposades o pujar la vostra"
+  },
+  "ASPECT_RATIO": {
+    "TITLE": "Relació d'aspecte",
+    "ORIGINAL": "Original",
+    "MESSAGE_1": "Podeu triar l'aspecte de ",
+    "MESSAGE_2": "retallant-la. ",
+    "MESSAGE_3": " romandrà intacta i estarà disponible a la pantalla “imatge completa”.",
+    "WARNING_1": "La imatge de ",
+    "WARNING_2": " es retallarà, podeu ajustar-ne l'aspecte. ",
+    "WARNING_3": " de la vostra obra d'art romandrà intacta i estarà disponible a la pantalla “imatge completa”.",
+    "UNDERLINE_1": "la portada de la vostra obra d'art",
+    "UNDERLINE_2": "La imatge completa"
   }
 }

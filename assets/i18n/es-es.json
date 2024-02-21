@@ -207,11 +207,24 @@
       "MATERIAL": "Material",
       "PRESERVATION": "Preservación",
       "COUNTRY": "País y ubicación",
-      "ADD_COMMENT": "Comentario adicional"
+      "ADD_COMMENT": "Comentario adicional",
+      "AFTER_CHRIST": "Después de Cristo"
     }
   },
   "SET_PHOTO_PAGE": {
     "TITLE": "Establece tu icono de usuario",
     "CONTENT": "Puedes elegir una de las imágenes propuestas o subir la tuya propia."
+  },
+  "ASPECT_RATIO": {
+    "TITLE": "Relación de aspecto",
+    "ORIGINAL": "Original",
+    "MESSAGE_1": "Puedes elegir el aspecto de ",
+    "MESSAGE_2": " recortándola. ",
+    "MESSAGE_3": " permanecerá intacta y estará disponible en la pantalla de “imagen completa”.",
+    "WARNING_1": "La imagen de ",
+    "WARNING_2": " se recortará, puedes ajustar su aspecto. ",
+    "WARNING_3": " de su obra de arte permanecerá intacta y estará disponible en la pantalla de “imagen completa”.",
+    "UNDERLINE_1": "la portada de la obra de arte",
+    "UNDERLINE_2": "La imagen completa"
   }
 }
