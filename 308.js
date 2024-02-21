@@ -1157,10 +1157,7 @@ function AspectRatioWarningComponent_div_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](19, "translate");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " La imagen de la portada de la obra de arte se recortar\u00E1, puedes ajustar su aspecto. La imagen completa de su obra de arte permanecer\u00E1 intacta y estar\u00E1 disponible en la pantalla de \"imagen completa\". ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
@@ -1202,7 +1199,7 @@ let AspectRatioWarningComponent = /*#__PURE__*/(() => {
       template: function AspectRatioWarningComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AspectRatioWarningComponent_div_1_Template, 20, 15, "div", 1)(2, AspectRatioWarningComponent_div_2_Template, 22, 15, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AspectRatioWarningComponent_div_1_Template, 20, 15, "div", 1)(2, AspectRatioWarningComponent_div_2_Template, 20, 15, "div", 1);
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
         if (rf & 2) {
