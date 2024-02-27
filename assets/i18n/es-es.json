@@ -179,7 +179,8 @@
     "MEDIUM": "Medio principal utilizado, por ejemplo, 'pintura al óleo'",
     "MATERIAL": "Tipo de material utilizado, por ejemplo, 'lienzo'",
     "TECHNIQUE": "Técnica artística aplicada, por ejemplo, 'Impasto'",
-    "OTHER": "Otra información sobre obras de arte"
+    "OTHER": "Cualquier otro detalle o comentario sobre la obra de arte.",
+    "DIMENSIONS": "Tamaño de la obra de arte, por ejemplo, '73,7 cm × 92,1 cm'"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Para comenzar, elija una imagen para su",

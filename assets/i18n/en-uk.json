@@ -178,7 +178,8 @@
     "MEDIUM": "Primary medium used, e.g., 'Oil paint'",
     "MATERIAL": "Type of material used, e.g., 'Canvas'",
     "TECHNIQUE": "Artistic technique applied, e.g., 'Impasto'",
-    "OTHER": "Other information about artwork"
+    "OTHER": "Any other details or comments about the artwork",
+    "DIMENSIONS": "Size of the artwork, e.g., '73.7 cm × 92.1 cm'"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "To begin, please choose an image for your",
