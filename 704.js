@@ -2563,7 +2563,7 @@ let Fieldset = /*#__PURE__*/(() => {
         }
       },
       dependencies: () => [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgTemplateOutlet, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgStyle, primeng_ripple__WEBPACK_IMPORTED_MODULE_4__.Ripple, primeng_icons_minus__WEBPACK_IMPORTED_MODULE_5__.MinusIcon, primeng_icons_plus__WEBPACK_IMPORTED_MODULE_6__.PlusIcon],
-      styles: ["@layer primeng{.p-fieldset-legend>a,.p-fieldset-legend>span{display:flex;align-items:center;justify-content:center}.p-fieldset-toggleable .p-fieldset-legend a{cursor:pointer;-webkit-user-select:none;user-select:none;overflow:hidden;position:relative}.p-fieldset-legend-text{line-height:1}.p-fieldset-toggleable.p-fieldset-expanded>.p-toggleable-content:not(.ng-animating){overflow:visible}.p-fieldset-toggleable .p-toggleable-content{overflow:hidden}}\n"],
+      styles: ["@layer primeng{.p-fieldset{min-width:initial}.p-fieldset-legend>a,.p-fieldset-legend>span{display:flex;align-items:center;justify-content:center}.p-fieldset-toggleable .p-fieldset-legend a{cursor:pointer;-webkit-user-select:none;user-select:none;overflow:hidden;position:relative}.p-fieldset-legend-text{line-height:1}.p-fieldset-toggleable.p-fieldset-expanded>.p-toggleable-content:not(.ng-animating){overflow:visible}.p-fieldset-toggleable .p-toggleable-content{overflow:hidden}}\n"],
       encapsulation: 2,
       data: {
         animation: [(0,_angular_animations__WEBPACK_IMPORTED_MODULE_7__.trigger)('fieldsetContent', [(0,_angular_animations__WEBPACK_IMPORTED_MODULE_7__.state)('hidden', (0,_angular_animations__WEBPACK_IMPORTED_MODULE_7__.style)({
@@ -5057,6 +5057,7 @@ let TabView = /*#__PURE__*/(() => {
       this.initTabs();
       this.tabChangesSubscription = this.tabPanels.changes.subscribe(_ => {
         this.initTabs();
+        this.refreshButtonState();
       });
       this.templates.forEach(item => {
         switch (item.getType()) {
@@ -5080,7 +5081,7 @@ let TabView = /*#__PURE__*/(() => {
       this.container = primeng_dom__WEBPACK_IMPORTED_MODULE_4__.DomHandler.findSingle(this.el.nativeElement, '[data-pc-section="navcontent"]');
       this.list = primeng_dom__WEBPACK_IMPORTED_MODULE_4__.DomHandler.findSingle(this.el.nativeElement, '[data-pc-section="nav"]');
       this.resizeObserver = new ResizeObserver(() => {
-        if (this.list.offsetWidth > this.container.offsetWidth) {
+        if (this.list.offsetWidth >= this.container.offsetWidth) {
           this.buttonVisible = true;
         } else {
           this.buttonVisible = false;
@@ -5316,7 +5317,20 @@ let TabView = /*#__PURE__*/(() => {
       } = content;
       const width = primeng_dom__WEBPACK_IMPORTED_MODULE_4__.DomHandler.getWidth(content);
       this.backwardIsDisabled = scrollLeft === 0;
-      this.forwardIsDisabled = scrollLeft === scrollWidth - width;
+      this.forwardIsDisabled = Math.round(scrollLeft) === scrollWidth - width;
+    }
+    refreshButtonState() {
+      this.container = primeng_dom__WEBPACK_IMPORTED_MODULE_4__.DomHandler.findSingle(this.el.nativeElement, '[data-pc-section="navcontent"]');
+      this.list = primeng_dom__WEBPACK_IMPORTED_MODULE_4__.DomHandler.findSingle(this.el.nativeElement, '[data-pc-section="nav"]');
+      if (this.list.offsetWidth >= this.container.offsetWidth) {
+        if (this.list.offsetWidth >= this.container.offsetWidth) {
+          this.buttonVisible = true;
+        } else {
+          this.buttonVisible = false;
+        }
+        this.updateButtonState();
+        this.cd.markForCheck();
+      }
     }
     onScroll(event) {
       this.scrollable && this.updateButtonState();

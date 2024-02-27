@@ -113,7 +113,8 @@
     "VERIFICATION_EMAIL":"We resend you verification email",
     "VOTE": "Votación realizada correctamente",
     "AVATAR": "Avatar successfully selected! Welcome to the home page!",
-    "UPDATE_USER": "Your settings updated!"
+    "UPDATE_USER": "Your settings updated!",
+    "CREATE_ARTWORK": "You create new Artwork!"
   },
   "LOADING": "Loading...",
   "404": {
@@ -172,7 +173,12 @@
     "OLD_PASSWORD": "Enter a current password",
     "NEW_PASSWORD": "Enter a new password",
     "CONFIRM_NEW_PASSWORD": "Enter your new password again",
-    "DESCRIPTION": "Enter artwork description..."
+    "DESCRIPTION": "Brief overview of the artwork, e.g., 'A vibrant night sky filled with swirling stars'",
+    "MOVEMENT": "Art movement or style, e.g., 'Post-Impressionism'",
+    "MEDIUM": "Primary medium used, e.g., 'Oil paint'",
+    "MATERIAL": "Type of material used, e.g., 'Canvas'",
+    "TECHNIQUE": "Artistic technique applied, e.g., 'Impasto'",
+    "OTHER": "Other information about artwork"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "To begin, please choose an image for your",
@@ -188,7 +194,9 @@
     "NICKNAME": "Nickname will be used in the user's profile URL. Please enter a single word without spaces",
     "PROFILE_NAME": "This is the name that will be visible to other users on the platform. Feel free to enter your real name or choose name that you're comfortable with",
     "NICKNAME_EDIT": "The nickname is used in the user profile URL. There is no option to change your nickname at this time.",
-    "PROFILE_NAME_EDIT": "This name is visible to other users on the platform."
+    "PROFILE_NAME_EDIT": "This name is visible to other users on the platform.",
+    "ASPECT_MESSAGE": "Now you can craft your gallery's first impression by selecting the aspect ratio for your artwork cover. Rest assured, your full masterpiece remains untouched and is viewable in its entirety on the 'Full Image' screen.",
+    "ASPECT_WARNING": "Your artwork cover will be cropped for display in the gallery, but you have control to adjust its aspect. Rest assured, the full, unaltered image of your artwork is accessible on the 'Full Image' screen."
   },
   "IMAGE_CROPPER": {
     "DRAG_DROP": "Click to browse or drag and drop your picture",
@@ -201,13 +209,17 @@
       "I_AM_ARTIST": "I am the artist",
       "ADD_ARTIST": "Add an artist",
       "ADDITIONAL_INFO": "Additional information",
+      "MAIN_INFO": "Main information",
       "TECHNIQUE": "Technique",
       "DIMENSIONS": "Dimensions",
       "MATERIAL": "Material",
       "PRESERVATION": "Preservation",
       "COUNTRY": "Country and location",
       "ADD_COMMENT": "Additional comment",
-      "AFTER_CHRIST": "After Christ"
+      "AFTER_CHRIST": "After Christ",
+      "DATE": "Creation date",
+      "DATE_FORMAT": "Date format",
+      "BCE": "before common era"
     }
   },
   "SET_PHOTO_PAGE": {
@@ -215,15 +227,12 @@
     "CONTENT": " You can choose one of the proposed images or upload your own"
   },
   "ASPECT_RATIO": {
-    "TITLE": "Aspect Ratio",
+    "TITLE": "Aspect ratio for cover picture",
     "ORIGINAL": "Original",
-    "MESSAGE_1": "You can choose the aspect of your ",
-    "MESSAGE_2": " by cropping it. The ",
-    "MESSAGE_3": " will remain intact and will be available on “full image” screen.",
-    "WARNING_1": "The image for the ",
-    "WARNING_2": " will be cropped, you can adjust its aspect. The ",
-    "WARNING_3": " of your artwork will remain intact and will be available on the “full image” screen.",
-    "UNDERLINE_1": "artwork cover",
-    "UNDERLINE_2": "full image"
+    "MESSAGE_1": "Now you can craft your gallery's first impression by selecting the aspect ratio for your artwork ",
+    "MESSAGE_2": ". Rest assured, your full masterpiece remains untouched and is viewable in its entirety on the 'Full Image' screen.",
+    "WARNING_1": "Your artwork ",
+    "WARNING_2": " will be cropped for display in the gallery, but you have control to adjust its aspect. Rest assured, the full, unaltered image of your artwork is accessible on the 'Full Image' screen.",
+    "UNDERLINE_1": "cover"
   }
 }

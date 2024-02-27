@@ -2,15 +2,17 @@
   display: grid;
   align-items: center;
   grid-template-columns: 1fr;
+  gap: 0.5rem;
 
   @media (min-width: 768px) {
     column-gap: 0.5rem;
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: 120px 1fr;
   }
 
   & label {
+    display: block;
     font-weight: bold;
-    margin-bottom: 1rem;
+    line-height: 1.5;
 
     @media (min-width: 768px) {
       margin-bottom: 0;
@@ -82,7 +84,6 @@ select:-webkit-autofill:focus {
 
   @media (min-width: 768px) {
     border-radius: 1.5rem;
-    width: 470px;
     padding: 2rem 3.5rem;
   }
 

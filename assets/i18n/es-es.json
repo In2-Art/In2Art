@@ -113,7 +113,8 @@
     "VERIFICATION_EMAIL":"Os reenviamos el correo electrónico de verificación",
     "VOTE": "Vote cast successfully!",
     "AVATAR": "¡Avatar seleccionado exitosamente! ¡Bienvenido a la pagina principal!",
-    "UPDATE_USER": "¡Tu configuración actualizada!"
+    "UPDATE_USER": "¡Tu configuración actualizada!",
+    "CREATE_ARTWORK": "¡Creas nuevas ilustraciones!"
   },
   "LOADING": "Cargando...",
   "404": {
@@ -173,7 +174,12 @@
     "OLD_PASSWORD": "Ingrese una contraseña actual",
     "NEW_PASSWORD": "Introduzca una nueva contraseña",
     "CONFIRM_NEW_PASSWORD": "Ingrese su nueva contraseña nuevamente",
-    "DESCRIPTION": "Ingrese la descripción de la obra de arte..."
+    "DESCRIPTION": "Brief overview of the artwork, e.g., 'A vibrant night sky filled with swirling stars'",
+    "MOVEMENT": "Movimiento o estilo artístico, por ejemplo, 'postimpresionismo'.",
+    "MEDIUM": "Medio principal utilizado, por ejemplo, 'pintura al óleo'",
+    "MATERIAL": "Tipo de material utilizado, por ejemplo, 'lienzo'",
+    "TECHNIQUE": "Técnica artística aplicada, por ejemplo, 'Impasto'",
+    "OTHER": "Otra información sobre obras de arte"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Para comenzar, elija una imagen para su",
@@ -189,7 +195,9 @@
     "NICKNAME": "El apodo se utilizará en la URL del perfil del usuario. Por favor ingrese una sola palabra sin espacios",
     "PROFILE_NAME": "Este es el nombre que será visible para otros usuarios de la plataforma. Siéntete libre de ingresar tu nombre real o elegir un nombre con el que te sientas cómodo",
     "NICKNAME_EDIT": "El apodo se utiliza en la URL del perfil de usuario. No hay ninguna opción para cambiar su apodo en este momento.",
-    "PROFILE_NAME_EDIT": "Este nombre es visible para otros usuarios de la plataforma."
+    "PROFILE_NAME_EDIT": "Este nombre es visible para otros usuarios de la plataforma.",
+    "ASPECT_MESSAGE": "Ahora puedes crear la primera impresión de tu galería seleccionando la relación de aspecto de la portada de tu obra de arte. Tenga la seguridad de que su obra maestra completa permanece intacta y se puede ver en su totalidad en la pantalla 'Imagen completa'.",
+    "ASPECT_WARNING": "La portada de tu obra de arte se recortará para mostrarla en la galería, pero tú tienes control para ajustar su aspecto. Tenga la seguridad de que podrá acceder a la imagen completa e inalterada de su obra de arte en la pantalla 'Imagen completa'."
   },
   "IMAGE_CROPPER": {
     "DRAG_DROP": "Haga clic para explorar o arrastre y suelte su imagen",
@@ -202,13 +210,17 @@
       "I_AM_ARTIST": "Yo soy el artista",
       "ADD_ARTIST": "Añadir un artista",
       "ADDITIONAL_INFO": "Información adicional",
+      "MAIN_INFO": "Informacion principal",
       "TECHNIQUE": "Técnica",
       "DIMENSIONS": "Dimensiones",
       "MATERIAL": "Material",
       "PRESERVATION": "Preservación",
       "COUNTRY": "País y ubicación",
       "ADD_COMMENT": "Comentario adicional",
-      "AFTER_CHRIST": "Después de Cristo"
+      "AFTER_CHRIST": "Después de Cristo",
+      "DATE": "Fecha de creación",
+      "DATE_FORMAT": "Formato de fecha",
+      "BCE": "antes de la era común"
     }
   },
   "SET_PHOTO_PAGE": {
@@ -216,7 +228,7 @@
     "CONTENT": "Puedes elegir una de las imágenes propuestas o subir la tuya propia."
   },
   "ASPECT_RATIO": {
-    "TITLE": "Relación de aspecto",
+    "TITLE": "Relación de aspecto de la imagen de portada",
     "ORIGINAL": "Original",
     "MESSAGE_1": "Puedes elegir el aspecto de ",
     "MESSAGE_2": " recortándola. ",

@@ -111,7 +111,8 @@
     "ACCOUNT_ACTIVED":"El vostre compte està activat!",
     "VERIFICATION_EMAIL":"Us reenviem el correu electrònic de verificació",
     "AVATAR": "Avatar seleccionat correctament! Benvingut a la pàgina d'inici!",
-    "UPDATE_USER": "La teva configuració s'ha actualitzat!"
+    "UPDATE_USER": "La teva configuració s'ha actualitzat!",
+    "CREATE_ARTWORK": "Creeu una obra d'art nova!"
   },
   "LOADING": "Carregant...",
   "404": {
@@ -171,7 +172,12 @@
     "OLD_PASSWORD": "Introduïu una contrasenya actual",
     "NEW_PASSWORD": "Introduïu una contrasenya nova",
     "CONFIRM_NEW_PASSWORD": "Torneu a introduir la vostra nova contrasenya",
-    "DESCRIPTION": "Introduïu la descripció de l'obra d'art..."
+    "DESCRIPTION": "Breu visió general de l'obra d'art, per exemple, 'Un cel nocturn vibrant ple d'estrelles en remolins'",
+    "MOVEMENT": "Moviment o estil artístic, per exemple, 'postimpressionisme'",
+    "MEDIUM": "El mitjà primari utilitzat, per exemple, 'pintura a l'oli'",
+    "MATERIAL": "Tipus de material utilitzat, per exemple, 'llenç'",
+    "TECHNIQUE": "Tècnica artística aplicada, per exemple, 'Impasto'",
+    "OTHER": "Altres informacions sobre obres d'art"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Per començar, trieu una imatge per a la vostra",
@@ -187,7 +193,9 @@
     "NICKNAME": "El sobrenom s'utilitzarà a l'URL del perfil de l'usuari. Introduïu una sola paraula sense espais",
     "PROFILE_NAME": "Aquest és el nom que serà visible per a altres usuaris de la plataforma. No dubteu a introduir el vostre nom real o triar el nom amb el qual us sentiu còmode",
     "NICKNAME_EDIT": "L'àlies s'utilitza a l'URL del perfil d'usuari. No hi ha cap opció per canviar el vostre àlies en aquest moment.",
-    "PROFILE_NAME_EDIT": "Aquest nom és visible per a altres usuaris de la plataforma."
+    "PROFILE_NAME_EDIT": "Aquest nom és visible per a altres usuaris de la plataforma.",
+    "ASPECT_MESSAGE": "Ara podeu crear la primera impressió de la vostra galeria seleccionant la relació d'aspecte de la portada de la vostra obra d'art. Assegureu-vos que la vostra obra mestra completa es manté intacta i es pot veure sencera a la pantalla 'Imatge completa'.",
+    "ASPECT_WARNING": "La portada de la vostra obra d'art es retallarà per mostrar-la a la galeria, però teniu control per ajustar-ne l'aspecte. Assegureu-vos que la imatge completa i inalterada de la vostra obra d'art és accessible a la pantalla 'Imatge completa'."
   },
   "IMAGE_CROPPER": {
     "DRAG_DROP": "Feu clic per navegar o arrossegueu i deixeu anar la vostra imatge",
@@ -200,13 +208,17 @@
       "I_AM_ARTIST": "Jo sóc l'artista",
       "ADD_ARTIST": "Afegeix un artista",
       "ADDITIONAL_INFO": "Informació adicional",
+      "MAIN_INFO": "Informació principal",
       "TECHNIQUE": "Tècnica",
       "DIMENSIONS": "Dimensions",
       "MATERIAL": "Material",
       "PRESERVATION": "Conservació",
       "COUNTRY": "País i ubicació",
       "ADD_COMMENT": "Comentari addicional",
-      "AFTER_CHRIST": "Després de Crist"
+      "AFTER_CHRIST": "Després de Crist",
+      "DATE": "Data de creació",
+      "DATE_FORMAT": "Format de data",
+      "BCE": "abans de l'època comuna"
     }
   },
   "SET_PHOTO_PAGE": {
@@ -214,7 +226,7 @@
     "CONTENT": "Podeu triar una de les imatges proposades o pujar la vostra"
   },
   "ASPECT_RATIO": {
-    "TITLE": "Relació d'aspecte",
+    "TITLE": "Relació d'aspecte de la imatge de portada",
     "ORIGINAL": "Original",
     "MESSAGE_1": "Podeu triar l'aspecte de ",
     "MESSAGE_2": "retallant-la. ",
