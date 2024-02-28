@@ -178,7 +178,9 @@
     "MATERIAL": "Tipus de material utilitzat, per exemple, 'llenç'",
     "TECHNIQUE": "Tècnica artística aplicada, per exemple, 'Impasto'",
     "OTHER": "Altres informacions sobre obres d'art",
-    "DIMENSIONS": "Mida de l'obra d'art, per exemple, '73,7 cm × 92,1 cm'"
+    "DIMENSIONS": "Mida de l'obra d'art, per exemple, '73,7 cm × 92,1 cm'",
+    "TITLE": "Títol de l'obra d'art, per exemple, 'Nit estrellada'",
+    "ARTIST": "Nom de l'artista, per exemple, 'Vincent van Gogh'"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Per començar, trieu una imatge per a la vostra",
@@ -219,7 +221,11 @@
       "AFTER_CHRIST": "Després de Crist",
       "DATE": "Data de creació",
       "DATE_FORMAT": "Format de data",
-      "BCE": "abans de l'època comuna"
+      "BCE": "abans de l'època comuna",
+      "ARTIST_EMPTY_MESSAGE": "No s'ha trobat l'artista. Si estàs segur de l'ortografia, crearem una entrada nova per a l'artista amb molt de gust"
+    },
+    "POST": {
+      "TITLE": "Carrega la publicació"
     }
   },
   "SET_PHOTO_PAGE": {

@@ -691,6 +691,7 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
 }
 
 .p-chips .p-chips-multiple-container {
+    width: 100%;
     padding: .375rem .75rem;
     gap: .5rem
 }
@@ -724,9 +725,14 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
 .p-chips .p-chips-multiple-container .p-chips-input-token input {
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1rem;
-    color: blue;
+    color: var(--text);
     padding: 0;
     margin: 0
+}
+
+.p-chips-token-label {
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 p-chips.ng-dirty.ng-invalid > .p-chips > .p-inputtext {

@@ -174,13 +174,15 @@
     "OLD_PASSWORD": "Ingrese una contraseña actual",
     "NEW_PASSWORD": "Introduzca una nueva contraseña",
     "CONFIRM_NEW_PASSWORD": "Ingrese su nueva contraseña nuevamente",
-    "DESCRIPTION": "Brief overview of the artwork, e.g., 'A vibrant night sky filled with swirling stars'",
+    "DESCRIPTION": "Breve descripción general de la obra de arte, por ejemplo, 'Un cielo nocturno vibrante lleno de estrellas arremolinadas'",
     "MOVEMENT": "Movimiento o estilo artístico, por ejemplo, 'postimpresionismo'.",
     "MEDIUM": "Medio principal utilizado, por ejemplo, 'pintura al óleo'",
     "MATERIAL": "Tipo de material utilizado, por ejemplo, 'lienzo'",
     "TECHNIQUE": "Técnica artística aplicada, por ejemplo, 'Impasto'",
     "OTHER": "Cualquier otro detalle o comentario sobre la obra de arte.",
-    "DIMENSIONS": "Tamaño de la obra de arte, por ejemplo, '73,7 cm × 92,1 cm'"
+    "DIMENSIONS": "Tamaño de la obra de arte, por ejemplo, '73,7 cm × 92,1 cm'",
+    "TITLE": "Título de la obra de arte, por ejemplo, 'Noche estrellada'",
+    "ARTIST": "Nombre del artista, por ejemplo, 'Vincent van Gogh'"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Para comenzar, elija una imagen para su",
@@ -221,7 +223,11 @@
       "AFTER_CHRIST": "Después de Cristo",
       "DATE": "Fecha de creación",
       "DATE_FORMAT": "Formato de fecha",
-      "BCE": "antes de la era común"
+      "BCE": "antes de la era común",
+      "ARTIST_EMPTY_MESSAGE": "Artista no encontrado. Si está seguro de la ortografía, con gusto crearemos una nueva entrada para el artista."
+    },
+    "POST": {
+      "TITLE": "Subir publicación"
     }
   },
   "SET_PHOTO_PAGE": {

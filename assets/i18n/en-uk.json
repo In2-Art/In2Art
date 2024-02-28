@@ -179,7 +179,9 @@
     "MATERIAL": "Type of material used, e.g., 'Canvas'",
     "TECHNIQUE": "Artistic technique applied, e.g., 'Impasto'",
     "OTHER": "Any other details or comments about the artwork",
-    "DIMENSIONS": "Size of the artwork, e.g., '73.7 cm × 92.1 cm'"
+    "DIMENSIONS": "Size of the artwork, e.g., '73.7 cm × 92.1 cm'",
+    "TITLE": "Artwork's title, e.g., 'Starry Night'",
+    "ARTIST": "Artist's name, e.g., 'Vincent van Gogh'"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "To begin, please choose an image for your",
@@ -220,7 +222,11 @@
       "AFTER_CHRIST": "After Christ",
       "DATE": "Creation date",
       "DATE_FORMAT": "Date format",
-      "BCE": "before common era"
+      "BCE": "before common era",
+      "ARTIST_EMPTY_MESSAGE": "Artist not found. If you're certain about the spelling, we'll gladly create a new entry for the artist"
+    },
+    "POST": {
+      "TITLE": "Upload Post"
     }
   },
   "SET_PHOTO_PAGE": {

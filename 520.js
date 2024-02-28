@@ -436,36 +436,6 @@ function generateImagePath(count, filePath, fileExtension) {
 
 /***/ }),
 
-/***/ 5388:
-/*!******************************************************!*\
-  !*** ./src/app/shared/utils/read-file-as-base-64.ts ***!
-  \******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   readFileAsBase64: () => (/* binding */ readFileAsBase64)
-/* harmony export */ });
-const readFileAsBase64 = file => {
-  return new Promise((resolve, reject) => {
-    const fileReader = new FileReader();
-    fileReader.onload = () => {
-      const base64String = fileReader.result;
-      resolve(base64String);
-    };
-    fileReader.onerror = error => {
-      reject(error);
-    };
-    if (file) {
-      fileReader.readAsDataURL(file);
-    } else {
-      reject(new Error('File is null or undefined.'));
-    }
-  });
-};
-
-/***/ }),
-
 /***/ 26464:
 /*!**************************************************************!*\
   !*** ./node_modules/rxjs/dist/esm/internal/lastValueFrom.js ***!
