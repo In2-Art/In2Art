@@ -64,7 +64,8 @@
     "ARTIST": "Artist",
     "PRICE": "Price",
     "AGREE_TO_TERMS_ARTWORK_1": "By uploading your artwork, you agree to our",
-    "AGREE_TO_TERMS_ARTWORK_2": "Terms and Conditions."
+    "AGREE_TO_TERMS_ARTWORK_2": "Terms and Conditions.",
+    "BODY": "Body"
   },
   "TITLE": {
     "PUNCTUATION": "Punctuation",
@@ -100,7 +101,9 @@
     "WEBSITE_FORMAT": "Please enter a valid website address.",
     "NICKNAME_EXIST": "Nickname already exists",
     "NICKNAME_SPACES": "Please ensure the input contains only alphanumeric characters, underscores, hyphens, and no spaces.",
-    "NOTHING_TO_CHANGE": "Cannot submit the form as no changes have been made."    
+    "NOTHING_TO_CHANGE": "Cannot submit the form as no changes have been made.",
+    "INVALID_DECADE": "Invalid decade. Please enter a valid decade (ending with 0).",
+    "INVALID_CENTURY": "Invalid input. Please enter correct Roman numerals only."
   },
   "SUCCESS": {
     "TITLE": "Success",
@@ -172,16 +175,7 @@
     "BIO": "Enter your biography...",
     "OLD_PASSWORD": "Enter a current password",
     "NEW_PASSWORD": "Enter a new password",
-    "CONFIRM_NEW_PASSWORD": "Enter your new password again",
-    "DESCRIPTION": "Brief overview of the artwork, e.g., 'A vibrant night sky filled with swirling stars'",
-    "MOVEMENT": "Art movement or style, e.g., 'Post-Impressionism'",
-    "MEDIUM": "Primary medium used, e.g., 'Oil paint'",
-    "MATERIAL": "Type of material used, e.g., 'Canvas'",
-    "TECHNIQUE": "Artistic technique applied, e.g., 'Impasto'",
-    "OTHER": "Any other details or comments about the artwork",
-    "DIMENSIONS": "Size of the artwork, e.g., '73.7 cm × 92.1 cm'",
-    "TITLE": "Artwork's title, e.g., 'Starry Night'",
-    "ARTIST": "Artist's name, e.g., 'Vincent van Gogh'"
+    "CONFIRM_NEW_PASSWORD": "Enter your new password again"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "To begin, please choose an image for your",
@@ -223,10 +217,28 @@
       "DATE": "Creation date",
       "DATE_FORMAT": "Date format",
       "BCE": "before common era",
-      "ARTIST_EMPTY_MESSAGE": "Artist not found. If you're certain about the spelling, we'll gladly create a new entry for the artist"
+      "ARTIST_EMPTY_MESSAGE": "Artist not found. If you're certain about the spelling, we'll gladly create a new entry for the artist",
+      "PLACEHOLDER": {
+        "DESCRIPTION": "Brief overview of the artwork, e.g., 'A vibrant night sky filled with swirling stars'",
+        "MOVEMENT": "Art movement or style, e.g., 'Post-Impressionism'",
+        "MEDIUM": "Primary medium used, e.g., 'Oil paint'",
+        "MATERIAL": "Type of material used, e.g., 'Canvas'",
+        "TECHNIQUE": "Artistic technique applied, e.g., 'Impasto'",
+        "OTHER": "Any other details or comments about the artwork",
+        "DIMENSIONS": "Size of the artwork, e.g., '73.7 cm × 92.1 cm'",
+        "TITLE": "Artwork's title, e.g., 'Starry Night'",
+        "ARTIST": "Artist's name, e.g., 'Vincent van Gogh'"
+      }
     },
     "POST": {
-      "TITLE": "Upload Post"
+      "TITLE": "Create a post",
+      "TAGS": "Tags",
+      "CLEAR": "clear all",
+      "PLACEHOLDER": {
+        "TITLE": "Enter a catchy title for your post",
+        "DESCRIPTION": "Describe what's on your mind or share the story behind the pictures. Feel free to discuss anything from daily inspiration to personal milestones.",
+        "TAGS": "Add relevant tags, e.g., ‘abstract’, ‘DigitalArt'. Press space to create each tag."
+      }
     }
   },
   "SET_PHOTO_PAGE": {

@@ -3960,7 +3960,14 @@ let TabMenu = /*#__PURE__*/(() => {
      * Defines the default active menuitem
      * @group Props
      */
-    activeItem;
+    set activeItem(value) {
+      this._activeItem = value;
+      this.activeItemChange.emit(value);
+      this.tabChanged = true;
+    }
+    get activeItem() {
+      return this._activeItem;
+    }
     /**
      * When enabled displays buttons at each side of the tab headers to scroll the tab list.
      * @group Props
@@ -4013,6 +4020,7 @@ let TabMenu = /*#__PURE__*/(() => {
     timerIdForInitialAutoScroll = null;
     _focusableItems;
     _model;
+    _activeItem;
     focusedItemInfo = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.signal)(null);
     get focusableItems() {
       if (!this._focusableItems || !this._focusableItems.length) {
@@ -4055,7 +4063,7 @@ let TabMenu = /*#__PURE__*/(() => {
       }
     }
     ngAfterViewChecked() {
-      if (this.tabChanged) {
+      if ((0,_angular_common__WEBPACK_IMPORTED_MODULE_1__.isPlatformBrowser)(this.platformId) && this.tabChanged) {
         this.updateInkBar();
         this.tabChanged = false;
       }

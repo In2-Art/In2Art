@@ -64,7 +64,8 @@
     "ARTIST": "Artista",
     "PRICE": "Precio",
     "AGREE_TO_TERMS_ARTWORK_1": "Al cargar tu obra de arte, aceptas nuestra",
-    "AGREE_TO_TERMS_ARTWORK_2": "Términos y condiciones."
+    "AGREE_TO_TERMS_ARTWORK_2": "Términos y condiciones.",
+    "BODY": "Cuerpo"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuación",
@@ -99,8 +100,9 @@
     "WEBSITE_FORMAT": "Introduzca una dirección de sitio web válida.",
     "NICKNAME_EXIST": "El apodo ya existe",
     "NICKNAME_SPACES": "Asegúrese de que la entrada contenga solo caracteres alfanuméricos, guiones bajos, guiones y ningún espacio.",
-    "NOTHING_TO_CHANGE": "No se puede enviar el formulario porque no se han realizado cambios."
-    
+    "NOTHING_TO_CHANGE": "No se puede enviar el formulario porque no se han realizado cambios.",
+    "INVALID_DECADE": "Década inválida. Introduzca una década válida (que termine en 0).",
+    "INVALID_CENTURY": "Entrada inválida. Introduzca únicamente números romanos correctos."
   },
   "SUCCESS": {
     "TITLE": "Éxito",
@@ -173,16 +175,7 @@
     "BIO": "Introduce tu biografía...",
     "OLD_PASSWORD": "Ingrese una contraseña actual",
     "NEW_PASSWORD": "Introduzca una nueva contraseña",
-    "CONFIRM_NEW_PASSWORD": "Ingrese su nueva contraseña nuevamente",
-    "DESCRIPTION": "Breve descripción general de la obra de arte, por ejemplo, 'Un cielo nocturno vibrante lleno de estrellas arremolinadas'",
-    "MOVEMENT": "Movimiento o estilo artístico, por ejemplo, 'postimpresionismo'.",
-    "MEDIUM": "Medio principal utilizado, por ejemplo, 'pintura al óleo'",
-    "MATERIAL": "Tipo de material utilizado, por ejemplo, 'lienzo'",
-    "TECHNIQUE": "Técnica artística aplicada, por ejemplo, 'Impasto'",
-    "OTHER": "Cualquier otro detalle o comentario sobre la obra de arte.",
-    "DIMENSIONS": "Tamaño de la obra de arte, por ejemplo, '73,7 cm × 92,1 cm'",
-    "TITLE": "Título de la obra de arte, por ejemplo, 'Noche estrellada'",
-    "ARTIST": "Nombre del artista, por ejemplo, 'Vincent van Gogh'"
+    "CONFIRM_NEW_PASSWORD": "Ingrese su nueva contraseña nuevamente"
   },
   "WELCOME_PHOTO_PAGE": {
     "TITLE": "Para comenzar, elija una imagen para su",
@@ -224,10 +217,28 @@
       "DATE": "Fecha de creación",
       "DATE_FORMAT": "Formato de fecha",
       "BCE": "antes de la era común",
-      "ARTIST_EMPTY_MESSAGE": "Artista no encontrado. Si está seguro de la ortografía, con gusto crearemos una nueva entrada para el artista."
+      "ARTIST_EMPTY_MESSAGE": "Artista no encontrado. Si está seguro de la ortografía, con gusto crearemos una nueva entrada para el artista.",
+      "PLACEHOLDER": {
+        "DESCRIPTION": "Breve descripción general de la obra de arte, por ejemplo, 'Un cielo nocturno vibrante lleno de estrellas arremolinadas'",
+        "MOVEMENT": "Movimiento o estilo artístico, por ejemplo, 'postimpresionismo'.",
+        "MEDIUM": "Medio principal utilizado, por ejemplo, 'pintura al óleo'",
+        "MATERIAL": "Tipo de material utilizado, por ejemplo, 'lienzo'",
+        "TECHNIQUE": "Técnica artística aplicada, por ejemplo, 'Impasto'",
+        "OTHER": "Cualquier otro detalle o comentario sobre la obra de arte.",
+        "DIMENSIONS": "Tamaño de la obra de arte, por ejemplo, '73,7 cm × 92,1 cm'",
+        "TITLE": "Título de la obra de arte, por ejemplo, 'Noche estrellada'",
+        "ARTIST": "Nombre del artista, por ejemplo, 'Vincent van Gogh'"
+      }
     },
     "POST": {
-      "TITLE": "Subir publicación"
+      "TITLE": "Crear una publicación",
+      "TAGS": "Etiquetas",
+      "CLEAR": "limpiar todo",
+      "PLACEHOLDER": {
+        "TITLE": "Introduce un título atractivo para tu publicación.",
+        "DESCRIPTION": "Describe lo que tienes en mente o comparte la historia detrás de las imágenes. Siéntase libre de hablar sobre cualquier tema, desde la inspiración diaria hasta los hitos personales.",
+        "TAGS": "Agregue etiquetas relevantes, por ejemplo, 'abstracto', 'ArteDigital'. Presione la barra espaciadora para crear cada etiqueta."
+      }
     }
   },
   "SET_PHOTO_PAGE": {
