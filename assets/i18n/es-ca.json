@@ -115,7 +115,8 @@
     "VERIFICATION_EMAIL":"Us reenviem el correu electrònic de verificació",
     "AVATAR": "Avatar seleccionat correctament! Benvingut a la pàgina d'inici!",
     "UPDATE_USER": "La teva configuració s'ha actualitzat!",
-    "CREATE_ARTWORK": "Creeu una obra d'art nova!"
+    "CREATE_ARTWORK": "Creeu una obra d'art nova!",
+    "CREATE_POST": "Creeu una nova publicació!"
   },
   "LOADING": "Carregant...",
   "404": {
@@ -233,6 +234,8 @@
       "TITLE": "Crea una publicació",
       "TAGS": "Etiquetes",
       "CLEAR": "esborra tot",
+      "COVER": "Portada",
+      "SET_COVER": "Establir com a portads",
       "PLACEHOLDER": {
         "TITLE": "Introdueix un títol enganxós per a la teva publicació",
         "DESCRIPTION": "Descriu què tens al cap o comparteix la història darrere de les imatges. No dubteu a parlar de qualsevol cosa, des de la inspiració diària fins a fites personals.",

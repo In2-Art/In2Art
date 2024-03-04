@@ -117,7 +117,8 @@
     "VOTE": "Votación realizada correctamente",
     "AVATAR": "Avatar successfully selected! Welcome to the home page!",
     "UPDATE_USER": "Your settings updated!",
-    "CREATE_ARTWORK": "You create new Artwork!"
+    "CREATE_ARTWORK": "You create new Artwork!",
+    "CREATE_POST": "You create new Post!"
   },
   "LOADING": "Loading...",
   "404": {
@@ -234,6 +235,8 @@
       "TITLE": "Create a post",
       "TAGS": "Tags",
       "CLEAR": "clear all",
+      "COVER": "Cover",
+      "SET_COVER": "Set as cover",
       "PLACEHOLDER": {
         "TITLE": "Enter a catchy title for your post",
         "DESCRIPTION": "Describe what's on your mind or share the story behind the pictures. Feel free to discuss anything from daily inspiration to personal milestones.",

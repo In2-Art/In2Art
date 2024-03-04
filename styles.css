@@ -1290,7 +1290,8 @@ p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
 }
 
 .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-empty-message {
-    padding: .75rem 1.25rem;
+    padding: 0 1rem;
+    line-height: 1.5;
     color: var(--text);
     background: transparent
 }

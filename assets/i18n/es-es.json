@@ -116,7 +116,8 @@
     "VOTE": "Vote cast successfully!",
     "AVATAR": "¡Avatar seleccionado exitosamente! ¡Bienvenido a la pagina principal!",
     "UPDATE_USER": "¡Tu configuración actualizada!",
-    "CREATE_ARTWORK": "¡Creas nuevas ilustraciones!"
+    "CREATE_ARTWORK": "¡Creas nuevas ilustraciones!",
+    "CREATE_POST": "¡Creas una nueva publicación!"
   },
   "LOADING": "Cargando...",
   "404": {
@@ -234,6 +235,8 @@
       "TITLE": "Crear una publicación",
       "TAGS": "Etiquetas",
       "CLEAR": "limpiar todo",
+      "COVER": "Portada",
+      "SET_COVER": "Establecer como portada",
       "PLACEHOLDER": {
         "TITLE": "Introduce un título atractivo para tu publicación.",
         "DESCRIPTION": "Describe lo que tienes en mente o comparte la historia detrás de las imágenes. Siéntase libre de hablar sobre cualquier tema, desde la inspiración diaria hasta los hitos personales.",
