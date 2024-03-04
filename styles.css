@@ -2265,6 +2265,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 }
 
 .p-inputtext {
+    line-height: 1.5;
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--inputText);
@@ -29379,7 +29380,7 @@ select:-webkit-autofill:focus {
   --btnActive: #066575;
   --btnFocus: #04515E;
   --cropper-outline-color: rgba(0,0,0,0.6);
-  --headerHeightDesktop: 100px;
+  --headerHeightDesktop: 70px;
   --headerHeightMobile: 70px;
   --bgPrimary-dark: #1A1A1A;
   --bgSecondary-dark: #37393d;
@@ -29398,8 +29399,8 @@ select:-webkit-autofill:focus {
   --text: var(--text-dark);
   --inputBg: var(--inputBg-dark);
   --inputText: var(--text);
-  --inputFocus: var(--text);
-  --inputHover: var(--text);
+  --inputFocus: var(--inputPlaceholder);
+  --inputHover: var(--inputPlaceholder);
   --border: var(--text);
   --btnText: var(--text);
 }
