@@ -21,14 +21,18 @@
     "SUBSCRIBE": "Subscriu-te",
     "UPDATE_USER_ACCOUNT": "Actualitza el compte d'usuari",
     "CONFIRM": "Confirmeu",
-    "CANCEL": "Cancel",
+    "CANCEL": "Cancel·la",
     "UPLOAD": "Penja el document",
     "CHANGE_PASSWORD": "Canvia la contrasenya",
     "TO_EDIT_PROFILE": "Torna",
     "TO_PROFILE": "Tornar",
     "HOME": "Inici",
     "AVATAR": "Biblioteca d'avatars",
-    "SETTINGS": "Configuració"
+    "SETTINGS": "Configuració",
+    "CHANGE_OPTION": "Canvia l'opció",
+    "DELETE_ACCOUNT": "Suprimeix el teu compte",
+    "ACCEPT_COOKIES":"Permetre totes les cookies",
+    "REJECT_COOKIES":"Rebutjar cookies opcionals"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -109,10 +113,10 @@
     "LOGIN": "Ara heu iniciat sessió",
     "LOGOUT": "Heu tancat la sessió",
     "RESET_PASSWORD": "S'han enviat instruccions per reiniciar la contrasenya al vostre correu electrònic!",
-    "CHANGED_PASSWORD":"La contrasenya s'ha canviat correctament!",
-    "SIGN_IN":"Inicia la sessió",
-    "ACCOUNT_ACTIVED":"El vostre compte està activat!",
-    "VERIFICATION_EMAIL":"Us reenviem el correu electrònic de verificació",
+    "CHANGED_PASSWORD": "La contrasenya s'ha canviat correctament!",
+    "SIGN_IN": "Inicia la sessió",
+    "ACCOUNT_ACTIVED": "El vostre compte està activat!",
+    "VERIFICATION_EMAIL": "Us reenviem el correu electrònic de verificació",
     "AVATAR": "Avatar seleccionat correctament! Benvingut a la pàgina d'inici!",
     "UPDATE_USER": "La teva configuració s'ha actualitzat!",
     "CREATE_ARTWORK": "Creeu una obra d'art nova!",
@@ -173,7 +177,7 @@
     "BIRTH_DATE": "Dia / Mes / Any",
     "WEBSITE": "Introduïu l'adreça del vostre lloc web",
     "BIO": "Introdueix la teva biografia...",
-    "OLD_PASSWORD": "Introduïu una contrasenya actual",
+    "OLD_PASSWORD": "Introduïu la contrasenya actual",
     "NEW_PASSWORD": "Introduïu una contrasenya nova",
     "CONFIRM_NEW_PASSWORD": "Torneu a introduir la vostra nova contrasenya"
   },
@@ -183,6 +187,20 @@
   },
   "EDIT_PROFILE_PAGE": {
     "TITLE": "Edita el compte d'usuari"
+  },
+  "SETTINGS_PAGE": {
+    "TITLE": "Configuració del compte d'usuari",
+    "SECURITY": "Seguretat",
+    "COOKIES": "Cookies",
+    "DANGEROUS_ZONE": "Zona perillosa",
+    "CHANGE_PASSWORD": "Canvia la contrasenya",
+    "OPTION_COOKIES": "Canvia l'opció de les cookies",
+    "CHANGE_VISIBILITY": "Canvia la visibilitat del teu compte",
+    "DELETE_ACCOUNT": "Suprimeix el teu compte",
+    "COOKIE_SETTINGS": "Configuració de les cookies",
+    "CHANGE_PASSWORD_MESSAGE":"Canvia la contrasenya del teu compte d'usuari de In2Art",
+    "COOKIES_MESSAGE":"Escull si vols acceptar totes les cookies o rebutjar les opcionals",
+    "DELETE_ACCOUNT_MESSAGE":"Un cop suprimiu el vostre compte, tindreu trenta dies per recuperar-lo"    
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Canvia la teva contrasenya aquí"
@@ -241,7 +259,6 @@
         "DESCRIPTION": "Descriu què tens al cap o comparteix la història darrere de les imatges. No dubteu a parlar de qualsevol cosa, des de la inspiració diària fins a fites personals.",
         "TAGS": "Afegiu etiquetes rellevants, per exemple, 'abstracte', 'ArtDigital'. Premeu espai per crear cada etiqueta."
       }
-
     }
   },
   "SET_PHOTO_PAGE": {
@@ -259,5 +276,19 @@
     "WARNING_3": " de la vostra obra d'art romandrà intacta i estarà disponible a la pantalla “imatge completa”.",
     "UNDERLINE_1": "la portada de la vostra obra d'art",
     "UNDERLINE_2": "La imatge completa"
+  },
+  "COOKIE_POPUP":{
+    "MESSAGE_1":"Volem oferir-te la millor experiència possible en els nostres productes, per la qual cosa utilitzem cookies i tecnologies similars. Aquestes ens permeten proporcionar i millorar els nostres serveis, garantir la teva seguretat i brindar-te funcions personalitzades en els Productes de In2Art.",
+    "MESSAGE_2":"Les cookies necessàries són essencials per al funcionament bàsic de la nostra aplicació.",
+    "MESSAGE_3": "Obtingueu més informació sobre les nostres cookies i com les utilitzem en la nostra Política de cookies. Pots revisar o canviar les teves preferències en qualsevol moment. Gràcies per permetre'ns millorar la teva experiència en In2Art."
+    
+  },
+  "DELETE_ACCOUNT_PAGE":{
+    "TITLE":"Suprimeix el teu compte",
+    "TITLE_QUESTION":"Estàs segur que vols suprimir el teu compte?",
+    "MESSAGE_1":"Suprimir el vostre compte és permanent",
+    "MESSAGE_2":"S'esborrarà la informació delicada relacionada amb el teu compte",
+    "CHECKBOX":"Fes clic per poder suprimir el teu compte",
+    "TITLE_POPUP": "Suprimeix el teu compte d'In2Art"
   }
 }

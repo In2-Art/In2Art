@@ -28,7 +28,11 @@
     "TO_PROFILE": "Volver",
     "HOME": "Inicio",
     "AVATAR": "Biblioteca de avatares",
-    "SETTINGS": "Configuración"
+    "SETTINGS": "Configuración",
+    "CHANGE_OPTION": "Cambia la opción",
+    "DELETE_ACCOUNT": "Elimina tu cuenta",
+    "ACCEPT_COOKIES":"Permitir todas las cookies",
+    "REJECT_COOKIES":"Rechazar cookies opcionales"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -95,7 +99,7 @@
     "INVALID_EMAIL": "¡El correo electrónico es invalido!",
     "MIN_LENGTH_PASSWORD": "¡La contraseña debe tener al menos 8 caracteres!",
     "NO_MATCH_PASSWORD": "¡La contraseña no coincide!",
-    "SOMETHING_WRONG":"¡Algo ha ido mal!",
+    "SOMETHING_WRONG": "¡Algo ha ido mal!",
     "WRONG_TYPE": "Tipo de archivo invalido. Por favor seleccione una imagen.",
     "WEBSITE_FORMAT": "Introduzca una dirección de sitio web válida.",
     "NICKNAME_EXIST": "El apodo ya existe",
@@ -108,11 +112,11 @@
     "TITLE": "Éxito",
     "LOGIN": "Ahora habéis iniciado sesión",
     "LOGOUT": "Habéis cerrado la sesión",
-    "RESET_PASSWORD":"Se han enviado instrucciones para reiniciar la contraseña a vuestro correo electrónico!",
-    "CHANGED_PASSWORD":"¡La contraseña se ha cambiado correctamente!",
-    "SIGN_IN":"Inicia la sesión",
-    "ACCOUNT_ACTIVED":"Vuestra cuenta está activada!",
-    "VERIFICATION_EMAIL":"Os reenviamos el correo electrónico de verificación",
+    "RESET_PASSWORD": "Se han enviado instrucciones para reiniciar la contraseña a vuestro correo electrónico!",
+    "CHANGED_PASSWORD": "¡La contraseña se ha cambiado correctamente!",
+    "SIGN_IN": "Inicia la sesión",
+    "ACCOUNT_ACTIVED": "Vuestra cuenta está activada!",
+    "VERIFICATION_EMAIL": "Os reenviamos el correo electrónico de verificación",
     "VOTE": "Vote cast successfully!",
     "AVATAR": "¡Avatar seleccionado exitosamente! ¡Bienvenido a la pagina principal!",
     "UPDATE_USER": "¡Tu configuración actualizada!",
@@ -174,7 +178,7 @@
     "BIRTH_DATE": "Día / Mes / Año",
     "WEBSITE": "Introduzca la dirección de su sitio web",
     "BIO": "Introduce tu biografía...",
-    "OLD_PASSWORD": "Ingrese una contraseña actual",
+    "OLD_PASSWORD": "Ingrese la contraseña actual",
     "NEW_PASSWORD": "Introduzca una nueva contraseña",
     "CONFIRM_NEW_PASSWORD": "Ingrese su nueva contraseña nuevamente"
   },
@@ -184,6 +188,20 @@
   },
   "EDIT_PROFILE_PAGE": {
     "TITLE": "Editar cuenta de usuario"
+  },
+  "SETTINGS_PAGE": {
+    "TITLE": "Configuración de la cuenta de usuario",
+    "SECURITY": "Seguridad",
+    "COOKIES": "Cookies",
+    "DANGEROUS_ZONE": "Zona peligrosa",
+    "CHANGE_PASSWORD": "Cambia la contraseña",
+    "OPTION_COOKIES": "Cambia la opción de las cookies",
+    "CHANGE_VISIBILITY": "Cambia la visibilidad de tu cuenta",
+    "DELETE_ACCOUNT": "Elimina tu cuenta",
+    "COOKIE_SETTINGS": "Configuración de las cookies",
+    "CHANGE_PASSWORD_MESSAGE":"Cambia la contraseña de tu cuenta de usuario de In2Art",
+    "COOKIES_MESSAGE":"Escoge si quieres aceptar todas las cookies o rechazar las opcionales",
+    "DELETE_ACCOUNT_MESSAGE":"Una vez suprimís vuestra cuenta, tendréis treinta días para recuperarla"    
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Cambia tu contraseña aquí"
@@ -259,5 +277,18 @@
     "WARNING_3": " de su obra de arte permanecerá intacta y estará disponible en la pantalla de “imagen completa”.",
     "UNDERLINE_1": "la portada de la obra de arte",
     "UNDERLINE_2": "La imagen completa"
+  },
+  "COOKIE_POPUP":{
+    "MESSAGE_1":"Queremos ofrecerte la mejor experiencia posible en nuestros productos, por lo que utilizamos cookies y tecnologías similares. Estas nos permiten proporcionar y mejorar nuestros servicios, garantizar tu seguridad y brindarte funciones personalizadas en los Productos de In2Art.",
+    "MESSAGE_2":"Las cookies necesarias son esenciales para el funcionamiento básico de nuestra aplicación.",
+    "MESSAGE_3": "Obtén más información sobre nuestras cookies y cómo las utilizamos en nuestra Política de cookies. Puedes revisar o cambiar tus preferencias en cualquier momento. Gracias por permitirnos mejorar tu experiencia en In2Art."
+  },
+  "DELETE_ACCOUNT_PAGE":{
+    "TITLE":"Suprime tu cuenta",
+    "TITLE_QUESTION":"Estás seguro que quieres suprimir tu cuenta?",
+    "MESSAGE_1":"Suprimir vuestra cuenta es permanente",
+    "MESSAGE_2":"Se borrará la información delicada relacionada con tu cuenta",
+    "CHECKBOX":"Haz clic para poder suprimir tu cuenta",
+    "TITLE_POPUP": "Suprime tu cuenta de In2Art"
   }
 }

@@ -28,7 +28,11 @@
     "TO_PROFILE": "Back",
     "HOME": "Home",
     "AVATAR": "Avatar library",
-    "SETTINGS": "Settings"
+    "SETTINGS": "Settings",
+    "CHANGE_OPTION": "Change option",
+    "DELETE_ACCOUNT": "Delete your account",
+    "ACCEPT_COOKIES":"Allow all cookies",
+    "REJECT_COOKIES":"Reject optional cookies"
   },
   "LABEL": {
     "PASSWORD": "Password",
@@ -95,7 +99,7 @@
     "INVALID_EMAIL": "Email is invalid!",
     "MIN_LENGTH_PASSWORD": "Password must be at least 8 character long!",
     "NO_MATCH_PASSWORD": "Password do not match!",
-    "SOMETHING_WRONG":"Something went wrong!",
+    "SOMETHING_WRONG": "Something went wrong!",
     "WRONG_TYPE": "Invalid file type. Please select an image.",
     "MAX_LIMIT": "You've exceeded the maximum character limit.",
     "WEBSITE_FORMAT": "Please enter a valid website address.",
@@ -109,11 +113,11 @@
     "TITLE": "Success",
     "LOGIN": "You are now logged in",
     "LOGOUT": "You have been logged out",
-    "RESET_PASSWORD":"Instructions how to reset your password have been sent to your email!",
-    "CHANGED_PASSWORD":"Your password has been successfully changed!",
-    "SIGN_IN":"You Sign In",
-    "ACCOUNT_ACTIVED":"Your account is now activated!",
-    "VERIFICATION_EMAIL":"We resend you verification email",
+    "RESET_PASSWORD": "Instructions how to reset your password have been sent to your email!",
+    "CHANGED_PASSWORD": "Your password has been successfully changed!",
+    "SIGN_IN": "You Sign In",
+    "ACCOUNT_ACTIVED": "Your account is now activated!",
+    "VERIFICATION_EMAIL": "We resend you verification email",
     "VOTE": "Votación realizada correctamente",
     "AVATAR": "Avatar successfully selected! Welcome to the home page!",
     "UPDATE_USER": "Your settings updated!",
@@ -184,6 +188,20 @@
   },
   "EDIT_PROFILE_PAGE": {
     "TITLE": "Edit User Account"
+  },
+  "SETTINGS_PAGE": {
+    "TITLE": "User account settings",
+    "SECURITY": "Security",
+    "COOKIES": "Cookies",
+    "DANGEROUS_ZONE": "Dangerous zone",
+    "CHANGE_PASSWORD": "Change password",
+    "OPTION_COOKIES": "Change the cookies option",
+    "CHANGE_VISIBILITY": "Change the visibility of your account",
+    "DELETE_ACCOUNT": "Delete your account",
+    "COOKIE_SETTINGS": "Cookie settings",
+    "CHANGE_PASSWORD_MESSAGE":"Change the password of your In2Art user account",
+    "COOKIES_MESSAGE":"Choose if you want to accept all cookies or reject optional cookies",
+    "DELETE_ACCOUNT_MESSAGE":"Once you delete your account, you will have thirty days to recover it"    
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Change your password here"
@@ -256,5 +274,18 @@
     "WARNING_1": "Your artwork ",
     "WARNING_2": " will be cropped for display in the gallery, but you have control to adjust its aspect. Rest assured, the full, unaltered image of your artwork is accessible on the 'Full Image' screen.",
     "UNDERLINE_1": "cover"
+  },
+  "COOKIE_POPUP":{
+    "MESSAGE_1":"We want to offer you the best possible experience in our products, so we use cookies and similar technologies. These allow us to provide and improve our services, ensure your safety and provide you with personalized features in In2Art Products.",
+    "MESSAGE_2":"Necessary cookies are absolutely essential for the website to function properly.",
+    "MESSAGE_3": "Learn more about our cookies and how we use them in our Cookies Policy. You can review or change your preferences at any time. Thank you for allowing us to improve your In2Art experience."
+  },
+  "DELETE_ACCOUNT_PAGE":{
+    "TITLE":"Delete your account",
+    "TITLE_QUESTION":"Are you sure you want to delete your account?",
+    "MESSAGE_1":"Deleting your account is permanent",
+    "MESSAGE_2":"Delicate information related to your account will be deleted",
+    "CHECKBOX":"Click to delete your account",
+    "TITLE_POPUP": "Delete your In2Art account"
   }
 }
