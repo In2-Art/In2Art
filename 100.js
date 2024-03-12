@@ -741,7 +741,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_edit_profile_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/edit-profile.component */ 51572);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 65056);
 /* harmony import */ var _edit_profile_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit-profile-routing.module */ 59256);
-/* harmony import */ var _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/components/container/container.component */ 93992);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 71904);
 /* harmony import */ var primeng_inputtext__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! primeng/inputtext */ 94800);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngx-translate/core */ 72584);
@@ -751,6 +750,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! primeng/inputtextarea */ 21132);
 /* harmony import */ var primeng_password__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! primeng/password */ 36128);
 /* harmony import */ var primeng_tooltip__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! primeng/tooltip */ 22416);
+/* harmony import */ var _components_container_container_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components/container/container.component */ 93992);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 94280);
 
 
@@ -775,7 +775,7 @@ let EditProfileModule = /*#__PURE__*/(() => {
       type: EditProfileModule
     });
     static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _edit_profile_routing_module__WEBPACK_IMPORTED_MODULE_1__.EditProfileRoutingModule, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_6__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_8__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_9__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_10__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_11__.InputTextareaModule, primeng_password__WEBPACK_IMPORTED_MODULE_12__.PasswordModule, primeng_tooltip__WEBPACK_IMPORTED_MODULE_13__.TooltipModule]
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _edit_profile_routing_module__WEBPACK_IMPORTED_MODULE_1__.EditProfileRoutingModule, _components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_6__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_8__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_9__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_10__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_11__.InputTextareaModule, primeng_password__WEBPACK_IMPORTED_MODULE_12__.PasswordModule, primeng_tooltip__WEBPACK_IMPORTED_MODULE_13__.TooltipModule]
     });
   }
   return EditProfileModule;
@@ -783,7 +783,7 @@ let EditProfileModule = /*#__PURE__*/(() => {
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](EditProfileModule, {
     declarations: [_components_edit_profile_component__WEBPACK_IMPORTED_MODULE_0__.EditProfileComponent],
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _edit_profile_routing_module__WEBPACK_IMPORTED_MODULE_1__.EditProfileRoutingModule, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_6__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_8__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_9__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_10__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_11__.InputTextareaModule, primeng_password__WEBPACK_IMPORTED_MODULE_12__.PasswordModule, primeng_tooltip__WEBPACK_IMPORTED_MODULE_13__.TooltipModule]
+    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.CommonModule, _edit_profile_routing_module__WEBPACK_IMPORTED_MODULE_1__.EditProfileRoutingModule, _components_container_container_component__WEBPACK_IMPORTED_MODULE_2__.ContainerComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.ReactiveFormsModule, primeng_inputtext__WEBPACK_IMPORTED_MODULE_6__.InputTextModule, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateModule, primeng_button__WEBPACK_IMPORTED_MODULE_8__.ButtonModule, primeng_ripple__WEBPACK_IMPORTED_MODULE_9__.RippleModule, primeng_calendar__WEBPACK_IMPORTED_MODULE_10__.CalendarModule, primeng_inputtextarea__WEBPACK_IMPORTED_MODULE_11__.InputTextareaModule, primeng_password__WEBPACK_IMPORTED_MODULE_12__.PasswordModule, primeng_tooltip__WEBPACK_IMPORTED_MODULE_13__.TooltipModule]
   });
 })();
 
