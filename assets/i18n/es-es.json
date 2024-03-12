@@ -128,7 +128,8 @@
     "AVATAR": "¡Avatar seleccionado exitosamente! ¡Bienvenido a la pagina principal!",
     "UPDATE_USER": "¡Tu configuración actualizada!",
     "CREATE_ARTWORK": "¡Creas nuevas ilustraciones!",
-    "CREATE_POST": "¡Creas una nueva publicación!"
+    "CREATE_POST": "¡Creas una nueva publicación!",
+    "DELETE_ACCOUNT":"¡Se ha eliminado tu cuenta!"
   },
   "LOADING": "Cargando...",
   "404": {

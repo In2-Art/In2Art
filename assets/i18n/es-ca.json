@@ -127,7 +127,8 @@
     "AVATAR": "Avatar seleccionat correctament! Benvingut a la pàgina d'inici!",
     "UPDATE_USER": "La teva configuració s'ha actualitzat!",
     "CREATE_ARTWORK": "Creeu una obra d'art nova!",
-    "CREATE_POST": "Creeu una nova publicació!"
+    "CREATE_POST": "Creeu una nova publicació!",
+    "DELETE_ACCOUNT":"S'ha eliminat el teu compte!"
   },
   "LOADING": "Carregant...",
   "404": {

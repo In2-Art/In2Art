@@ -129,7 +129,8 @@
     "AVATAR": "Avatar successfully selected! Welcome to the home page!",
     "UPDATE_USER": "Your settings updated!",
     "CREATE_ARTWORK": "You create new Artwork!",
-    "CREATE_POST": "You create new Post!"
+    "CREATE_POST": "You create new Post!",
+    "DELETE_ACCOUNT":"Your account has been deleted!"
   },
   "LOADING": "Loading...",
   "404": {
