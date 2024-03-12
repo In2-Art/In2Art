@@ -75,7 +75,7 @@ let HomeComponent = /*#__PURE__*/(() => {
       selectors: [["app-home"]],
       decls: 6,
       vars: 5,
-      consts: [["appScrollBottom", "", 1, "content", "align-center", "flex", "flex-column", "gap-4", "pt-4", "pb-4", 3, "scrollingFinished"], ["class", "w-full flex justify-content-center align-self-center", 4, "ngIf"], [3, "post"], [1, "w-full", "flex", "justify-content-center", "align-self-center"]],
+      consts: [["appScrollBottom", "", 1, "content", "align-center", "justify-content-center", "flex", "flex-column", "gap-4", "pt-4", "pb-4", 3, "scrollingFinished"], ["class", "w-full", 4, "ngIf"], [3, "post"], [1, "w-full"]],
       template: function HomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0);
@@ -96,7 +96,7 @@ let HomeComponent = /*#__PURE__*/(() => {
         }
       },
       dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _shared_components_post_card_post_card_component__WEBPACK_IMPORTED_MODULE_2__.PostCardComponent, _shared_directives_scroll_bottom_directive__WEBPACK_IMPORTED_MODULE_3__.ScrollBottomDirective, _shared_components_skeleton_card_skeleton_card_component__WEBPACK_IMPORTED_MODULE_4__.SkeletonCardComponent, _angular_common__WEBPACK_IMPORTED_MODULE_9__.AsyncPipe],
-      styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
+      styles: [".content[_ngcontent-%COMP%] {\n  margin: 70px auto 0;\n  width: 800px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvaG9tZS9jb21wb25lbnRzL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxtQkFBQTtFQUNBLFlBQUE7QUFDRiIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgbWFyZ2luOiA3MHB4IGF1dG8gMDtcbiAgd2lkdGg6IDgwMHB4O1xufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
     });
   }
   return HomeComponent;
@@ -196,53 +196,6 @@ let HomeModule = /*#__PURE__*/(() => {
     declarations: [_components_home_component__WEBPACK_IMPORTED_MODULE_1__.HomeComponent],
     imports: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule, _home_routing_module__WEBPACK_IMPORTED_MODULE_0__.HomeRoutingModule, _components_post_card_post_card_component__WEBPACK_IMPORTED_MODULE_3__.PostCardComponent, src_app_shared_directives_scroll_bottom_directive__WEBPACK_IMPORTED_MODULE_2__.ScrollBottomDirective, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateModule, _components_skeleton_card_skeleton_card_component__WEBPACK_IMPORTED_MODULE_4__.SkeletonCardComponent]
   });
-})();
-
-/***/ }),
-
-/***/ 25096:
-/*!****************************************************************************!*\
-  !*** ./src/app/shared/components/skeleton-card/skeleton-card.component.ts ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   SkeletonCardComponent: () => (/* binding */ SkeletonCardComponent)
-/* harmony export */ });
-/* harmony import */ var primeng_skeleton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/skeleton */ 90797);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
-
-
-
-let SkeletonCardComponent = /*#__PURE__*/(() => {
-  class SkeletonCardComponent {
-    static #_ = this.ɵfac = function SkeletonCardComponent_Factory(t) {
-      return new (t || SkeletonCardComponent)();
-    };
-    static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
-      type: SkeletonCardComponent,
-      selectors: [["app-skeleton-card"]],
-      standalone: true,
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵStandaloneFeature"]],
-      decls: 6,
-      vars: 0,
-      consts: [[1, "wrapper"], [1, "image"], ["height", "300px"], [1, "tabs"], ["size", "1.5rem"], ["height", "1.5rem", "width", "5rem"]],
-      template: function SkeletonCardComponent_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "p-skeleton", 2);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "p-skeleton", 4)(5, "p-skeleton", 5);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        }
-      },
-      dependencies: [primeng_skeleton__WEBPACK_IMPORTED_MODULE_1__.SkeletonModule, primeng_skeleton__WEBPACK_IMPORTED_MODULE_1__.Skeleton],
-      styles: [".wrapper[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  width: 800px;\n  padding: 0;\n  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.24), 0 1px 4px -1px rgba(0, 0, 0, 0.24);\n  animation: _ngcontent-%COMP%_pulseShadow 1.5s infinite ease-in-out;\n}\n\n@keyframes _ngcontent-%COMP%_pulseShadow {\n  0%, 100% {\n    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.24), 0 1px 4px -1px rgba(0, 0, 0, 0.24);\n  }\n  50% {\n    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6), 0 6px 10px rgba(0, 0, 0, 0.7), 0 4px 6px -2px rgba(0, 0, 0, 0.7);\n  }\n}\n.image[_ngcontent-%COMP%] {\n  height: 300px;\n  padding: 0;\n}\n\n.tabs[_ngcontent-%COMP%] {\n  display: flex;\n  gap: 1.5rem;\n  height: 56px;\n  align-items: center;\n  padding: 0 1rem;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvc2tlbGV0b24tY2FyZC9za2VsZXRvbi1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLFVBQUE7RUFDQSw2R0FBQTtFQUdBLGdEQUFBO0FBREY7O0FBSUE7RUFDRTtJQUNFLDJHQUFBO0VBREY7RUFHQTtJQUNFLDJHQUFBO0VBREY7QUFDRjtBQUlBO0VBQ0UsYUFBQTtFQUNBLFVBQUE7QUFGRjs7QUFLQTtFQUNFLGFBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtBQUZGIiwic291cmNlc0NvbnRlbnQiOlsiLndyYXBwZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICB3aWR0aDogODAwcHg7XG4gIHBhZGRpbmc6IDA7XG4gIGJveC1zaGFkb3c6IDAgMTJweCAxMnB4IHJnYmEoMCwgMCwgMCwgMC4yKSxcbiAgMCAzcHggNHB4IHJnYmEoMCwgMCwgMCwgMC4yNCksXG4gIDAgMXB4IDRweCAtMXB4IHJnYmEoMCwgMCwgMCwgMC4yNCk7XG4gIGFuaW1hdGlvbjogcHVsc2VTaGFkb3cgMS41cyBpbmZpbml0ZSBlYXNlLWluLW91dDtcbn1cblxuQGtleWZyYW1lcyBwdWxzZVNoYWRvdyB7XG4gIDAlLCAxMDAlIHtcbiAgICBib3gtc2hhZG93OiAwIDFweCA4cHggcmdiYSgwLCAwLCAwLCAwLjIpLCAwIDNweCA0cHggcmdiYSgwLCAwLCAwLCAwLjI0KSwgMCAxcHggNHB4IC0xcHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgfVxuICA1MCUge1xuICAgIGJveC1zaGFkb3c6IDAgNHB4IDE1cHggcmdiYSgwLCAwLCAwLCAwLjYpLCAwIDZweCAxMHB4IHJnYmEoMCwgMCwgMCwgMC43KSwgMCA0cHggNnB4IC0ycHggcmdiYSgwLCAwLCAwLCAwLjcpO1xuICB9XG59XG5cbi5pbWFnZSB7XG4gIGhlaWdodDogMzAwcHg7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi50YWJzIHtcbiAgZGlzcGxheTogZmxleDtcbiAgZ2FwOiAxLjVyZW07XG4gIGhlaWdodDogNTZweDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgcGFkZGluZzogMCAxcmVtO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
-    });
-  }
-  return SkeletonCardComponent;
 })();
 
 /***/ }),
