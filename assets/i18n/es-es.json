@@ -33,7 +33,9 @@
     "CHANGE_OPTION": "Cambia la opción",
     "DELETE_ACCOUNT": "Elimina tu cuenta",
     "ACCEPT_COOKIES":"Permitir todas las cookies",
-    "REJECT_COOKIES":"Rechazar cookies opcionales"
+    "REJECT_COOKIES":"Rechazar cookies opcionales",
+    "MORE": "más...",
+    "LESS": "menos..."
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -113,7 +115,8 @@
     "NICKNAME_SPACES": "Asegúrese de que la entrada contenga solo caracteres alfanuméricos, guiones bajos, guiones y ningún espacio.",
     "NOTHING_TO_CHANGE": "No se puede enviar el formulario porque no se han realizado cambios.",
     "INVALID_DECADE": "Década inválida. Introduzca una década válida (que termine en 0).",
-    "INVALID_CENTURY": "Entrada inválida. Introduzca únicamente números romanos correctos."
+    "INVALID_CENTURY": "Entrada inválida. Introduzca únicamente números romanos correctos.",
+    "URL_COPY": "No se pudo copiar la URL. ¡Inténtalo de nuevo más tarde!"
   },
   "SUCCESS": {
     "TITLE": "Éxito",
@@ -129,7 +132,8 @@
     "UPDATE_USER": "¡Tu configuración actualizada!",
     "CREATE_ARTWORK": "¡Creas nuevas ilustraciones!",
     "CREATE_POST": "¡Creas una nueva publicación!",
-    "DELETE_ACCOUNT":"¡Se ha eliminado tu cuenta!"
+    "DELETE_ACCOUNT":"¡Se ha eliminado tu cuenta!",
+    "URL_COPY": "¡URL copiada al portapapeles!"
   },
   "LOADING": "Cargando...",
   "404": {

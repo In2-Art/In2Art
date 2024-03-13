@@ -33,7 +33,9 @@
     "CHANGE_OPTION": "Change option",
     "DELETE_ACCOUNT": "Delete your account",
     "ACCEPT_COOKIES":"Allow all cookies",
-    "REJECT_COOKIES":"Reject optional cookies"
+    "REJECT_COOKIES":"Reject optional cookies",
+    "MORE": "more...",
+    "LESS": "less..."
   },
   "LABEL": {
     "PASSWORD": "Password",
@@ -114,7 +116,8 @@
     "NICKNAME_SPACES": "Please ensure the input contains only alphanumeric characters, underscores, hyphens, and no spaces.",
     "NOTHING_TO_CHANGE": "Cannot submit the form as no changes have been made.",
     "INVALID_DECADE": "Invalid decade. Please enter a valid decade (ending with 0).",
-    "INVALID_CENTURY": "Invalid input. Please enter correct Roman numerals only."
+    "INVALID_CENTURY": "Invalid input. Please enter correct Roman numerals only.",
+    "URL_COPY": "Couldn't copy URL. Try again later!"
   },
   "SUCCESS": {
     "TITLE": "Success",
@@ -130,7 +133,8 @@
     "UPDATE_USER": "Your settings updated!",
     "CREATE_ARTWORK": "You create new Artwork!",
     "CREATE_POST": "You create new Post!",
-    "DELETE_ACCOUNT":"Your account has been deleted!"
+    "DELETE_ACCOUNT":"Your account has been deleted!",
+    "URL_COPY": "URL copied to clipboard!"
   },
   "LOADING": "Loading...",
   "404": {

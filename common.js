@@ -26,24 +26,88 @@ let SkeletonCardComponent = /*#__PURE__*/(() => {
       selectors: [["app-skeleton-card"]],
       standalone: true,
       features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵStandaloneFeature"]],
-      decls: 6,
+      decls: 9,
       vars: 0,
-      consts: [[1, "wrapper"], [1, "image"], ["height", "300px"], [1, "tabs"], ["size", "1.5rem"], ["height", "1.5rem", "width", "5rem"]],
+      consts: [[1, "wrapper"], [1, "header"], ["size", "2rem", "shape", "circle"], ["height", "1.5rem", "width", "6rem"], [1, "image"], ["height", "300px"], [1, "footer"], ["height", "1.5rem", "width", "3rem"]],
       template: function SkeletonCardComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "p-skeleton", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "p-skeleton", 2)(3, "p-skeleton", 3);
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "p-skeleton", 4)(5, "p-skeleton", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "p-skeleton", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "p-skeleton", 7)(8, "p-skeleton", 7);
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         }
       },
       dependencies: [primeng_skeleton__WEBPACK_IMPORTED_MODULE_1__.SkeletonModule, primeng_skeleton__WEBPACK_IMPORTED_MODULE_1__.Skeleton],
-      styles: [".wrapper[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  padding: 0;\n  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.24), 0 1px 4px -1px rgba(0, 0, 0, 0.24);\n  animation: _ngcontent-%COMP%_pulseShadow 1.5s infinite ease-in-out;\n}\n\n@keyframes _ngcontent-%COMP%_pulseShadow {\n  0%, 100% {\n    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.24), 0 1px 4px -1px rgba(0, 0, 0, 0.24);\n  }\n  50% {\n    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6), 0 6px 10px rgba(0, 0, 0, 0.7), 0 4px 6px -2px rgba(0, 0, 0, 0.7);\n  }\n}\n.image[_ngcontent-%COMP%] {\n  height: 300px;\n  padding: 0;\n}\n\n.tabs[_ngcontent-%COMP%] {\n  display: flex;\n  gap: 1.5rem;\n  height: 56px;\n  align-items: center;\n  padding: 0 1rem;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvc2tlbGV0b24tY2FyZC9za2VsZXRvbi1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLHNCQUFBO0VBQ0EsV0FBQTtFQUNBLFVBQUE7RUFDQSw2R0FBQTtFQUdBLGdEQUFBO0FBREY7O0FBSUE7RUFDRTtJQUNFLDJHQUFBO0VBREY7RUFHQTtJQUNFLDJHQUFBO0VBREY7QUFDRjtBQUlBO0VBQ0UsYUFBQTtFQUNBLFVBQUE7QUFGRjs7QUFLQTtFQUNFLGFBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtBQUZGIiwic291cmNlc0NvbnRlbnQiOlsiLndyYXBwZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICB3aWR0aDogMTAwJTtcbiAgcGFkZGluZzogMDtcbiAgYm94LXNoYWRvdzogMCAxMnB4IDEycHggcmdiYSgwLCAwLCAwLCAwLjIpLFxuICAwIDNweCA0cHggcmdiYSgwLCAwLCAwLCAwLjI0KSxcbiAgMCAxcHggNHB4IC0xcHggcmdiYSgwLCAwLCAwLCAwLjI0KTtcbiAgYW5pbWF0aW9uOiBwdWxzZVNoYWRvdyAxLjVzIGluZmluaXRlIGVhc2UtaW4tb3V0O1xufVxuXG5Aa2V5ZnJhbWVzIHB1bHNlU2hhZG93IHtcbiAgMCUsIDEwMCUge1xuICAgIGJveC1zaGFkb3c6IDAgMXB4IDhweCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgM3B4IDRweCByZ2JhKDAsIDAsIDAsIDAuMjQpLCAwIDFweCA0cHggLTFweCByZ2JhKDAsIDAsIDAsIDAuMjQpO1xuICB9XG4gIDUwJSB7XG4gICAgYm94LXNoYWRvdzogMCA0cHggMTVweCByZ2JhKDAsIDAsIDAsIDAuNiksIDAgNnB4IDEwcHggcmdiYSgwLCAwLCAwLCAwLjcpLCAwIDRweCA2cHggLTJweCByZ2JhKDAsIDAsIDAsIDAuNyk7XG4gIH1cbn1cblxuLmltYWdlIHtcbiAgaGVpZ2h0OiAzMDBweDtcbiAgcGFkZGluZzogMDtcbn1cblxuLnRhYnMge1xuICBkaXNwbGF5OiBmbGV4O1xuICBnYXA6IDEuNXJlbTtcbiAgaGVpZ2h0OiA1NnB4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBwYWRkaW5nOiAwIDFyZW07XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */"]
+      styles: [".wrapper[_ngcontent-%COMP%] {\n  border: 1px solid var(--bgSecondary);\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  padding: 0;\n}\n\n.header[_ngcontent-%COMP%] {\n  display: flex;\n  gap: 12px;\n  height: 3.5rem;\n  align-items: center;\n  padding: 0 12px;\n}\n\n.image[_ngcontent-%COMP%] {\n  height: 300px;\n  padding: 0;\n}\n\n.footer[_ngcontent-%COMP%] {\n  display: flex;\n  gap: 1rem;\n  height: 3rem;\n  align-items: center;\n  padding: 0 12px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvc2hhcmVkL2NvbXBvbmVudHMvc2tlbGV0b24tY2FyZC9za2VsZXRvbi1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usb0NBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSxXQUFBO0VBQ0EsVUFBQTtBQUNGOztBQUVBO0VBQ0UsYUFBQTtFQUNBLFNBQUE7RUFDQSxjQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0FBQ0Y7O0FBRUE7RUFDRSxhQUFBO0VBQ0EsVUFBQTtBQUNGOztBQUVBO0VBQ0UsYUFBQTtFQUNBLFNBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyIud3JhcHBlciB7XG4gIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWJnU2Vjb25kYXJ5KTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgd2lkdGg6IDEwMCU7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5oZWFkZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBnYXA6IDEycHg7XG4gIGhlaWdodDogMy41cmVtO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBwYWRkaW5nOiAwIDEycHg7XG59XG5cbi5pbWFnZSB7XG4gIGhlaWdodDogMzAwcHg7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5mb290ZXIge1xuICBkaXNwbGF5OiBmbGV4O1xuICBnYXA6IDFyZW07XG4gIGhlaWdodDogM3JlbTtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgcGFkZGluZzogMCAxMnB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
     });
   }
   return SkeletonCardComponent;
+})();
+
+/***/ }),
+
+/***/ 77592:
+/*!**************************************************************!*\
+  !*** ./src/app/shared/directives/scroll-bottom.directive.ts ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ScrollBottomDirective: () => (/* binding */ ScrollBottomDirective)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
+
+
+let ScrollBottomDirective = /*#__PURE__*/(() => {
+  class ScrollBottomDirective {
+    constructor(el) {
+      this.el = el;
+      this.scrollingFinished = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
+      this.threshold = 60;
+    }
+    ngOnInit() {
+      this.window = window;
+    }
+    windowScrollEvent() {
+      const heightOfWholePage = this.window.document.documentElement.scrollHeight;
+      const heightOfElement = this.el.nativeElement.scrollHeight;
+      const currentScrolledY = this.window.scrollY;
+      const innerHeight = this.window.innerHeight;
+      const spaceOfElementAndPage = heightOfWholePage - heightOfElement;
+      const scrollToBottom = heightOfElement - innerHeight - currentScrolledY + spaceOfElementAndPage;
+      if (scrollToBottom < this.threshold) {
+        this.scrollingFinished.emit();
+      }
+    }
+    static #_ = this.ɵfac = function ScrollBottomDirective_Factory(t) {
+      return new (t || ScrollBottomDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef));
+    };
+    static #_2 = this.ɵdir = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
+      type: ScrollBottomDirective,
+      selectors: [["", "appScrollBottom", ""]],
+      hostBindings: function ScrollBottomDirective_HostBindings(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scroll", function ScrollBottomDirective_scroll_HostBindingHandler($event) {
+            return ctx.windowScrollEvent($event.target);
+          }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
+        }
+      },
+      inputs: {
+        threshold: "threshold"
+      },
+      outputs: {
+        scrollingFinished: "scrollingFinished"
+      },
+      standalone: true
+    });
+  }
+  return ScrollBottomDirective;
 })();
 
 /***/ }),
@@ -190,6 +254,157 @@ let InputTextareaModule = /*#__PURE__*/(() => {
     });
   }
   return InputTextareaModule;
+})();
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && void 0;
+})();
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+
+/***/ }),
+
+/***/ 90797:
+/*!************************************************************!*\
+  !*** ./node_modules/primeng/fesm2022/primeng-skeleton.mjs ***!
+  \************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Skeleton: () => (/* binding */ Skeleton),
+/* harmony export */   SkeletonModule: () => (/* binding */ SkeletonModule)
+/* harmony export */ });
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 65056);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
+
+
+
+
+
+/**
+ * Skeleton is a placeholder to display instead of the actual content.
+ * @group Components
+ */
+let Skeleton = /*#__PURE__*/(() => {
+  class Skeleton {
+    /**
+     * Class of the element.
+     * @group Props
+     */
+    styleClass;
+    /**
+     * Inline style of the element.
+     * @group Props
+     */
+    style;
+    /**
+     * Shape of the element.
+     * @group Props
+     */
+    shape = 'rectangle';
+    /**
+     * Type of the animation.
+     * @gruop Props
+     */
+    animation = 'wave';
+    /**
+     * Border radius of the element, defaults to value from theme.
+     * @group Props
+     */
+    borderRadius;
+    /**
+     * Size of the Circle or Square.
+     * @group Props
+     */
+    size;
+    /**
+     * Width of the element.
+     * @group Props
+     */
+    width = '100%';
+    /**
+     * Height of the element.
+     * @group Props
+     */
+    height = '1rem';
+    containerClass() {
+      return {
+        'p-skeleton p-component': true,
+        'p-skeleton-circle': this.shape === 'circle',
+        'p-skeleton-none': this.animation === 'none'
+      };
+    }
+    containerStyle() {
+      if (this.size) return {
+        ...this.style,
+        width: this.size,
+        height: this.size,
+        borderRadius: this.borderRadius
+      };else return {
+        ...this.style,
+        width: this.width,
+        height: this.height,
+        borderRadius: this.borderRadius
+      };
+    }
+    static ɵfac = function Skeleton_Factory(t) {
+      return new (t || Skeleton)();
+    };
+    static ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: Skeleton,
+      selectors: [["p-skeleton"]],
+      hostAttrs: [1, "p-element"],
+      inputs: {
+        styleClass: "styleClass",
+        style: "style",
+        shape: "shape",
+        animation: "animation",
+        borderRadius: "borderRadius",
+        size: "size",
+        width: "width",
+        height: "height"
+      },
+      decls: 1,
+      vars: 7,
+      consts: [[3, "ngClass", "ngStyle"]],
+      template: function Skeleton_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 0);
+        }
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.styleClass);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", ctx.containerClass())("ngStyle", ctx.containerStyle());
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("data-pc-name", "skeleton")("aria-hidden", true)("data-pc-section", "root");
+        }
+      },
+      dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_1__.NgStyle],
+      styles: ["@layer primeng{.p-skeleton{position:relative;overflow:hidden}.p-skeleton:after{content:\"\";animation:p-skeleton-animation 1.2s infinite;height:100%;left:0;position:absolute;right:0;top:0;transform:translate(-100%);z-index:1}.p-skeleton.p-skeleton-circle{border-radius:50%}.p-skeleton-none:after{animation:none}}@keyframes p-skeleton-animation{0%{transform:translate(-100%)}to{transform:translate(100%)}}\n"],
+      encapsulation: 2,
+      changeDetection: 0
+    });
+  }
+  return Skeleton;
+})();
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && void 0;
+})();
+let SkeletonModule = /*#__PURE__*/(() => {
+  class SkeletonModule {
+    static ɵfac = function SkeletonModule_Factory(t) {
+      return new (t || SkeletonModule)();
+    };
+    static ɵmod = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
+      type: SkeletonModule
+    });
+    static ɵinj = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__.CommonModule]
+    });
+  }
+  return SkeletonModule;
 })();
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && void 0;

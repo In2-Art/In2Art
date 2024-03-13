@@ -75,7 +75,7 @@ let HomeComponent = /*#__PURE__*/(() => {
       selectors: [["app-home"]],
       decls: 6,
       vars: 5,
-      consts: [["appScrollBottom", "", 1, "content", "align-center", "justify-content-center", "flex", "flex-column", "gap-4", "pt-4", "pb-4", 3, "scrollingFinished"], ["class", "w-full", 4, "ngIf"], [3, "post"], [1, "w-full"]],
+      consts: [["appScrollBottom", "", 1, "content", "align-center", "justify-content-center", "flex", "flex-column", "gap-4", 3, "scrollingFinished"], ["class", "w-full", 4, "ngIf"], [3, "post"], [1, "w-full"]],
       template: function HomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0);
@@ -96,7 +96,7 @@ let HomeComponent = /*#__PURE__*/(() => {
         }
       },
       dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _shared_components_post_card_post_card_component__WEBPACK_IMPORTED_MODULE_2__.PostCardComponent, _shared_directives_scroll_bottom_directive__WEBPACK_IMPORTED_MODULE_3__.ScrollBottomDirective, _shared_components_skeleton_card_skeleton_card_component__WEBPACK_IMPORTED_MODULE_4__.SkeletonCardComponent, _angular_common__WEBPACK_IMPORTED_MODULE_9__.AsyncPipe],
-      styles: [".content[_ngcontent-%COMP%] {\n  margin: 70px auto 0;\n  width: 800px;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvaG9tZS9jb21wb25lbnRzL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxtQkFBQTtFQUNBLFlBQUE7QUFDRiIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgbWFyZ2luOiA3MHB4IGF1dG8gMDtcbiAgd2lkdGg6IDgwMHB4O1xufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
+      styles: [".content[_ngcontent-%COMP%] {\n  margin: 1.5rem 0;\n  width: 100%;\n}\n@media (min-width: 768px) {\n  .content[_ngcontent-%COMP%] {\n    margin: 2rem auto 0;\n    width: 800px;\n  }\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvcGFnZXMvaG9tZS9jb21wb25lbnRzL2hvbWUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxnQkFBQTtFQUNBLFdBQUE7QUFDRjtBQUNFO0VBSkY7SUFLSSxtQkFBQTtJQUNBLFlBQUE7RUFFRjtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRlbnQge1xuICBtYXJnaW46IDEuNXJlbSAwO1xuICB3aWR0aDogMTAwJTtcblxuICBAbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICBtYXJnaW46IDJyZW0gYXV0byAwO1xuICAgIHdpZHRoOiA4MDBweDtcbiAgfVxufSJdLCJzb3VyY2VSb290IjoiIn0= */"]
     });
   }
   return HomeComponent;
@@ -196,67 +196,6 @@ let HomeModule = /*#__PURE__*/(() => {
     declarations: [_components_home_component__WEBPACK_IMPORTED_MODULE_1__.HomeComponent],
     imports: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.CommonModule, _home_routing_module__WEBPACK_IMPORTED_MODULE_0__.HomeRoutingModule, _components_post_card_post_card_component__WEBPACK_IMPORTED_MODULE_3__.PostCardComponent, src_app_shared_directives_scroll_bottom_directive__WEBPACK_IMPORTED_MODULE_2__.ScrollBottomDirective, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateModule, _components_skeleton_card_skeleton_card_component__WEBPACK_IMPORTED_MODULE_4__.SkeletonCardComponent]
   });
-})();
-
-/***/ }),
-
-/***/ 77592:
-/*!**************************************************************!*\
-  !*** ./src/app/shared/directives/scroll-bottom.directive.ts ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ScrollBottomDirective: () => (/* binding */ ScrollBottomDirective)
-/* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
-
-
-let ScrollBottomDirective = /*#__PURE__*/(() => {
-  class ScrollBottomDirective {
-    constructor(el) {
-      this.el = el;
-      this.scrollingFinished = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
-      this.threshold = 60;
-    }
-    ngOnInit() {
-      this.window = window;
-    }
-    windowScrollEvent() {
-      const heightOfWholePage = this.window.document.documentElement.scrollHeight;
-      const heightOfElement = this.el.nativeElement.scrollHeight;
-      const currentScrolledY = this.window.scrollY;
-      const innerHeight = this.window.innerHeight;
-      const spaceOfElementAndPage = heightOfWholePage - heightOfElement;
-      const scrollToBottom = heightOfElement - innerHeight - currentScrolledY + spaceOfElementAndPage;
-      if (scrollToBottom < this.threshold) {
-        this.scrollingFinished.emit();
-      }
-    }
-    static #_ = this.ɵfac = function ScrollBottomDirective_Factory(t) {
-      return new (t || ScrollBottomDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef));
-    };
-    static #_2 = this.ɵdir = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: ScrollBottomDirective,
-      selectors: [["", "appScrollBottom", ""]],
-      hostBindings: function ScrollBottomDirective_HostBindings(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scroll", function ScrollBottomDirective_scroll_HostBindingHandler($event) {
-            return ctx.windowScrollEvent($event.target);
-          }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
-        }
-      },
-      inputs: {
-        threshold: "threshold"
-      },
-      outputs: {
-        scrollingFinished: "scrollingFinished"
-      },
-      standalone: true
-    });
-  }
-  return ScrollBottomDirective;
 })();
 
 /***/ }),

@@ -33,7 +33,9 @@
     "CHANGE_OPTION": "Canvia l'opció",
     "DELETE_ACCOUNT": "Suprimeix el teu compte",
     "ACCEPT_COOKIES":"Permetre totes les cookies",
-    "REJECT_COOKIES":"Rebutjar cookies opcionals"
+    "REJECT_COOKIES":"Rebutjar cookies opcionals",
+    "MORE": "més...",
+    "LESS": "menys..."
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -113,7 +115,8 @@
     "NICKNAME_SPACES": "Assegureu-vos que l'entrada només contingui caràcters alfanumèrics, guions baixos, guions i sense espais.",
     "NOTHING_TO_CHANGE": "No es pot enviar el formulari perquè no s'han fet canvis.",
     "INVALID_DECADE": "Dècada no vàlida. Introduïu una dècada vàlida (que acaba amb 0).",
-    "INVALID_CENTURY": "Entrada incorrecta. Introduïu només els números romans correctes."
+    "INVALID_CENTURY": "Entrada incorrecta. Introduïu només els números romans correctes.",
+    "URL_COPY": "No s'ha pogut copiar l'URL. Torna-ho a provar més tard!"
   },
   "SUCCESS": {
     "TITLE": "Èxit",
@@ -128,7 +131,8 @@
     "UPDATE_USER": "La teva configuració s'ha actualitzat!",
     "CREATE_ARTWORK": "Creeu una obra d'art nova!",
     "CREATE_POST": "Creeu una nova publicació!",
-    "DELETE_ACCOUNT":"S'ha eliminat el teu compte!"
+    "DELETE_ACCOUNT":"S'ha eliminat el teu compte!",
+    "URL_COPY": "URL copiat al porta-retalls!"
   },
   "LOADING": "Carregant...",
   "404": {
