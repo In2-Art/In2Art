@@ -29371,6 +29371,20 @@ select:-webkit-autofill:focus {
   fill: var(--text);
 }
 
+.back-button {
+  padding: 0.5rem;
+  color: var(--iconsInactive);
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+}
+.back-button:hover {
+  color: var(--btnPrimary);
+}
+.back-button:active {
+  color: var(--btnActive);
+}
+
 * {
   --inputInvalid: #C05139;
   --input: #404040;

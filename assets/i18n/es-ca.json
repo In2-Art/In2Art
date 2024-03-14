@@ -36,8 +36,8 @@
     "REJECT_COOKIES":"Rebutjar cookies opcionals",
     "MORE": "més...",
     "LESS": "menys...",
-    "CREATE_POST": "Crea una publicació",
-    "ADD_ARTWORK": "Afegeix una obra d'art"
+    "CREATE_POST": "Afegeix publica",
+    "ADD_ARTWORK": "Afegeix obra"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -78,8 +78,9 @@
     "TechnicalOpinion": "Opinió tècnica",
     "ARTIST": "Artista",
     "PRICE": "Preu",
-    "AGREE_TO_TERMS_ARTWORK_1": "En penjar la teva obra d'art, acceptes el nostre",
-    "AGREE_TO_TERMS_ARTWORK_2": "Termes i condicions.",
+    "AGREE_TO_TERMS_1_ARTWORK": "En penjar la teva obra d'art, acceptes el nostre",
+    "AGREE_TO_TERMS_1_POST": "En penjar la teva publicació, acceptes el nostre",
+    "AGREE_TO_TERMS_2": "Termes i condicions.",
     "BODY": "Cos"
   },
   "TITLE": {

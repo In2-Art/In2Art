@@ -78,8 +78,9 @@
     "TechnicalOpinion": "TechnicalOpinion",
     "ARTIST": "Artist",
     "PRICE": "Price",
-    "AGREE_TO_TERMS_ARTWORK_1": "By uploading your artwork, you agree to our",
-    "AGREE_TO_TERMS_ARTWORK_2": "Terms and Conditions.",
+    "AGREE_TO_TERMS_1_ARTWORK": "By uploading your artwork, you agree to our",
+    "AGREE_TO_TERMS_1_POST": "By uploading your post, you agree to our",
+    "AGREE_TO_TERMS_2": "Terms and Conditions.",
     "BODY": "Body"
   },
   "TITLE": {

@@ -110,3 +110,19 @@ select:-webkit-autofill:focus {
     fill: var(--text);
   }
 }
+
+.back-button {
+  padding: 0.5rem;
+  color: var(--iconsInactive);
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+
+  &:hover {
+    color: var(--btnPrimary)
+  }
+
+  &:active {
+    color: var(--btnActive)
+  }
+}
