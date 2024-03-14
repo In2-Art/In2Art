@@ -35,7 +35,9 @@
     "ACCEPT_COOKIES":"Allow all cookies",
     "REJECT_COOKIES":"Reject optional cookies",
     "MORE": "more...",
-    "LESS": "less..."
+    "LESS": "less...",
+    "CREATE_POST": "Create a post",
+    "ADD_ARTWORK": "Add an artwork"
   },
   "LABEL": {
     "PASSWORD": "Password",

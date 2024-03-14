@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkweb_app_versions"] = self["webpackChunkweb_app_versions"] || []).push([[312],{
+(self["webpackChunkweb_app_versions"] = self["webpackChunkweb_app_versions"] || []).push([[76],{
 
-/***/ 25096:
+/***/ 17685:
 /*!****************************************************************************!*\
   !*** ./src/app/shared/components/skeleton-card/skeleton-card.component.ts ***!
   \****************************************************************************/
@@ -11,8 +11,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SkeletonCardComponent: () => (/* binding */ SkeletonCardComponent)
 /* harmony export */ });
-/* harmony import */ var primeng_skeleton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/skeleton */ 90797);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
+/* harmony import */ var primeng_skeleton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/skeleton */ 76301);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 37580);
 
 
 
@@ -51,7 +51,7 @@ let SkeletonCardComponent = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 77592:
+/***/ 58577:
 /*!**************************************************************!*\
   !*** ./src/app/shared/directives/scroll-bottom.directive.ts ***!
   \**************************************************************/
@@ -61,7 +61,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ScrollBottomDirective: () => (/* binding */ ScrollBottomDirective)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 37580);
 
 
 let ScrollBottomDirective = /*#__PURE__*/(() => {
@@ -112,7 +112,7 @@ let ScrollBottomDirective = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 21132:
+/***/ 87058:
 /*!*****************************************************************!*\
   !*** ./node_modules/primeng/fesm2022/primeng-inputtextarea.mjs ***!
   \*****************************************************************/
@@ -123,9 +123,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   InputTextarea: () => (/* binding */ InputTextarea),
 /* harmony export */   InputTextareaModule: () => (/* binding */ InputTextareaModule)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 65056);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ 71904);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 37580);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 60316);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ 34456);
 
 
 
@@ -267,7 +267,7 @@ let InputTextareaModule = /*#__PURE__*/(() => {
 
 /***/ }),
 
-/***/ 90797:
+/***/ 76301:
 /*!************************************************************!*\
   !*** ./node_modules/primeng/fesm2022/primeng-skeleton.mjs ***!
   \************************************************************/
@@ -278,8 +278,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Skeleton: () => (/* binding */ Skeleton),
 /* harmony export */   SkeletonModule: () => (/* binding */ SkeletonModule)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 65056);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 94280);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ 60316);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 37580);
 
 
 

@@ -35,7 +35,9 @@
     "ACCEPT_COOKIES":"Permitir todas las cookies",
     "REJECT_COOKIES":"Rechazar cookies opcionales",
     "MORE": "más...",
-    "LESS": "menos..."
+    "LESS": "menos...",
+    "CREATE_POST": "Crear una publicación",
+    "ADD_ARTWORK": "Añadir una obra de arte"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",

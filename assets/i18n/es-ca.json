@@ -35,7 +35,9 @@
     "ACCEPT_COOKIES":"Permetre totes les cookies",
     "REJECT_COOKIES":"Rebutjar cookies opcionals",
     "MORE": "més...",
-    "LESS": "menys..."
+    "LESS": "menys...",
+    "CREATE_POST": "Crea una publicació",
+    "ADD_ARTWORK": "Afegeix una obra d'art"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
