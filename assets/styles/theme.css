@@ -159,7 +159,7 @@ p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
 }
 
 .p-autocomplete-panel {
-    background: var(--inputBg-dark);
+    background: var(--inputBg);
     color: var(--text);
     border: 1px solid var(--btnText);
     border-radius: 6px;

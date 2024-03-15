@@ -1262,7 +1262,7 @@ p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
 }
 
 .p-autocomplete-panel {
-    background: var(--inputBg-dark);
+    background: var(--inputBg);
     color: var(--text);
     border: 1px solid var(--btnText);
     border-radius: 6px;
@@ -29403,10 +29403,14 @@ select:-webkit-autofill:focus {
   --bgSecondary-dark: #37393d;
   --text-dark: #FEFEFA;
   --inputBg-dark: #25272B;
+  --tagsBg-dark: #292929;
+  --tagsText-dark: #8A8B8B;
   --bgPrimary-light: #FEFEFA;
   --bgSecondary-light: #c8c6c2;
   --text-light: #1A1A1A;
-  --inputBg-light: #dad8d4;
+  --inputBg-light: #F2F4F5;
+  --tagsBg-light: #F5F3F3;
+  --tagsText-light: #433D3D;
 }
 
 :root {
@@ -29415,6 +29419,8 @@ select:-webkit-autofill:focus {
   --bgSecondary: var(--bgSecondary-dark);
   --text: var(--text-dark);
   --inputBg: var(--inputBg-dark);
+  --tagsBg: var(--tagsBg-dark);
+  --tagsText: var(--tagsText-dark);
   --inputText: var(--text);
   --inputFocus: var(--inputPlaceholder);
   --inputHover: var(--inputPlaceholder);
@@ -29429,6 +29435,8 @@ select:-webkit-autofill:focus {
     --bgSecondary: var(--bgSecondary-light);
     --text: var(--text-light);
     --inputBg: var(--inputBg-light);
+    --tagsBg: var(--tagsBg-light);
+    --tagsText: var(--tagsText-light);
   }
 }
 [color-scheme=dark] {
@@ -29437,6 +29445,8 @@ select:-webkit-autofill:focus {
   --bgSecondary: var(--bgSecondary-dark);
   --text: var(--text-dark);
   --inputBg: var(--inputBg-dark);
+  --tagsBg: var(--tagsBg-dark);
+  --tagsText: var(--tagsText-dark);
 }
 
 [color-scheme=light] {
@@ -29445,6 +29455,8 @@ select:-webkit-autofill:focus {
   --bgSecondary: var(--bgSecondary-light);
   --text: var(--text-light);
   --inputBg: var(--inputBg-light);
+  --tagsBg: var(--tagsBg-light);
+  --tagsText: var(--tagsText-light);
 }
 
 html {
