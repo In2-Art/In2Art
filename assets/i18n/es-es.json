@@ -119,7 +119,9 @@
     "NOTHING_TO_CHANGE": "No se puede enviar el formulario porque no se han realizado cambios.",
     "INVALID_DECADE": "Década inválida. Introduzca una década válida (que termine en 0).",
     "INVALID_CENTURY": "Entrada inválida. Introduzca únicamente números romanos correctos.",
-    "URL_COPY": "No se pudo copiar la URL. ¡Inténtalo de nuevo más tarde!"
+    "URL_COPY": "No se pudo copiar la URL. ¡Inténtalo de nuevo más tarde!",
+    "INVALID_TAG": "Nombre de etiqueta no válido",
+    "MAXIMUM_OF_TAGS": "Has excedido el número máximo de etiquetas permitido de 50"
   },
   "SUCCESS": {
     "TITLE": "Éxito",

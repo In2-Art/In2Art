@@ -120,7 +120,9 @@
     "NOTHING_TO_CHANGE": "Cannot submit the form as no changes have been made.",
     "INVALID_DECADE": "Invalid decade. Please enter a valid decade (ending with 0).",
     "INVALID_CENTURY": "Invalid input. Please enter correct Roman numerals only.",
-    "URL_COPY": "Couldn't copy URL. Try again later!"
+    "URL_COPY": "Couldn't copy URL. Try again later!",
+    "INVALID_TAG": "Invalid tag name",
+    "MAXIMUM_OF_TAGS": "You've exceeded the maximum allowable tag count of 50"
   },
   "SUCCESS": {
     "TITLE": "Success",

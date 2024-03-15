@@ -119,7 +119,9 @@
     "NOTHING_TO_CHANGE": "No es pot enviar el formulari perquè no s'han fet canvis.",
     "INVALID_DECADE": "Dècada no vàlida. Introduïu una dècada vàlida (que acaba amb 0).",
     "INVALID_CENTURY": "Entrada incorrecta. Introduïu només els números romans correctes.",
-    "URL_COPY": "No s'ha pogut copiar l'URL. Torna-ho a provar més tard!"
+    "URL_COPY": "No s'ha pogut copiar l'URL. Torna-ho a provar més tard!",
+    "INVALID_TAG": "Nom d'etiqueta no vàlid",
+    "MAXIMUM_OF_TAGS": "Heu superat el nombre màxim d'etiquetes permès de 50"
   },
   "SUCCESS": {
     "TITLE": "Èxit",
