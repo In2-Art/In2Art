@@ -29392,19 +29392,20 @@ select:-webkit-autofill:focus {
   --inputPlaceholder: #8A8B8B;
   --activeLink: #FFAA2B;
   --textTitle: #D4BF9D;
-  --btnPrimary: #008197;
   --btnHover: #066575;
   --btnActive: #066575;
   --btnFocus: #04515E;
-  --cropper-outline-color: rgba(0,0,0,0.6);
+  --cropper-outline-color: rgba(0, 0, 0, 0.6);
   --headerHeightDesktop: 70px;
   --headerHeightMobile: 70px;
+  --btnPrimary-dark: #008197;
   --bgPrimary-dark: #1A1A1A;
   --bgSecondary-dark: #37393d;
   --text-dark: #FEFEFA;
   --inputBg-dark: #25272B;
   --tagsBg-dark: #292929;
   --tagsText-dark: #8A8B8B;
+  --btnPrimary-light: #5DA3B9;
   --bgPrimary-light: #FEFEFA;
   --bgSecondary-light: #c8c6c2;
   --text-light: #1A1A1A;
@@ -29415,6 +29416,7 @@ select:-webkit-autofill:focus {
 
 :root {
   color-scheme: dark;
+  --btnPrimary: var(--btnPrimary-dark);
   --bgPrimary: var(--bgPrimary-dark);
   --bgSecondary: var(--bgSecondary-dark);
   --text: var(--text-dark);
@@ -29431,6 +29433,7 @@ select:-webkit-autofill:focus {
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
+    --btnPrimary: var(--btnPrimary-light);
     --bgPrimary: var(--bgPrimary-light);
     --bgSecondary: var(--bgSecondary-light);
     --text: var(--text-light);
@@ -29441,6 +29444,7 @@ select:-webkit-autofill:focus {
 }
 [color-scheme=dark] {
   color-scheme: dark;
+  --btnPrimary: var(--btnPrimary-dark);
   --bgPrimary: var(--bgPrimary-dark);
   --bgSecondary: var(--bgSecondary-dark);
   --text: var(--text-dark);
@@ -29451,6 +29455,7 @@ select:-webkit-autofill:focus {
 
 [color-scheme=light] {
   color-scheme: light;
+  --btnPrimary: var(--btnPrimary-light);
   --bgPrimary: var(--bgPrimary-light);
   --bgSecondary: var(--bgSecondary-light);
   --text: var(--text-light);
