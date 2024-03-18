@@ -179,7 +179,11 @@
     "TITLE": "Introduïu la contrasenya nova i confirmeu-la a continuació"
   },
   "PROFILE_PAGE": {
-    "NO_POSTS": "Aquest usuari encara no ha fet cap publicació"
+    "NO_POSTS": "Aquest usuari encara no ha fet cap publicació",
+    "POSTS": "Publicacions",
+    "GALLERY": "Galeria",
+    "COLLECTIONS": "Col·leccions",
+    "ABOUT": "Sobre"
   },
   "PLACEHOLDER": {
     "NICKNAME": "Introduïu el vostre àlies",

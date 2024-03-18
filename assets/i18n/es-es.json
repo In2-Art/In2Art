@@ -180,7 +180,11 @@
     "TITLE": "Introduzca la contraseña nueva y confírmela a continuación"
   },
   "PROFILE_PAGE": {
-    "NO_POSTS": "Este usuario aún no ha realizado ninguna publicación."
+    "NO_POSTS": "Este usuario aún no ha realizado ninguna publicación.",
+    "POSTS": "Publicaciones",
+    "GALLERY": "Galería",
+    "COLLECTIONS": "Colecciones",
+    "ABOUT": "Acerca de"
   },
   "PLACEHOLDER": {
     "NICKNAME": "Ingresa tu alias",

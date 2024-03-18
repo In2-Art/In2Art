@@ -181,7 +181,11 @@
     "TITLE": "Please enter your new password and confirm it below"
   },
   "PROFILE_PAGE": {
-    "NO_POSTS": "This user hasn't made any posts yet"
+    "NO_POSTS": "This user hasn't made any posts yet",
+    "POSTS": "Posts",
+    "GALLERY": "Gallery",
+    "COLLECTIONS": "Collections",
+    "ABOUT": "About"
   },
   "PLACEHOLDER": {
     "NICKNAME": "Enter your nickname",
