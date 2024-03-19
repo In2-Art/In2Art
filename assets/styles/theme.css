@@ -40,16 +40,23 @@
     transition-duration: .2s
 }
 
+.p-button.p-component:disabled {
+    background-color: var(--inactiveButton);
+    border-color: var(--inactiveButton);
+    color: var(--greyText);
+    opacity: 1;
+}
+
 .p-disabled, .p-component:disabled {
-    opacity: .4
+    opacity: 0.4;
 }
 
 .p-error {
-    color: var(--inputInvalid)
+    color: var(--errorMessage)
 }
 
 .p-text-secondary {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .pi {
@@ -70,7 +77,7 @@
 .p-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-component-overlay-enter {
@@ -138,7 +145,7 @@
 .p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-input-token input {
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1rem;
-    color: var(--inputBg);
+    color: var(--input);
     padding: 0;
     margin: 0
 }
@@ -155,12 +162,12 @@
 }
 
 p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-autocomplete-panel {
-    background: var(--inputBg);
-    color: var(--text);
+    background: var(--input);
+    color: var(--mainContrastElement);
     border: 1px solid var(--btnText);
     border-radius: 6px;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
@@ -174,34 +181,34 @@ p-autocomplete.ng-dirty.ng-invalid > .p-autocomplete > .p-inputtext {
     margin: 0;
     padding: .75rem 1.25rem;
     border: 0 none;
-    color: var(--text);
+    color: var(--mainContrastElement);
     background: transparent;
     transition: box-shadow .2s;
     border-radius: 0
 }
 
 .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item:hover {
-    color: var(--text);
+    color: var(--mainContrastElement);
     background: rgba(255, 255, 255, .03)
 }
 
 .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item.p-highlight {
     color: var(--inputHover);
-    background: var(--inputBg-dark);
+    background: var(--input-dark);
 }
 
 .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-empty-message {
     padding: 0 1rem;
     line-height: 1.5;
-    color: var(--text);
+    color: var(--mainContrastElement);
     background: transparent
 }
 
 .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item-group {
     margin: 0;
     padding: .75rem 1.25rem;
-    color: var(--text);
-    background: var(--bgSecondary);
+    color: var(--mainContrastElement);
+    background: var(--linesOnNormalBackground);
     font-weight: 700
 }
 
@@ -210,44 +217,44 @@ p-autocomplete.p-autocomplete-clearable .p-inputtext {
 }
 
 p-autocomplete.p-autocomplete-clearable .p-autocomplete-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: .75rem
 }
 
 p-autocomplete.p-autocomplete-clearable .p-autocomplete-dd .p-autocomplete-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: 3.75rem
 }
 
 p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-datepicker {
     padding: .5rem;
-    background: var(--inputBg);
+    background: var(--input);
     color: var(--inputText);
-    border: 1px solid var(--inputBg);
+    border: 1px solid var(--input);
     border-radius: 6px
 }
 
 .p-datepicker:not(.p-datepicker-inline) {
-    background: var(--inputBg);
-    border: 1px solid var(--inputBg);
+    background: var(--input);
+    border: 1px solid var(--input);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
 }
 
 .p-datepicker:not(.p-datepicker-inline) .p-datepicker-header {
-    background: var(--inputBg)
+    background: var(--input)
 }
 
 .p-datepicker .p-datepicker-header {
     padding: .5rem;
     color: var(--inputText);
-    background: var(--inputBg);
+    background: var(--input);
     font-weight: 700;
     margin: 0;
-    border-bottom: 1px solid var(--inputBg);
+    border-bottom: 1px solid var(--input);
     border-top-right-radius: 6px;
     border-top-left-radius: 6px
 }
@@ -286,7 +293,7 @@ p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
 }
 
 .p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-year:enabled:hover, .p-datepicker .p-datepicker-header .p-datepicker-title .p-datepicker-month:enabled:hover {
-    color: var(--btnPrimary);
+    color: var(--button);
     font-weight: bold;
 }
 
@@ -328,12 +335,12 @@ p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
 .p-datepicker table td > span:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-datepicker table td.p-datepicker-today > span {
     background: transparent;
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
@@ -359,7 +366,7 @@ p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
 .p-datepicker .p-timepicker button {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -375,7 +382,7 @@ p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
 .p-datepicker .p-timepicker button:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-datepicker .p-timepicker button:last-child {
@@ -448,7 +455,7 @@ p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
 .p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-datepicker:not(.p-disabled) .p-monthpicker .p-monthpicker-month:not(.p-disabled):not(.p-highlight):hover {
@@ -458,7 +465,7 @@ p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
 .p-datepicker:not(.p-disabled) .p-monthpicker .p-monthpicker-month:not(.p-disabled):focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-datepicker:not(.p-disabled) .p-yearpicker .p-yearpicker-year:not(.p-disabled):not(.p-highlight):hover {
@@ -468,7 +475,7 @@ p-calendar.ng-dirty.ng-invalid > .p-calendar > .p-inputtext {
 .p-datepicker:not(.p-disabled) .p-yearpicker .p-yearpicker-year:not(.p-disabled):focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 p-calendar.p-calendar-clearable .p-inputtext {
@@ -476,12 +483,12 @@ p-calendar.p-calendar-clearable .p-inputtext {
 }
 
 p-calendar.p-calendar-clearable .p-calendar-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: .75rem
 }
 
 p-calendar.p-calendar-clearable.p-calendar-w-btn .p-calendar-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: 3.75rem
 }
 
@@ -516,7 +523,7 @@ p-calendar.p-calendar-clearable.p-calendar-w-btn .p-calendar-clear-icon {
 }
 
 .p-cascadeselect .p-cascadeselect-label.p-placeholder {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-cascadeselect .p-cascadeselect-label:enabled:focus {
@@ -526,7 +533,7 @@ p-calendar.p-calendar-clearable.p-calendar-w-btn .p-calendar-clear-icon {
 
 .p-cascadeselect .p-cascadeselect-trigger {
     background: transparent;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     width: 3rem;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px
@@ -560,7 +567,7 @@ p-calendar.p-calendar-clearable.p-calendar-w-btn .p-calendar-clear-icon {
 .p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item .p-cascadeselect-item-content:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-cascadeselect-panel .p-cascadeselect-items .p-cascadeselect-item.p-highlight {
@@ -583,7 +590,7 @@ p-calendar.p-calendar-clearable.p-calendar-w-btn .p-calendar-clear-icon {
 }
 
 p-cascadeselect.ng-dirty.ng-invalid > .p-cascadeselect {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-input-filled .p-cascadeselect {
@@ -603,7 +610,7 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-label {
 }
 
 p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: 3rem
 }
 
@@ -624,20 +631,20 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
 
 .p-checkbox .p-checkbox-box {
     border: 1px solid var(--input);
-    background: var(--bgPrimary);
+    background: var(--background);
     width: 1rem;
     height: 1rem;
-    color: var(--text);
+    color: var(--mainContrastElement);
     border-radius: 0.25rem;
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s
 }
 
 .p-checkbox .p-checkbox-box .p-checkbox-icon {
     transition-duration: .2s;
-    color: var(--btnPrimary);
+    color: var(--button);
     font-size: 10px;
     stroke-width: 2px;
-    stroke: var(--btnPrimary);
+    stroke: var(--button);
 }
 
 .p-checkbox .p-checkbox-box .p-icon {
@@ -647,7 +654,7 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
 
 .p-checkbox .p-checkbox-box.p-highlight {
     border-color: var(--input);
-    background: var(--bgPrimary)
+    background: var(--background)
 }
 
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
@@ -663,12 +670,12 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
 
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
     border-color: var(--input);
-    background: var(--bgPrimary);
+    background: var(--background);
     color: var(--btnText)
 }
 
 p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-input-filled .p-checkbox .p-checkbox-box {
@@ -676,7 +683,7 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
 }
 
 .p-input-filled .p-checkbox .p-checkbox-box.p-highlight {
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-input-filled .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
@@ -684,7 +691,7 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
 }
 
 .p-input-filled .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
-    background: var(--btnActive)
+    background: var(--pressedButton)
 }
 
 .p-checkbox-label {
@@ -726,7 +733,7 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
 .p-chips .p-chips-multiple-container .p-chips-input-token input {
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1rem;
-    color: var(--text);
+    color: var(--mainContrastElement);
     padding: 0;
     margin: 0
 }
@@ -737,7 +744,7 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
 }
 
 p-chips.ng-dirty.ng-invalid > .p-chips > .p-inputtext {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 p-chips.p-chips-clearable .p-inputtext {
@@ -745,7 +752,7 @@ p-chips.p-chips-clearable .p-inputtext {
 }
 
 p-chips.p-chips-clearable .p-chips-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: .75rem
 }
 
@@ -768,8 +775,8 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 }
 
 .p-dropdown {
-    background: var(--bgPrimary);
-    border: 1px solid var(--bgSecondary);
+    background: var(--background);
+    border: 1px solid var(--linesOnNormalBackground);
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
     border-radius: 6px
 }
@@ -796,7 +803,7 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 }
 
 .p-dropdown .p-dropdown-label.p-placeholder {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-dropdown .p-dropdown-label:enabled:focus {
@@ -808,21 +815,21 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
     background: transparent;
     display: flex;
     justify-content: flex-start;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     width: 28px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px
 }
 
 .p-dropdown .p-dropdown-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: 3rem
 }
 
 .p-dropdown-panel {
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: var(--inputText);
-    border: 1px solid var(--bgSecondary);
+    border: 1px solid var(--linesOnNormalBackground);
     border-radius: 6px;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
 }
@@ -844,7 +851,7 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 
 .p-dropdown-panel .p-dropdown-header .p-dropdown-filter-icon {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-dropdown-panel .p-dropdown-items {
@@ -881,12 +888,12 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
     margin: 0;
     padding: .75rem 1.25rem;
     color: blue;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     font-weight: 700
 }
 
 p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-input-filled .p-dropdown {
@@ -916,16 +923,16 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow .ql-stroke {
-    stroke: var(--iconsInactive)
+    stroke: var(--greyText)
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow .ql-fill {
-    fill: var(--iconsInactive)
+    fill: var(--greyText)
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label {
     border: 0 none;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow .ql-picker .ql-picker-label:hover {
@@ -1002,24 +1009,24 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
 }
 
 .p-editor-container .ql-snow.ql-toolbar button.ql-active, .p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active, .p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected {
-    color: var(--btnPrimary)
+    color: var(--button)
 }
 
 .p-editor-container .ql-snow.ql-toolbar button.ql-active .ql-stroke, .p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke, .p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke {
-    stroke: var(--btnPrimary)
+    stroke: var(--button)
 }
 
 .p-editor-container .ql-snow.ql-toolbar button.ql-active .ql-fill, .p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill, .p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill {
-    fill: var(--btnPrimary)
+    fill: var(--button)
 }
 
 .p-editor-container .ql-snow.ql-toolbar button.ql-active .ql-picker-label, .p-editor-container .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-picker-label, .p-editor-container .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-picker-label {
-    color: var(--btnPrimary)
+    color: var(--button)
 }
 
 .p-inputgroup-addon {
     background: var(--btnText);
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border-top: 1px solid var(--btnText);
     border-left: 1px solid var(--btnText);
     border-bottom: 1px solid var(--btnText);
@@ -1077,7 +1084,7 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
 }
 
 p-inputmask.ng-dirty.ng-invalid > .p-inputtext {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 p-inputmask.p-inputmask-clearable .p-inputtext {
@@ -1085,7 +1092,7 @@ p-inputmask.p-inputmask-clearable .p-inputtext {
 }
 
 p-inputmask.p-inputmask-clearable .p-inputmask-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: .75rem
 }
 
@@ -1094,7 +1101,7 @@ p-inputmask.p-inputmask-clearable .p-inputmask-clear-icon {
 }
 
 p-inputnumber.ng-dirty.ng-invalid > .p-inputnumber > .p-inputtext {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 p-inputnumber.p-inputnumber-clearable .p-inputnumber-input {
@@ -1102,7 +1109,7 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-input {
 }
 
 p-inputnumber.p-inputnumber-clearable .p-inputnumber-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: .75rem
 }
 
@@ -1126,7 +1133,7 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-input
 }
 
 .p-inputswitch .p-inputswitch-slider:before {
-    background: var(--iconsInactive);
+    background: var(--greyText);
     width: 1.25rem;
     height: 1.25rem;
     left: .25rem;
@@ -1142,7 +1149,7 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-input
 .p-inputswitch.p-focus .p-inputswitch-slider {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-inputswitch:not(.p-disabled):hover .p-inputswitch-slider {
@@ -1150,7 +1157,7 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-input
 }
 
 .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before {
@@ -1158,11 +1165,11 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-input
 }
 
 .p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover .p-inputswitch-slider {
-    background: var(--btnHover)
+    background: var(--pressedButton)
 }
 
 p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-inputtext {
@@ -1170,9 +1177,9 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--inputText);
-    background: var(--inputBg);
+    background: var(--input);
     padding: .75rem .75rem;
-    border: 1px solid var(--inputBg);
+    border: 1px solid var(--input);
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
     appearance: none;
     border-radius: 6px
@@ -1193,21 +1200,21 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 .p-inputtext.ng-touched.ng-invalid:enabled:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--inputInvalid);
-    border-color: var(--inputInvalid);
+    box-shadow: 0 0 0 1px var(--errorMessage);
+    border-color: var(--errorMessage);
 }
 
 
 .p-inputtext.ng-dirty.ng-invalid:enabled:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--inputInvalid);
-    border-color: var(--inputInvalid);
+    box-shadow: 0 0 0 1px var(--errorMessage);
+    border-color: var(--errorMessage);
 }
 
 
 .p-inputtext.ng-dirty.ng-invalid {
-    border-color: var(--inputInvalid);
+    border-color: var(--errorMessage);
 }
 
 .p-inputtext.p-inputtext-sm {
@@ -1222,17 +1229,17 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 
 .p-float-label > label {
     left: .75rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     transition-duration: .2s
 }
 
 .p-float-label > .ng-invalid.ng-dirty + label {
-    color: var(--inputInvalid)
+    color: var(--errorMessage)
 }
 
 .p-input-icon-left > .p-icon-wrapper.p-icon, .p-input-icon-left > i:first-of-type {
     left: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-input-icon-left > .p-inputtext {
@@ -1245,7 +1252,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 
 .p-input-icon-right > .p-icon-wrapper, .p-input-icon-right > i:last-of-type {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-input-icon-right > .p-inputtext {
@@ -1253,19 +1260,19 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 }
 
 ::-webkit-input-placeholder {
-    color: var(--inputPlaceholder);
+    color: var(--greyText);
 }
 
 :-moz-placeholder {
-    color: var(--inputPlaceholder);
+    color: var(--greyText);
 }
 
 ::-moz-placeholder {
-    color: var(--inputPlaceholder);
+    color: var(--greyText);
 }
 
 :-ms-input-placeholder {
-    color: var(--inputPlaceholder);
+    color: var(--greyText);
 }
 
 .p-input-filled .p-inputtext {
@@ -1313,7 +1320,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 
 .p-listbox .p-listbox-header .p-listbox-filter-icon {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-listbox .p-listbox-header .p-checkbox {
@@ -1341,7 +1348,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 .p-listbox .p-listbox-list .p-listbox-item:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-listbox .p-listbox-list .p-listbox-item .p-checkbox {
@@ -1352,7 +1359,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
     margin: 0;
     padding: .75rem 1.25rem;
     color: blue;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     font-weight: 700
 }
 
@@ -1368,7 +1375,7 @@ p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
 }
 
 p-listbox.ng-dirty.ng-invalid > .p-listbox {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-multiselect {
@@ -1395,7 +1402,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
 }
 
 .p-multiselect .p-multiselect-label.p-placeholder {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-multiselect.p-multiselect-chip .p-multiselect-label {
@@ -1415,7 +1422,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
 
 .p-multiselect .p-multiselect-trigger {
     background: transparent;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     width: 3rem;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px
@@ -1449,7 +1456,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
 
 .p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-multiselect-filter-icon {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-multiselect-panel .p-multiselect-header .p-checkbox {
@@ -1460,7 +1467,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
     margin-left: .5rem;
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -1476,7 +1483,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
 .p-multiselect-panel .p-multiselect-header .p-multiselect-close:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-multiselect-panel .p-multiselect-items {
@@ -1506,7 +1513,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
 .p-multiselect-panel .p-multiselect-items .p-multiselect-item:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-multiselect-panel .p-multiselect-items .p-multiselect-item .p-checkbox {
@@ -1517,7 +1524,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
     margin: 0;
     padding: .75rem 1.25rem;
     color: blue;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     font-weight: 700
 }
 
@@ -1528,7 +1535,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
 }
 
 p-multiselect.ng-dirty.ng-invalid > .p-multiselect {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-input-filled .p-multiselect {
@@ -1548,26 +1555,26 @@ p-multiselect.p-multiselect-clearable .p-multiselect-label-container {
 }
 
 p-multiselect.p-multiselect-clearable .p-multiselect-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: 3rem
 }
 
 p-password.ng-invalid.ng-dirty > .p-password > .p-inputtext {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 p-password.ng-invalid.ng-dirty > .p-password > .p-inputtext:enabled:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--inputInvalid);
-    border-color: var(--inputInvalid);
+    box-shadow: 0 0 0 1px var(--errorMessage);
+    border-color: var(--errorMessage);
 }
 
 .p-password-panel {
     padding: 1.25rem;
-    background: var(--inputBg);
+    background: var(--input);
     color: var(--inputText);
-    border: 1px solid var(--inputBg);
+    border: 1px solid var(--input);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
     border-radius: 6px
 }
@@ -1594,7 +1601,7 @@ p-password.p-password-clearable .p-password-input {
 }
 
 p-password.p-password-clearable .p-password-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: .75rem
 }
 
@@ -1603,7 +1610,7 @@ p-password.p-password-clearable.p-password-mask .p-password-input {
 }
 
 p-password.p-password-clearable.p-password-mask .p-password-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: 2.5rem
 }
 
@@ -1641,18 +1648,18 @@ p-password.p-password-clearable.p-password-mask .p-password-clear-icon {
 }
 
 .p-radiobutton .p-radiobutton-box.p-highlight {
-    border-color: var(--btnPrimary);
-    background: var(--btnPrimary)
+    border-color: var(--button);
+    background: var(--button)
 }
 
 .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
-    border-color: var(--btnActive);
-    background: var(--btnActive);
+    border-color: var(--pressedButton);
+    background: var(--pressedButton);
     color: var(--btnText)
 }
 
 p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-input-filled .p-radiobutton .p-radiobutton-box {
@@ -1664,11 +1671,11 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 }
 
 .p-input-filled .p-radiobutton .p-radiobutton-box.p-highlight {
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-input-filled .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
-    background: var(--btnActive)
+    background: var(--pressedButton)
 }
 
 .p-radiobutton-label {
@@ -1698,7 +1705,7 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 .p-rating .p-rating-icon:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-rating .p-rating-icon:first-child {
@@ -1706,11 +1713,11 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 }
 
 .p-rating .p-rating-icon.p-rating-icon-active {
-    color: var(--btnPrimary)
+    color: var(--button)
 }
 
 .p-rating:not(.p-disabled):not(.p-readonly) .p-rating-icon:hover {
-    color: var(--btnPrimary)
+    color: var(--button)
 }
 
 .p-rating:not(.p-disabled):not(.p-readonly) .p-rating-icon.p-rating-cancel:hover {
@@ -1725,7 +1732,7 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 }
 
 .p-selectbutton .p-button .p-button-icon-left, .p-selectbutton .p-button .p-button-icon-right {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover {
@@ -1735,12 +1742,12 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 }
 
 .p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-left, .p-selectbutton .p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-right {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-selectbutton .p-button.p-highlight {
-    background: var(--btnPrimary);
-    border-color: var(--btnPrimary);
+    background: var(--button);
+    border-color: var(--button);
     color: var(--btnText)
 }
 
@@ -1749,8 +1756,8 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 }
 
 .p-selectbutton .p-button.p-highlight:hover {
-    background: var(--btnHover);
-    border-color: var(--btnHover);
+    background: var(--pressedButton);
+    border-color: var(--pressedButton);
     color: var(--btnText)
 }
 
@@ -1759,7 +1766,7 @@ p-radiobutton.ng-dirty.ng-invalid > .p-radiobutton > .p-radiobutton-box {
 }
 
 p-selectbutton.ng-dirty.ng-invalid > .p-selectbutton > .p-button {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-slider {
@@ -1790,7 +1797,7 @@ p-selectbutton.ng-dirty.ng-invalid > .p-selectbutton > .p-button {
     height: 1.143rem;
     width: 1.143rem;
     background: var(--btnText);
-    border: 2px solid var(--btnPrimary);
+    border: 2px solid var(--button);
     border-radius: 50%;
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s
 }
@@ -1798,16 +1805,16 @@ p-selectbutton.ng-dirty.ng-invalid > .p-selectbutton > .p-button {
 .p-slider .p-slider-handle:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-slider .p-slider-range {
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-slider:not(.p-disabled) .p-slider-handle:hover {
-    background: var(--btnPrimary);
-    border-color: var(--btnPrimary)
+    background: var(--button);
+    border-color: var(--button)
 }
 
 .p-slider.p-slider-animate.p-slider-horizontal .p-slider-handle {
@@ -1834,7 +1841,7 @@ p-selectbutton.ng-dirty.ng-invalid > .p-selectbutton > .p-button {
 }
 
 .p-togglebutton.p-button .p-button-icon-left, .p-togglebutton.p-button .p-button-icon-right {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover {
@@ -1844,12 +1851,12 @@ p-selectbutton.ng-dirty.ng-invalid > .p-selectbutton > .p-button {
 }
 
 .p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-left, .p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-right {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-togglebutton.p-button.p-highlight {
-    background: var(--btnPrimary);
-    border-color: var(--btnPrimary);
+    background: var(--button);
+    border-color: var(--button);
     color: var(--btnText)
 }
 
@@ -1858,8 +1865,8 @@ p-selectbutton.ng-dirty.ng-invalid > .p-selectbutton > .p-button {
 }
 
 .p-togglebutton.p-button.p-highlight:hover {
-    background: var(--btnHover);
-    border-color: var(--btnHover);
+    background: var(--pressedButton);
+    border-color: var(--pressedButton);
     color: var(--btnText)
 }
 
@@ -1868,7 +1875,7 @@ p-selectbutton.ng-dirty.ng-invalid > .p-selectbutton > .p-button {
 }
 
 p-togglebutton.ng-dirty.ng-invalid > .p-togglebutton.p-button {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-treeselect {
@@ -1895,7 +1902,7 @@ p-togglebutton.ng-dirty.ng-invalid > .p-togglebutton.p-button {
 }
 
 .p-treeselect .p-treeselect-label.p-placeholder {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-treeselect.p-treeselect-chip .p-treeselect-token {
@@ -1908,14 +1915,14 @@ p-togglebutton.ng-dirty.ng-invalid > .p-togglebutton.p-button {
 
 .p-treeselect .p-treeselect-trigger {
     background: transparent;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     width: 3rem;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px
 }
 
 p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
-    border-color: var(--inputInvalid)
+    border-color: var(--errorMessage)
 }
 
 .p-inputwrapper-filled .p-treeselect.p-treeselect-chip .p-treeselect-label {
@@ -1950,7 +1957,7 @@ p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
 
 .p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container .p-treeselect-filter-icon {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-treeselect-panel .p-treeselect-header .p-treeselect-filter-container.p-treeselect-clearable-filter .p-treeselect-filter {
@@ -1964,7 +1971,7 @@ p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
 .p-treeselect-panel .p-treeselect-header .p-treeselect-close {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -1980,7 +1987,7 @@ p-treeselect.ng-invalid.ng-dirty > .p-treeselect {
 .p-treeselect-panel .p-treeselect-header .p-treeselect-close:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-treeselect-panel .p-treeselect-items-wrapper .p-tree {
@@ -2010,14 +2017,14 @@ p-treeselect.p-treeselect-clearable .p-treeselect-label-container {
 }
 
 p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     right: 3rem
 }
 
 .p-button {
     color: var(--btnText);
-    background: var(--btnPrimary);
-    border: 2px solid var(--btnPrimary);
+    background: var(--button);
+    border: 2px solid var(--button);
     font-weight: bold;
     box-sizing: border-box;
     padding: 8px 1.25rem;
@@ -2028,86 +2035,86 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-button:enabled:hover {
-    background: var(--btnHover);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnHover)
+    border-color: var(--pressedButton)
 }
 
 .p-button:enabled:active {
-    background: var(--btnActive);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnActive)
+    border-color: var(--pressedButton)
 }
 
 .p-button.p-button-outlined {
     background-color: transparent;
-    color: var(--btnPrimary);
+    color: var(--button);
     border: 1px solid
 }
 
 .p-button.p-button-outlined:enabled:hover {
     background: rgba(199, 211, 217, .04);
-    color: var(--btnPrimary);
+    color: var(--button);
     border: 1px solid
 }
 
 .p-button.p-button-outlined:enabled:active {
     background: rgba(199, 211, 217, .16);
-    color: var(--btnPrimary);
+    color: var(--button);
     border: 1px solid
 }
 
 .p-button.p-button-outlined.p-button-plain {
-    color: var(--iconsInactive);
-    border-color: var(--iconsInactive)
+    color: var(--greyText);
+    border-color: var(--greyText)
 }
 
 .p-button.p-button-outlined.p-button-plain:enabled:hover {
     background: rgba(255, 255, 255, .03);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-button.p-button-outlined.p-button-plain:enabled:active {
     background: rgba(255, 255, 255, .16);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-button.p-button-text {
     background-color: transparent;
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
 .p-button.p-button-text:enabled:hover {
     background: rgba(199, 211, 217, .04);
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
 .p-button.p-button-text:enabled:active {
     background: rgba(199, 211, 217, .16);
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
 .p-button.p-button-text.p-button-plain {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-button.p-button-text.p-button-plain:enabled:hover {
     background: rgba(255, 255, 255, .03);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-button.p-button-text.p-button-plain:enabled:active {
     background: rgba(255, 255, 255, .16);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-button:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-button .p-button-label {
@@ -2135,7 +2142,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     min-width: 1rem;
     height: 1rem;
     line-height: 1rem;
-    color: var(--btnPrimary);
+    color: var(--button);
     background-color: var(--btnText)
 }
 
@@ -2204,25 +2211,25 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-button.p-button-secondary, .p-buttonset.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
-    color: var(--text);
-    background: var(--bgPrimary);
-    border: 2px solid var(--btnPrimary);
+    color: var(--mainContrastElement);
+    background: var(--background);
+    border: 2px solid var(--button);
 }
 
 .p-button.p-button-secondary:enabled:hover, .p-buttonset.p-button-secondary > .p-button:enabled:hover, .p-splitbutton.p-button-secondary > .p-button:enabled:hover {
-    background: var(--bgPrimary);
-    color: var(--text);
-    border-color: var(--btnHover);
+    background: var(--background);
+    color: var(--mainContrastElement);
+    border-color: var(--pressedButton);
 }
 
 .p-button.p-button-secondary:enabled:focus, .p-buttonset.p-button-secondary > .p-button:enabled:focus, .p-splitbutton.p-button-secondary > .p-button:enabled:focus {
-    box-shadow: 0 0 0 1px var(--btnFocus);
+    box-shadow: 0 0 0 1px var(--pressedButton);
 }
 
 .p-button.p-button-secondary:enabled:active, .p-buttonset.p-button-secondary > .p-button:enabled:active, .p-splitbutton.p-button-secondary > .p-button:enabled:active {
     background: #17181f;
-    color: var(--text);
-    border-color: var(--btnActive);
+    color: var(--mainContrastElement);
+    border-color: var(--pressedButton);
 }
 
 .p-button.p-button-secondary.p-button-outlined, .p-buttonset.p-button-secondary > .p-button.p-button-outlined, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined {
@@ -2552,14 +2559,14 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-button.p-button-link {
-    color: var(--btnPrimary);
+    color: var(--button);
     background: transparent;
     border: transparent
 }
 
 .p-button.p-button-link:enabled:hover {
     background: transparent;
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
@@ -2575,7 +2582,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-button.p-button-link:enabled:active {
     background: transparent;
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
@@ -2601,7 +2608,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-speeddial-action:hover {
-    background: var(--iconsInactive);
+    background: var(--greyText);
     color: #000
 }
 
@@ -2655,65 +2662,65 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-splitbutton.p-button-outlined > .p-button {
     background-color: transparent;
-    color: var(--btnPrimary);
+    color: var(--button);
     border: 1px solid
 }
 
 .p-splitbutton.p-button-outlined > .p-button:enabled:hover, .p-splitbutton.p-button-outlined > .p-button:not(button):not(a):not(.p-disabled):hover {
     background: rgba(199, 211, 217, .04);
-    color: var(--btnPrimary)
+    color: var(--button)
 }
 
 .p-splitbutton.p-button-outlined > .p-button:enabled:active, .p-splitbutton.p-button-outlined > .p-button:not(button):not(a):not(.p-disabled):active {
     background: rgba(199, 211, 217, .16);
-    color: var(--btnPrimary)
+    color: var(--button)
 }
 
 .p-splitbutton.p-button-outlined.p-button-plain > .p-button {
-    color: var(--iconsInactive);
-    border-color: var(--iconsInactive)
+    color: var(--greyText);
+    border-color: var(--greyText)
 }
 
 .p-splitbutton.p-button-outlined.p-button-plain > .p-button:enabled:hover, .p-splitbutton.p-button-outlined.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):hover {
     background: rgba(255, 255, 255, .03);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-splitbutton.p-button-outlined.p-button-plain > .p-button:enabled:active, .p-splitbutton.p-button-outlined.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):active {
     background: rgba(255, 255, 255, .16);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-splitbutton.p-button-text > .p-button {
     background-color: transparent;
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
 .p-splitbutton.p-button-text > .p-button:enabled:hover, .p-splitbutton.p-button-text > .p-button:not(button):not(a):not(.p-disabled):hover {
     background: rgba(199, 211, 217, .04);
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
 .p-splitbutton.p-button-text > .p-button:enabled:active, .p-splitbutton.p-button-text > .p-button:not(button):not(a):not(.p-disabled):active {
     background: rgba(199, 211, 217, .16);
-    color: var(--btnPrimary);
+    color: var(--button);
     border-color: transparent
 }
 
 .p-splitbutton.p-button-text.p-button-plain > .p-button {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-splitbutton.p-button-text.p-button-plain > .p-button:enabled:hover, .p-splitbutton.p-button-text.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):hover {
     background: rgba(255, 255, 255, .03);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-splitbutton.p-button-text.p-button-plain > .p-button:enabled:active, .p-splitbutton.p-button-text.p-button-plain > .p-button:not(button):not(a):not(.p-disabled):active {
     background: rgba(255, 255, 255, .16);
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-splitbutton.p-button-raised {
@@ -2953,7 +2960,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-carousel .p-carousel-content .p-carousel-prev, .p-carousel .p-carousel-content .p-carousel-next {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -2970,7 +2977,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-carousel .p-carousel-content .p-carousel-prev:focus, .p-carousel .p-carousel-content .p-carousel-next:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-carousel .p-carousel-indicators {
@@ -3011,7 +3018,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-datatable .p-datatable-header {
     background: var(--btnText);
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 1px solid var(--btnText);
     border-width: 0 0 1px 0;
     padding: 1rem 1rem;
@@ -3049,7 +3056,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-datatable .p-sortable-column .p-sortable-column-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-left: .5rem
 }
 
@@ -3111,7 +3118,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-datatable .p-datatable-tbody > tr > td .p-row-toggler, .p-datatable .p-datatable-tbody > tr > td .p-row-editor-init, .p-datatable .p-datatable-tbody > tr > td .p-row-editor-save, .p-datatable .p-datatable-tbody > tr > td .p-row-editor-cancel {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -3127,7 +3134,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-datatable .p-datatable-tbody > tr > td .p-row-toggler:focus, .p-datatable .p-datatable-tbody > tr > td .p-row-editor-init:focus, .p-datatable .p-datatable-tbody > tr > td .p-row-editor-save:focus, .p-datatable .p-datatable-tbody > tr > td .p-row-editor-cancel:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-datatable .p-datatable-tbody > tr > td .p-row-editor-save {
@@ -3158,7 +3165,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-datatable .p-column-resizer-helper {
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-datatable .p-datatable-scrollable-header, .p-datatable .p-datatable-scrollable-footer {
@@ -3314,7 +3321,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-dataview .p-dataview-header {
     background: var(--btnText);
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 1px solid var(--btnText);
     border-width: 0 0 1px 0;
     padding: 1rem 1rem;
@@ -3359,7 +3366,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-column-filter-menu-button {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -3385,13 +3392,13 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-column-filter-menu-button:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-column-filter-clear-button {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -3407,7 +3414,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-column-filter-clear-button:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-column-filter-overlay {
@@ -3446,7 +3453,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-column-filter-overlay .p-column-filter-row-items .p-column-filter-row-item:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-column-filter-overlay .p-column-filter-row-items .p-column-filter-separator {
@@ -3510,8 +3517,8 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .fc.fc-unthemed .fc-view-container .fc-event {
-    background: var(--btnHover);
-    border: 1px solid var(--btnHover);
+    background: var(--pressedButton);
+    border: 1px solid var(--pressedButton);
     color: var(--btnText)
 }
 
@@ -3522,8 +3529,8 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .fc.fc-unthemed .fc-toolbar .fc-button {
     color: var(--btnText);
-    background: var(--btnPrimary);
-    border: 1px solid var(--btnPrimary);
+    background: var(--button);
+    border: 1px solid var(--button);
     font-size: 1rem;
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
     border-radius: 6px;
@@ -3532,21 +3539,21 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .fc.fc-unthemed .fc-toolbar .fc-button:enabled:hover {
-    background: var(--btnHover);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnHover)
+    border-color: var(--pressedButton)
 }
 
 .fc.fc-unthemed .fc-toolbar .fc-button:enabled:active {
-    background: var(--btnActive);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnActive)
+    border-color: var(--pressedButton)
 }
 
 .fc.fc-unthemed .fc-toolbar .fc-button:enabled:active:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .fc.fc-unthemed .fc-toolbar .fc-button .fc-icon-chevron-left {
@@ -3572,7 +3579,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .fc.fc-unthemed .fc-toolbar .fc-button:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button, .fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button, .fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button {
@@ -3589,14 +3596,14 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active, .fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active, .fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active {
-    background: var(--btnPrimary);
-    border-color: var(--btnPrimary);
+    background: var(--button);
+    border-color: var(--button);
     color: var(--btnText)
 }
 
 .fc.fc-unthemed .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active:hover, .fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active:hover, .fc.fc-unthemed .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active:hover {
-    background: var(--btnHover);
-    border-color: var(--btnHover);
+    background: var(--pressedButton);
+    border-color: var(--pressedButton);
     color: var(--btnText)
 }
 
@@ -3662,7 +3669,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     font-size: 1rem;
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -3682,7 +3689,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .fc.fc-theme-standard .fc-view-harness .fc-popover .fc-popover-header .fc-popover-close:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .fc.fc-theme-standard .fc-view-harness .fc-popover .fc-popover-body {
@@ -3695,8 +3702,8 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-block-event {
     color: var(--btnText);
-    background: var(--btnHover);
-    border-color: var(--btnHover)
+    background: var(--pressedButton);
+    border-color: var(--pressedButton)
 }
 
 .fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-block-event .fc-event-main {
@@ -3704,8 +3711,8 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-dot-event .fc-daygrid-event-dot {
-    background: var(--btnHover);
-    border-color: var(--btnHover)
+    background: var(--pressedButton);
+    border-color: var(--pressedButton)
 }
 
 .fc.fc-theme-standard .fc-view-harness .fc-event.fc-daygrid-dot-event:hover {
@@ -3719,36 +3726,36 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .fc.fc-theme-standard .fc-toolbar .fc-button {
     color: var(--btnText);
-    background: var(--btnPrimary);
-    border: 1px solid var(--btnPrimary);
+    background: var(--button);
+    border: 1px solid var(--button);
     font-size: 1rem;
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
     border-radius: 6px
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button:enabled:hover {
-    background: var(--btnHover);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnHover)
+    border-color: var(--pressedButton)
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button:enabled:active {
-    background: var(--btnActive);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnActive)
+    border-color: var(--pressedButton)
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button:enabled:active:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button:disabled {
     opacity: .4;
     color: var(--btnText);
-    background: var(--btnPrimary);
-    border: 1px solid var(--btnPrimary)
+    background: var(--button);
+    border: 1px solid var(--button)
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button .fc-icon-chevron-left {
@@ -3774,7 +3781,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .fc.fc-theme-standard .fc-toolbar .fc-button:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button, .fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button, .fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button {
@@ -3791,14 +3798,14 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active, .fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active, .fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active {
-    background: var(--btnPrimary);
-    border-color: var(--btnPrimary);
+    background: var(--button);
+    border-color: var(--button);
     color: var(--btnText)
 }
 
 .fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button.fc-button-active:hover, .fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button.fc-button-active:hover, .fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button.fc-button-active:hover {
-    background: var(--btnHover);
-    border-color: var(--btnHover);
+    background: var(--pressedButton);
+    border-color: var(--pressedButton);
     color: var(--btnText)
 }
 
@@ -3867,7 +3874,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-orderlist .p-orderlist-filter-container .p-orderlist-filter-icon {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-orderlist .p-orderlist-list {
@@ -3891,7 +3898,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-orderlist .p-orderlist-list .p-orderlist-item:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-orderlist .p-orderlist-list .p-orderlist-item.p-highlight {
@@ -3970,12 +3977,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-organizationchart .p-organizationchart-node-content .p-node-toggler:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-paginator {
     background: var(--btnText);
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: solid var(--btnText);
     border-width: 1px;
     padding: .5rem 1rem;
@@ -3985,7 +3992,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-paginator .p-paginator-first, .p-paginator .p-paginator-prev, .p-paginator .p-paginator-next, .p-paginator .p-paginator-last {
     background-color: transparent;
     border: 0 none;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     min-width: 3rem;
     height: 3rem;
     margin: .143rem;
@@ -4035,7 +4042,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-paginator .p-paginator-current {
     background-color: transparent;
     border: 0 none;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     min-width: 3rem;
     height: 3rem;
     margin: .143rem;
@@ -4045,7 +4052,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-paginator .p-paginator-pages .p-paginator-page {
     background-color: transparent;
     border: 0 none;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     min-width: 3rem;
     height: 3rem;
     margin: .143rem;
@@ -4100,7 +4107,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-picklist .p-picklist-filter-container .p-picklist-filter-icon {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-picklist .p-picklist-list {
@@ -4124,7 +4131,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-picklist .p-picklist-list .p-picklist-item:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-picklist .p-picklist-list .p-picklist-item.p-highlight {
@@ -4160,7 +4167,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-timeline .p-timeline-event-marker {
-    border: 2px solid var(--btnPrimary);
+    border: 2px solid var(--button);
     border-radius: 50%;
     width: 1rem;
     height: 1rem;
@@ -4209,7 +4216,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     margin-right: .5rem;
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -4225,12 +4232,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content .p-treenode-icon {
     margin-right: .5rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content .p-checkbox {
@@ -4244,7 +4251,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tree .p-tree-container .p-treenode .p-treenode-content:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
@@ -4281,7 +4288,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-tree .p-tree-filter-container .p-tree-filter-icon {
     right: .75rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-tree .p-treenode-children {
@@ -4324,7 +4331,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content .p-treenode-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
@@ -4345,7 +4352,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-treetable .p-paginator-top {
@@ -4360,7 +4367,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-treetable .p-treetable-header {
     background: var(--btnText);
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 1px solid var(--btnText);
     border-width: 0 0 1px 0;
     padding: 1rem 1rem;
@@ -4398,11 +4405,11 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-treetable .p-sortable-column {
-    outline-color: var(--btnFocus)
+    outline-color: var(--pressedButton)
 }
 
 .p-treetable .p-sortable-column .p-sortable-column-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-left: .5rem
 }
 
@@ -4450,7 +4457,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -4467,7 +4474,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-treetable .p-treetable-tbody > tr > td .p-treetable-toggler.p-icon {
@@ -4511,7 +4518,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-treetable .p-column-resizer-helper {
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-treetable .p-treetable-scrollable-header, .p-treetable .p-treetable-scrollable-footer {
@@ -4597,7 +4604,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-virtualscroller .p-virtualscroller-header {
     background: var(--btnText);
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 1px solid var(--btnText);
     border-width: 0 0 1px 0;
     padding: 1rem 1rem;
@@ -4639,7 +4646,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-accordion .p-accordion-header:not(.p-disabled) .p-accordion-header-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link {
@@ -4679,9 +4686,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-card {
-    background: var(--bgPrimary);
-    color: var(--text);
-    box-shadow: 0 2px 1px -1px var(--text), 0 1px 1px 0 var(--text), 0 1px 3px 0 var(--text);
+    background: var(--background);
+    color: var(--mainContrastElement);
+    box-shadow: 0 2px 1px -1px var(--mainContrastElement), 0 1px 1px 0 var(--mainContrastElement), 0 1px 3px 0 var(--mainContrastElement);
     border-radius: 6px
 }
 
@@ -4698,7 +4705,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-card .p-card-subtitle {
     font-weight: 400;
     margin-bottom: .5rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-card .p-card-content {
@@ -4740,17 +4747,17 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-fieldset {
-    border: 1px solid var(--bgPrimary);
-    background: var(--bgPrimary);
-    color: var(--text);
+    border: 1px solid var(--background);
+    background: var(--background);
+    color: var(--mainContrastElement);
     border-radius: 6px
 }
 
 .p-fieldset .p-fieldset-legend {
     padding: 1.25rem;
-    border: 1px solid var(--bgPrimary);
-    color: var(--text);
-    background: var(--bgPrimary);
+    border: 1px solid var(--background);
+    color: var(--mainContrastElement);
+    background: var(--background);
     font-weight: 700;
     border-radius: 6px
 }
@@ -4774,7 +4781,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend:hover {
@@ -4803,7 +4810,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-panel .p-panel-header .p-panel-header-icon {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -4819,7 +4826,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-panel .p-panel-header .p-panel-header-icon:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-panel.p-panel-toggleable .p-panel-header {
@@ -4887,7 +4894,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-tabview .p-tabview-nav {
     background: transparent;
-    border: 1px solid var(--bgPrimary);
+    border: 1px solid var(--background);
     border-width: 0 0 2px 0
 }
 
@@ -4896,11 +4903,11 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tabview .p-tabview-nav li .p-tabview-nav-link {
-    border: solid var(--bgPrimary);
+    border: solid var(--background);
     border-width: 0 0 2px 0;
     border-color: transparent transparent var(--btnText) transparent;
-    background: var(--bgPrimary);
-    color: var(--iconsInactive);
+    background: var(--background);
+    color: var(--greyText);
     padding: 1.25rem;
     font-weight: 700;
     border-top-right-radius: 6px;
@@ -4912,23 +4919,23 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 1px var(--btnFocus)
+    box-shadow: inset 0 0 0 1px var(--pressedButton)
 }
 
 .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
-    background: var(--bgPrimary);
-    border-color: var(--bgPrimary);
-    color: var(--text)
+    background: var(--background);
+    border-color: var(--background);
+    color: var(--mainContrastElement)
 }
 
 .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
-    background: var(--bgPrimary);
-    border-color: var(--bgPrimary);
-    color: var(--iconsInactive)
+    background: var(--background);
+    border-color: var(--background);
+    color: var(--greyText)
 }
 
 .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link:hover {
-    color: var(--text);
+    color: var(--mainContrastElement);
 }
 
 .p-tabview .p-tabview-left-icon {
@@ -4944,8 +4951,8 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tabview .p-tabview-nav-btn.p-link {
-    background: var(--bgPrimary);
-    color: var(--btnPrimary);
+    background: var(--background);
+    color: var(--button);
     width: 3rem;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, .2), 0px 2px 2px 0px rgba(0, 0, 0, .14), 0px 1px 5px 0px rgba(0, 0, 0, .12);
     border-radius: 0
@@ -4954,14 +4961,14 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tabview .p-tabview-nav-btn.p-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 1px var(--btnFocus)
+    box-shadow: inset 0 0 0 1px var(--pressedButton)
 }
 
 .p-tabview .p-tabview-panels {
-    background: var(--bgPrimary);
+    background: var(--background);
     padding: 1.25rem;
     border: 0 none;
-    color: var(--text);
+    color: var(--mainContrastElement);
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px
 }
@@ -5060,7 +5067,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-dialog .p-dialog-header .p-dialog-header-icon {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -5077,7 +5084,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-dialog .p-dialog-header .p-dialog-header-icon:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-dialog .p-dialog-header .p-dialog-header-icon:last-child {
@@ -5136,7 +5143,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-overlaypanel .p-overlaypanel-close {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     width: 2rem;
     height: 2rem;
@@ -5148,7 +5155,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-overlaypanel .p-overlaypanel-close:enabled:hover {
-    background: var(--btnHover);
+    background: var(--pressedButton);
     color: var(--btnText)
 }
 
@@ -5186,7 +5193,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-sidebar .p-sidebar-header .p-sidebar-close, .p-sidebar .p-sidebar-header .p-sidebar-icon {
     width: 2rem;
     height: 2rem;
-    color: var(--iconsInactive);
+    color: var(--greyText);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -5202,7 +5209,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-sidebar .p-sidebar-header .p-sidebar-close:focus, .p-sidebar .p-sidebar-header .p-sidebar-icon:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-sidebar .p-sidebar-header + .p-sidebar-content {
@@ -5218,8 +5225,8 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tooltip .p-tooltip-text {
-    background: var(--bgSecondary);
-    color: var(--text);
+    background: var(--linesOnNormalBackground);
+    color: var(--mainContrastElement);
     padding: .75rem .75rem;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
     border-radius: 6px
@@ -5258,7 +5265,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-fileupload .p-fileupload-buttonbar .p-button.p-fileupload-choose.p-focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-fileupload .p-fileupload-content {
@@ -5283,19 +5290,19 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-fileupload-choose:not(.p-disabled):hover {
-    background: var(--btnHover);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnHover)
+    border-color: var(--pressedButton)
 }
 
 .p-fileupload-choose:not(.p-disabled):active {
-    background: var(--btnActive);
+    background: var(--pressedButton);
     color: var(--btnText);
-    border-color: var(--btnActive)
+    border-color: var(--pressedButton)
 }
 
 .p-breadcrumb {
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     border-radius: 6px;
     padding: 1rem
@@ -5309,7 +5316,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-breadcrumb ul li .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-breadcrumb ul li .p-menuitem-link .p-menuitem-text {
@@ -5317,7 +5324,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-breadcrumb ul li .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-breadcrumb ul li.p-breadcrumb-chevron {
@@ -5330,12 +5337,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-breadcrumb ul li:last-child .p-menuitem-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-contextmenu {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: blue;
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
@@ -5356,12 +5363,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-contextmenu .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-contextmenu .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-contextmenu .p-menuitem-link:not(.p-disabled):hover {
@@ -5383,12 +5390,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-contextmenu .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-contextmenu .p-submenu-list {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
     border-radius: 6px
@@ -5429,7 +5436,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-contextmenu .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -5509,7 +5516,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-megamenu {
     padding: .5rem;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: blue;
     border: 1px solid var(--btnText);
     border-radius: 6px
@@ -5528,12 +5535,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-left: .5rem
 }
 
@@ -5556,7 +5563,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-megamenu .p-megamenu-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link, .p-megamenu .p-megamenu-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link:not(.p-disabled):hover {
@@ -5588,12 +5595,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-megamenu .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-megamenu .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-megamenu .p-menuitem-link:not(.p-disabled):hover {
@@ -5615,11 +5622,11 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-megamenu .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-megamenu .p-megamenu-panel {
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: blue;
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
@@ -5629,7 +5636,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     margin: 0;
     padding: .75rem 1.25rem;
     color: blue;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     font-weight: 700;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px
@@ -5679,7 +5686,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-megamenu .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -5694,9 +5701,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-menu {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: var(--inputText);
-    border: 1px solid var(--bgSecondary);
+    border: 1px solid var(--linesOnNormalBackground);
     border-radius: 6px;
     width: 12.5rem
 }
@@ -5741,11 +5748,11 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-menu .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-menu.p-menu-overlay {
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
 }
@@ -5754,7 +5761,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     margin: 0;
     padding: .75rem 1.25rem;
     color: blue;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     font-weight: 700;
     border-top-right-radius: 0;
     border-top-left-radius: 0
@@ -5774,7 +5781,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-menu .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -5789,7 +5796,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-menubar {
     padding: .5rem;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: blue;
     border: 1px solid var(--btnText);
     border-radius: 6px
@@ -5808,12 +5815,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-menubar .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-menubar .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-menubar .p-menuitem-link:not(.p-disabled):hover {
@@ -5835,7 +5842,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-menubar .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
@@ -5851,12 +5858,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-left: .5rem
 }
 
@@ -5879,7 +5886,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link, .p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link:not(.p-disabled):hover {
@@ -5900,7 +5907,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-menubar .p-submenu-list {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
     width: 12.5rem
@@ -5941,7 +5948,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-menubar .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -5963,7 +5970,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
         display: flex;
         width: 2rem;
         height: 2rem;
-        color: var(--iconsInactive);
+        color: var(--greyText);
         border-radius: 50%;
         transition: background-color .2s, color .2s, box-shadow .2s
     }
@@ -5976,14 +5983,14 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     .p-menubar .p-menubar-button:focus {
         outline: 0 none;
         outline-offset: 0;
-        box-shadow: 0 0 0 1px var(--btnFocus)
+        box-shadow: 0 0 0 1px var(--pressedButton)
     }
 
     .p-menubar .p-menubar-root-list {
         position: absolute;
         display: none;
         padding: .25rem 0;
-        background: var(--bgSecondary);
+        background: var(--linesOnNormalBackground);
         border: 1px solid var(--btnText);
         box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
         width: 100%
@@ -6016,12 +6023,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     }
 
     .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-icon {
-        color: var(--iconsInactive);
+        color: var(--greyText);
         margin-right: .5rem
     }
 
     .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-submenu-icon {
-        color: var(--iconsInactive)
+        color: var(--greyText)
     }
 
     .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
@@ -6043,7 +6050,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
         outline: 0 none;
         outline-offset: 0;
-        box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+        box-shadow: inset 0 0 0 .15rem var(--pressedButton)
     }
 
     .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link > .p-submenu-icon {
@@ -6126,7 +6133,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-panelmenu .p-panelmenu-header > a:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-panelmenu .p-panelmenu-header:not(.p-highlight):not(.p-disabled) > a:hover {
@@ -6179,12 +6186,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover {
@@ -6206,7 +6213,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-panelmenu-icon {
@@ -6222,7 +6229,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-panelmenu .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -6237,7 +6244,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-slidemenu {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: blue;
     border: 1px solid var(--btnText);
     border-radius: 6px;
@@ -6257,12 +6264,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-slidemenu .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-slidemenu .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-slidemenu .p-menuitem-link:not(.p-disabled):hover {
@@ -6284,18 +6291,18 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-slidemenu .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-slidemenu.p-slidemenu-overlay {
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
 }
 
 .p-slidemenu .p-slidemenu-list {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
 }
@@ -6332,7 +6339,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-slidemenu .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -6366,13 +6373,13 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-steps .p-steps-item .p-menuitem-link .p-steps-title {
     margin-top: .5rem;
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-steps .p-steps-item .p-menuitem-link:not(.p-disabled):focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-steps .p-steps-item.p-highlight .p-steps-number {
@@ -6403,7 +6410,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tabmenu .p-tabmenu-nav .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -6425,7 +6432,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
     border-width: 0 0 2px 0;
     border-color: transparent transparent var(--btnText) transparent;
     background: var(--btnText);
-    color: var(--iconsInactive);
+    color: var(--greyText);
     padding: 1.25rem;
     font-weight: 700;
     border-top-right-radius: 6px;
@@ -6441,19 +6448,19 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 1px var(--btnFocus)
+    box-shadow: inset 0 0 0 1px var(--pressedButton)
 }
 
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem:not(.p-highlight):not(.p-disabled):hover .p-menuitem-link {
     background: var(--btnText);
-    border-color: var(--btnPrimary);
+    border-color: var(--button);
     color: blue
 }
 
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
     background: var(--btnText);
-    border-color: var(--btnPrimary);
-    color: var(--btnPrimary)
+    border-color: var(--button);
+    color: var(--button)
 }
 
 .p-tabmenu .p-tabmenu-left-icon {
@@ -6466,7 +6473,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-tabmenu .p-tabmenu-nav-btn.p-link {
     background: var(--btnText);
-    color: var(--btnPrimary);
+    color: var(--button);
     width: 3rem;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, .2), 0px 2px 2px 0px rgba(0, 0, 0, .14), 0px 1px 5px 0px rgba(0, 0, 0, .12);
     border-radius: 0
@@ -6475,12 +6482,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tabmenu .p-tabmenu-nav-btn.p-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 1px var(--btnFocus)
+    box-shadow: inset 0 0 0 1px var(--pressedButton)
 }
 
 .p-tieredmenu {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     color: blue;
     border: 1px solid var(--btnText);
     border-radius: 6px;
@@ -6500,12 +6507,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tieredmenu .p-menuitem-link .p-menuitem-icon {
-    color: var(--iconsInactive);
+    color: var(--greyText);
     margin-right: .5rem
 }
 
 .p-tieredmenu .p-menuitem-link .p-submenu-icon {
-    color: var(--iconsInactive)
+    color: var(--greyText)
 }
 
 .p-tieredmenu .p-menuitem-link:not(.p-disabled):hover {
@@ -6527,18 +6534,18 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-tieredmenu .p-menuitem-link:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: inset 0 0 0 .15rem var(--btnFocus)
+    box-shadow: inset 0 0 0 .15rem var(--pressedButton)
 }
 
 .p-tieredmenu.p-tieredmenu-overlay {
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
 }
 
 .p-tieredmenu .p-submenu-list {
     padding: .25rem 0;
-    background: var(--bgSecondary);
+    background: var(--linesOnNormalBackground);
     border: 1px solid var(--btnText);
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12)
 }
@@ -6578,7 +6585,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tieredmenu .p-menuitem-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -6683,7 +6690,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-message .p-message-close:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-message.p-message-info {
@@ -6820,7 +6827,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-toast .p-toast-message .p-toast-icon-close:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-toast .p-toast-message.p-toast-message-info {
@@ -7067,7 +7074,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-badge {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -7151,7 +7158,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-chip .pi-chip-remove-icon:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-inplace .p-inplace-display {
@@ -7168,7 +7175,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-inplace .p-inplace-display:focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--btnFocus)
+    box-shadow: 0 0 0 1px var(--pressedButton)
 }
 
 .p-progressbar {
@@ -7181,7 +7188,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-progressbar .p-progressbar-value {
     border: 0 none;
     margin: 0;
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-progressbar .p-progressbar-label {
@@ -7224,7 +7231,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-tag {
-    background: var(--btnPrimary);
+    background: var(--button);
     color: var(--btnText);
     font-size: .75rem;
     font-weight: 700;
@@ -7275,23 +7282,23 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
-    background-color: var(--btnPrimary)
+    background-color: var(--button)
 }
 
 .p-galleria .p-galleria-indicators .p-galleria-indicator.p-highlight button {
-    background-color: var(--btnPrimary)
+    background-color: var(--button)
 }
 
 .p-galleria.p-galleria-indicator-onitem .p-galleria-indicators .p-galleria-indicator.p-highlight button {
-    background: var(--btnPrimary)
+    background: var(--button)
 }
 
 .p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-top > td {
-    box-shadow: inset 0 2px 0 0 var(--btnPrimary)
+    box-shadow: inset 0 2px 0 0 var(--button)
 }
 
 .p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-bottom > td {
-    box-shadow: inset 0 -2px 0 0 var(--btnPrimary)
+    box-shadow: inset 0 -2px 0 0 var(--button)
 }
 
 .p-fileupload-choose {

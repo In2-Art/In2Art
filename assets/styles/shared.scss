@@ -39,7 +39,7 @@ select:-webkit-autofill:focus {
 .error-message {
   grid-column-start: 1;
   margin-top: 0.25rem;
-  color: var(--inputInvalid);
+  color: var(--errorMessage);
 
   @media (min-width: 768px) {
     padding-left: 0.5rem;
@@ -49,7 +49,7 @@ select:-webkit-autofill:focus {
 
 .input-letter-count {
   padding: 5px 2px;
-  background-color: var(--inputBg);
+  background-color: var(--input);
   position: absolute;
   right: 10px;
   top: 42px;
@@ -59,7 +59,7 @@ select:-webkit-autofill:focus {
   }
 
   &.error {
-    color: var(--inputInvalid);
+    color: var(--errorMessage);
     font-weight: bold;
   }
 }
@@ -74,7 +74,7 @@ select:-webkit-autofill:focus {
 
 .upload {
   width: 100%;
-  border: 2px dashed var(--bgSecondary);
+  border: 2px dashed var(--linesOnNormalBackground);
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@ select:-webkit-autofill:focus {
   border-radius: 1rem;
   padding: 1.5rem 1.5rem;
   gap: 1rem;
-  color: var(--iconsInactive);
+  color: var(--greyText);
 
   @media (min-width: 768px) {
     border-radius: 1.5rem;
@@ -91,40 +91,40 @@ select:-webkit-autofill:focus {
   }
 
   & svg {
-    stroke: var(--iconsInactive);
+    stroke: var(--greyText);
   }
 
   &:hover {
-    border-color: var(--text);
-    color: var(--text);
+    border-color: var(--mainContrastElement);
+    color: var(--mainContrastElement);
 
     svg {
-      stroke: var(--text);
+      stroke: var(--mainContrastElement);
     }
   }
 }
 
 .isDragover {
-  border-color: var(--text);
-  color: var(--text);
+  border-color: var(--mainContrastElement);
+  color: var(--mainContrastElement);
 
   svg {
-    fill: var(--text);
+    fill: var(--mainContrastElement);
   }
 }
 
 .back-button {
   padding: 0.5rem;
-  color: var(--iconsInactive);
+  color: var(--greyText);
   position: absolute;
   top: -0.5rem;
   right: -0.5rem;
 
   &:hover {
-    color: var(--btnPrimary)
+    color: var(--button)
   }
 
   &:active {
-    color: var(--btnActive)
+    color: var(--pressedButton)
   }
 }
