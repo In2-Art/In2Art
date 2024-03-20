@@ -79,8 +79,12 @@
     "PRICE": "Preu",
     "AGREE_TO_TERMS_1_ARTWORK": "En penjar la teva obra d'art, acceptes el nostre",
     "AGREE_TO_TERMS_1_POST": "En penjar la teva publicació, acceptes el nostre",
-    "AGREE_TO_TERMS_2": "Termes i condicions.",
-    "BODY": "Cos"
+    "AGREE_TO_TERMS_2": "Termes i condicions.",    
+    "AGREE_TO_TERMS_ARTWORK_1": "En penjar la teva obra d'art, acceptes el nostre",
+    "AGREE_TO_TERMS_ARTWORK_2": "Termes i condicions.",
+    "BODY": "Cos",
+    "LANGUAGE":"Llengua",
+    "THEME_MODE":"Mode fosc/clar"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuació",

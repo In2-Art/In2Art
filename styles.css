@@ -1884,8 +1884,12 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 .p-dropdown {
     background: var(--background);
     border: 1px solid var(--linesOnNormalBackground);
+/* .p-dropdown {    
+    background: var(--bgPrimary);
+    border: 1px solid var(--bgSecondary);
     transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
-    border-radius: 6px
+    border-radius: 6px;       
+} */
 }
 
 .p-dropdown:not(.p-disabled):hover {
@@ -2001,6 +2005,36 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 
 p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
     border-color: var(--errorMessage)
+}
+
+/* Language */
+.language .p-dropdown{    
+    width: 57px;
+    height: 32px;
+    background-color:var(--textMenuGrey);    
+    gap: 0px;
+    border-radius: 5px;
+    opacity: 0.1px;
+    
+    
+}
+
+.language .p-dropdown .p-dropdown-trigger{    
+    display: flex;
+    justify-content: center;
+    color: var(--input);
+}
+
+.language .p-dropdown .p-dropdown-label{
+    display: flex;
+    justify-content: center; 
+    padding-right: 2px;   
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--input);
 }
 
 .p-input-filled .p-dropdown {
@@ -2277,6 +2311,47 @@ p-inputnumber.p-inputnumber-clearable .p-inputnumber-buttons-horizontal .p-input
 
 p-inputswitch.ng-dirty.ng-invalid > .p-inputswitch {
     border-color: var(--errorMessage)
+}
+
+/* Theme input switch */
+/* Light */
+.theme .p-inputswitch .p-inputswitch-slider{
+    width: 57px;
+    height: 32px;
+    background-color:  var(--textMenuGrey);
+    border: none;
+}
+
+.theme .p-inputswitch .p-inputswitch-slider:hover{
+    width: 57px;
+    height: 32px;
+    background-color:  var(--textMenuGrey);
+}
+
+.theme .p-inputswitch .p-inputswitch-slider:before{
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    margin-top: -13px;
+}
+
+/* Dark */
+.theme .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider{  
+    width: 57px;
+    height: 32px;  
+    background-color: transparent;
+    border: 1.5px solid  var(--textMenuGrey);
+}
+
+.theme .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:hover{
+    width: 57px;
+    height: 32px;
+    background-color: transparent;
+    border: 1.5px solid  var(--textMenuGrey);
+}
+
+.theme .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider:before{
+    background-color: var(--textMenuGrey);
 }
 
 .p-inputtext {
@@ -29399,39 +29474,40 @@ select:-webkit-autofill:focus {
 }
 
 * {
-  --errorMessage: #C05139;
-  --greyText: #8A8B8B;
+  --errorMessage: #c05139;
+  --greyText: #8a8b8b;
   --pressedButton: #066575;
-  --inactiveButton: #04515E;
-  --activeLink: #FFAA2B;
-  --textTitle: #D4BF9D;
+  --inactiveButton: #04515e;
+  --activeLink: #ffaa2b;
+  --textTitle: #d4bf9d;
   --cropper-outline-color: rgba(0, 0, 0, 0.6);
   --headerHeightDesktop: 70px;
   --headerHeightMobile: 70px;
-  --background-dark: #1A1A1A;
-  --mainContrastElement-dark: #FEFEFA;
-  --input-dark: #25272B;
+  --background-dark: #1a1a1a;
+  --mainContrastElement-dark: #fefefa;
+  --input-dark: #25272b;
   --tagsBackground-dark: #292929;
-  --tagsText-dark: #8A8B8B;
+  --tagsText-dark: #8a8b8b;
   --button-dark: #008197;
   --exploreBar-dark: rgba(37, 39, 43, 0.3);
-  --linesOnInputBackground-dark: #35373C;
-  --textMenuGrey-dark: #8D9091;
-  --inputText-dark: #FEFEFA;
-  --linesOnNormalBackground-dark: #25272B;
+  --linesOnInputBackground-dark: #35373c;
+  --textMenuGrey-dark: #8d9091;
+  --inputText-dark: #fefefa;
+  --linesOnNormalBackground-dark: #25272b;
   --messageInput-dark: rgba(37, 39, 43, 0.5);
-  --background-light: #FEFEFA;
-  --mainContrastElement-light: #1A1A1A;
-  --input-light: #F2F4F5;
-  --tagsBackground-light: #F5F3F3;
-  --tagsText-light: #433D3D;
-  --button-light: #5DA3B9;
+  --background-light: #fefefa;
+  --mainContrastElement-light: #1a1a1a;
+  --input-light: #f2f4f5;
+  --tagsBackground-light: #f5f3f3;
+  --tagsText-light: #433d3d;
+  --button-light: #5da3b9;
   --exploreBar-light: rgba(37, 39, 43, 0.07);
-  --linesOnInputBackground-light: #96ABB7;
+  --linesOnInputBackground-light: #96abb7;
   --textMenuGrey-light: #687379;
-  --inputText-light: #4D4D4D;
-  --linesOnNormalBackground-light: #E0E0E0;
-  --messageInput-light: #EFEFEB;
+  --inputText-light: #4d4d4d;
+  --linesOnNormalBackground-light: #e0e0e0;
+  --messageInput-light: #efefeb;
+  --inputBg-light: #dad8d4;
 }
 
 :root {
@@ -29452,6 +29528,11 @@ select:-webkit-autofill:focus {
   --inputHover: var(--greyText);
   --border: var(--mainContrastElement);
   --btnText: var(--mainContrastElement);
+  --inputText: var(--text);
+  --inputFocus: var(--inputPlaceholder);
+  --inputHover: var(--inputPlaceholder);
+  --border: var(--text);
+  --btnText: var(--text);
 }
 
 @media (prefers-color-scheme: light) {

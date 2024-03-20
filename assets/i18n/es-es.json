@@ -79,8 +79,12 @@
     "PRICE": "Precio",
     "AGREE_TO_TERMS_1_ARTWORK": "Al cargar tu obra de arte, aceptas nuestra",
     "AGREE_TO_TERMS_1_POST": "Al subir tu publicación, aceptas nuestra",
-    "AGREE_TO_TERMS_2": "Términos y condiciones.",
-    "BODY": "Cuerpo"
+    "AGREE_TO_TERMS_2": "Términos y condiciones.",    
+    "AGREE_TO_TERMS_ARTWORK_1": "Al cargar tu obra de arte, aceptas nuestra",
+    "AGREE_TO_TERMS_ARTWORK_2": "Términos y condiciones.",
+    "BODY": "Cuerpo",
+    "LANGUAGE":"Lengua",
+    "THEME_MODE":"Modo oscuro/claro"
   },
   "TITLE": {
     "PUNCTUATION": "Puntuación",
