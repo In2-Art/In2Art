@@ -60,11 +60,11 @@ const _c3 = () => ({
 });
 function ProfileComponent_Conditional_1_Conditional_1_a_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "a", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](1, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](2, "svg", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](3, "use", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](2, "svg", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](3, "use", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -74,15 +74,15 @@ function ProfileComponent_Conditional_1_Conditional_1_a_4_Template(rf, ctx) {
 }
 function ProfileComponent_Conditional_1_Conditional_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 2)(1, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 2)(1, "div", 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](3, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, ProfileComponent_Conditional_1_Conditional_1_a_4_Template, 4, 6, "a", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](5, "div", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](6, "app-image", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](3, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, ProfileComponent_Conditional_1_Conditional_1_a_4_Template, 4, 6, "a", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](5, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](6, "app-image", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](7, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](7, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
   }
@@ -101,36 +101,36 @@ function ProfileComponent_Conditional_1_Conditional_1_Template(rf, ctx) {
 }
 function ProfileComponent_Conditional_1_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 19)(1, "div", 20)(2, "button", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 21)(1, "div", 22)(2, "button", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](3, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](4, "svg", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](5, "use", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](4, "svg", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](5, "use", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnamespaceHTML"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](6, "span", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](6, "span", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](8, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](9, "button", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](9, "button", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](10, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](11, "svg", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](12, "use", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](11, "svg", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](12, "use", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnamespaceHTML"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](13, "span", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](13, "span", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](15, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](16, "button", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](16, "button", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](17, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnamespaceSVG"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](18, "svg", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](19, "use", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](18, "svg", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](19, "use", 28);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnamespaceHTML"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](20, "span", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](20, "span", 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](22, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()();
@@ -156,7 +156,7 @@ function ProfileComponent_Conditional_1_div_4_Template(rf, ctx) {
 function ProfileComponent_Conditional_1_Conditional_13_Template(rf, ctx) {
   if (rf & 1) {
     const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "app-feed-type-switch", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "app-feed-type-switch", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵlistener"]("feedTypeChange", function ProfileComponent_Conditional_1_Conditional_13_Template_app_feed_type_switch_feedTypeChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrestoreView"](_r4);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"](2);
@@ -172,7 +172,7 @@ function ProfileComponent_Conditional_1_Conditional_13_Template(rf, ctx) {
 function ProfileComponent_Conditional_1_Conditional_18_Template(rf, ctx) {
   if (rf & 1) {
     const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "app-feed-type-switch", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "app-feed-type-switch", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵlistener"]("feedTypeChange", function ProfileComponent_Conditional_1_Conditional_18_Template_app_feed_type_switch_feedTypeChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrestoreView"](_r5);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"](2);
@@ -187,7 +187,7 @@ function ProfileComponent_Conditional_1_Conditional_18_Template(rf, ctx) {
 }
 function ProfileComponent_Conditional_1_Conditional_28_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "app-profile-posts-feed", 28);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "app-profile-posts-feed", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](1, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](2, "async");
   }
@@ -198,21 +198,21 @@ function ProfileComponent_Conditional_1_Conditional_28_Template(rf, ctx) {
 }
 function ProfileComponent_Conditional_1_div_29_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, "Gallery");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
 }
 function ProfileComponent_Conditional_1_div_30_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, "Collections");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
 }
 function ProfileComponent_Conditional_1_div_31_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 30);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, "About");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
@@ -238,7 +238,7 @@ function ProfileComponent_Conditional_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](12, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](13, ProfileComponent_Conditional_1_Conditional_13_Template, 1, 1, "app-feed-type-switch");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](13, ProfileComponent_Conditional_1_Conditional_13_Template, 1, 1, "app-feed-type-switch", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](14, "li", 7)(15, "button", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵlistener"]("click", function ProfileComponent_Conditional_1_Template_button_click_15_listener() {
@@ -249,7 +249,7 @@ function ProfileComponent_Conditional_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](16);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](17, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](18, ProfileComponent_Conditional_1_Conditional_18_Template, 1, 1, "app-feed-type-switch");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](18, ProfileComponent_Conditional_1_Conditional_18_Template, 1, 1, "app-feed-type-switch", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](19, "li")(20, "button", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵlistener"]("click", function ProfileComponent_Conditional_1_Template_button_click_20_listener() {
@@ -271,7 +271,7 @@ function ProfileComponent_Conditional_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](27, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](28, ProfileComponent_Conditional_1_Conditional_28_Template, 3, 7, "app-profile-posts-feed")(29, ProfileComponent_Conditional_1_div_29_Template, 2, 0, "div", 9)(30, ProfileComponent_Conditional_1_div_30_Template, 2, 0, "div", 9)(31, ProfileComponent_Conditional_1_div_31_Template, 2, 0, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](28, ProfileComponent_Conditional_1_Conditional_28_Template, 3, 7, "app-profile-posts-feed", 10)(29, ProfileComponent_Conditional_1_div_29_Template, 2, 0, "div", 11)(30, ProfileComponent_Conditional_1_div_30_Template, 2, 0, "div", 11)(31, ProfileComponent_Conditional_1_div_31_Template, 2, 0, "div", 11);
   }
   if (rf & 2) {
     let tmp_1_0;
@@ -312,8 +312,8 @@ function ProfileComponent_Conditional_1_Template(rf, ctx) {
 }
 function ProfileComponent_Conditional_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 30);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](1, "p-progressSpinner", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 31);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](1, "p-progressSpinner", 32);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -376,7 +376,7 @@ let ProfileComponent = /*#__PURE__*/(() => {
       selectors: [["app-user-profile"]],
       decls: 4,
       vars: 3,
-      consts: [[1, "profile-wrapper"], [1, "profile-user"], [1, "flex", "flex-column"], [1, "profile-divider"], ["class", "flex flex-column align-items-center justify-content-center w-full", 4, "ngIf"], [1, "profile-bio"], [1, "flex", "flex-column", "align-items-center", "pt-1", "pb-1"], [1, "w-full", "flex", "justify-content-center", "relative"], ["type", "button", 1, "profile-tab", 3, "click", "ngClass"], ["class", "profile-feed", 4, "ngIf"], [1, "user-nickname"], [1, "relative"], ["class", "image-link", 3, "routerLink", 4, "ngIf"], [1, "image-wrapper"], ["defaultImageUrl", "assets/videos/noUserVid.mp4", 3, "folder", "idPicture", "userId"], [1, "user-profile-name"], [1, "image-link", 3, "routerLink"], ["width", "56", "height", "56"], ["href", "assets/images/icons.svg#edit-photo"], [1, "flex", "flex-column", "align-items-center", "justify-content-center", "w-full"], [1, "w-fit", "flex", "flex-column", "gap-3"], ["type", "button", 1, "profile-button", 3, "routerLink"], ["width", "25", "height", "21"], ["href", "assets/images/icons.svg#edit-profile"], [1, "flex-grow-1", "text-center"], ["href", "assets/images/icons.svg#create-post"], ["href", "assets/images/icons.svg#add-artwork"], [3, "feedTypeChange", "currentFeedType"], [3, "feedType", "isLoading", "userId"], [1, "profile-feed"], [1, "profile-loader"], ["strokeWidth", "4"]],
+      consts: [[1, "profile-wrapper"], [1, "profile-user"], [1, "flex", "flex-column"], [1, "profile-divider"], ["class", "flex flex-column align-items-center justify-content-center w-full", 4, "ngIf"], [1, "profile-bio"], [1, "flex", "flex-column", "align-items-center", "pt-1", "pb-1"], [1, "w-full", "flex", "justify-content-center", "relative"], ["type", "button", 1, "profile-tab", 3, "click", "ngClass"], [3, "currentFeedType"], [3, "feedType", "isLoading", "userId"], ["class", "profile-feed", 4, "ngIf"], [1, "user-nickname"], [1, "relative"], ["class", "image-link", 3, "routerLink", 4, "ngIf"], [1, "image-wrapper"], ["defaultImageUrl", "assets/videos/noUserVid.mp4", 3, "folder", "idPicture", "userId"], [1, "user-profile-name"], [1, "image-link", 3, "routerLink"], ["width", "56", "height", "56"], ["href", "assets/images/icons.svg#edit-photo"], [1, "flex", "flex-column", "align-items-center", "justify-content-center", "w-full"], [1, "w-fit", "flex", "flex-column", "gap-3"], ["type", "button", 1, "profile-button", 3, "routerLink"], ["width", "25", "height", "21"], ["href", "assets/images/icons.svg#edit-profile"], [1, "flex-grow-1", "text-center"], ["href", "assets/images/icons.svg#create-post"], ["href", "assets/images/icons.svg#add-artwork"], [3, "feedTypeChange", "currentFeedType"], [1, "profile-feed"], [1, "profile-loader"], ["strokeWidth", "4"]],
       template: function ProfileComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 0);
@@ -651,7 +651,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function ProfilePostsFeedComponent_Conditional_1_For_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "app-post-card", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "app-post-card", 4);
   }
   if (rf & 2) {
     const post_r1 = ctx.$implicit;
@@ -667,9 +667,9 @@ function ProfilePostsFeedComponent_Conditional_1_div_3_Template(rf, ctx) {
 }
 function ProfilePostsFeedComponent_Conditional_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrepeaterCreate"](0, ProfilePostsFeedComponent_Conditional_1_For_1_Template, 1, 1, "app-post-card", null, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrepeaterTrackByIdentity"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrepeaterCreate"](0, ProfilePostsFeedComponent_Conditional_1_For_1_Template, 1, 1, "app-post-card", 4, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵrepeaterTrackByIdentity"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](2, "async");
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](3, ProfilePostsFeedComponent_Conditional_1_div_3_Template, 2, 0, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](3, ProfilePostsFeedComponent_Conditional_1_div_3_Template, 2, 0, "div", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](4, "async");
   }
   if (rf & 2) {
@@ -681,7 +681,7 @@ function ProfilePostsFeedComponent_Conditional_1_Template(rf, ctx) {
 }
 function ProfilePostsFeedComponent_Conditional_2_For_2_For_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "video", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "video", 8);
   }
   if (rf & 2) {
     const post_r4 = ctx.$implicit;
@@ -732,7 +732,7 @@ function ProfilePostsFeedComponent_Conditional_2_Template(rf, ctx) {
 }
 function ProfilePostsFeedComponent_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵpipe"](2, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
@@ -808,7 +808,7 @@ let ProfilePostsFeedComponent = /*#__PURE__*/(() => {
       features: [_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵStandaloneFeature"]],
       decls: 5,
       vars: 5,
-      consts: [["appScrollBottom", "", 1, "profile-feed", 3, "scrollingFinished"], [1, "w-full"], ["appMasonryFeed", "", 1, "masonry-wrapper"], ["class", "pb-5 pt-5 text-center w-full text-2xl", 4, "ngIf"], ["class", "w-full", 4, "ngIf"], [3, "post"], ["appMasonryFeed", "", 1, "masonry-wrapper", 3, "fillEmptyPage"], [1, "flex", "flex-column", "gap-1"], [1, "masonry-image"], ["height", "200px", 1, "w-full"], [1, "masonry-image", 3, "src"], [1, "pb-5", "pt-5", "text-center", "w-full", "text-2xl"]],
+      consts: [["appScrollBottom", "", 1, "profile-feed", 3, "scrollingFinished"], [1, "w-full"], ["appMasonryFeed", "", 1, "masonry-wrapper"], ["class", "pb-5 pt-5 text-center w-full text-2xl", 4, "ngIf"], [3, "post"], ["class", "w-full", 4, "ngIf"], ["appMasonryFeed", "", 1, "masonry-wrapper", 3, "fillEmptyPage"], [1, "flex", "flex-column", "gap-1"], [1, "masonry-image", 3, "src"], ["height", "200px", 1, "w-full"], [1, "pb-5", "pt-5", "text-center", "w-full", "text-2xl"]],
       template: function ProfilePostsFeedComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "div", 0);

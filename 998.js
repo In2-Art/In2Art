@@ -33,7 +33,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function HomeComponent_For_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "app-post-card", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "app-post-card", 1);
   }
   if (rf & 2) {
     const post_r1 = ctx.$implicit;
@@ -75,16 +75,16 @@ let HomeComponent = /*#__PURE__*/(() => {
       selectors: [["app-home"]],
       decls: 6,
       vars: 5,
-      consts: [["appScrollBottom", "", 1, "content", "align-center", "justify-content-center", "flex", "flex-column", "gap-4", 3, "scrollingFinished"], ["class", "w-full", 4, "ngIf"], [3, "post"], [1, "w-full"]],
+      consts: [["appScrollBottom", "", 1, "content", "align-center", "justify-content-center", "flex", "flex-column", "gap-4", 3, "scrollingFinished"], [3, "post"], ["class", "w-full", 4, "ngIf"], [1, "w-full"]],
       template: function HomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵlistener"]("scrollingFinished", function HomeComponent_Template_div_scrollingFinished_0_listener() {
             return ctx.onScrollingFinished();
           });
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrepeaterCreate"](1, HomeComponent_For_2_Template, 1, 1, "app-post-card", null, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrepeaterTrackByIdentity"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrepeaterCreate"](1, HomeComponent_For_2_Template, 1, 1, "app-post-card", 1, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵrepeaterTrackByIdentity"]);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](3, "async");
-          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, HomeComponent_div_4_Template, 2, 0, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](4, HomeComponent_div_4_Template, 2, 0, "div", 2);
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](5, "async");
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
         }

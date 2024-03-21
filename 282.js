@@ -3868,6 +3868,9 @@ let AutoComplete = /*#__PURE__*/(() => {
         }
         event.stopPropagation(); // To prevent onBackspaceKeyOnMultiple method
       }
+      if (!this.multiple && this.showClear && this.findSelectedOptionIndex() != -1) {
+        this.clear();
+      }
     }
     onArrowLeftKeyOnMultiple(event) {
       const optionIndex = this.focusedMultipleOptionIndex() < 1 ? 0 : this.focusedMultipleOptionIndex() - 1;
@@ -7568,6 +7571,10 @@ let Chips = /*#__PURE__*/(() => {
         event.preventDefault();
       }
     }
+    /**
+     * Callback to invoke on filter reset.
+     * @group Method
+     */
     clear() {
       this.value = null;
       this.updateFilledState();

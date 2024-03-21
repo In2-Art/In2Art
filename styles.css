@@ -29478,6 +29478,7 @@ select:-webkit-autofill:focus {
   --greyText: #8a8b8b;
   --pressedButton: #066575;
   --inactiveButton: #04515e;
+  --switcher: #4C4E51;
   --activeLink: #ffaa2b;
   --textTitle: #d4bf9d;
   --cropper-outline-color: rgba(0, 0, 0, 0.6);
@@ -29489,25 +29490,27 @@ select:-webkit-autofill:focus {
   --tagsBackground-dark: #292929;
   --tagsText-dark: #8a8b8b;
   --button-dark: #008197;
-  --exploreBar-dark: rgba(37, 39, 43, 0.3);
+  --exploreBar-dark: #1D1E1F;
   --linesOnInputBackground-dark: #35373c;
   --textMenuGrey-dark: #8d9091;
   --inputText-dark: #fefefa;
   --linesOnNormalBackground-dark: #25272b;
-  --messageInput-dark: rgba(37, 39, 43, 0.5);
+  --messageInput-dark: #1F2123;
+  --languageSwitch-dark: #2F3135;
   --background-light: #fefefa;
   --mainContrastElement-light: #1a1a1a;
   --input-light: #f2f4f5;
   --tagsBackground-light: #f5f3f3;
   --tagsText-light: #433d3d;
   --button-light: #5da3b9;
-  --exploreBar-light: rgba(37, 39, 43, 0.07);
+  --exploreBar-light: #F0F0F0;
   --linesOnInputBackground-light: #96abb7;
   --textMenuGrey-light: #687379;
   --inputText-light: #4d4d4d;
   --linesOnNormalBackground-light: #e0e0e0;
   --messageInput-light: #efefeb;
   --inputBg-light: #dad8d4;
+  --languageSwitch-light: #E8EAEB;
 }
 
 :root {
@@ -29524,15 +29527,11 @@ select:-webkit-autofill:focus {
   --inputText: var(--inputText-dark);
   --linesOnNormalBackground: var(--linesOnNormalBackground-dark);
   --messageInput: var(--messageInput-dark);
+  --languageSwitch: var(--languageSwitch-dark);
   --inputFocus: var(--greyText);
   --inputHover: var(--greyText);
   --border: var(--mainContrastElement);
   --btnText: var(--mainContrastElement);
-  --inputText: var(--text);
-  --inputFocus: var(--inputPlaceholder);
-  --inputHover: var(--inputPlaceholder);
-  --border: var(--text);
-  --btnText: var(--text);
 }
 
 @media (prefers-color-scheme: light) {
@@ -29550,6 +29549,7 @@ select:-webkit-autofill:focus {
     --inputText: var(--inputText-light);
     --linesOnNormalBackground: var(--linesOnNormalBackground-light);
     --messageInput: var(--messageInput-light);
+    --languageSwitch: var(--languageSwitch-light);
   }
 }
 [color-scheme=dark] {
@@ -29566,6 +29566,7 @@ select:-webkit-autofill:focus {
   --inputText: var(--inputText-dark);
   --linesOnNormalBackground: var(--linesOnNormalBackground-dark);
   --messageInput: var(--messageInput-dark);
+  --languageSwitch: var(--languageSwitch-dark);
 }
 
 [color-scheme=light] {
@@ -29582,6 +29583,7 @@ select:-webkit-autofill:focus {
   --inputText: var(--inputText-light);
   --linesOnNormalBackground: var(--linesOnNormalBackground-light);
   --messageInput: var(--messageInput-light);
+  --languageSwitch: var(--languageSwitch-light);
 }
 
 html {

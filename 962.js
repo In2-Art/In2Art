@@ -3951,6 +3951,12 @@ let Messages = /*#__PURE__*/(() => {
      * @group Emits
      */
     valueChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
+    /**
+     * This function is executed when a message is closed.
+     * @param {Message} value - Closed message.
+     * @group Emits
+     */
+    onClose = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
     templates;
     messages;
     messageSubscription;
@@ -4011,6 +4017,7 @@ let Messages = /*#__PURE__*/(() => {
     }
     removeMessage(i) {
       this.messages = this.messages?.filter((msg, index) => index !== i);
+      this.messages[i] && this.onClose.emit(this.messages[i]);
       this.valueChange.emit(this.messages);
     }
     get icon() {
@@ -4084,7 +4091,8 @@ let Messages = /*#__PURE__*/(() => {
         hideTransitionOptions: "hideTransitionOptions"
       },
       outputs: {
-        valueChange: "valueChange"
+        valueChange: "valueChange",
+        onClose: "onClose"
       },
       decls: 4,
       vars: 8,
