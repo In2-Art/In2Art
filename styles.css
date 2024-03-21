@@ -1893,14 +1893,13 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 }
 
 .p-dropdown:not(.p-disabled):hover {
-    border-color: var(--inputHover)
+    border-color: var(--textMenuGrey)
 }
 
 .p-dropdown:not(.p-disabled).p-focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--inputFocus);
-    border-color: var(--inputHover)
+    border-color: var(--textMenuGrey)
 }
 
 .p-dropdown.p-dropdown-clearable .p-dropdown-label {
@@ -1966,39 +1965,39 @@ p-chips.p-chips-clearable .p-chips-clear-icon {
 }
 
 .p-dropdown-panel .p-dropdown-items {
-    padding: .75rem 0
+    padding: .25rem 0
 }
 
 .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
     margin: 0;
-    padding: .75rem 1.25rem;
+    padding: .25rem 0.75rem;
+    color: var(--textMenuGrey);
     border: 0 none;
-    color: var(--inputText);
     background: transparent;
     transition: box-shadow .2s;
     border-radius: 0
 }
 
 .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
-    color: var(--inputHover);
-    background: rgba(177, 157, 247, .16)
+    color: var(--textMenuGrey);
+    background: rgba(141, 144, 145, 0.3)
 }
 
 .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
-    color: var(--inputText);
-    background: rgba(255, 255, 255, .03)
+    color: var(--textMenuGrey);
+    font-weight: 700;
 }
 
 .p-dropdown-panel .p-dropdown-items .p-dropdown-empty-message {
-    padding: .75rem 1.25rem;
-    color: blue;
+    padding: .25rem 1rem;
+    color: var(--textMenuGrey);
     background: transparent
 }
 
 .p-dropdown-panel .p-dropdown-items .p-dropdown-item-group {
     margin: 0;
-    padding: .75rem 1.25rem;
-    color: blue;
+    padding: .25rem 1rem;
+    color: var(--textMenuGrey);
     background: var(--linesOnNormalBackground);
     font-weight: 700
 }
@@ -2011,16 +2010,16 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
 .language .p-dropdown{    
     width: 57px;
     height: 32px;
-    background-color:var(--textMenuGrey);    
+    color: var(--textMenuGrey);
+    background-color:var(--languageSwitch);
     gap: 0;
     border-radius: 5px;
-    opacity: 0.1;
 }
 
 .language .p-dropdown .p-dropdown-trigger{    
     display: flex;
     justify-content: center;
-    color: var(--input);
+    color: var(--textMenuGrey);
 }
 
 .language .p-dropdown .p-dropdown-label{
@@ -2032,7 +2031,7 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
     line-height: 16px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--input);
+    color: var(--textMenuGrey);
 }
 
 .p-input-filled .p-dropdown {
