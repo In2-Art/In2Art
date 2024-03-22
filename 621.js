@@ -43,20 +43,20 @@ __webpack_require__.r(__webpack_exports__);
 
 const _c0 = ["textContainer"];
 const _c1 = (a0, a1, a2) => ["/", a0, a1, a2];
-function PostCardComponent_button_35_Template(rf, ctx) {
+function PostCardComponent_button_37_Template(rf, ctx) {
   if (rf & 1) {
     const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "button", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function PostCardComponent_button_35_Template_button_click_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "button", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function PostCardComponent_button_37_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r2);
       const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx_r2.toggleShowMore());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "span", 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "span", 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](3, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](4, "span", 28);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](6, "translate");
     _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
@@ -148,9 +148,9 @@ let PostCardComponent = /*#__PURE__*/(() => {
       },
       standalone: true,
       features: [_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵStandaloneFeature"]],
-      decls: 36,
-      vars: 16,
-      consts: [["textContainer", ""], [1, "post-wrapper"], [1, "post-header"], [1, "flex", "gap-2", "align-items-center"], [1, "post-author", 3, "routerLink"], ["folder", "UserPictures", "defaultImageUrl", "assets/videos/noUserVid.mp4", 3, "idPicture", "userId"], [1, "post-button"], ["width", "32", "height", "6"], ["href", "assets/images/icons.svg#post-more-option"], [1, "post-image"], [1, "responsive-video", 3, "src"], [1, "post-footer"], [1, "post-controls"], [1, "flex", "gap-3"], [1, "post-button", "post-button-hover", "gap-2"], ["width", "24", "height", "24"], ["href", "assets/images/icons.svg#comments"], ["width", "22", "height", "20"], ["href", "assets/images/icons.svg#likes"], [1, "post-button", 3, "click"], ["width", "28", "height", "28"], ["href", "assets/images/icons.svg#share"], [1, "post-text"], [1, "font-bold"], ["class", "more-text-button", 3, "click", 4, "ngIf"], [1, "more-text-button", 3, "click"], [1, "more-text"], [1, "less-text"]],
+      decls: 38,
+      vars: 23,
+      consts: [["textContainer", ""], [1, "post-wrapper"], [1, "post-header"], [1, "flex", "gap-2", "align-items-center"], [1, "post-author", 3, "routerLink"], ["folder", "UserPictures", "defaultImageUrl", "assets/videos/noUserVid.mp4", 3, "idPicture", "userId"], [1, "post-button"], ["width", "32", "height", "6"], ["href", "assets/images/icons.svg#post-more-option"], [1, "post-image"], [3, "routerLink"], [1, "responsive-video", 3, "src"], [1, "post-footer"], [1, "post-controls"], [1, "flex", "gap-3"], [1, "post-button", "post-button-hover", "gap-2"], ["width", "24", "height", "24"], ["href", "assets/images/icons.svg#comments"], ["width", "22", "height", "20"], ["href", "assets/images/icons.svg#likes"], [1, "post-button", 3, "click"], ["width", "28", "height", "28"], ["href", "assets/images/icons.svg#share"], [1, "post-text"], [1, "font-bold"], ["class", "more-text-button", 3, "click", 4, "ngIf"], [1, "more-text-button", 3, "click"], [1, "more-text"], [1, "less-text"]],
       template: function PostCardComponent_Template(rf, ctx) {
         if (rf & 1) {
           const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
@@ -166,57 +166,60 @@ let PostCardComponent = /*#__PURE__*/(() => {
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](9, "use", 8);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceHTML"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "div", 9);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](11, "video", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](10, "div", 9)(11, "a", 10);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](12, "async");
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](13, "div", 11)(14, "div", 12)(15, "div", 13)(16, "button", 14);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceSVG"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "svg", 15);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](18, "use", 16);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceHTML"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "span");
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](20, "0");
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](13, "video", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](14, "async");
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](21, "button", 14);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](15, "div", 12)(16, "div", 13)(17, "div", 14)(18, "button", 15);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceSVG"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](22, "svg", 17);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](23, "use", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](19, "svg", 16);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](20, "use", 17);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceHTML"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "span");
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](25, "0");
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](21, "span");
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](22, "0");
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](23, "button", 15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceSVG"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](24, "svg", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](25, "use", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceHTML"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "span");
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](27, "0");
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](26, "button", 19);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function PostCardComponent_Template_button_click_26_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](28, "button", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function PostCardComponent_Template_button_click_28_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r1);
             return _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵresetView"](ctx.copyLink(ctx.post.id));
           });
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceSVG"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](27, "svg", 20);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](28, "use", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "svg", 21);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](30, "use", 22);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnamespaceHTML"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](29, "div", 22, 0)(31, "span", 23);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](32);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](33, "span");
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](31, "div", 23, 0)(33, "span", 24);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](34);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](35, PostCardComponent_button_35_Template, 7, 6, "button", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](35, "span");
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](36);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](37, PostCardComponent_button_37_Template, 7, 6, "button", 25);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
         }
         if (rf & 2) {
           let tmp_2_0;
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction3"](12, _c1, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](4, 8, ctx.locale$), ctx.URLS.PROFILE, ctx.post.userCreator.userNickname == null ? null : ctx.post.userCreator.userNickname.nicknameUrl));
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction3"](15, _c1, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](4, 9, ctx.locale$), ctx.URLS.PROFILE, ctx.post.userCreator.userNickname == null ? null : ctx.post.userCreator.userNickname.nicknameUrl));
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("idPicture", (tmp_2_0 = ctx.post.userCreator.pictureId) !== null && tmp_2_0 !== undefined ? tmp_2_0 : "")("userId", ctx.post.userCreatorId);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", ctx.post.userCreator.userProfile == null ? null : ctx.post.userCreator.userProfile.name, " ");
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](5);
-          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("src", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](12, 10, ctx.urlThumbnail$), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction3"](19, _c1, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](12, 11, ctx.locale$), ctx.URLS.POST, ctx.post.id));
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("src", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](14, 13, ctx.urlThumbnail$), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsanitizeUrl"]);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](21);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](ctx.post.languages[0].title);
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
