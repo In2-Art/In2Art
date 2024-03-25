@@ -29621,6 +29621,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   height: 100%;
+  line-height: 1.5;
 }
 body app-root {
   display: block;

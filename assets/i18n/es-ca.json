@@ -35,8 +35,8 @@
     "REJECT_COOKIES":"Rebutjar cookies opcionals",
     "MORE": "més...",
     "LESS": "menys...",
-    "CREATE_POST": "Afegeix publica",
-    "ADD_ARTWORK": "Afegeix obra"
+    "CREATE_POST": "Publicar",
+    "ADD_ARTWORK": "Afegir obra"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
