@@ -1,15 +1,7 @@
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap);
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle (1) ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap);
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle (2) ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Roboto+Condensed:wght@700&family=Bebas+Neue&family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap);
 /*!**************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./src/assets/styles/primeicons.css ***!
   \**************************************************************************************************************************************************************************************************************************/
@@ -29292,7 +29284,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle (3) ***!
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle (1) ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* You can add global styles to this file, and also import other style files */
 *, *:before, *:after {
@@ -29498,6 +29490,7 @@ select:-webkit-autofill:focus {
   --linesOnNormalBackground-dark: #25272b;
   --messageInput-dark: #1F2123;
   --languageSwitch-dark: #2F3135;
+  --avatarGradient-dark: linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, rgba(26, 26, 26, 0.48) 48%, rgba(26, 26, 26, 0.6) 58.5%, #1A1A1A 82.5%);
   --background-light: #fefefa;
   --mainContrastElement-light: #1a1a1a;
   --input-light: #f2f4f5;
@@ -29517,6 +29510,7 @@ select:-webkit-autofill:focus {
   --messageInput-light: #efefeb;
   --inputBg-light: #dad8d4;
   --languageSwitch-light: #E8EAEB;
+  --avatarGradient-light: linear-gradient(180deg, rgba(254, 254, 250, 0) 0%, rgba(254, 254, 250, 0.49) 48%, rgba(254, 254, 250, 0.6) 58.5%, #FEFEFA 82.5%);
 }
 
 :root {
@@ -29539,6 +29533,7 @@ select:-webkit-autofill:focus {
   --linesOnNormalBackground: var(--linesOnNormalBackground-dark);
   --messageInput: var(--messageInput-dark);
   --languageSwitch: var(--languageSwitch-dark);
+  --avatarGradient: var(--avatarGradient-dark);
   --inputFocus: var(--greyText);
   --inputHover: var(--greyText);
   --border: var(--mainContrastElement);
@@ -29566,6 +29561,7 @@ select:-webkit-autofill:focus {
     --linesOnNormalBackground: var(--linesOnNormalBackground-light);
     --messageInput: var(--messageInput-light);
     --languageSwitch: var(--languageSwitch-light);
+    --avatarGradient: var(--avatarGradient-light);
   }
 }
 [color-scheme=dark] {
@@ -29588,6 +29584,7 @@ select:-webkit-autofill:focus {
   --linesOnNormalBackground: var(--linesOnNormalBackground-dark);
   --messageInput: var(--messageInput-dark);
   --languageSwitch: var(--languageSwitch-dark);
+  --avatarGradient: var(--avatarGradient-dark);
 }
 
 [color-scheme=light] {
@@ -29610,6 +29607,7 @@ select:-webkit-autofill:focus {
   --linesOnNormalBackground: var(--linesOnNormalBackground-light);
   --messageInput: var(--messageInput-light);
   --languageSwitch: var(--languageSwitch-light);
+  --avatarGradient: var(--avatarGradient-light);
 }
 
 html {
