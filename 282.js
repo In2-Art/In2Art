@@ -892,14 +892,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_runner_work_WebAppVersions_WebAppVersions_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 89204);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs */ 63037);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/forms */ 34456);
-/* harmony import */ var _store_newPost_newPost_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @store/newPost/newPost.actions */ 93926);
-/* harmony import */ var _store_newPost_newPost_selectors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @store/newPost/newPost.selectors */ 53375);
-/* harmony import */ var _services_tags_name_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @services/tags-name.service */ 49669);
-/* harmony import */ var _utils_read_file_as_base_64__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @utils/read-file-as-base-64 */ 82489);
-/* harmony import */ var _utils_tags_validator__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @utils/tags-validator */ 24000);
-/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @enums/urls */ 94317);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs/operators */ 70271);
-/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @store/auth/auth.selectors */ 47393);
+/* harmony import */ var _store_post_post_action__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @store/post/post.action */ 53065);
+/* harmony import */ var _store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @store/auth/auth.selectors */ 47393);
+/* harmony import */ var _store_post_post_selectors__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @store/post/post.selectors */ 30213);
+/* harmony import */ var _services_tags_name_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @services/tags-name.service */ 49669);
+/* harmony import */ var _utils_read_file_as_base_64__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @utils/read-file-as-base-64 */ 82489);
+/* harmony import */ var _utils_tags_validator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @utils/tags-validator */ 24000);
+/* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @enums/urls */ 94317);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 37580);
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @ngrx/store */ 81383);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ngx-translate/core */ 90852);
@@ -1247,21 +1247,21 @@ let NewPostComponent = /*#__PURE__*/(() => {
       this.tagList = [];
       this.filteredTagList = [];
       this.tagsLength = 0;
-      this.tags$ = this.store.select(_store_newPost_newPost_selectors__WEBPACK_IMPORTED_MODULE_2__.selectNewPostTags);
-      this.isLoading$ = this.store.select(_store_newPost_newPost_selectors__WEBPACK_IMPORTED_MODULE_2__.selectIsLoadingNewPost);
+      this.tags$ = this.store.select(_store_post_post_selectors__WEBPACK_IMPORTED_MODULE_3__.selectNewPostTags);
+      this.isLoading$ = this.store.select(_store_post_post_selectors__WEBPACK_IMPORTED_MODULE_3__.selectIsLoadingPost);
       this.thumbnailIndex = null;
       this._activeIndex = 0;
       this.locale$ = this.translate.onLangChange.pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_11__.startWith)({
         lang: this.translate.currentLang
       }), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.map)(event => event.lang));
-      this.currentUserNickname$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_7__.selectCurrentUserNickname);
+      this.currentUserNickname$ = this.store.select(_store_auth_auth_selectors__WEBPACK_IMPORTED_MODULE_2__.selectCurrentUserNickname);
       this.newPostForm = this.fb.group({
         title: new _angular_forms__WEBPACK_IMPORTED_MODULE_13__.FormControl('', [_angular_forms__WEBPACK_IMPORTED_MODULE_13__.Validators.required]),
         description: new _angular_forms__WEBPACK_IMPORTED_MODULE_13__.FormControl('', [_angular_forms__WEBPACK_IMPORTED_MODULE_13__.Validators.required, _angular_forms__WEBPACK_IMPORTED_MODULE_13__.Validators.maxLength(this.maxLengthDescription)]),
-        tags: new _angular_forms__WEBPACK_IMPORTED_MODULE_13__.FormControl('', [_utils_tags_validator__WEBPACK_IMPORTED_MODULE_5__.TagsValidator.pattern(/^[a-zA-Z0-9 ]+$/)]),
+        tags: new _angular_forms__WEBPACK_IMPORTED_MODULE_13__.FormControl('', [_utils_tags_validator__WEBPACK_IMPORTED_MODULE_6__.TagsValidator.pattern(/^[a-zA-Z0-9 ]+$/)]),
         agreeToTerms: new _angular_forms__WEBPACK_IMPORTED_MODULE_13__.FormControl(false, [_angular_forms__WEBPACK_IMPORTED_MODULE_13__.Validators.requiredTrue])
       });
-      this.URLS = _enums_urls__WEBPACK_IMPORTED_MODULE_6__.URLS;
+      this.URLS = _enums_urls__WEBPACK_IMPORTED_MODULE_7__.URLS;
     }
     ngOnInit() {
       var _this = this;
@@ -1292,7 +1292,7 @@ let NewPostComponent = /*#__PURE__*/(() => {
           langCode: this.translate.currentLang
         }]
       };
-      this.store.dispatch((0,_store_newPost_newPost_actions__WEBPACK_IMPORTED_MODULE_1__.postNewPostAction)({
+      this.store.dispatch((0,_store_post_post_action__WEBPACK_IMPORTED_MODULE_1__.postNewPostAction)({
         newPost
       }));
     }
@@ -1318,7 +1318,7 @@ let NewPostComponent = /*#__PURE__*/(() => {
             } else {
               const fileLocalData = {
                 fileExt: file.type.split('/')[1],
-                dataBase64: yield (0,_utils_read_file_as_base_64__WEBPACK_IMPORTED_MODULE_4__.readFileAsBase64)(file)
+                dataBase64: yield (0,_utils_read_file_as_base_64__WEBPACK_IMPORTED_MODULE_5__.readFileAsBase64)(file)
               };
               filesLocalData.push(fileLocalData);
             }
@@ -1363,7 +1363,7 @@ let NewPostComponent = /*#__PURE__*/(() => {
               name: tag,
               id: ''
             };
-            this.store.dispatch((0,_store_newPost_newPost_actions__WEBPACK_IMPORTED_MODULE_1__.addTagAction)({
+            this.store.dispatch((0,_store_post_post_action__WEBPACK_IMPORTED_MODULE_1__.addTagAction)({
               newTag
             }));
           }
@@ -1376,12 +1376,12 @@ let NewPostComponent = /*#__PURE__*/(() => {
       }
     }
     removeTag(tag) {
-      this.store.dispatch((0,_store_newPost_newPost_actions__WEBPACK_IMPORTED_MODULE_1__.removeTagAction)({
+      this.store.dispatch((0,_store_post_post_action__WEBPACK_IMPORTED_MODULE_1__.removeTagAction)({
         tagNameToRemove: tag
       }));
     }
     clearTags() {
-      this.store.dispatch((0,_store_newPost_newPost_actions__WEBPACK_IMPORTED_MODULE_1__.clearTagsAction)());
+      this.store.dispatch((0,_store_post_post_action__WEBPACK_IMPORTED_MODULE_1__.clearTagsAction)());
     }
     moveElementToStart(arr, index) {
       if (index < 0 || index >= arr.length) {
@@ -1400,7 +1400,7 @@ let NewPostComponent = /*#__PURE__*/(() => {
       });
     }
     static #_ = this.ɵfac = function NewPostComponent_Factory(t) {
-      return new (t || NewPostComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_ngrx_store__WEBPACK_IMPORTED_MODULE_14__.Store), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_13__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](primeng_api__WEBPACK_IMPORTED_MODULE_16__.MessageService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_services_tags_name_service__WEBPACK_IMPORTED_MODULE_3__.TagsNameService));
+      return new (t || NewPostComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_ngrx_store__WEBPACK_IMPORTED_MODULE_14__.Store), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_13__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_15__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](primeng_api__WEBPACK_IMPORTED_MODULE_16__.MessageService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdirectiveInject"](_services_tags_name_service__WEBPACK_IMPORTED_MODULE_4__.TagsNameService));
     };
     static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineComponent"]({
       type: NewPostComponent,
