@@ -36,7 +36,9 @@
     "MORE": "more...",
     "LESS": "less...",
     "CREATE_POST": "Create a post",
-    "ADD_ARTWORK": "Add an artwork"
+    "ADD_ARTWORK": "Add an artwork",
+    "EDIT_POST":"Edit the post",
+    "DELETE_POST":"Delete the post"
   },
   "LABEL": {
     "PASSWORD": "Password",

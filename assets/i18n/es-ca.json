@@ -36,7 +36,9 @@
     "MORE": "més...",
     "LESS": "menys...",
     "CREATE_POST": "Publicar",
-    "ADD_ARTWORK": "Afegir obra"
+    "ADD_ARTWORK": "Afegir obra",
+    "EDIT_POST":"Edita la publicació",
+    "DELETE_POST":"Elimina la publicació"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",

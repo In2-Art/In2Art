@@ -36,7 +36,9 @@
     "MORE": "más...",
     "LESS": "menos...",
     "CREATE_POST": "Publicar",
-    "ADD_ARTWORK": "Añadir obra"
+    "ADD_ARTWORK": "Añadir obra",
+    "EDIT_POST":"Edita la publicación",
+    "DELETE_POST":"Elimina la publicación"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
