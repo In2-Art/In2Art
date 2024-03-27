@@ -609,64 +609,64 @@ let SettingsComponent = /*#__PURE__*/(() => {
       selectors: [["app-settings"]],
       decls: 53,
       vars: 61,
-      consts: [[3, "width"], [1, "font-bold", "text-2xl", "mb-5", "flex", "justify-content-center", "text-center"], [1, "font-bold", "text-xl", "mt-5"], [1, "flex", "flex-column", "p-4", "border-1", "border-solid", "border-round-md", "w-full", "mb-2", "md:flex-row"], [1, "flex", "flex-column", "align-items-center", "w-full", "md:w-8", "mr-2"], [1, "text-lg", "w-full", "flex", "justify-content-center", "md:justify-content-start"], [1, "w-full", "mt-2", "text-sm", "flex", "justify-content-center", "text-center", "md:text-left", "md:justify-content-start"], [1, "w-full", "mt-2", "md:w-8"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", 3, "routerLink", "label"], [1, "font-bold", "text-xl", "mt-5", "danger"], [1, "danger"], [1, "danger", "flex", "flex-column", "p-4", "border-1", "border-solid", "border-round-md", "w-full", "mb-2", "md:flex-row"], [1, "danger", "text-lg", "w-full", "flex", "justify-content-center", "md:justify-content-start"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", "p-button-danger", 3, "routerLink", "label"]],
+      consts: [[3, "width"], [1, "font-bold", "text-2xl", "mb-5", "flex", "justify-content-center", "text-center"], [1, "mb-8"], [1, "font-bold", "text-xl", "mt-5"], [1, "flex", "flex-column", "p-4", "border-1", "border-solid", "border-round-md", "w-full", "mb-2", "md:flex-row"], [1, "flex", "flex-column", "align-items-center", "w-full", "md:w-8", "mr-2"], [1, "text-lg", "w-full", "flex", "justify-content-center", "md:justify-content-start"], [1, "w-full", "mt-2", "text-sm", "flex", "justify-content-center", "text-center", "md:text-left", "md:justify-content-start"], [1, "w-full", "mt-2", "md:w-8"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", 3, "routerLink", "label"], [1, "font-bold", "text-xl", "mt-5", "danger"], [1, "danger"], [1, "danger", "flex", "flex-column", "p-4", "border-1", "border-solid", "border-round-md", "w-full", "mb-2", "md:flex-row"], [1, "danger", "text-lg", "w-full", "flex", "justify-content-center", "md:justify-content-start"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", "p-button-danger", 3, "routerLink", "label"]],
       template: function SettingsComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "app-container", 0)(1, "h2", 1);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](2);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](3, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "div")(5, "h3", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "div", 2)(5, "h3", 3);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](6);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](7, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](8, "hr");
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "div", 3)(10, "div", 4)(11, "h4", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "div", 4)(10, "div", 5)(11, "h4", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](12);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](13, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](14, "p", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](14, "p", 7);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](15);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](16, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](17, "div", 7);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](18, "button", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](17, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](18, "button", 9);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](19, "async");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](20, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](21, "h3", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](21, "h3", 3);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](22);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](23, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](24, "hr");
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](25, "div", 3)(26, "div", 4)(27, "h4", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](25, "div", 4)(26, "div", 5)(27, "h4", 6);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](28);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](29, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](30, "p", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](30, "p", 7);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](31);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](32, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](33, "div", 7);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](34, "button", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](33, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](34, "button", 9);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](35, "async");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](36, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](37, "h3", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](37, "h3", 10);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](38);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](39, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](40, "hr", 10);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](41, "div", 11)(42, "div", 4)(43, "h4", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](40, "hr", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](41, "div", 12)(42, "div", 5)(43, "h4", 13);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](44);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](45, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](46, "p", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](46, "p", 7);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](47);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](48, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](49, "div", 7);
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](50, "button", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](49, "div", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](50, "button", 14);
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](51, "async");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](52, "translate");
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()();
