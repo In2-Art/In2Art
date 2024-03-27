@@ -956,12 +956,10 @@ let ProfilePostsFeedComponent = /*#__PURE__*/(() => {
     }
     calculateColumns() {
       const elementWidth = this.elementRef.nativeElement.offsetWidth;
-      console.log(elementWidth);
       this.masonryColumnNumber = Math.floor(elementWidth / 220) === 1 ? 2 : Math.floor(elementWidth / 220);
       this.masonryColumnArray = Array.from({
         length: this.masonryColumnNumber
       });
-      console.log(this.masonryColumnNumber);
       this.cdr.detectChanges();
     }
     static #_ = this.ɵfac = function ProfilePostsFeedComponent_Factory(t) {

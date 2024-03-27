@@ -94,7 +94,7 @@
     />
     <path d='M13.171 9V13' stroke='var(--errorMessage)' stroke-width='2' stroke-linecap='round'
           stroke-linejoin='round' />
-    <path d='M13.171 17H13.182' stroke='var(--errorMessage)' stroke-width='2' stroke-linecap='round'
+    <path d='M13.171 17H13.182' stroke='currentColor' stroke-width='2' stroke-linecap='round'
           stroke-linejoin='round' />
   </symbol>
 
@@ -291,10 +291,10 @@
   </symbol>
 
   <symbol id='delete-post' fill="none" viewBox="0 0 38 38" >     
-    <path d="M4.75 9.5H7.91667H33.25" stroke="var(--errorMessage)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M30.0833 9.49984V31.6665C30.0833 32.5064 29.7497 33.3118 29.1558 33.9057C28.5619 34.4995 27.7565 34.8332 26.9166 34.8332H11.0833C10.2434 34.8332 9.43799 34.4995 8.84412 33.9057C8.25026 33.3118 7.91663 32.5064 7.91663 31.6665V9.49984M12.6666 9.49984V6.33317C12.6666 5.49332 13.0003 4.68786 13.5941 4.094C14.188 3.50013 14.9934 3.1665 15.8333 3.1665H22.1666C23.0065 3.1665 23.8119 3.50013 24.4058 4.094C24.9997 4.68786 25.3333 5.49332 25.3333 6.33317V9.49984" stroke="var(--errorMessage)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M15.8334 17.4165V26.9165" stroke="var(--errorMessage)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M22.1666 17.4165V26.9165" stroke="var(--errorMessage)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>    
+    <path d="M4.75 9.5H7.91667H33.25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30.0833 9.49984V31.6665C30.0833 32.5064 29.7497 33.3118 29.1558 33.9057C28.5619 34.4995 27.7565 34.8332 26.9166 34.8332H11.0833C10.2434 34.8332 9.43799 34.4995 8.84412 33.9057C8.25026 33.3118 7.91663 32.5064 7.91663 31.6665V9.49984M12.6666 9.49984V6.33317C12.6666 5.49332 13.0003 4.68786 13.5941 4.094C14.188 3.50013 14.9934 3.1665 15.8333 3.1665H22.1666C23.0065 3.1665 23.8119 3.50013 24.4058 4.094C24.9997 4.68786 25.3333 5.49332 25.3333 6.33317V9.49984" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M15.8334 17.4165V26.9165" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22.1666 17.4165V26.9165" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </symbol>
 
   
