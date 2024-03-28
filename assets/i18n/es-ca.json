@@ -38,7 +38,9 @@
     "CREATE_POST": "Publicar",
     "ADD_ARTWORK": "Afegir obra",
     "EDIT_POST":"Edita la publicació",
-    "DELETE_POST":"Elimina la publicació"
+    "DELETE_POST":"Elimina la publicació",
+    "REPORT_POST": "Informeu",
+    "DELETE": "Eliminar"
   },
   "LABEL": {
     "PASSWORD": "Contrasenya",
@@ -90,7 +92,8 @@
   },
   "TITLE": {
     "PUNCTUATION": "Puntuació",
-    "HISTORY": "Història"
+    "HISTORY": "Història",
+    "DELETE_POST": "¿Seguro que quieres eliminar la publicación?"
   },
   "ERROR": {
     "TITLE": "Error",
@@ -126,7 +129,8 @@
     "INVALID_CENTURY": "Entrada incorrecta. Introduïu només els números romans correctes.",
     "URL_COPY": "No s'ha pogut copiar l'URL. Torna-ho a provar més tard!",
     "INVALID_TAG": "Nom d'etiqueta no vàlid",
-    "MAXIMUM_OF_TAGS": "Heu superat el nombre màxim d'etiquetes permès de 50"
+    "MAXIMUM_OF_TAGS": "Heu superat el nombre màxim d'etiquetes permès de 50",
+    "DELETE_POST": "Ho sentim, no esteu autoritzat per suprimir aquesta publicació!"
   },
   "SUCCESS": {
     "TITLE": "Èxit",
@@ -142,7 +146,8 @@
     "CREATE_ARTWORK": "Creeu una obra d'art nova!",
     "CREATE_POST": "Creeu una nova publicació!",
     "DELETE_ACCOUNT":"S'ha eliminat el teu compte!",
-    "URL_COPY": "URL copiat al porta-retalls!"
+    "URL_COPY": "URL copiat al porta-retalls!",
+    "DELETE_POST": "Publicació suprimida correctament!"
   },
   "LOADING": "Carregant...",
   "404": {
@@ -260,7 +265,8 @@
       "AFTER_CHRIST": "Després de Crist",
       "DATE": "Data de creació",
       "DATE_FORMAT": "Format de data",
-      "BCE": "abans de l'època comuna",
+      "BCE_DESKTOP": "abans de l'època comuna",
+      "BCE_MOBILE": "a.C.",
       "ARTIST_EMPTY_MESSAGE": "No s'ha trobat l'artista. Si estàs segur de l'ortografia, crearem una entrada nova per a l'artista amb molt de gust",
       "PLACEHOLDER": {
         "DESCRIPTION": "Breu visió general de l'obra d'art, per exemple, 'Un cel nocturn vibrant ple d'estrelles en remolins'",

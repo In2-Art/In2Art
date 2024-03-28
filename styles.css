@@ -1729,7 +1729,7 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
 }
 
 .p-checkbox .p-checkbox-box {
-    border: 1px solid var(--input);
+    border: 1px solid var(--mainContrastElement);
     background: var(--background);
     width: 1rem;
     height: 1rem;
@@ -1752,19 +1752,19 @@ p-cascadeselect.p-cascadeselect-clearable .p-cascadeselect-clear-icon {
 }
 
 .p-checkbox .p-checkbox-box.p-highlight {
-    border-color: var(--input);
+    border-color: var(--mainContrastElement);
     background: var(--background)
 }
 
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
-    border-color: var(--input)
+    border-color: var(--mainContrastElement)
 }
 
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
     outline: 0 none;
     outline-offset: 0;
-    box-shadow: 0 0 0 1px var(--input);
-    border-color: var(--input)
+    box-shadow: 0 0 0 1px var(--mainContrastElement);
+    border-color: var(--mainContrastElement)
 }
 
 .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
@@ -3383,12 +3383,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 
 .p-button.p-button-secondary, .p-buttonset.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
     color: var(--textSecondaryButtons);
-    background: var(--background);
+    background: transparent;
     border: 2px solid var(--button);
 }
 
 .p-button.p-button-secondary:enabled:hover, .p-buttonset.p-button-secondary > .p-button:enabled:hover, .p-splitbutton.p-button-secondary > .p-button:enabled:hover {
-    background: var(--background);
+    background: transparent;
     color: var(--textSecondaryButtons);
     border-color: var(--pressedButton);
 }
@@ -3398,7 +3398,7 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-button.p-button-secondary:enabled:active, .p-buttonset.p-button-secondary > .p-button:enabled:active, .p-splitbutton.p-button-secondary > .p-button:enabled:active {
-    background: var(--background);
+    background: transparent;
     color: var(--textSecondaryButtons);
     border-color: var(--pressedButton);
 }
@@ -6216,18 +6216,15 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-dialog {
-    border-radius: 6px;
-    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, .2), 0px 24px 38px 3px rgba(0, 0, 0, .14), 0px 9px 46px 8px rgba(0, 0, 0, .12);
-    border: 1px solid var(--btnText)
+    background-color: var(--input);
+    border-radius: 8px;
 }
 
 .p-dialog .p-dialog-header {
     border-bottom: 0 none;
-    background: var(--btnText);
+    background: var(--input);
     color: blue;
     padding: 1.5rem;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px
 }
 
 .p-dialog .p-dialog-header .p-dialog-title {
@@ -6263,24 +6260,21 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 }
 
 .p-dialog .p-dialog-content {
-    background: var(--btnText);
-    color: blue;
-    padding: 0 1.5rem 2rem 1.5rem
+    background: var(--input);
+    color: var(--mainContrastElement);
+    padding: 2rem;
 }
 
 .p-dialog .p-dialog-content:last-of-type {
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px
+    border-radius: 8px;
 }
 
 .p-dialog .p-dialog-footer {
     border-top: 0 none;
-    background: var(--btnText);
-    color: blue;
+    background: var(--input);
+    color: var(--mainContrastElement);
     padding: 0 1.5rem 1.5rem 1.5rem;
     text-align: right;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px
 }
 
 .p-dialog .p-dialog-footer button {

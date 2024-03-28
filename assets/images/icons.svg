@@ -87,12 +87,12 @@
   <symbol id='warning-mark' viewBox='0 0 27 24' fill='none'>
     <path
       d='M11.2942 3.85996L1.99766 18C1.80599 18.3024 1.70457 18.6453 1.7035 18.9945C1.70243 19.3437 1.80174 19.6871 1.99155 19.9905C2.18136 20.2939 2.45506 20.5467 2.78541 20.7238C3.11576 20.9009 3.49126 20.9961 3.87454 21H22.4676C22.8509 20.9961 23.2264 20.9009 23.5568 20.7238C23.8871 20.5467 24.1608 20.2939 24.3506 19.9905C24.5404 19.6871 24.6397 19.3437 24.6387 18.9945C24.6376 18.6453 24.5362 18.3024 24.3445 18L15.048 3.85996C14.8523 3.56607 14.5768 3.32308 14.248 3.15444C13.9193 2.98581 13.5484 2.89722 13.1711 2.89722C12.7938 2.89722 12.4229 2.98581 12.0941 3.15444C11.7654 3.32308 11.4899 3.56607 11.2942 3.85996Z'
-      stroke='var(--errorMessage)'
+      stroke='currentColor'
       stroke-width='2'
       stroke-linecap='round'
       stroke-linejoin='round'
     />
-    <path d='M13.171 9V13' stroke='var(--errorMessage)' stroke-width='2' stroke-linecap='round'
+    <path d='M13.171 9V13' stroke='currentColor' stroke-width='2' stroke-linecap='round'
           stroke-linejoin='round' />
     <path d='M13.171 17H13.182' stroke='currentColor' stroke-width='2' stroke-linecap='round'
           stroke-linejoin='round' />

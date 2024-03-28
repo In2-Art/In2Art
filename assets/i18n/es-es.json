@@ -38,7 +38,9 @@
     "CREATE_POST": "Publicar",
     "ADD_ARTWORK": "Añadir obra",
     "EDIT_POST":"Edita la publicación",
-    "DELETE_POST":"Elimina la publicación"
+    "DELETE_POST":"Elimina la publicación",
+    "REPORT_POST": "Informe",
+    "DELETE": "Eliminar"
   },
   "LABEL": {
     "PASSWORD": "Contraseña",
@@ -90,7 +92,8 @@
   },
   "TITLE": {
     "PUNCTUATION": "Puntuación",
-    "HISTORY": "Historia"
+    "HISTORY": "Historia",
+    "DELETE_POST": "Estàs segur que vols eliminar la publicació?"
   },
   "ERROR": {
     "TITLE": "Error",
@@ -126,7 +129,8 @@
     "INVALID_CENTURY": "Entrada inválida. Introduzca únicamente números romanos correctos.",
     "URL_COPY": "No se pudo copiar la URL. ¡Inténtalo de nuevo más tarde!",
     "INVALID_TAG": "Nombre de etiqueta no válido",
-    "MAXIMUM_OF_TAGS": "Has excedido el número máximo de etiquetas permitido de 50"
+    "MAXIMUM_OF_TAGS": "Has excedido el número máximo de etiquetas permitido de 50",
+    "DELETE_POST": "Lo sentimos, ¡no estás autorizado a eliminar esta publicación!"
   },
   "SUCCESS": {
     "TITLE": "Éxito",
@@ -143,7 +147,8 @@
     "CREATE_ARTWORK": "¡Creas nuevas ilustraciones!",
     "CREATE_POST": "¡Creas una nueva publicación!",
     "DELETE_ACCOUNT":"¡Se ha eliminado tu cuenta!",
-    "URL_COPY": "¡URL copiada al portapapeles!"
+    "URL_COPY": "¡URL copiada al portapapeles!",
+    "DELETE_POST": "¡Publicación eliminada exitosamente!"
   },
   "LOADING": "Cargando...",
   "404": {
@@ -261,7 +266,8 @@
       "AFTER_CHRIST": "Después de Cristo",
       "DATE": "Fecha de creación",
       "DATE_FORMAT": "Formato de fecha",
-      "BCE": "antes de la era común",
+      "BCE_DESKTOP": "antes de la era común",
+      "BCE_MOBILE": "a.C.",
       "ARTIST_EMPTY_MESSAGE": "Artista no encontrado. Si está seguro de la ortografía, con gusto crearemos una nueva entrada para el artista.",
       "PLACEHOLDER": {
         "DESCRIPTION": "Breve descripción general de la obra de arte, por ejemplo, 'Un cielo nocturno vibrante lleno de estrellas arremolinadas'",
