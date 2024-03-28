@@ -232,7 +232,8 @@
     "COOKIE_SETTINGS": "Configuración de las cookies",
     "CHANGE_PASSWORD_MESSAGE":"Cambia la contraseña de tu cuenta de usuario de In2Art",
     "COOKIES_MESSAGE":"Escoge si quieres aceptar todas las cookies o rechazar las opcionales",
-    "DELETE_ACCOUNT_MESSAGE":"Una vez suprimís vuestra cuenta, tendréis treinta días para recuperarla"    
+    "DELETE_ACCOUNT_MESSAGE":"Una vez suprimís vuestra cuenta, tendréis treinta días para recuperarla",
+    "COOKIES_SUCCESS_MESSAGE":"La nueva configuración se ha guardado correctamente"       
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Cambia tu contraseña aquí"

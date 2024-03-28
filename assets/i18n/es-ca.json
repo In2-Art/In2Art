@@ -171,7 +171,7 @@
     "VERIFICATION_INFO_1": "Acabem d'enviar-te un correu electrònic per confirmar el vostre compte.",
     "VERIFICATION_INFO_2": "Si encara no l'heu rebut, feu clic al botó de sota per tornar a enviar el correu electrònic de confirmació.",
     "RESEND_INFO_1": "Si us plau, espereu",
-    "RESEND_INFO_2": "segons fins que es pugui enviar un altre correu electrònic"
+    "RESEND_INFO_2": "segons fins que es pugui enviar un altre correu electrònic"      
   },
   "ACTIVATE_PAGE": {
     "HOME": "Anar a la personalització de l'avatar",
@@ -231,7 +231,8 @@
     "COOKIE_SETTINGS": "Configuració de les cookies",
     "CHANGE_PASSWORD_MESSAGE":"Canvia la contrasenya del teu compte d'usuari de In2Art",
     "COOKIES_MESSAGE":"Escull si vols acceptar totes les cookies o rebutjar les opcionals",
-    "DELETE_ACCOUNT_MESSAGE":"Un cop suprimiu el vostre compte, tindreu trenta dies per recuperar-lo"    
+    "DELETE_ACCOUNT_MESSAGE":"Un cop suprimiu el vostre compte, tindreu trenta dies per recuperar-lo",
+    "COOKIES_SUCCESS_MESSAGE":"La nova configuració s'ha guardat correctament"     
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Canvia la teva contrasenya aquí"

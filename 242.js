@@ -223,11 +223,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _enums_urls__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enums/urls */ 94317);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37580);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 95072);
+/* harmony import */ var primeng_api__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/api */ 17780);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ngx-translate/core */ 90852);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 95072);
 /* harmony import */ var _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../shared/components/container/container.component */ 2645);
-/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! primeng/button */ 49136);
-/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! primeng/ripple */ 30078);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ngx-translate/core */ 90852);
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! primeng/button */ 49136);
+/* harmony import */ var primeng_ripple__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! primeng/ripple */ 30078);
+
+
+
+
 
 
 
@@ -238,7 +243,10 @@ __webpack_require__.r(__webpack_exports__);
 const _c0 = a0 => [a0];
 let CookiesComponent = /*#__PURE__*/(() => {
   class CookiesComponent {
-    constructor() {
+    constructor(toast, translate, router) {
+      this.toast = toast;
+      this.translate = translate;
+      this.router = router;
       this.decisionMade = false;
       this.URLS = _enums_urls__WEBPACK_IMPORTED_MODULE_0__.URLS;
     }
@@ -247,28 +255,44 @@ let CookiesComponent = /*#__PURE__*/(() => {
       if (decisionFromStorage) {
         this.decisionMade = true;
       }
+      this.localeSubscription = this.translate.onLangChange.subscribe(event => {
+        this.locale = event.lang;
+      });
+      this.locale = this.translate.currentLang;
     }
     rejectCookies() {
       // Logic to reject cookies
       this.decisionMade = true;
       // Store the decision in local storage
       localStorage.setItem('cookieDecision', 'rejected');
+      this.router.navigate(['/', this.locale, _enums_urls__WEBPACK_IMPORTED_MODULE_0__.URLS.SETTINGS]);
+      this.toast.add({
+        severity: 'success',
+        summary: this.translate.instant('SUCCESS.TITLE'),
+        detail: this.translate.instant('SETTINGS_PAGE.COOKIES_SUCCESS_MESSAGE')
+      });
     }
     acceptAllCookies() {
       // Logic to accept cookies
       this.decisionMade = true;
       // Store the decision in local storage
       localStorage.setItem('cookieDecision', 'accepted');
+      this.router.navigate(['/', this.locale, _enums_urls__WEBPACK_IMPORTED_MODULE_0__.URLS.SETTINGS]);
+      this.toast.add({
+        severity: 'success',
+        summary: this.translate.instant('SUCCESS.TITLE'),
+        detail: this.translate.instant('SETTINGS_PAGE.COOKIES_SUCCESS_MESSAGE')
+      });
     }
     static #_ = this.ɵfac = function CookiesComponent_Factory(t) {
-      return new (t || CookiesComponent)();
+      return new (t || CookiesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](primeng_api__WEBPACK_IMPORTED_MODULE_3__.MessageService), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.Router));
     };
     static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
       type: CookiesComponent,
       selectors: [["app-cookies"]],
       decls: 26,
       vars: 25,
-      consts: [[3, "width"], [1, "font-bold", "text-2xl", "mb-5", "flex", "justify-content-center", "text-center"], [1, "flex", "flex-column"], [1, "w-full"], [1, "text-center", "md:text-left"], [1, "w-full", "flex", "flex-column", "md:flex-row", "justify-content-between"], [1, "flex", "mt-4", "w-full", "md:w-2"], ["pButton", "", "pRipple", "", "icon", "pi pi-arrow-left", 1, "w-full", "text-base", "md:w-auto", "flex-grow-1", 3, "routerLink", "label"], [1, "flex", "mt-4", "w-full", "md:w-7"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", "mr-2", "p-button-secondary", 3, "click", "label"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", 3, "click", "label"]],
+      consts: [[3, "width"], [1, "font-bold", "text-2xl", "mb-5", "flex", "justify-content-center", "text-center"], [1, "flex", "flex-column", "mb-8"], [1, "w-full"], [1, "text-center", "md:text-left"], [1, "w-full", "flex", "flex-column", "md:flex-row", "justify-content-between"], [1, "flex", "mt-4", "w-full", "md:w-2"], ["pButton", "", "pRipple", "", "icon", "pi pi-arrow-left", 1, "w-full", "text-base", "md:w-auto", "flex-grow-1", 3, "routerLink", "label"], [1, "flex", "mt-4", "w-full", "md:w-7"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", "mr-2", "p-button-secondary", 3, "click", "label"], ["pButton", "", "pRipple", "", 1, "w-full", "flex", "justify-content-center", "text-base", 3, "click", "label"]],
       template: function CookiesComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "app-container", 0)(1, "h2", 1);
@@ -324,7 +348,7 @@ let CookiesComponent = /*#__PURE__*/(() => {
           _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("label", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵpipeBind1"](25, 21, "BTN.ACCEPT_COOKIES"));
         }
       },
-      dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_3__.RouterLink, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_1__.ContainerComponent, primeng_button__WEBPACK_IMPORTED_MODULE_4__.ButtonDirective, primeng_ripple__WEBPACK_IMPORTED_MODULE_5__.Ripple, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_6__.TranslatePipe],
+      dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_5__.RouterLink, _shared_components_container_container_component__WEBPACK_IMPORTED_MODULE_1__.ContainerComponent, primeng_button__WEBPACK_IMPORTED_MODULE_6__.ButtonDirective, primeng_ripple__WEBPACK_IMPORTED_MODULE_7__.Ripple, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__.TranslatePipe],
       styles: ["/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
     });
   }
@@ -478,7 +502,7 @@ let DeleteAccountComponent = /*#__PURE__*/(() => {
       selectors: [["app-delete-account"]],
       decls: 34,
       vars: 36,
-      consts: [[3, "width"], [1, "font-bold", "text-4xl", "mb-5", "w-full", "flex", "justify-content-center", "md:", "w-auto", "text-center"], [1, "flex", "flex-column", "justify-content-center", "align-items-center", "mt-6"], [1, "w-full", "flex", "justify-content-center"], [1, "photo"], ["defaultImageUrl", "assets/videos/noUserVid.mp4", 3, "folder", "idPicture", "userId"], [1, "w-full", "flex", "flex-column", "align-items-center"], [1, "font-bold", "text-4xl", "mt-5", "mb-3", "w-full", "flex", "justify-content-center", "md:", "w-auto", "text-center"], [1, "w-full", "mt-4", "flex", "flex-column", "justify-content-center", "md:", "w-auto", "text-center"], [1, "w-full", "p-3", "flex", "justify-content-center"], [1, "pi", "pi-exclamation-triangle", "text-5xl"], [1, "w-full", "text-2xl", "pt-3", "font-bold", "flex", "justify-content-center"], [1, "flex", "text-xl", "pt-2", "w-full", "justify-content-center"], [1, "w-full", "flex", "justify-content-center", "mt-6"], ["id", "rememberMe", 3, "ngModelChange", "binary", "ngModel"], ["for", "rememberMe", 1, "font-bold"], [1, "flex", "flex-column", "md:flex-row", "gap-3", "w-full", "mt-8"], ["pButton", "", "pRipple", "", "icon", "pi pi-arrow-left", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "routerLink", "label"], ["pButton", "", "pRipple", "", "icon", "pi pi-check", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "click", "label", "disabled"], ["class", "popup-container", 3, "width", 4, "ngIf"], [1, "popup-container", 3, "width"], [3, "formGroup"], [1, "p-4"], [1, "popup-header"], [1, "text-4xl", "w-full", "flex", "justify-content-center", "text-center"], [1, "w-full", "flex", "flex-column", "justify-content-center", "text-xl", "mt-6", "text-center", "md:text-left"], [1, "max-h-15rem", "overflow-auto", "mb-3"], [1, "input-group", "mt-3"], ["id", "oldPassword", "styleClass", "w-full", "inputStyleClass", "w-full", "formControlName", "actualPassword", 3, "feedback", "toggleMask", "placeholder"], ["class", "error-message text-sm", 4, "ngIf"], [1, "flex", "flex-column", "mt-7", "md:flex-row", "gap-3", "w-full"], ["pButton", "", "pRipple", "", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "click", "label"], ["pButton", "", "pRipple", "", "icon", "pi pi-check", 1, "w-full", "p-button-danger", "md:w-auto", "flex-grow-1", 3, "click", "label", "disabled"], [1, "error-message", "text-sm"]],
+      consts: [[3, "width"], [1, "font-bold", "text-4xl", "mb-5", "w-full", "flex", "justify-content-center", "md:", "w-auto", "text-center"], [1, "flex", "flex-column", "justify-content-center", "align-items-center", "mt-6", "mb-8"], [1, "w-full", "flex", "justify-content-center"], [1, "photo"], ["defaultImageUrl", "assets/videos/noUserVid.mp4", 3, "folder", "idPicture", "userId"], [1, "w-full", "flex", "flex-column", "align-items-center"], [1, "font-bold", "text-4xl", "mt-5", "mb-3", "w-full", "flex", "justify-content-center", "md:", "w-auto", "text-center"], [1, "w-full", "mt-4", "flex", "flex-column", "justify-content-center", "md:", "w-auto", "text-center"], [1, "w-full", "p-3", "flex", "justify-content-center"], [1, "pi", "pi-exclamation-triangle", "text-5xl"], [1, "w-full", "text-2xl", "pt-3", "font-bold", "flex", "justify-content-center"], [1, "flex", "text-xl", "pt-2", "w-full", "justify-content-center"], [1, "w-full", "flex", "justify-content-center", "mt-6"], ["id", "rememberMe", 3, "ngModelChange", "binary", "ngModel"], ["for", "rememberMe", 1, "font-bold"], [1, "flex", "flex-column", "md:flex-row", "gap-3", "w-full", "mt-8"], ["pButton", "", "pRipple", "", "icon", "pi pi-arrow-left", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "routerLink", "label"], ["pButton", "", "pRipple", "", "icon", "pi pi-check", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "click", "label", "disabled"], ["class", "popup-container", 3, "width", 4, "ngIf"], [1, "popup-container", 3, "width"], [3, "formGroup"], [1, "p-4"], [1, "popup-header"], [1, "text-4xl", "w-full", "flex", "justify-content-center", "text-center"], [1, "w-full", "flex", "flex-column", "justify-content-center", "text-xl", "mt-6", "text-center", "md:text-left"], [1, "max-h-15rem", "overflow-auto", "mb-3"], [1, "input-group", "mt-3"], ["id", "oldPassword", "styleClass", "w-full", "inputStyleClass", "w-full", "formControlName", "actualPassword", 3, "feedback", "toggleMask", "placeholder"], ["class", "error-message text-sm", 4, "ngIf"], [1, "flex", "flex-column", "mt-7", "md:flex-row", "gap-3", "w-full"], ["pButton", "", "pRipple", "", 1, "w-full", "md:w-auto", "flex-grow-1", 3, "click", "label"], ["pButton", "", "pRipple", "", "icon", "pi pi-check", 1, "w-full", "p-button-danger", "md:w-auto", "flex-grow-1", 3, "click", "label", "disabled"], [1, "error-message", "text-sm"]],
       template: function DeleteAccountComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "app-container", 0)(1, "h2", 1);

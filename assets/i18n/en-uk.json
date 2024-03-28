@@ -232,7 +232,8 @@
     "COOKIE_SETTINGS": "Cookie settings",
     "CHANGE_PASSWORD_MESSAGE":"Change the password of your In2Art user account",
     "COOKIES_MESSAGE":"Choose if you want to accept all cookies or reject optional cookies",
-    "DELETE_ACCOUNT_MESSAGE":"Once you delete your account, you will have thirty days to recover it"    
+    "DELETE_ACCOUNT_MESSAGE":"Once you delete your account, you will have thirty days to recover it",
+    "COOKIES_SUCCESS_MESSAGE":"New configuration saved successfully"    
   },
   "CHANGE_PASSWORD_PAGE": {
     "TITLE": "Change your password here"
